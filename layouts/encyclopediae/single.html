@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<div class="col-md-8">
+<table>
+<tr>
+<h1 id="title">{{.Title}}</h1>
+</tr>
+<tr>
+{{dateFormat "Mon, January _2, 2006" .Date}}<br>
+{{ .Content  }}
+</tr>
+</table>
+</div>
+
+{{ partial "sidebar.html" .}}
+
+{{ partial "footer.html" . }}

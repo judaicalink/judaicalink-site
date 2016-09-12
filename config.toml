@@ -1,0 +1,4 @@
+baseurl = "localhost:1313"
+languageCode = "en-us"
+title = "JudaicaLink"
+metaDataFormat = "toml"
