@@ -9,7 +9,7 @@
 			
             {{ range first 10 .Data.Pages }}
             <tr>
-				<h3 class="uppercase"><a href="{{.Permalink}}">{{ .Title }}</a></h3>
+				<h3 class="uppercase"><a href="{{.Permalink | safeURL }}">{{ .Title }}</a></h3>
 			</tr>
 			<tr>
 				{{dateFormat "Mon, January _2, 2006" .Date}}<br>
