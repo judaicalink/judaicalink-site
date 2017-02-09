@@ -1,30 +1,15 @@
 {{partial "header.html" .}}
 
 <div class="col-md-8">
-<section id="main">
-  <div>
-   <h1 id="title">{{ .Title }}</h1>
-		
-        <table id="list">
-			
-            {{ range first 10 .Data.Pages }}
-            <tr>
-				<h3 class="uppercase"><a href="{{.Permalink | safeURL }}">{{ .Title }}</a></h3>
-			</tr>
-			<tr>
-				{{dateFormat "Mon, January _2, 2006" .Date}}<br>
-				{{ .Summary  }}
-				<br>
-				<a href="{{.Permalink}}">read more</a>
-			</tr>
-			<tr>
-			<br><br>
-			</tr>
-            {{ end }}
+  <h1 id="title">{{ .Title }}</h1>
+  
+  {{ range first 10 .Data.Pages }}
+  <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
+  <p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
+  <p>{{ .Summary  }}</p>
+  <p class="bottomskip"><a href="{{.Permalink}}">read more</a></p>
+  {{ end }}
 
-        </table>
-  </div>
-</section>
 </div>
 
 {{ partial "sidebar.html" .}}

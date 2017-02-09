@@ -223,6 +223,7 @@ height: 5px;
 
 h1 {
     color: #f8992b;
+    margin-bottom: 30px;
 }
 
 h2, h3 {
@@ -232,4 +233,8 @@ h2, h3 {
 
 .uppercase {
 	text-transform: uppercase;
+}
+
+.bottomskip {
+    margin-bottom: 50px;
 }

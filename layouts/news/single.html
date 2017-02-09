@@ -1,15 +1,9 @@
 {{ partial "header.html" . }}
 
 <div class="col-md-8">
-<table>
-<tr>
 <h3 class="uppercase">{{.Title}}</h3>
-</tr>
-<tr>
-{{dateFormat "Mon, January _2, 2006" .Date}}<br>
-{{ .Content  }}
-</tr>
-</table>
+<p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
+<p>{{ .Content  }}</p>
 </div>
 
 {{ partial "sidebar.html" .}}
