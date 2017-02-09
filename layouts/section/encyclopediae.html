@@ -9,11 +9,11 @@
             {{ range .Data.Pages }}
 			{{$data := .Params}}
 			
-		<h3 id="title">{{ .Title }}</h3>
+		<h3>{{ .Title }}</h3>
 		<table class="contenttable">
 			  <tr>
 			    <th>
-			      <img src="{{with $data.picture}}{{ . }}{{end}}"  style="width: 80%;">
+			      <img src="{{with $data.picture}}{{ . }}{{end}}" alt="Logo" style="width: 80%;">
 			    </th>
 			    <td> {{ .Content  }}</td>
 			  </tr>
