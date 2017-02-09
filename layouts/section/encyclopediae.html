@@ -1,42 +1,50 @@
 {{partial "header.html" .}}
 
 <div class="col-md-8">
-<section id="main">
-  <div>
    <h1 id="title">{{ .Title }}</h1>
 		
 		<p>JudaicaLink extracts structural information from the following encyclopediae, making their described concepts as well as the relations between them accessible as Linked Open Data with stable URIs.</p>
 		
-        <table>
 			
-            {{ range first 10 .Data.Pages }}
+            {{ range .Data.Pages }}
 			{{$data := .Params}}
 			
-			
-			<tr>
-				<h3 id="title">{{ .Title }}</h3>
-			</tr>
-			<tr>
-			<table class="contenttable">	<tr><th><img src="{{with $data.picture}}{{ . }}{{end}}"  style="width: 80%;"></th><td> {{ .Content  }}</td></tr></table>
-			</tr>
-			<tr>
-			<table class="contenttable">
-				<tr><th>Website: </th><td>{{with $data.website}}{{ . }}{{end}}</td></tr>
-				<tr><th>Concepts: </th><td>{{with $data.concepts}}{{ . }}{{end}}</td></tr>
-				<tr><th>Persons (within Concepts): </th><td>{{with $data.persons}}{{ . }}{{end}}</td></tr>
-				<tr><th>Links: </th><td>{{with $data.links}}{{ . }}{{end}}</td></tr>
-				<tr><th>Example: </th><td>{{with $data.example}}{{ . }}{{end}}</td></tr>
-				<tr><th>Bookmarklet: </th><td>{{with $data.bookmarklet}}{{ . }}{{end}}</td></tr>
-			</table>
-			</tr>
-			
+		<h3 id="title">{{ .Title }}</h3>
+		<table class="contenttable">
+			  <tr>
+			    <th>
+			      <img src="{{with $data.picture}}{{ . }}{{end}}"  style="width: 80%;">
+			    </th>
+			    <td> {{ .Content  }}</td>
+			  </tr>
+			  <tr>
+			    <th>Website: </th>
+			    <td>{{with $data.website}}<a href="{{ . }}">{{ . }}</a>{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Concepts: </th>
+			    <td>{{with $data.concepts}}{{ . }}{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Persons (within Concepts): </th>
+			    <td>{{with $data.persons}}{{ . }}{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Links: </th>
+			    <td>{{with $data.links}}{{ . }}{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Example: </th>
+			    <td>{{with $data.example}}<a href="{{ . }}">{{ . }}</a>{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Bookmarklet: </th>
+			    <td>{{with $data.bookmarklet}}<a href="{{ . | safeURL}}">{{ upper $data.dataslug }} Bookmarklet</a> (Drag and drop this link to your bookmarks. Click it in your bookmarks while on an  article to access the data view){{end}}</td>
+			  </tr>
+			</table>	
             {{ end }}
-			
-        </table>
 		
 		
-  </div>
-</section>
 </div>
 
 {{ partial "sidebar.html" .}}

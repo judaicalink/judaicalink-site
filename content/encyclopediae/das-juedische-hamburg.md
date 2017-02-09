@@ -6,8 +6,9 @@ website = "http://dasjuedischehamburg.de/"
 concepts = "260"
 persons = "196"
 links = "981"
+dataslug = "djh"
 example = "http://data.judaicalink.org/data/html/djh/ehre-ida"
-bookmarklet = "DJH LOD (Drag and drop this link to your bookmarks. Click it in your bookmarks while on a DJH article to access the data view)"
+bookmarklet = "javascript:location.href=location.href.replace('http://dasjuedischehamburg.de/inhalt/', 'http://data.judaicalink.org/data/djh/')"
 picture = "/img/igdj_logo_0.jpg"
 +++
 

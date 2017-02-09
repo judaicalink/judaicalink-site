@@ -1,11 +1,12 @@
 +++
 author = "Jens"
-bookmarklet = "Rujen LOD (Drag and drop this link to your bookmarks. Click it in your bookmarks while on a Rujen article to access the data view)"
+bookmarklet = "javascript:location.href=location.href.replace('http://dasjuedischehamburg.de/inhalt/', 'http://data.judaicalink.org/data/djh/')"
 concepts = "20,434"
 date = "2016-08-24T17:12:54+02:00"
 example = "http://data.judaicalink.org/data/rujen/moskva"
 links = "30,052"
 persons = ""
+dataslug = "rujen"
 picture = "/img/rujen_logo.png"
 title = "Encyclopedia of Russian Jewry"
 website = "http://www.rujen.ru"

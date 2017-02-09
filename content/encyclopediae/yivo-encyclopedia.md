@@ -6,8 +6,9 @@ website = "http://www.yivoencyclopedia.org"
 concepts = "2,374"
 persons = "196"
 links = "25,961"
+dataslug = "yivo"
 example = "http://data.judaicalink.org/data/yivo/Moscow"
-bookmarklet = "YIVO LOD (Drag and drop this link to your bookmarks. Click it in your bookmarks while on a YIVO article to access the data view)"
+bookmarklet = "javascript:location.href=location.href.replace('http://www.yivoencyclopedia.org/article.aspx/', 'http://data.judaicalink.org/data/yivo/')"
 picture = "/img/yivo_logo_black-on-white-135x68.jpg"
 +++
 
