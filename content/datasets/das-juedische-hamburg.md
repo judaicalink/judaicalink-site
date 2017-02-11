@@ -12,8 +12,10 @@ bookmarklet = "javascript:location.href=location.href.replace('http://dasjuedisc
 picture = "/img/igdj_logo_0.jpg"
 +++
 
+Das Jüdische Hamburg contains articles in German by notable scholars about persons, locations and events of the history of Jewish communities in Hamburg.
+<!--more-->
+
 <a href="http://dasjuedischehamburg.de/">Das Jüdische Hamburg</a> is a free online resource based on the book "Das Jüdische Hamburg - Ein historisches Nachschlagewerk", ISBN: 978-3-8353-0004-0, Wallstein, Göttingern (2006). It was published in 2006 on the occasion of the 40th anniversary of the Institute for the History of the German Jews (Institut für die Geschichte der deutschen Juden, IGdJ).
 
-Das Jüdische Hamburg contains articles in German by notable scholars about persons, locations and events of the history of Jewish communities in Hamburg.
 
 For "Das Jüdische Hamburg", we for the first time implemented a Person recognition and have been able to identify 196 person descriptions among the articles. The persons are ideally described by occupation, date of birth and death as well as location of birth and death. This automatic extraction, however, is not flawless, some errors have to be expected.

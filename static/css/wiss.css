@@ -214,6 +214,23 @@ table.contenttable td {
 	width: 70%;
 }
 
+table.listtable {
+    width: 100%
+    float:left:
+    margin-bottom:50px;
+}
+
+table.listtable td,th {
+    padding:10px;
+    vertical-align:top;
+}
+
+table.listtable tr:nth-child(2n) {
+    background-color:#FFF3E6;
+}
+
+
+
 .topline {
 margin-top: 0px;
 color: #ff7f2a;

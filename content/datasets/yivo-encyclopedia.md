@@ -12,7 +12,8 @@ bookmarklet = "javascript:location.href=location.href.replace('http://www.yivoen
 picture = "/img/yivo_logo_black-on-white-135x68.jpg"
 +++
 
-<a href="http://www.yivoencyclopedia.org/">The YIVO Encyclopedia of Jews in Eastern Europe</a>, courtesy of the YIVO Institute of Jewish Research, NY.
+The YIVO Encyclopedia of Jews in Eastern Europe, courtesy of the YIVO Institute of Jewish Research, NY.
+<!--more-->
 
 The only resource of its kind, this encyclopedia provides the most complete picture of the history and culture of Jews in Eastern Europe from the beginnings of their settlement in the region to the present. This website makes accurate, reliable, scholarly information about East European Jewish life accessible to everyone.
 
