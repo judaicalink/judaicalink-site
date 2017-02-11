@@ -10,6 +10,9 @@ dataslug = "yivo"
 example = "http://data.judaicalink.org/data/yivo/Moscow"
 bookmarklet = "javascript:location.href=location.href.replace('http://www.yivoencyclopedia.org/article.aspx/', 'http://data.judaicalink.org/data/yivo/')"
 picture = "/img/yivo_logo_black-on-white-135x68.jpg"
+aliases = [
+    "/encyclopediae/yivo-encyclopedia/"
+]
 +++
 
 The YIVO Encyclopedia of Jews in Eastern Europe, courtesy of the YIVO Institute of Jewish Research, NY.

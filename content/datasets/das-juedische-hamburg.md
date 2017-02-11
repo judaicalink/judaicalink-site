@@ -10,6 +10,9 @@ dataslug = "djh"
 example = "http://data.judaicalink.org/data/html/djh/ehre-ida"
 bookmarklet = "javascript:location.href=location.href.replace('http://dasjuedischehamburg.de/inhalt/', 'http://data.judaicalink.org/data/djh/')"
 picture = "/img/igdj_logo_0.jpg"
+aliases = [
+    "/encyclopediae/das-juedische-hamburg/"
+]
 +++
 
 Das Jüdische Hamburg contains articles in German by notable scholars about persons, locations and events of the history of Jewish communities in Hamburg.

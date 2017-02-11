@@ -10,7 +10,9 @@ dataslug = "rujen"
 picture = "/img/rujen_logo.png"
 title = "Encyclopedia of Russian Jewry"
 website = "http://www.rujen.ru"
-
+aliases = [
+    "/encyclopediae/encyclopediae-of-russion-jewry/"
+]
 +++
 
 Rujen.ru provides an Internet version of the Encyclopedia of Russian Jewry, which is published in Moscow since 1994, giving a comprehensive, objective picture of the life and activity of the Jews of Russia, the Soviet Union and the CIS.
