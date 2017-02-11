@@ -9,7 +9,7 @@
             {{ range .Data.Pages }}
 			{{$data := .Params}}
 			
-		<h3>{{ .Title }}</h3>
+		<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 		<table class="contenttable">
 			  <tr>
 			    <th>
@@ -41,6 +41,18 @@
 			    <th>Bookmarklet: </th>
 			    <td>{{with $data.bookmarklet}}<a href="{{ . | safeURL}}">{{ upper $data.dataslug }} Bookmarklet</a> (Drag and drop this link to your bookmarks. Click it in your bookmarks while on an  article to access the data view){{end}}</td>
 			  </tr>
+			  {{with $data.files}}
+			  <tr>
+			    <th>Files: </th>
+			    <td> 
+			      {{range $i, $v:=. }}
+			      {{if not (eq $i 0)}}<br/>{{end}}  
+			          <a href="{{$v.name}}">{{$v.name}}</a>: {{$v.description}}
+			      {{ end }}
+			    </td>
+			  </tr>
+			  {{end}}
+
 			</table>	
             {{ end }}
 		

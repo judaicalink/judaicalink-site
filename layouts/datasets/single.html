@@ -1,15 +1,52 @@
 {{ partial "header.html" . }}
 
 <div class="col-md-8">
-<table>
-<tr>
-<h1 id="title">{{.Title}}</h1>
-</tr>
-<tr>
-{{dateFormat "Mon, January _2, 2006" .Date}}<br>
-{{ .Content  }}
-</tr>
-</table>
+  {{$data := .Params}}
+		<h3>{{ .Title }}</h3>
+		<table class="contenttable">
+			  <tr>
+			    <th>
+			      <img src="{{with $data.picture}}{{ . }}{{end}}" alt="Logo" style="width: 80%;">
+			    </th>
+			    <td> {{ .Content  }}</td>
+			  </tr>
+			  <tr>
+			    <th>Website: </th>
+			    <td>{{with $data.website}}<a href="{{ . }}">{{ . }}</a>{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Concepts: </th>
+			    <td>{{with $data.concepts}}{{ . }}{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Persons (within Concepts): </th>
+			    <td>{{with $data.persons}}{{ . }}{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Links: </th>
+			    <td>{{with $data.links}}{{ . }}{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Example: </th>
+			    <td>{{with $data.example}}<a href="{{ . }}">{{ . }}</a>{{end}}</td>
+			  </tr>
+			  <tr>
+			    <th>Bookmarklet: </th>
+			    <td>{{with $data.bookmarklet}}<a href="{{ . | safeURL}}">{{ upper $data.dataslug }} Bookmarklet</a> (Drag and drop this link to your bookmarks. Click it in your bookmarks while on an  article to access the data view){{end}}</td>
+			  </tr>
+			  {{with $data.files}}
+			  <tr>
+			    <th>Files: </th>
+			    <td> 
+			      {{range $i, $v:=. }}
+			      {{if not (eq $i 0)}}<br/>{{end}}  
+			          <a href="{{$v.name}}">{{$v.name}}</a>: {{$v.description}}
+			      {{ end }}
+			    </td>
+			  </tr>
+			  {{end}}
+
+			</table>
 </div>
 
 {{ partial "sidebar.html" .}}
