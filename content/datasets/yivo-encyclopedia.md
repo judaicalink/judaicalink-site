@@ -13,6 +13,12 @@ picture = "/img/yivo_logo_black-on-white-135x68.jpg"
 aliases = [
     "/encyclopediae/yivo-encyclopedia/"
 ]
+[[files]]
+	url = "http://data.judaicalink.org/dumps/yivo/current/yivo.n3"
+	description = "Extraction from YIVO Encyclopediae"
+
+graph = "http://data.judaicalink.org/data/yivo"
+loaded = true
 +++
 
 The YIVO Encyclopedia of Jews in Eastern Europe, courtesy of the YIVO Institute of Jewish Research, NY.
