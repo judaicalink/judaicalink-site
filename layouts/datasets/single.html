@@ -57,7 +57,7 @@
 		    <td> 
 		      {{range $i, $v:=. }}
 		      {{if not (eq $i 0)}}<br/>{{end}}  
-		      <a href="{{$v.url}}">{{$v.url}}</a>: {{$v.description}}
+		      <a href="{{$v.url}}">{{delimit (last 1 (split $v.url "/")) ""}}</a>: {{$v.description}}
 		      {{ end }}
 		    </td>
 		  </tr>
