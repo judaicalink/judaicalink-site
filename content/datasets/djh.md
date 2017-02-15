@@ -11,8 +11,16 @@ example = "http://data.judaicalink.org/data/html/djh/ehre-ida"
 bookmarklet = "javascript:location.href=location.href.replace('http://dasjuedischehamburg.de/inhalt/', 'http://data.judaicalink.org/data/djh/')"
 picture = "/img/igdj_logo_0.jpg"
 aliases = [
-    "/encyclopediae/das-juedische-hamburg/"
+    "/encyclopediae/das-juedische-hamburg/",
+    "/datasets/das-juedische-hamburg/"
 ]
+graph = "http://data.judaicalink.org/data/djh"
+loaded = true
+
+
+[[files]]
+	url = "http://data.judaicalink.org/dumps/djh/current/djh.n3.gz"
+	description = "Extraction from the encyclopedia 'Das Jüdische Hamburg'."
 +++
 
 Das Jüdische Hamburg contains articles in German by notable scholars about persons, locations and events of the history of Jewish communities in Hamburg.

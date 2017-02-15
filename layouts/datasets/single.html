@@ -3,50 +3,66 @@
 <div class="col-md-8">
   {{$data := .Params}}
 		<h3>{{ .Title }}</h3>
-		<table class="contenttable">
-			  <tr>
-			    <th>
-			      <img src="{{with $data.picture}}{{ . }}{{end}}" alt="Logo" style="width: 80%;">
-			    </th>
-			    <td> {{ .Content  }}</td>
-			  </tr>
-			  <tr>
-			    <th>Website: </th>
-			    <td>{{with $data.website}}<a href="{{ . }}">{{ . }}</a>{{end}}</td>
-			  </tr>
-			  <tr>
-			    <th>Concepts: </th>
-			    <td>{{with $data.concepts}}{{ . }}{{end}}</td>
-			  </tr>
-			  <tr>
-			    <th>Persons (within Concepts): </th>
-			    <td>{{with $data.persons}}{{ . }}{{end}}</td>
-			  </tr>
-			  <tr>
-			    <th>Links: </th>
-			    <td>{{with $data.links}}{{ . }}{{end}}</td>
-			  </tr>
-			  <tr>
-			    <th>Example: </th>
-			    <td>{{with $data.example}}<a href="{{ . }}">{{ . }}</a>{{end}}</td>
-			  </tr>
-			  <tr>
-			    <th>Bookmarklet: </th>
-			    <td>{{with $data.bookmarklet}}<a href="{{ . | safeURL}}">{{ upper $data.dataslug }} Bookmarklet</a> (Drag and drop this link to your bookmarks. Click it in your bookmarks while on an  article to access the data view){{end}}</td>
-			  </tr>
-			  {{with $data.files}}
-			  <tr>
-			    <th>Files: </th>
-			    <td> 
-			      {{range $i, $v:=. }}
-			      {{if not (eq $i 0)}}<br/>{{end}}  
-			          <a href="{{$v.name}}">{{$v.name}}</a>: {{$v.description}}
-			      {{ end }}
-			    </td>
-			  </tr>
-			  {{end}}
+		{{ .Content }}
 
-			</table>
+		<table class="contenttable">
+		  {{ with $data.picture }}
+		  <tr>
+		    <th>
+		      <img src="{{ . }}" alt="Logo" style="width: 80%;">
+		    </th>
+		    <td>
+		    </td>
+		  </tr>
+		  {{end}}
+		  {{ with $data.website }}
+		  <tr>
+		    <th>Website: </th>
+		    <td><a href="{{ . }}">{{ . }}</a></td>
+		  </tr>
+		  {{end}}
+		  {{with $data.concepts }}
+		  <tr>
+		    <th>Concepts: </th>
+		    <td>{{ . }}</td>
+		  </tr>
+		  {{end}}
+		  {{with $data.persons }}
+		  <tr>
+		    <th>Persons (within Concepts): </th>
+		    <td>{{ . }}</td>
+		  </tr>
+		  {{end}}
+		  {{ with $data.links }}
+		  <tr>
+		    <th>Links: </th>
+		    <td>{{with $data.links}}{{ . }}{{end}}</td>
+		  </tr>
+		  {{ end }}
+		  {{with $data.example}}
+		  <tr>
+		    <th>Example: </th>
+		    <td><a href="{{ . }}">{{ . }}</a></td>
+		  </tr>
+		  {{end}}
+		  {{with $data.bookmarklet}}
+		  <tr>
+		    <th>Bookmarklet: </th>
+		    <td><a href="{{ . | safeURL}}">{{ upper $data.dataslug }} Bookmarklet</a> (Drag and drop this link to your bookmarks. Click it in your bookmarks while on an  article to access the data view)</td>
+		  </tr>
+		  {{end}}
+		  {{with $data.files}}
+		  <tr>
+		    <th>Files: </th>
+		    <td> 
+		      {{range $i, $v:=. }}
+		      {{if not (eq $i 0)}}<br/>{{end}}  
+		      <a href="{{$v.url}}">{{$v.url}}</a>: {{$v.description}}
+		      {{ end }}
+		    </td>
+		  </tr>
+		  {{end}}
+		</table>
 </div>
 
 {{ partial "sidebar.html" .}}

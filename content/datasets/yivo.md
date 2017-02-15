@@ -1,5 +1,5 @@
 +++
-author = "Jens Steilen"
+author = "Kai Eckert"
 date = "2016-07-12T10:37:07+02:00"
 title = "Yivo Encyclopedia"
 website = "http://www.yivoencyclopedia.org"
@@ -11,14 +11,17 @@ example = "http://data.judaicalink.org/data/yivo/Moscow"
 bookmarklet = "javascript:location.href=location.href.replace('http://www.yivoencyclopedia.org/article.aspx/', 'http://data.judaicalink.org/data/yivo/')"
 picture = "/img/yivo_logo_black-on-white-135x68.jpg"
 aliases = [
-    "/encyclopediae/yivo-encyclopedia/"
+    "/encyclopediae/yivo-encyclopedia/",
+	"/datasets/yivo-encyclopedia/"
 ]
-[[files]]
-	url = "http://data.judaicalink.org/dumps/yivo/current/yivo.n3"
-	description = "Extraction from YIVO Encyclopediae"
 
 graph = "http://data.judaicalink.org/data/yivo"
 loaded = true
+
+
+[[files]]
+	url = "http://data.judaicalink.org/dumps/yivo/current/yivo.n3.gz"
+	description = "Extraction from YIVO Encyclopediae"
 +++
 
 The YIVO Encyclopedia of Jews in Eastern Europe, courtesy of the YIVO Institute of Jewish Research, NY.
