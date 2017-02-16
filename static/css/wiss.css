@@ -192,7 +192,7 @@ body {
 	background-color: #ffffff;
 }
 
-.sitebar{
+.sidebar{
 	border-left: 1px solid #D8D8D8;
 	padding-left: 10px;
 	text-align: center;
@@ -243,7 +243,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: #489ec8;
     margin-bottom: 30px;
     clear:both;
@@ -262,9 +262,47 @@ td {
 }
 
 .floatLeft {
+    width:150px;
+    max-width:150px;
     float:left;
     margin-left:0px;
     margin-top:0px;
     margin-right: 20px;
     margin-bottom: 50px;
+}
+
+.partnerTable {
+    width:100%;
+    display:table;
+}
+
+.partnerTable, .partnerTableSmall .ptRow {
+    display:table-row;
+}
+
+div.partnerTable div.ptRow div {
+    width:33%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    padding:10px;
+}
+
+div.partnerTableSmall div.ptRow div {
+    width:50%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    padding:10px;
+}
+
+
+div.partnerTable div.ptRow div img {
+    max-width:150px;
+    margin-bottom:10px;
+}
+
+div.partnerTableSmall div.ptRow div img {
+    max-width:100px;
+    margin-bottom:10px;
 }
