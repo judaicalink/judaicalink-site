@@ -39,7 +39,7 @@ Dov Winer is a psychologist (Hebrew University) who specialized in Online Educat
 <a href="http://dm2e.eu/"> Digitised Manuscripts to Europeana</a>
 		</div>
 		<div>
-<a href="http://juedische-studien.fid-lizenzen.de"><img src="/img/fid-logo.jpg" alt="DM2E Logo"/></a><br>
+<a href="http://juedische-studien.fid-lizenzen.de"><img src="/img/fid-logo.jpg" alt="FID Logo"/></a><br>
 <a href="http://juedische-studien.fid-lizenzen.de">FID Jewish Studies</a>
 		</div>
 	</div>
