@@ -51,11 +51,22 @@
 		    <td><a href="{{ . | safeURL}}">{{ upper $data.dataslug }} Bookmarklet</a> (Drag and drop this link to your bookmarks. Click it in your bookmarks while on an  article to access the data view)</td>
 		  </tr>
 		  {{end}}
+		  {{with $data.files}}
+		  <tr>
+		    <th>Files: </th>
+		    <td> 
+		      {{range $i, $v:=. }}
+		      {{if not (eq $i 0)}}<br/>{{end}}  
+		      <a href="{{$v.url}}">{{delimit (last 1 (split $v.url "/")) ""}}</a>: {{$v.description}}
+		      {{ end }}
+		    </td>
+		  </tr>
+		  {{end}}
 		  {{with $data.loaded}}
 		  <tr>
 		    <th>Online: </th>
 		    <td> 
-		      {{ if .  }}
+		      {{ if $data.loaded  }}
 		      <img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL enpoint." />
 		      {{else}}
 		      <img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL enpoint." />
