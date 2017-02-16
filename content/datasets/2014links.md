@@ -57,7 +57,7 @@ loaded = true
 	
 +++
 
-Links between JudaicaLink entitiesfrom JudaicaLink entities to external data sources.
+Links between JudaicaLink entities from JudaicaLink entities to external data sources.
 <!--more-->
 
 This dataset contains a collection of links obtained using [Silk](http://silkframework.org/). 

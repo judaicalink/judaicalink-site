@@ -3,12 +3,12 @@
 <div class="col-md-8">
   <h1 id="title">{{ .Title }}</h1>
   
-  <p>JudaicaLink extracts structural information from the following encyclopediae, making their described concepts as well as the relations between them accessible as Linked Open Data with stable URIs.</p>
+  <p>JudaicaLink extracts structural information from various sources, making their described concepts as well as the relations between them accessible as Linked Open Data with stable URIs in the following datasets.</p>
   
   
   <table class="listtable">
     <tr>
-      <th>Name</th><th>Summary</th>
+      <th>Name</th><th>Summary</th><th>Online</th>
     </tr>
     {{ range .Data.Pages }}
     {{$data := .Params}}
@@ -16,6 +16,13 @@
     <tr>
       <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
       <td>{{ .Summary  }}</td>
+      <td>
+	{{ if $data.loaded  }}
+	<img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL enpoint." />
+	{{else}}
+	<img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL enpoint." />
+	{{end}}
+      </td>
     </tr>
       
       {{ end }}
