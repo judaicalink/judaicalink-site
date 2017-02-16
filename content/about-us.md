@@ -43,6 +43,5 @@ Dov Winer is a psychologist (Hebrew University) who specialized in Online Educat
 <a href="http://juedische-studien.fid-lizenzen.de">FID Jewish Studies</a>
 		</div>
 	</div>
-
 </div>
 
