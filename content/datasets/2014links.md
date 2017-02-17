@@ -1,6 +1,7 @@
 +++
-author = "Kai Eckert"
-date = "2017-02-15T10:37:07+02:00"
+author = "Dominique Ritze"
+authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/dominique-ritze"
+date = "2014-11-15T10:37:07+02:00"
 title = "Links to external sources"
 dataslug = "2014links"
 graph = "http://data.judaicalink.org/data/2014links"
@@ -57,7 +58,7 @@ loaded = true
 	
 +++
 
-Links between JudaicaLink entities from JudaicaLink entities to external data sources.
+Links from JudaicaLink entities to external data sources.
 <!--more-->
 
-This dataset contains a collection of links obtained using [Silk](http://silkframework.org/). 
+This dataset contains a collection of links obtained using [Silk](http://silkframework.org/).

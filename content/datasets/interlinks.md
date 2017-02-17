@@ -1,5 +1,6 @@
 +++
 author = "Kai Eckert"
+authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert"
 date = "2017-02-15T10:37:07+02:00"
 title = "Encyclopedia Interlinks"
 links = "152"

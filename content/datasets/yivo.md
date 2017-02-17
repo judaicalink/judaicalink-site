@@ -1,5 +1,6 @@
 +++
 author = "Kai Eckert"
+authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert"
 date = "2016-07-12T10:37:07+02:00"
 title = "Yivo Encyclopedia"
 website = "http://www.yivoencyclopedia.org"

@@ -74,6 +74,13 @@
 		    </td>
 		  </tr>
 		  {{end}}
+		  {{with $data.author}}
+		  <tr>
+		    <th>Maintained by: </th>
+		    <td>{{with $data.authorlink}}<a href="{{ . | safeURL}}">{{end}}{{ . }}{{with $data.authorlink}}</a>{{end}}</td>
+		  </tr>
+		  {{end}}
+
 		</table>
 </div>
 

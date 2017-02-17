@@ -220,10 +220,6 @@ table.listtable {
     margin-bottom:50px;
 }
 
-table.listtable td,th {
-    padding:10px;
-    vertical-align:top;
-}
 
 table.listtable tr:nth-child(2n) {
     background-color:#FFF3E6;
@@ -257,8 +253,9 @@ h2, h3, h4 {
     margin-bottom: 50px;
 }
 
-td {
+td, th {
     vertical-align: top;
+    padding: 10px;
 }
 
 .floatLeft {

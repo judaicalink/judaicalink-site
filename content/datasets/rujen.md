@@ -1,5 +1,6 @@
 +++
-author = "Jens"
+author = "Kai Eckert"
+authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert"
 bookmarklet = "javascript:location.href=location.href.replace('http://dasjuedischehamburg.de/inhalt/', 'http://data.judaicalink.org/data/djh/')"
 concepts = "20,434"
 date = "2016-08-24T17:12:54+02:00"
