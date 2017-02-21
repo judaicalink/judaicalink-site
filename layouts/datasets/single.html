@@ -74,6 +74,12 @@
 		    </td>
 		  </tr>
 		  {{end}}
+		  {{with $data.graph}}
+		  <tr>
+		    <th>Named Graph: </th>
+		    <td><a href="{{ . | safeURL}}">{{ . }}</a></td>
+		  </tr>
+		  {{end}}
 		  {{with $data.author}}
 		  <tr>
 		    <th>Maintained by: </th>
