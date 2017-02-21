@@ -12,6 +12,11 @@ loaded = true
 [[files]]
 	url = "http://data.judaicalink.org/dumps/dbpedia-rabbis-country/current/Rabbis-country.ttl"
 	description = "Extraction from DBPedia "
+
+[[files]]
+	url = "http://data.judaicalink.org/dumps/dbpedia-rabbis-country/current/demolinks.ttl"
+	description = "Some manually created links for a demonstration."
+
 +++
 
 The second list of Jewish Rabbis extracted from DBpedia.
