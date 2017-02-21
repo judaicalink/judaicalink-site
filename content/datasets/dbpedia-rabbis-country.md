@@ -1,5 +1,5 @@
 
-+++ author = "Maral Dadvar" authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar" date = "2017-02-21T10:37:07+02:00" title = "Rabbis from DBpedia"
++++ author = "Maral Dadvar" authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar" date = "2017-02-21T10:37:07+02:00" title = "Rabbis from DBpedia-II"
 
 graph = "http://data.judaicalink.org/data/dbpedia-rabbis-country" loaded = true
 
