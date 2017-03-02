@@ -12,6 +12,14 @@ Kai Eckert is professor at Stuttgart Media University where he leads the [WISS R
 Dov Winer is a psychologist (Hebrew University) who specialized in Online Education and Training (University of London). He was involved in the early introduction of the Internet in Israel having established the Israel Internet Society and promoted a W3C office there. He coordinates the Israel MINERVA forum for technology applications in culture whose membership includes the relevant cultural heritage institutions of the country; he co-chairs the annual Jerusalem EVA/Minerva International Conference for the Digitisation of Culture. As an in-house consultant of the European Association of Jewish Culture (UK) he is the Scientific Manager of Judaica Europeana.
 
 
+#### Maral Dadvar
+<img src="/img/maral_dadvar.jpg"  class="floatLeft" alt="Maral Dadvar">
+Maral Dadvar is a postdoctoral researcher at [WISS Research Group](http://www.wisslab.org/), Stuttgart Media University. Dr. Dadvar is an expert in natural language processing with a PhD in Human Media Interaction from University of Twente (Netherlands). She obtained her MSc degree from University of Sheffield (UK) in Artificial Intelligence. Her prior research focused on misbehaviour detection in social networks. She is currently working in [FID Judaica project](http://wiss.iuk.hdm-stuttgart.de/projects/fid-judaica/) and she is based in [University Library Johann Christian Senckenberg](http://www.ub.uni-frankfurt.de/) in Frankfurt. She has recently joined the Judaicalink team to contributes in creating a knowledge base for Jewish literature, culture and studies which will be also used later on in FID project to enrich the library datasets.  For contact, see [here](http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar/). 
+
+
+
+
+
 ### Partner Organisations and Projects
 
 <div class="partnerTable">
