@@ -6,7 +6,7 @@ title = "Persons from DBPedia"
 
 
 graph = "http://data.judaicalink.org/data/dbpedia-persons"  
-loaded = true
+loaded = false
 example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 
 
