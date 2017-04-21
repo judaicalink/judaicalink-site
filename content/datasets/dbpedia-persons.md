@@ -6,12 +6,12 @@ title = "Persons from DBPedia"
 
 
 graph = "http://data.judaicalink.org/data/dbpedia-persons"  
-loaded = false
+loaded = true
 example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/dbpedia-persons.ttl.gz"  
+	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/generated_persons_dbpedia.ttl.gz"  
 	description = "Persons extracted from DBPedia based on their occupation "
 	
 [[files]]
