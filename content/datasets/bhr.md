@@ -19,6 +19,6 @@ example = "http://data.judaicalink.org/data/bhr/Abarbanell_Hirsch"
 	
 +++
 
-The Biographisches Handbuch der Rabbiner consists of two volumes. Volume 1 contains the rabbis of the Emancipation Period in the German, Bohemian and large Polish countries in 1781-1871 and is edited by Carsten Wilke. Volume 2 contains the rabbis in the German Reich in 1871-1945 and is edited by Katrin Nele Jansen. "
+The Biographisches Handbuch der Rabbiner is an online encyclopedia vreated at Steinheim Institute. This encyclopedia consists of two volumes. Volume 1 contains the rabbis of the Emancipation Period in the German, Bohemian and large Polish countries in 1781-1871 and is edited by Carsten Wilke. Volume 2 contains the rabbis in the German Reich in 1871-1945 and is edited by Katrin Nele Jansen. "
 
 <!--more-->
