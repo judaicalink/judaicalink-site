@@ -24,5 +24,5 @@ mapped to the JudaicaLink ontology.
 The datasets data can also be accessed directly via our 
 SPARQL <a href="http://data.judaicalink.org/sparql.html">endpoint</a>.  
 More details on all the JudaicaLink datasets can be 
-found <a href="http://www.judaicalink.org/datasets/">here</a>  
+found <a href="http://www.judaicalink.org/datasets/">here</a>.
 
