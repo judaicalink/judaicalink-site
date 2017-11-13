@@ -37,7 +37,7 @@ since the age of enlightenment.
 The encyclopedia consists of two parts:
 
 Part 1: Die Rabbiner der Emanzipationszeit in den deutschen, 
-böhmischen und großpolnischen Ländern (1781 – 1871), edited by Carsten Wilke
+böhmischen und großpolnischen Ländern (1781 – 1871), edited by Carsten Wilke.
 
 Part 2: Die Rabbiner im Deutschen Reich (1871 – 1945), 
 edited by Katrin Nele Jansen.
