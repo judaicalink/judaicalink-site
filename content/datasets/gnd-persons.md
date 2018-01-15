@@ -7,7 +7,7 @@ title = "Persons from GND"
 
 graph = "http://data.judaicalink.org/data/gnd-persons"  
 loaded = true
-example = "<http://data.judaicalink.org/data/gnd/100938523>"
+example = "http://data.judaicalink.org/data/gnd/100938523"
 
 
 [[files]]
