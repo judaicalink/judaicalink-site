@@ -6,7 +6,7 @@ title = "Encyclopedia Judaica"
 
 
 graph = "http://data.judaicalink.org/data/enjudaica"    
-loaded = false
+loaded = true
 example = "http://data.judaicalink.org/data/enjudaica/Aargau"
 
 
