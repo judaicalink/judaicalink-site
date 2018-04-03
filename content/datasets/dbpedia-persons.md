@@ -11,7 +11,7 @@ example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/generated_persons_dbpedia.ttl.gz"  
+	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/generated_persons_DBPedia_enriched_02.ttl.gz"  
 	description = "Persons extracted from DBPedia based on their occupation "
 	
 [[files]]
