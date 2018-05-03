@@ -11,7 +11,7 @@ example = "http://data.judaicalink.org/data/bhr/Abarbanell_Hirsch"
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/bhr/current/EncycBHR-ID-GND-JL.ttl.gz"
+	url = "http://data.judaicalink.org/dumps/bhr/current/bhr-final-05.ttl.gz"
 	
 	
 	description = "Biographisches Handbuch der Rabbiner "
