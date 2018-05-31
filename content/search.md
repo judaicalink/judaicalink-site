@@ -3,6 +3,9 @@
 # SEARCH
 
 ## Fulltext Search
+<b>ALPHA version, things will break!</b>
+
+The search functionality is still under development, therefore it not be available at all or have errors. See our [news](/news/experimental-search-online/).
 
 <form action="javascript:search()">
 <input type="text" id="query">
@@ -12,7 +15,7 @@
 <div id="results">
 </div>
 <p></p>
-<p>Note: this is a very early experimental search functionality, currently limited to at most 10 results. However, it might help to quickly figure out, if we have something in our knowledge graph regarding your search.</p>
+<p>Note: this is currently limited to at most 10 results. However, it might help to quickly figure out, if we have something in our knowledge graph regarding your search or to generate new entry point into our data.</p>
 <p>
 The search functionality is powered by ElasticSearch and currently indexes name, birth- and death dates, and abstract.
 </p>
