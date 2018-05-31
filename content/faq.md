@@ -7,6 +7,9 @@
 [What do we have to do?] ({{<ref "#faq-to-do" >}})  
 [What license should we use?] ({{<ref "#faq-license" >}})  
 [How are you funded?]({{<ref "#faq-funded" >}})  
+[Is software and data freely and openly available?]({{<ref "#faq-opensource" >}})  
+[How can I search the data?]({{<ref "#faq-opsearch" >}})  
+[Why do the data pages look so ugly?]({{<ref "#faq-ugly">}})
 
 ----------------------------------------------------------
 
@@ -40,7 +43,30 @@ You could even use no license at all which means that noone is allowed to do any
   
 ### How are you funded? {#faq-funded}  
 
-Currently, we have no funding at all. The technical resources are provided by the <a href="http://wiss.iuk.hdm-stuttgart.de/">WISS Research Group</a> of the <a href="https://www.hdm-stuttgart.de/">Stuttgart Media University</a>. 
+Currently, we receive funding for Maral from the German Research Foundation for our participation in the development of the specialized information service Jewish Studies (FID Jüdische Studien) at the University Library of Frankfurt. 
 
-Depending on the future requirements of this project, we might at some point apply for additional funding. If you are interested in joining such a project as content provider, please contact us.
+The technical resources to actually run JudaicaLink are provided by the <a href="http://wiss.iuk.hdm-stuttgart.de/">WISS Research Group</a> of the <a href="https://www.hdm-stuttgart.de/">Stuttgart Media University</a>. 
+
   
+### Is software and data freely and openly available? {#faq-opensource}  
+
+Yes, of course. All our data is available as downloadable data dumps, see at our [datasets](/datasets).
+
+All software to create the data and to produce this very website is available on GitHub:
+
+- [Website](https://github.com/wisslab/judaicalink-site)
+- [Data Pages (Pubby)](https://github.com/wisslab/judaicalink-pubby)
+- [Data Generators](https://github.com/wisslab/judaicalink-loader)
+
+### How can I search the data? {#faq-search}
+
+Development of a proper search functionality that is more suitable for end users is planned for end of 2018. Currently we focus on the integration of our various datasets and the contextualization of the data in the FID project.
+
+However, you can always use our [SPARQL endpoint](http://data.judaicalink.org/sparql.html) to query our knowledge graph.
+
+### Why do the data pages look so ugly? {#faq-ugly}
+Well, we hope, this is debatable ;-)
+
+JudaicaLink is currently a website for (linked) data professionals. The pages are not created to provide a pleasant reading experience, but to quickly show what data we currently have stored about a resource.
+
+However, we are working hard to make the experience more pleasant as part of a tighter integration with the FID Jewish Studies portal. Stay tuned. 
