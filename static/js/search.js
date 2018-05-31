@@ -1,8 +1,12 @@
 search = function() {
 	query = $("#query").val()
+	if (query.trim().length==0) {
+		console.log("Empty query")
+		return
+	}
 	console.log("Query: " + JSON.stringify(query))
 	$.getJSON("http://localhost:3000/search/" + query, function(data) {
-		console.log(data)		
+		// console.log(data)		
 		total = data.response.hits.total
 		hits = data.response.hits.hits.length
 		h = $("#results")
