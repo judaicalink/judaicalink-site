@@ -12,14 +12,17 @@ example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/generated_persons_DBPedia_enriched_02.ttl.gz"  
-	description = "Persons extracted from DBPedia based on their occupation "
+	description = "Rabbis extracted from DBPedia."
 	
 [[files]]
 	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/persons-gndid.ttl.gz" 
-	description = "Gnd id generated for the perons "
+	description = "GND links for all persons in this dataset."
 	
 +++
 
-List of persons from dbpedia. This list is generated based on occupations.
+List of persons from DBpedia.
 <!--more-->
 
+Currently, this dataset contains a set of Rabbis extracted from DBpedia. This was done using an iterative process to identify classes that are associated with Rabbis and consequently all Rabbis associated with these classes.
+
+In a second step, we created links to persons in the common authority file (Gemeinsame Normdatei, GND) of the German National Library.

@@ -12,16 +12,17 @@ example = "http://data.judaicalink.org/data/gnd/102182094"
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/gnd-persons/current/generated_persons_GND.ttl.gz"  
-	description = "Persons extracted from GND based on their country and occupation"
+	description = "Rabbis and people from Israel, extracted from GND."
 [[files]]
 	url = "http://data.judaicalink.org/dumps/gnd-persons/current/generated_persons_GND_enriched.ttl.gz"  
 	description = "Persons extracted from GND enriched with further information such as date and place of birth and death."
 [[files]]
 	url = "http://data.judaicalink.org/dumps/gnd-persons/current/Freimann-GND-enriched-05.ttl.gz"  
-	description = "Persons extracted from GND based based on University LIbrary of Frankfurt, Freimann collection" 
+	description = "Persons extracted from GND that have been identified within the Freimann collection of the University Library of Frankfurt" 
 	
 +++
 
-List of persons from GND. This list is generated based on country and occupation.
+Persons from the Common Authority File (Gemeinsame Normdatei, GND) of the German National Library.
 <!--more-->
 
+Within this dataset, we collect data extracted from the GND. See descriptions of the single files for furter information.
