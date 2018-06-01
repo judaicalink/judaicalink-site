@@ -5,7 +5,7 @@ search = function() {
 		return
 	}
 	console.log("Query: " + JSON.stringify(query))
-	$.getJSON("http://www.judaicalink.org:3000/search/" + query, function(data) {
+	$.getJSON("http://search.judaicalink.org/search/" + query, function(data) {
 		// console.log(data)		
 		total = data.response.hits.total
 		hits = data.response.hits.hits.length
