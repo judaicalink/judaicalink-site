@@ -12,11 +12,10 @@ search = function() {
 		h = $("#results")
 		h.html("<p>Total Hits: " + total + "</p>")
 		h.append("<p>First " + hits + " hits:</p>")
-		h.append("<ol></ol>")
-		l = $(h, "ol")
+		reslist = $("<ol></ol>").appendTo(h)
 		for (i=0;i<hits;i++) {
 			result = data.response.hits.hits[i]
-			l.append("<li><a href='" + result["_id"] + "'>"+result["_source"].name+"</a> (Score: " + result["_score"] + ")</li>")
+			reslist.append("<li><a href='" + result["_id"] + "'>"+result["_source"].name+"</a> (Score: " + result["_score"] + ")</li>")
 		}
 	})
 }
