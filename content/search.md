@@ -12,12 +12,11 @@ The search functionality is still under development, therefore it not be availab
 <input type="submit" value="Search" />
 </form>
 <p></p>
-<div id="results">
-</div>
+<div id="results"> </div>
+<div id="pagination"> </div>
 <p></p>
-<p>Note: this is currently limited to at most 10 results. However, it might help to quickly figure out, if we have something in our knowledge graph regarding your search or to generate new entry point into our data.</p>
 <p>
-The search functionality is powered by ElasticSearch and currently indexes name, birth- and death dates, and abstract.
+The search functionality is powered by ElasticSearch and currently indexes name, birth- and death dates, abstract, and publications.
 </p>
 <p>
 <b>Example Queries:</b><br/>
