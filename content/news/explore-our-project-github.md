@@ -5,7 +5,7 @@ title = "Explore our project GitHub"
 
 +++
 
-Interested to see how the datasets are generated and improved in JudicaLink?
+Interested to see how the datasets are generated and improved in JudaicaLink?
 <!--more-->
 
 Then have a look at our project GitHub: https://github.com/wisslab/judaicalink-loader
