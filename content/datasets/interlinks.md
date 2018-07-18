@@ -6,7 +6,7 @@ title = "Encyclopedia Interlinks"
 links = "152 entities. 700 person groups interlinked. Maximum 24 resource per group" 
 dataslug = "interlinks"
 graph = "http://data.judaicalink.org/data/interlinks"
-loaded = true
+loaded = false
 
 
 [[files]]
