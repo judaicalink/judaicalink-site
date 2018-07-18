@@ -6,7 +6,7 @@ title = "Encyclopedia Interlinks"
 links = "152 entities. 700 person groups interlinked. Maximum 24 resource per group" 
 dataslug = "interlinks"
 graph = "http://data.judaicalink.org/data/interlinks"
-loaded = false
+loaded = true
 
 
 [[files]]
@@ -14,7 +14,7 @@ loaded = false
 	description = "Links between JudaicaLink entities."
 	
 [[files]]
-	url = "http://data.judaicalink.org/dumps/interlinks/current/interlink-persons-enriched.ttl.gz"
+	url = "http://data.judaicalink.org/dumps/interlinks/current/interlinks-04-enriched-09.ttl.gz"
 	description = "Links between JudaicaLink persons."
 	
 	
