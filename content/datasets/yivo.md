@@ -17,7 +17,7 @@ aliases = [
 ]
 
 graph = "http://data.judaicalink.org/data/yivo"
-loaded = true
+loaded = false
 
 
 [[files]]
