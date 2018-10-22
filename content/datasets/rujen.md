@@ -15,11 +15,11 @@ aliases = [
     "/encyclopediae/encyclopediae-of-russion-jewry/",
     "/datasets/encyclopediae-of-russion-jewry/"
 ]
-loaded = false
+loaded = true
 graph = "http://data.judaicalink.org/data/rujen"
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/rujen/current/rujen.n3.gz"
+	url = "http://data.judaicalink.org/dumps/rujen/current/rujen.ttl.gz"
 	description = "Extraction of Rujen.ru"
 +++
 

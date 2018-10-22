@@ -16,11 +16,11 @@ aliases = [
     "/datasets/das-juedische-hamburg/"
 ]
 graph = "http://data.judaicalink.org/data/djh"
-loaded = false
+loaded = true
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/djh/current/djh.n3.gz"
+	url = "http://data.judaicalink.org/dumps/djh/current/djh.ttl.gz"
 	description = "Extraction from the encyclopedia 'Das Jüdische Hamburg'."
 +++
 
