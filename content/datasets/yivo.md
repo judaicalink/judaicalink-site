@@ -17,11 +17,11 @@ aliases = [
 ]
 
 graph = "http://data.judaicalink.org/data/yivo"
-loaded = false
+loaded = true
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/yivo/current/yivo.n3.gz"
+	url = "http://data.judaicalink.org/dumps/yivo/current/yivo.ttl.gz"
 	description = "Extraction from YIVO Encyclopediae"
 +++
 
