@@ -16,7 +16,7 @@ aliases = [
     "/datasets/das-juedische-hamburg/"
 ]
 graph = "http://data.judaicalink.org/data/djh"
-loaded = true
+loaded = false
 
 
 [[files]]

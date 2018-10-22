@@ -15,7 +15,7 @@ aliases = [
     "/encyclopediae/encyclopediae-of-russion-jewry/",
     "/datasets/encyclopediae-of-russion-jewry/"
 ]
-loaded = true
+loaded = false
 graph = "http://data.judaicalink.org/data/rujen"
 
 [[files]]
