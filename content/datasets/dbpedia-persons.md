@@ -20,7 +20,7 @@ example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/Entityfacts-dbpedia-sameas.ttl.gz" 
-	description = "Entitylinks links for all persons in this dataset."
+	description = "EntityFacts links for all persons in this dataset."
 
 	
 +++

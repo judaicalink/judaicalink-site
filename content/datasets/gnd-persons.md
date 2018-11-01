@@ -21,7 +21,12 @@ example = "http://data.judaicalink.org/data/gnd/102182094"
 	description = "Persons extracted from GND that have been identified within the Freimann collection of the University Library of Frankfurt" 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/gnd-persons/current/ub-authors.ttl.gz"  
-	description = "All the authors from University Library of Frankfurt collection who had a Tp GND-id." 
+	description = "All the authors from University Library of Frankfurt collection who had a Tp GND-id." 	
+[[files]]
+	url = "http://data.judaicalink.org/dumps/gnd-persons/current/Entityfacts-ubgnd-sameas.ttl.gz"  
+	url = "http://data.judaicalink.org/dumps/gnd-persons/current/Entityfacts-gnd-sameas.ttl.gz"  
+	url = "http://data.judaicalink.org/dumps/gnd-persons/current/Entityfacts-freimann-sameas.ttl.gz"   
+	description = "The EntityFacts links of the persons in the current datasets"    
 	
 +++
 
