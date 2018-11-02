@@ -18,10 +18,6 @@ example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/persons-gndid.ttl.gz" 
 	description = "GND links for all persons in this dataset."
 
-[[files]]
-	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/Entityfacts-dbpedia-sameas.ttl.gz" 
-	description = "Entity Facts links for all persons in this dataset."
-
 	
 +++
 
