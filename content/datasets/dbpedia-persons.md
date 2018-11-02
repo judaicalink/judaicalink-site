@@ -1,7 +1,7 @@
 +++
 author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
-date = "2017-03-27T10:37:07+02:00"
+date = "2018-11-02T10:37:07+02:00"
 title = "Persons from DBPedia" 
 
 
