@@ -7,11 +7,12 @@ title = "Eine Jüdische Familie aus Aschaffenburg"
 
 graph = "http://data.judaicalink.org/data/hirsch"  
 loaded = true
-example = "<http://data.judaicalink.org/data/hirsch/1964>"
+example = "http://data.judaicalink.org/data/hirsch/1964"
 
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/hirsch-family/current/HirschFamily.ttl.gz" 
+	
 	description = "Dataset created from the available information on Hirsch family."
  
 	
@@ -25,4 +26,5 @@ the Association of Jewish Life in Lower Franconia - Biographical Database e.V. s
 Approximately 35 volunteers throughout Lower Franconia support this work. The sources are digitized. The evaluation as well as the digitized data are recorded in the database and made available on the Internet.
 
 Origin: Biographical database - Jewish Lower Franconia
+
 http://www.historisches-unterfranken.uni-wuerzburg.de/juf/Datenbank/
