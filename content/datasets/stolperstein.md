@@ -4,7 +4,6 @@ authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2018-11-26T10:37:07+02:00"
 title = "Stolpersteine in Mainz" 
 
-
 graph = "http://data.judaicalink.org/data/stolpersteine"  
 loaded = true
 example = "http://data.judaicalink.org/data/stolpersteine/Goldschmitt_Leopold"
@@ -14,7 +13,6 @@ example = "http://data.judaicalink.org/data/stolpersteine/Goldschmitt_Leopold"
 	url = "http://data.judaicalink.org/dumps/stolpersteine/current/stolpersteine.ttl.gz" 
 	
 	description = "Dataset created from the wikipedia page of the list of Stolpersteine (stumbling blocks) in Mainz" 
- 
 	
 +++
 
