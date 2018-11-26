@@ -2,7 +2,7 @@
 author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2018-11-26T10:37:07+02:00"
-title = "Eine Jüdische Familie aus Aschaffenburg" 
+title = "Stolpersteine in Mainz" 
 
 
 graph = "http://data.judaicalink.org/data/stolpersteine"  
