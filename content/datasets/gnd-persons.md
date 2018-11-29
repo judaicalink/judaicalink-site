@@ -30,10 +30,6 @@ example = "http://data.judaicalink.org/data/gnd/102182094"
 	url = "http://data.judaicalink.org/dumps/gnd-persons/current/Entityfacts-freimann-sameas.ttl.gz"   
 	
 	description = "The EntityFacts links of the persons in the current datasets"    
-[[files]]
-	url = "http://data.judaicalink.org/dumps/gnd-persons/current/jl-zbw.ttl.gz"   
-	
-	description = "This dataset contains common links between JudaicaLink datasets and Pressemappe 20. Jahrhundert." 
 	
 +++
 
