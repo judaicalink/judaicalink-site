@@ -16,9 +16,9 @@ example = "http://data.judaicalink.org/data/ubffm/Aaron_Emmerich_Gumpertz"
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/ubffm/current/ubffm-authors-02.ttl.gz"  
-	description = "Persons extracted from Judaica collection of University Library of Frankfurt"
+	description = "Persons extracted from Judaica collection of University Library of Frankfurt. Names are only in transciption"
 	
-	description = "This dataset contains authors names from Judaica collection of University Library of Frankfurt. Names are only in transciption"  
+
 	
 +++
 
