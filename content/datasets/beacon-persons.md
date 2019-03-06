@@ -8,7 +8,7 @@ loaded = true
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/beacon/current/beacon-persons.txt.gz"  
+	url = "http://data.judaicalink.org/dumps/beacon/current/beacon-persons.txt"  
 	description = "The Beacon file generated from JudaicaLink persons."
  
 	
