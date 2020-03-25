@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+<div class="col-md-8">
+<h3 class="uppercase">{{.Title}}</h3>
+<p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
+{{ .Content  }}
+</div>
+
+{{ partial "sidebar.html" .}}
+
+{{ partial "footer.html" . }}
+

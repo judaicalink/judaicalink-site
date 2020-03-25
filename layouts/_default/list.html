@@ -1,0 +1,17 @@
+{{partial "header.html" .}}
+
+<div class="col-md-8">
+  <h1 id="title">{{ .Title }}</h1>
+  
+  {{ range first 10 .Data.Pages }}
+  <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
+  <p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
+  <p>{{ .Summary  }}</p>
+  <p class="bottomskip"><a href="{{.Permalink}}">read more</a></p>
+  {{ end }}
+
+</div>
+
+{{ partial "sidebar.html" .}}
+
+{{partial "footer.html" .}}

@@ -1,0 +1,4 @@
+baseurl = "http://www.judaicalink.org"
+languageCode = "en-us"
+title = "JudaicaLink"
+metaDataFormat = "toml"
