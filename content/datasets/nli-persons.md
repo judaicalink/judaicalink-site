@@ -7,6 +7,7 @@ title = "Persons from NLI"
 
 graph = "http://data.judaicalink.org/data/nli"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/nli/Abner_"
 
 

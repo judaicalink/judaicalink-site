@@ -7,6 +7,7 @@ title = "Persons from DBPedia"
 
 graph = "http://data.judaicalink.org/data/dbpedia-persons"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 
 

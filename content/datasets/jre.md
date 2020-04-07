@@ -6,6 +6,7 @@ title = "Dataset on Jewish education and religion"
 
 graph = "http://data.judaicalink.org/data/jre"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/jre/Hause_Benedict"
 
 

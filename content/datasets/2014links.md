@@ -6,6 +6,7 @@ title = "Links to external sources"
 dataslug = "2014links"
 graph = "http://data.judaicalink.org/data/2014links"
 loaded = true
+category = "judaicalink"
 
 
 [[files]]

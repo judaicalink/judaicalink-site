@@ -6,6 +6,7 @@ title = "Stolpersteine in Mainz"
 
 graph = "http://data.judaicalink.org/data/stolpersteine"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/stolpersteine/Goldschmitt_Leopold"
 
 

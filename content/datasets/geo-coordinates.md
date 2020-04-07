@@ -6,6 +6,7 @@ title = "Geographical Coordinates"
 
 graph = "http://data.judaicalink.org/data/geo-coor"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/Aachen"
 
 

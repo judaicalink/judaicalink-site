@@ -7,6 +7,7 @@ title = "Eine Jüdische Familie aus Aschaffenburg"
 
 graph = "http://data.judaicalink.org/data/hirsch"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/hirsch/1964"
 
 

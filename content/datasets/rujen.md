@@ -16,6 +16,7 @@ aliases = [
     "/datasets/encyclopediae-of-russion-jewry/"
 ]
 loaded = true
+category = "judaicalink"
 graph = "http://data.judaicalink.org/data/rujen"
 
 [[files]]

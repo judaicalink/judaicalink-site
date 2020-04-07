@@ -7,6 +7,7 @@ website = "https://www.haskala-library.net/"
 
 graph = "http://data.judaicalink.org/data/haskala"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/haskala/Ascher_Saul"
 
 

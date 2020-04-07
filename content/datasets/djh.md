@@ -17,6 +17,7 @@ aliases = [
 ]
 graph = "http://data.judaicalink.org/data/djh"
 loaded = true
+category = "judaicalink"
 
 
 [[files]]

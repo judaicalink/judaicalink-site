@@ -7,6 +7,7 @@ title = "Persons from GND"
 
 graph = "http://data.judaicalink.org/data/gnd-persons"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/gnd/102182094"
 
 

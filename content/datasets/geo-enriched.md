@@ -15,6 +15,7 @@ aliases = []
 
 graph = "http://data.judaicalink.org/data/geo-enriched"
 loaded = true
+category = "judaicalink"
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/geo-enriched/bhr-final-05.ttl"

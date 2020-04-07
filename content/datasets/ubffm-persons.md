@@ -7,6 +7,7 @@ title = "Persons from ubffm"
 
 graph = "http://data.judaicalink.org/data/ubffm"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/ubffm/Aaron_Emmerich_Gumpertz"
 
 

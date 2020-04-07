@@ -7,6 +7,7 @@ website = "http://www.steinheim-institut.de/wiki/index.php/Biographisches_Handbu
 
 graph = "http://data.judaicalink.org/data/bhr"  
 loaded = true
+category = "judaicalink"
 example = "http://data.judaicalink.org/data/bhr/Abarbanell_Hirsch"
 
 

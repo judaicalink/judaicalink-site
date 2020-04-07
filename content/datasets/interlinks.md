@@ -7,6 +7,7 @@ links = "152 entities. 700 person groups interlinked. Maximum 24 resource per gr
 dataslug = "interlinks"
 graph = "http://data.judaicalink.org/data/interlinks"
 loaded = true
+category = "judaicalink"
 
 
 [[files]]
