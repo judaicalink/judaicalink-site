@@ -18,6 +18,7 @@ aliases = [
 
 graph = "http://data.judaicalink.org/data/yivo"
 loaded = true
+category = "judaicalink"
 
 
 [[files]]
