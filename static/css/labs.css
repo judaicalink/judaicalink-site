@@ -1,7 +1,6 @@
 
 body {
-    min-height:100%;  /*Was macht das? Bzw warum wurde das hier eingesetzt? @julika von Patty*/
-    background
+    min-height:100%;
 }
 
 .container {
@@ -106,7 +105,6 @@ p {
     text-align: center;
     margin-left: -20px;
     margin-right: -20px;
-    background-image: linear-gradient(white, grey);
     z-index: 0;
 }
 
@@ -134,15 +132,14 @@ p {
   width: 220px;
   float: right;
   margin-top: 20px;
-  margin-right:50px;
   }
 
 /*FID Logo oben links*/
 
 .sidebar_news {
-  margin-top: -20px;
+  margin-left: 1200px;
+  margin-top: -700px;
   width: 253px;
-  transition: all .5s ease;
   z-index: 1;
   border-left: 4px solid #004284;
   padding-left: 5px;
@@ -157,7 +154,7 @@ p {
 }
 
 .sidebar {
-  margin-top: -20px;
+  margin-top: -120px;
   width: 253px;
   transition: all .5s ease;
   z-index: 1;
@@ -212,39 +209,41 @@ label #btn,label #cancel{
   color: #004284;
   font-size: 35px;
   padding: 6px 12px;
-  margin-top: 102px;
+  margin-top: -30px;
 }
 label #btn{
   opacity: 0;
-  transition: all .4s;
+  transition: all .5s;
   pointer-events: none;
   position: fixed;
-  margin-left: -35px;
+  margin-left: -105px;
 }
 label #cancel{
   z-index: 0;
   opacity: 1;
-  transition: all .4s;
-  margin-left: 223px;
+  transition: all .9s;
+  margin-left: 220px;
   position: fixed;
 }
 
 #check:checked ~ .sidebar{
-  left: -300px;
+  margin-left: -300px;
   opacity: 0;
   transition: all .5s ease;
 }
 #check:checked ~ label #btn{
   opacity: 1;
   pointer-events: all;
+  margin-left: -35px;
 }
 #check:checked ~ label #cancel{
   margin-left:-300px;
   opacity: 0;
   pointer-events: none;
+  transition: all .4s ease;
 }
 
-#check:checked ~ .container .content{
+#check:checked ~ .content{
   margin-left: 50px;
 }
 
