@@ -100,7 +100,7 @@ p {
     }
 
 .footer {
-    margin-top: 125px;
+    /*margin-top: 125px;*/
     position: relative;
     padding: 10px;
     text-align: center;
@@ -120,6 +120,7 @@ p {
   margin-top: 20px;
   margin-left: 15px;
 }
+
 
 .logo_sidebar{
   width: 200px;
