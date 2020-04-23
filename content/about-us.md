@@ -1,5 +1,5 @@
 # ABOUT US
-
+<div class="content">
 ### People
 
 #### Kai Eckert
@@ -18,38 +18,4 @@ Maral Dadvar is a postdoctoral researcher at [WISS Research Group](http://www.wi
 
 
 
-
-
-### Partner Organisations and Projects
-
-<div class="partnerTable">
-	<div class="ptRow">
-		<div>
-			<a href="http://www.hdm-stuttgart.de/"><img src="/img/hdm-logo.gif" alt="HdM Logo"/></a><br/>
-			<a href="http://www.hdm-stuttgart.de/">Stuttgart Media University</a>
-		</div>
-		<div>
-<a href="http://www.jewishcultureineurope.org/"><img src="/img/Just_logo-70.gif" alt="EAJC Logo"/></a><br/>
-<a href="http://www.jewishcultureineurope.org/">European Association for Jewish Culture</a>
-		</div>
-		<div>
-<a href="http://www.ub.uni-frankfurt.de/"><img src="/img/ubfrankfurt.jpg" alt="UB Frankfurt Logo" width="150"/></a><br/>
-<a href="http://www.ub.uni-frankfurt.de/">University Library Frankfurt</a>
-        </div>
-	</div>
-	<div class="ptRow">
-		<div>
-<a href="http://www.judaica-europeana.eu/"><img src="/img/Judaica_Europeana_logosm-70.gif" alt="Judaica Europeana Logo" /></a><br/>
-<a href="http://www.judaica-europeana.eu/">Judaica Europeana</a>
-	    </div>
-		<div>
-<a href="http://dm2e.eu/"><img src="/img/dm2e_logo.png" alt="DM2E Logo"/></a><br>
-<a href="http://dm2e.eu/"> Digitised Manuscripts to Europeana</a>
-		</div>
-		<div>
-<a href="http://juedische-studien.fid-lizenzen.de"><img src="/img/fid-logo.jpg" alt="FID Logo"/></a><br>
-<a href="http://juedische-studien.fid-lizenzen.de">FID Jewish Studies</a>
-		</div>
-	</div>
 </div>
-
