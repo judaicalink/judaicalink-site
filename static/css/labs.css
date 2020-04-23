@@ -15,6 +15,7 @@ body {
     margin-left: 300px;
     transition: all .5s;
     height: 100%;
+    z-index: -10;
 }
 
 
@@ -155,7 +156,7 @@ p {
 }
 
 .sidebar {
-  margin-top: -120px;
+  margin-top: -124px;
   width: 253px;
   transition: all .5s ease;
   z-index: 1;
