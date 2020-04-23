@@ -158,7 +158,7 @@ p {
   width: 253px;
   transition: all .5s ease;
   z-index: 1;
-  background-color: #FFDB99;
+  background-color: #fffeef;
   height: 100%;
   position: fixed;
 }
@@ -170,7 +170,7 @@ p {
 .sidebar_content{
   background-image: url("../img/orangeTransparent.png"); /*the background needs to be very light/transparent, else the sidebar content won't be as visible*/
   background-repeat: no-repeat;
-  background-size: 800px 600px;
+  background-size: 1000px 750px;
   height: 600px;
 }
 .sidebar_content ul a{
