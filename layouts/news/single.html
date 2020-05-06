@@ -1,10 +1,11 @@
 {{ partial "header.html" . }}
 
-<div class="sidebar-news">
+
 <h3 class="uppercase">{{.Title}}</h3>
 <p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
+
+
 {{ .Content  }}
-</div>
 
 {{ partial "sidebar.html" .}}
 

@@ -1,5 +1,5 @@
 {{partial "header.html" .}}
-<div class="content">
+<main class="row">
 <div class="col-md-8">
   <h1 id="title">{{ .Title }}</h1>
   
@@ -10,8 +10,8 @@
   <p class="bottomskip"><a href="{{.Permalink}}">read more</a></p>
   {{ end }}
 </div>
-</div>
+
 
 {{ partial "sidebar.html" .}}
-
+</main>
 {{partial "footer.html" .}}

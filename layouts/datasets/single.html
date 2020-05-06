@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 
-<div class="content">
+<main class="row">
+	<div class="col-md-12">
   {{$data := .Params}}
 		<h3>{{ .Title }}</h3>
 
@@ -90,7 +91,8 @@
 		  {{end}}
 
 		</table>
-</div>
+		</div>
+</main>
 
 
 {{ partial "footer.html" . }}
