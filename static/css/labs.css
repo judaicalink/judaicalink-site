@@ -15,7 +15,8 @@ body,html {
     }
 
 .row {
-    padding: 10px;}
+    padding: 10px;
+    }
 
 .col-md-4 {
     border-left: solid 1px lightgrey;
@@ -99,6 +100,7 @@ body,html {
   margin-left: 10px;
   margin-bottom: 10px;
 }
+
 
 
 /*----------------Ab hier Sidebar---------------------------------*/
@@ -195,9 +197,10 @@ label #cancel{
   transition: all .4s ease;
 }
 
-#check:checked ~ .content{
-  margin-left: 50px;
-}
+#check:checked ~ .container {
+    margin-left: -100px;
+    margin-top: -22px; /*hat einen natürlichen abstand von 22 px zum oberen Rand*/
+    }
 
 
 
