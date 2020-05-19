@@ -1,3 +1,19 @@
+/*-------------------SIDEBAR-------------------------*/
+$(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+
+/*---------------------------------------------------*/
+
+
 search = function() {
   var BACKEND_DEV = "http://localhost:3000"
   var BACKEND_PROD = "http://search.judaicalink.org"

@@ -8,52 +8,39 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="/css/wiss.css">-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/labs.css">
-    <link rel="stylesheet" href="/css/search.css">
     <link rel="stylesheet" href="/css/simplePagination.css">
-    <title>{{ .Site.Title }}</title>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+      <!--<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
+
+      <title>{{ .Site.Title }}</title>
 
 
   </head>
   <body>
+  <div class="wrapper">
+      {{partial "navbar.html" . }}
+<div id="content">
+    <div class="container-fluid">
 
-<!-- Page Navigation -->
-<aside>
-<input type="checkbox" id="check">
-    <label for="check">
-      <i class="fas fa-bars" id="btn"></i>
-      <i class="fas fa-bars" id="cancel"></i>
-    </label>
-    <div class="sidebar">
-
-          <!--"/" is "http://www.judaicalink.org"-->
-          <a href="/"><img src="/img/transp_judaica_web.png" alt="JudaicaLink labs logo" class="logo_sidebar"/></a>
-
-
-        <div class="sidebar_content">
-  <ul>
-    <li><a href="/datasets"><i class="fas fa-table"></i>Datasets</a></li>
-    <li><a href="https://labs.judaicalink.org"><i class="fas fa-search"></i>Labs</a></li>
-    <li><a href="/news"><i class="fas fa-comment"></i>News</a></li>
-    <li><a href="https://www.ub.uni-frankfurt.de/judaica3/home.html" target="_blank"><i class="fas fa-hanukiah"></i>FID jüd. Studien</a></li>
-  </ul>
-        </div>
-</div>
-    </aside>
-<!-- Page Navigation -->
-
-
-
-
-<div class="container">
-<!-- Page Header -->
+    <!-- Page Header -->
 <header class="row">
     <div class="col-md-12">
+
+        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+
+
         <div class="header-logos">
        <a href="/"><img src="/img/transp_judaica_web.png" alt="JudaicaLink labs logo" class="logo"/></a>
     <a href="https://www.ub.uni-frankfurt.de/judaica3/home.html" target="_blank"><img src="/img/fid-logo.jpg" alt="FID logo" class="logofid"/></a>
    </div>
     </div>
 </header>
+
+
