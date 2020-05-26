@@ -1,6 +1,7 @@
-# Impressum
+# Disclaimer
 
-**Verantwortlich für den Inhalt dieser Website:**
+**Responsible for the content of this website:**
+
 
 
 WISS Research Group 2016

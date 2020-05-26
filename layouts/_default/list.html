@@ -1,6 +1,8 @@
 {{partial "header.html" .}}
+<!--bezieht sich auf die News-Seite-->
+
 <main class="row">
-<div class="col-md-8">
+<div class="col-md-9">
   <h1 id="title">{{ .Title }}</h1>
   
   {{ range first 10 .Data.Pages }}
@@ -12,6 +14,6 @@
 </div>
 
 
-{{ partial "sidebar.html" .}}
+
 </main>
 {{partial "footer.html" .}}
