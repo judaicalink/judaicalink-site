@@ -6,7 +6,7 @@ body,html {
    left:0;
    width: 100%;
    height: 100%;
-   font-size: 15px;
+   font-size: 16px;
 
 }
 h1, h2, h3, h4, a{
@@ -20,12 +20,6 @@ a:hover {
     color: red;
 }
 
-.footer-content a{
-    color: black;
-}
-.footer-content a:hover{
-    text-decoration:underline;
-}
 .wrapper {
     display: flex;
     width: 100%;
@@ -133,12 +127,14 @@ button {
     padding: 5px;
     width: 75px;
     height: auto;
+    margin-right: 10px;
 }
 
 #dmelogo {
     width: 110px;
     height: auto;
     margin-top: 10px;
+    margin-left: 5px;
 }
 #jcelogo {
     padding: 5px;
@@ -193,13 +189,23 @@ button {
     align-items: center;
 
 }
-.footer-content {
+
+.footer-content{
+    margin-top: 10px;
     font-size: 17px;
-    background-color: white;
-    text-align: center
-    }
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 
-
+}
+.footer-content a{
+    color: black;
+}
+.footer-content a:hover{
+    text-decoration:underline;
+}
 
 .logo_sidebar{
   width: 200px;
