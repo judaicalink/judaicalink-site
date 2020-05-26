@@ -6,11 +6,11 @@
   <h1 id="title">{{ .Title }}</h1>
   
   <p>JudaicaLink extracts structural information from various sources, making their described concepts as well as the relations between them accessible as Linked Open Data with stable URIs in the following datasets.</p>
-  
+  <div class="table-responsive">
   
   <table class="table table-light table-striped">
     <tr>
-      <th scope="col" colspan="2">Name</th><th scope="col">Summary</th><th scope="col">Online</th>
+      <th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th><th scope="col">Online</th>
     </tr>
     {{ range .Data.Pages }}
     {{$data := .Params}}
@@ -29,7 +29,7 @@
       
       {{ end }}
   </table>	
-  
+  </div>
     </div>
 </main>
 
