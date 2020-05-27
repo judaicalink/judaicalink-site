@@ -207,12 +207,6 @@ button {
     text-decoration:underline;
 }
 
-.logo_sidebar{
-  width: 200px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
 
 
 .container-fluid {
@@ -244,26 +238,51 @@ ul.results {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-
+/*@media (max-width: 1000px) wenn kleiner als 1000px oder =1000px dann...*/
 @media (max-width: 768px) {
+    .logo {
+        width: 170px;
+    }
+    .logofid {
+        width: 180px;
+    }
     #sidebar {
         margin-left: -100%; /*davor -250px*/
         width: 100%;        /*250px*/
     }
 
     #sidebar.active {
-        margin-left: 0;
+        margin-left: 0px;
     }
+    button {                    /*evtl. hier buttonnav vgl. labs*/
+        z-index: 1000;
+        top: 1px;
+        margin-left: -34px;  /*Button außen*/
+        height: 40px;
+        width: 40px;
+        opacity: 0.8;
+    }
+    body,html {
+        font-size: 14px;
+        }
 
     #content {
         width: 100%;
     }
-    #content.active {
-        width: calc(100% - 250px);
+    #content.active {       /*Button innen*/
+        width: 50px;
     }
     #sidebarCollapse span {
         display: none;
     }
+    pre {
+        font-size: 13px;
+    }
+    #content {
+    padding: 10px;
+    margin-top: 20px;
+    }
+
 }
 
 /*-------------------------------------------------------*/
