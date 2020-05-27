@@ -247,11 +247,14 @@ ul.results {
 
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: -100%; /*davor -250px*/
+        width: 100%;        /*250px*/
     }
+
     #sidebar.active {
         margin-left: 0;
     }
+
     #content {
         width: 100%;
     }
