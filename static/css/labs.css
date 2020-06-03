@@ -47,8 +47,8 @@ button {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #8AAFFF;
-    color: #fff;
+    background: #bff8ff;
+    color: black;
     transition: all 0.3s;
 }
 #sidebar.active {
@@ -68,7 +68,7 @@ button {
 }
 #sidebar .sidebar-header {
     padding: 20px;
-    background-color: #8AAFFF;
+    background-color: #bff8ff;
 }
 
 #sidebar ul.components {
@@ -77,7 +77,6 @@ button {
 }
 
 #sidebar ul p {
-    color: #fff;
     padding: 10px;
 }
 
@@ -87,10 +86,10 @@ button {
     display: block;
 }
 #sidebar ul li a:hover {
-    background: rgba(0,66,132,0.5);  /*Dunkelblau in Hex #004284*/
+    background: rgba(115,240,255,0.5);  /*Dunkelblau in Hex #004284*/
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+#sidebar ul li.active {
     color: #fff;
     background: #004284;
 }
@@ -98,8 +97,8 @@ button {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #004284;            /*Das ist UNSER Dunkelblau #004284*/
+    color: #fff;
 }
-
 
 #content {
     width: calc(100% - 250px);
