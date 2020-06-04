@@ -7,6 +7,7 @@ body,html {
    width: 100%;
    height: 100%;
    font-size: 16px;
+   color:grey;
 
 }
 h1, h2, h3, h4, a{
@@ -48,7 +49,7 @@ button {
     height: 100vh;
     z-index: 999;
     background: #bff8ff;
-    color: black;
+    color: grey;
     transition: all 0.3s;
 }
 #sidebar.active {
@@ -73,7 +74,7 @@ button {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid grey;
 }
 
 #sidebar ul p {
@@ -90,14 +91,13 @@ button {
 }
 
 #sidebar ul li.active {
-    color: #fff;
-    background: #004284;
+    /*background: #004284;*/
 }
 #sidebar ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #004284;            /*Das ist UNSER Dunkelblau #004284*/
-    color: #fff;
+    background: #bff8ff;
+    color: grey;
 }
 
 #content {
@@ -200,12 +200,13 @@ button {
 
 }
 .footer-content a{
-    color: black;
+    color: grey;
 }
 .footer-content a:hover{
     text-decoration:underline;
 }
-
+pre{
+    color:grey;}
 
 
 .container-fluid {
