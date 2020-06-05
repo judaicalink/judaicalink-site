@@ -10,10 +10,14 @@ body,html {
    color:grey;
 
 }
+
 h1, h2, h3, h4, a{
   color: #004284;
 }
-
+h1, h2, h3, h4{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 /*-------------------------------------------------------*/
 
 
@@ -74,7 +78,7 @@ button {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
 }
 
 #sidebar ul p {
@@ -87,7 +91,7 @@ button {
     display: block;
 }
 #sidebar ul li a:hover {
-    background: rgba(115,240,255,0.5);  /*Dunkelblau in Hex #004284*/
+    background: #73f0ff;  /*Dunkelblau in Hex #004284*/
 }
 
 #sidebar ul li.active {
@@ -165,7 +169,19 @@ button {
     align-items: center;
     justify-content: space-between;
 }
+.people{
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;
+}
+.people:hover {
+    background-color: #e9e9e9;
 
+}
 /*JudaicaLink Logo*/
 .logo {
   width: 200px;
