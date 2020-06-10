@@ -12,38 +12,59 @@ If you are interested in joining us, either because you are responsible for a re
 # People
 <div class="row">
 
-<div class="col-6 col-sm-6 col-md-6">
-<div class="people">
-<img src="/img/kai-portrait-quadrat.jpg" class="rounded-circle" width="150" height="150" alt="Kai Eckert">
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/kai-portrait-quadrat.jpg" class="rounded-circle people_image" alt="Kai Eckert">
 <h3>Kai Eckert</h3>
 <h5>Project Lead & Co-Founder</h5>
 <p>eckert@hdm-stuttgart.de</p>
 </div>
-</div>
-<div class="col-md-5">
-<div class="people">
-<img src="/img/dov_winer.jpg"   class="rounded-circle" width="150" height="150" alt="Dov Winer">
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/dov_winer.jpg"   class="rounded-circle people_image"  alt="Dov Winer">
 <h3>Dov Winer</h3>
 <h5>Founder</h5>
+</div>
+</div>
 
-</div>
-</div>
-</row>
-</div>
 <div class="row">
-<div class="col-md-6">
-<div class="people">
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/maral_dadvar.jpg"   class="rounded-circle people_image" alt="Maral Dadvar">
 <h3>Maral Dadvar</h3>
-<img src="/img/maral_dadvar.jpg"   class="rounded-circle" width="150" height="150" alt="Maral Dadvar">
-<br>
-<p>Maral Dadvar is a postdoctoral researcher at <a href="http://www.wisslab.org/">WISS Research Group</a>, Stuttgart Media University. Dr. Dadvar is an expert in natural language processing with a PhD in Human Media Interaction from University of Twente (Netherlands). She obtained her MSc degree from University of Sheffield (UK) in Artificial Intelligence. Her prior research focused on misbehaviour detection in social networks. She is currently working in <a href="http://wiss.iuk.hdm-stuttgart.de/projects/fid-judaica/">FID Judaica project</a> and she is based in <a href="http://www.ub.uni-frankfurt.de/">University Library Johann Christian Senckenberg</a> in Frankfurt. She has recently joined the Judaicalink team to contributes in creating a knowledge base for Jewish literature, culture and studies which will be also used later on in FID project to enrich the library datasets.  For contact, see <a href="http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar/"> here</a>.</p>
+<h5>Postdoctoral Researcher</h5>
+<p>dadvar@hdm-stuttgart.de</p>
 </div>
-</div>
-<div class="col-md-6">
-<div class="people">
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/Rovera-quadrat.jpg"   class="rounded-circle people_image" alt="Marco Rovera">
 <h3>Marco Rovera</h3>
+<h5>Postdoctoral Researcher</h5>
+<p>rovera@hdm-stuttgart.de</p>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/Schnabel-Quadrat.jpg"   class="rounded-circle people_image" alt="Benjamin Schnabel">
 <h3>Benjamin Schnabel</h3>
+<h5>PhD Student</h5>
+<p>schnabel@hdm-stuttgart.de</p>
+</div>
+
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/Patricia_Kaluza_JudaicaLink .jpg"   class="rounded-circle people_image" alt="Patricia Kaluza">
 <h3>Patricia Kaluza</h3>
+<h5>Research Assistant</h5>
+</div>
+</div>
+
+<div class="row">
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/avatar.png"   class="rounded-circle people_image" alt="Julika Stangl">
 <h3>Julika Stangl</h3>
+<h5>Research Assistant</h5>
+</div>
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/Sara Fischer.jpeg"   class="rounded-circle people_image" alt="Sara Fischer">
 <h3>Sara Fischer</h3>
-</div></div></div>
+<h5>Research Assistant</h5>
+</div>
+</div>

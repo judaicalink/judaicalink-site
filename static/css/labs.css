@@ -170,18 +170,21 @@ button {
     justify-content: space-between;
 }
 .people{
-    border: 1px solid lightgrey;
-    border-radius: 15px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    transition: all 0.3s;
     flex-direction: column;
+    transition: all 0.4s;
 
 }
+.people_image {
+    width:150px;
+    height:150px;
+}
 .people:hover {
-    background-color: #e9e9e9;
+    transform: scale(1.1);
+
 
 }
 
@@ -261,10 +264,10 @@ ul.results {
 
 @media (max-width: 768px) {
     .logo {
-        width: 170px;
+        width: 160px;
     }
     .logofid {
-        width: 180px;
+        width: 170px;
     }
     #sidebar {
         margin-left: -100%; /*davor -250px*/
@@ -304,6 +307,13 @@ ul.results {
     }
 
 }
+@media (max-width: 540px)
+    .logo {
+        width: 140px;
+    }
+    .logofid {
+        width: 150px;
+    }
 
 /*-------------------------------------------------------*/
 
