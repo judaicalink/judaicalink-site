@@ -27,3 +27,7 @@ Die Hochschule der Medien Stuttgart ist eine Körperschaft des öffentlichen Rec
 Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg  
 Königstraße 46  
 70173 Stuttgart
+
+# Privacy Policy
+
+Hier muss noch der Datenschutztext rein

@@ -8,7 +8,6 @@ body,html {
    height: 100%;
    font-size: 16px;
    color:black;
-
 }
 
 h1, h2, h3, h4, a{
@@ -185,7 +184,6 @@ button {
 .people:hover {
     transform: scale(1.1);
 
-
 }
 
 /*JudaicaLink Logo*/
@@ -236,10 +234,6 @@ margin-top: -30px;}
 
 
 
-
-
-
-
 /*--------war davor in search.css---------*/
 .hit {
 	margin-bottom: 10px;
@@ -262,6 +256,16 @@ ul.results {
 ----------------------------------------------------- */
 /*@media (max-width: 1000px) wenn kleiner als 1000px oder =1000px dann...*/
 
+
+@media (max-width: 540px){
+    .logo {
+        width: 140px;
+    }
+    .logofid {
+        width: 150px;
+    }
+
+}
 @media (max-width: 768px) {
     .logo {
         width: 160px;
@@ -307,13 +311,7 @@ ul.results {
     }
 
 }
-@media (max-width: 540px)
-    .logo {
-        width: 140px;
-    }
-    .logofid {
-        width: 150px;
-    }
+
 
 /*-------------------------------------------------------*/
 
