@@ -264,6 +264,9 @@ ul.results {
     .logofid {
         width: 150px;
     }
+    footer-content {
+        font-size: 14px;
+    }
 
 }
 @media (max-width: 768px) {
@@ -276,6 +279,7 @@ ul.results {
     #sidebar {
         margin-left: -100%; /*davor -250px*/
         width: 100%;        /*250px*/
+        position:fixed;
     }
 
     #sidebar.active {
