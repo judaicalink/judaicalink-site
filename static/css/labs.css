@@ -51,9 +51,13 @@ button {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #bff8ff;
+    /*background: #bff8ff;*/
     color: grey;
     transition: all 0.3s;
+    background-image: url("../img/backgroundtransparent.png");
+    background-color: #bff8ff;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 #sidebar.active {
     margin-left: -250px;
@@ -72,7 +76,7 @@ button {
 }
 #sidebar .sidebar-header {
     padding: 20px;
-    background-color: #bff8ff;
+   /* background-color: #bff8ff;*/
 }
 
 #sidebar ul.components {
