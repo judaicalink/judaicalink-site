@@ -36,7 +36,7 @@ a:hover {
     transition: all 0.3s;
 }
 
-button {
+.buttonnav {
    position: fixed;
    top: -5px;
    margin-left: -68px;
@@ -52,9 +52,9 @@ button {
     height: 100vh;
     z-index: 999;
     /*background: #bff8ff;*/
-    color: grey;
+    color: #505050;
     transition: all 0.3s;
-    background-image: url("../img/backgroundtransparent.png");
+    background-image: url("../img/5backgroundtransparent.png");
     background-color: #bff8ff;
     background-size: cover;
     background-blend-mode: multiply;
@@ -79,10 +79,10 @@ button {
    /* background-color: #bff8ff;*/
 }
 
-#sidebar ul.components {
+/*#sidebar ul.components {
     padding: 20px 0;
     border-bottom: 1px solid lightgrey;
-}
+}*/
 
 #sidebar ul p {
     padding: 10px;
@@ -103,8 +103,8 @@ button {
 #sidebar ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #bff8ff;
-    color: grey;
+    /*background: #bff8ff;*/
+
 }
 
 #content {
@@ -199,7 +199,7 @@ button {
 
 /*FID Logo oben rechts*/
 .logofid {
-  width: 220px;
+  width: 215px;
   }
 /*FID Logo oben rechts*/
 
@@ -271,18 +271,6 @@ ul.results {
         font-size: 14px;
     }
 
-}
-
-@media (max-width: 768px) {
-    .logo {
-        width: 170px;
-        margin-left: 10px;
-    }
-    .people_image {
-        width:120px;
-        height:120px;
-    }
-
     #sidebar {
         margin-left: -100%; /*davor -250px*/
         width: 100%;        /*250px*/
@@ -292,7 +280,7 @@ ul.results {
     #sidebar.active {
         margin-left: 0px;
     }
-    button {                    /*evtl. hier buttonnav vgl. labs*/
+    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
         z-index: 1000;
         top: 1px;
         margin-left: -34px;  /*Button außen*/
@@ -304,9 +292,7 @@ ul.results {
         font-size: 14px;
         }
 
-    #content {
-        width: 100%;
-    }
+
     #content.active {       /*Button innen*/
         width: 50px;
     }
@@ -317,8 +303,38 @@ ul.results {
         font-size: 13px;
     }
     #content {
+    width: 100%;
     padding: 10px;
     margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 170px;
+        margin-left: 10px;
+    }
+    .people_image {
+        width:120px;
+        height:120px;
+    }
+    #content {
+    padding: 10px;
+    margin-top: 20px;
+    }
+
+    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
+        margin-left: -38px;  /*Button außen*/
+    }
+}
+@media (max-width: 992px) {
+    .logo {
+    width: 180px;
+    }
+
+    .logofid {
+    width: 195px;
     }
 
 }
