@@ -274,6 +274,10 @@ ul.results {
         width: 170px;
         margin-left: 10px;
     }
+    .people_image {
+        width:120px;
+        height:120px;
+    }
 
     #sidebar {
         margin-left: -100%; /*davor -250px*/
