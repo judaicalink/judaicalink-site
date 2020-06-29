@@ -259,23 +259,22 @@ ul.results {
 
 @media (max-width: 540px){
     .logo {
-        width: 140px;
-    }
-    .logofid {
         width: 150px;
+        margin-left: 10px;
     }
+
     footer-content {
         font-size: 14px;
     }
 
 }
+
 @media (max-width: 768px) {
     .logo {
-        width: 160px;
-    }
-    .logofid {
         width: 170px;
+        margin-left: 10px;
     }
+
     #sidebar {
         margin-left: -100%; /*davor -250px*/
         width: 100%;        /*250px*/
