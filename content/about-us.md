@@ -5,7 +5,12 @@
 
 Scholarly reference works like encyclopediae, glossars, or catalogs function as guides to a scholarly domain and as anchor points and manifestations of scholarly work. On the web of Linked Data, they can take on a key function to interlink resources related to the described concepts.
 
-JudaicaLink provides support to publish and interlink existing reference works of the Jewish culture and history as Linked Data. We are currently in the planning phase with several maintainers and publishers of such reference works. Stay tuned for further information.
+JudaicaLink provides support to publish and interlink existing reference works of the Jewish culture and history as Linked Data. 
+
+For each entity described in such works, a Unique Resource Identifier (URI) is created that can be used to link and thereby identify mentions of this entity in metadata and texts. The process of this identification and linking is refered to as contextualisation.
+
+JudaicaLink is currently developed as part of the DFG-funded project [FID Jewish Studies](https://www.jewishstudies.de/), where a special information service is created for the Jewish Studies. The FID project is lead by the University Library Johann Christian Senckenberg in Frankfurt/Main.
+ 
 
 If you are interested in joining us, either because you are responsible for a reference work or because you want to support us, please contact <a href="http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert/"> Kai Eckert</a>.
 
