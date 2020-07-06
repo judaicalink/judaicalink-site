@@ -28,6 +28,11 @@ Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg
 Königstraße 46  
 70173 Stuttgart
 
-# Privacy Policy
 
-Hier muss noch der Datenschutztext rein
+## Datenschutzerklärung
+
+Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website. Beim Besuch unserer Webseite wird Ihre IP-Adresse, Beginn und Ende der Sitzung für die Dauer dieser Sitzung erfasst. Dies ist technisch bedingt und stellt damit ein berechtigtes Interesse iSv Art 6 Abs 1 lit f DSGVO dar. Ihre persönlichen IP-Daten werden von uns nicht weiterverarbeitet.
+
+## Cookies
+
+Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät abgelegt werden. Sie richten keinen Schaden an. Wir nutzen Cookies dazu, um Ihren Browser beim nächsten Besuch wiederzuerkennen. Einige Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Sie über das Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben. Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.
