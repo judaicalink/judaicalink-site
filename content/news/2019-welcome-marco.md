@@ -1,6 +1,6 @@
 +++
 author = "Kai Eckert"
-date = "2019-09-01T12:04:13+02:00"
+date = "2019-09-02T12:04:13+02:00"
 title = "Marco Rovera joins JudaicaLink"
 
 +++

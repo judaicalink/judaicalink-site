@@ -1,6 +1,6 @@
 +++
 author = "Kai Eckert"
-date = "2020-03-01T16:34:12+02:00"
+date = "2020-03-02T16:34:12+02:00"
 title = "New team members for Labs"
 
 +++
