@@ -1,11 +1,13 @@
 {{ partial "header.html" . }}
-
-<div class="col-md-8">
+<!--bezieht sich auf das Design der einzelnen Datensätze, nicht Datasets-Webseite-->
+<main class="row">
+	<div class="ml-3 ml-md-0 col-md-12 col-lg-9 col-xl-8">
   {{$data := .Params}}
 		<h3>{{ .Title }}</h3>
+
 		{{ .Content }}
 
-		<table class="contenttable">
+		<table class="table table-light table-striped">
 		  {{ with $data.picture }}
 		  <tr>
 		    <th>
@@ -89,8 +91,8 @@
 		  {{end}}
 
 		</table>
-</div>
+		</div>
+</main>
 
-{{ partial "sidebar.html" .}}
 
 {{ partial "footer.html" . }}

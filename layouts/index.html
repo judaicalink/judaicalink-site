@@ -1,22 +1,29 @@
 {{ partial "header.html" . }}
+<main class="row">
+	<div class="col-12 col-sm-12 ml-3 ml-md-0 col-md-12 col-lg-9 col-xl-8">
 
-<div class="col-md-8">
-<h1>Welcome to JudaicaLink!</h1>
+
+
+<h1 class="text-center text-md-left">Welcome to JudaicaLink web!</h1>
 <p>
 Currently, we provide data about <b>58,111 entities</b>, consisting of <b>531,794 triples</b>, within <b>9 different datasets</b>.
 </p>
-<img src="/img/homepage-graphics.png" alt="Linked Data Web"/>
-<h2>Jewish Studies</h2>
+<video height="auto" width="100%" autoplay loop muted>
+          <source src="/img/Animation.mp4" type="video/mp4" />
+        </video>
+	<!--<video src="/img/Animation.mp4" height="auto" width="100%" autoplay="autoplay" loop preload="metadata"></video>-->
+
+<!--<img src="/img/homepage-graphics.png" alt="Linked Data Web"/>-->
+<h2 class="text-center text-md-left">Jewish Studies</h2>
 <p>
 JudaicaLink is the knowledge graph behind the <a href="http://www.jewishstudies.de">specialized information service for Jewish Studies</a> (Fachinformationsdienst Jüdische Studien, FID) of the University Library of Frankfurt.
 JudaicaLink is a data resource for data professionals. Stay tuned for more services dedicated to the end user.
 </p>
 
 <p>
-	<a href="http://www.jewishstudies.de"><img src="/img/fid-logo.jpg" alt="FID Logo"/></a>
+	<a href="http://www.jewishstudies.de"><img src="/img/fid-logo.jpg" class="logofid" alt="FID Logo"/></a>
 </p>
 </div>
-
 {{ partial "sidebar.html" .}}
-
+</main>
 {{ partial "footer.html" . }}

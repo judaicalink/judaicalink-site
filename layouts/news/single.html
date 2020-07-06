@@ -1,12 +1,14 @@
 {{ partial "header.html" . }}
-
-<div class="col-md-8">
+<!--bezieht sich auf das Design der einzelnen News, nicht News-Webseite-->
+<main class="row">
+	<div class="col-md-12 col-lg-9 col-xl-8">
 <h3 class="uppercase">{{.Title}}</h3>
 <p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
-{{ .Content  }}
-</div>
 
-{{ partial "sidebar.html" .}}
+{{ .Content  }}
+        <img src="/img/information_news.jpg" height="auto" width="100%"></img>
+</div>
+</main>
 
 {{ partial "footer.html" . }}
 

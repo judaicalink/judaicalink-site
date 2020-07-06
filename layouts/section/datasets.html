@@ -1,20 +1,22 @@
 {{partial "header.html" .}}
 
-<div class="col-md-8">
-  <h1 id="title">{{ .Title }}</h1>
+<main class="row">
+	<div class="col-12 col-sm-12 ml-3 ml-md-0 col-md-12 col-lg-9 col-xl-8">
+
+  <h1 class="text-center text-md-left" id="title">{{ .Title }}</h1>
   
   <p>JudaicaLink extracts structural information from various sources, making their described concepts as well as the relations between them accessible as Linked Open Data with stable URIs in the following datasets.</p>
+  <div class="table-responsive">
   
-  
-  <table class="listtable">
+  <table class="table table-light table-striped">
     <tr>
-      <th>Name</th><th>Summary</th><th>Online</th>
+      <th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th><th scope="col">Online</th>
     </tr>
     {{ range .Data.Pages }}
     {{$data := .Params}}
     
     <tr>
-      <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+      <td scope="row"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
       <td>{{ .Summary  }}</td>
       <td>
 	{{ if $data.loaded  }}
@@ -27,9 +29,8 @@
       
       {{ end }}
   </table>	
-  
-  
-</div>
+  </div>
+    </div>
+</main>
 
-{{ partial "sidebar.html" .}}
 {{partial "footer.html" .}}

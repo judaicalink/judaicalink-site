@@ -1,7 +1,9 @@
 {{partial "header.html" .}}
+<!--bezieht sich auf die News-Seite-->
 
-<div class="col-md-8">
-  <h1 id="title">{{ .Title }}</h1>
+<main class="row">
+<div class="ml-3 ml-md-0 col-md-12 col-lg-9 col-xl-8">
+  <h1 class="text-center text-md-left" id="title">{{ .Title }}</h1>
   
   {{ range first 10 .Data.Pages }}
   <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
@@ -9,9 +11,9 @@
   <p>{{ .Summary  }}</p>
   <p class="bottomskip"><a href="{{.Permalink}}">read more</a></p>
   {{ end }}
-
 </div>
 
-{{ partial "sidebar.html" .}}
 
+
+</main>
 {{partial "footer.html" .}}

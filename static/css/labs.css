@@ -1,0 +1,347 @@
+
+body,html {
+   padding:0;
+   margin:0;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+   font-size: 16px;
+   color:black;
+}
+
+h1, h2, h3, h4, a{
+  color: #004284;
+}
+h1, h2, h3, h4{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/*-------------------------------------------------------*/
+
+
+a:hover {
+    color: lighgrey;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+
+#sidebar a, #sidebar a:hover, #sidebar a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.buttonnav {
+   position: fixed;
+   top: -5px;
+   margin-left: -68px;
+   height: 35px;
+   width: 35px;
+   opacity: 0.6;
+}
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    /*background: #bff8ff;*/
+    color: #505050;
+    transition: all 0.3s;
+    background-image: url("../img/5backgroundtransparent.png");
+    background-color: #bff8ff;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+#sidebar .sidebar-header {
+    padding: 20px;
+   /* background-color: #bff8ff;*/
+}
+
+/*#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid lightgrey;
+}*/
+
+#sidebar ul p {
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    background: #73f0ff;  /*Dunkelblau in Hex #004284*/
+}
+
+#sidebar ul li.active {
+    /*background: #004284;*/
+}
+#sidebar ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    /*background: #bff8ff;*/
+
+}
+
+#content {
+    width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+.row {
+    padding: 10px;
+    }
+
+.border_left {
+    border-left: solid 1px lightgrey;
+    }
+
+#hdmlogo {
+    padding: 5px;
+    width: 75px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#dmelogo {
+    width: 110px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#jcelogo {
+    padding: 5px;
+    width: 120px;
+    height: auto;
+}
+#ubflogo {
+    padding: 5px;
+    width: 95px;
+    height: auto;
+    margin-top: -5px;
+}
+#jeulogo {
+    padding: 5px;
+    width: 130px;
+    height: auto;
+    margin-top: -5px;
+}
+#euprologo {
+    padding: 5px;
+    width: 126px;
+    height: auto;
+    margin-top: 3px;
+    }
+
+
+.header-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.people{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.4s;
+
+}
+.people_image {
+    width:150px;
+    height:150px;
+}
+.people:hover {
+    transform: scale(1.1);
+
+}
+
+/*JudaicaLink Logo*/
+.logo {
+  width: 200px;
+}
+/*JudaicaLink Logo*/
+
+
+/*FID Logo oben rechts*/
+.logofid {
+  width: 215px;
+  }
+/*FID Logo oben rechts*/
+
+
+.footer-logos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+}
+
+.footer-content{
+    margin-top: 30px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+}
+.footer-content a{
+    color: grey;
+}
+.footer-content a:hover{
+    text-decoration:underline;
+}
+pre{
+    color:grey;}
+
+
+.container-fluid {
+margin-top: -30px;}
+
+
+
+/*--------war davor in search.css---------*/
+.hit {
+	margin-bottom: 10px;
+
+}
+
+.snippet, .score {
+	color:#333333;
+	font-size:80%;
+}
+
+ul.results {
+	list-style-type: none;
+	font-family:sans-serif;
+	width:600px;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+/*@media (max-width: 1000px) wenn kleiner als 1000px oder =1000px dann...*/
+
+
+@media (max-width: 540px){
+    .logo {
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    footer-content {
+        font-size: 14px;
+    }
+
+    #sidebar {
+        margin-left: -100%; /*davor -250px*/
+        width: 100%;        /*250px*/
+        position:fixed;
+    }
+
+    #sidebar.active {
+        margin-left: 0px;
+    }
+    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
+        z-index: 1000;
+        top: 1px;
+        margin-left: -34px;  /*Button außen*/
+        height: 40px;
+        width: 40px;
+        opacity: 0.8;
+    }
+    body,html {
+        font-size: 14px;
+        }
+
+
+    #content.active {       /*Button innen*/
+        width: 50px;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+    pre {
+        font-size: 13px;
+    }
+    #content {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 170px;
+        margin-left: 10px;
+    }
+    .people_image {
+        width:120px;
+        height:120px;
+    }
+    #content {
+    padding: 10px;
+    margin-top: 20px;
+    }
+
+    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
+        margin-left: -38px;  /*Button außen*/
+    }
+}
+@media (max-width: 992px) {
+    .logo {
+    width: 180px;
+    }
+
+    .logofid {
+    width: 195px;
+    }
+
+}
+
+
+/*-------------------------------------------------------*/
+
+
+
+
