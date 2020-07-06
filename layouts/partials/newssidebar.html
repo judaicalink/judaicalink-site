@@ -1,4 +1,4 @@
-{{ range first 5 (where .Site.Pages "Section" "news") }}
+{{ range first 5 (where .Site.RegularPages "Section" "news") }}
 
 <p>{{dateFormat "Mon, January _2, 2006" .Date}}: <br> <a href="{{.Permalink}}">{{.Title}}</a></p>
 {{end}}
