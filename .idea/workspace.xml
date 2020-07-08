@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/labs.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/labs.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
+          <entry key="css" value="8" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="70" />
           <entry key="jpeg" value="1" />
@@ -48,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
+          <entry key="CSS" value="8" />
           <entry key="HTML" value="70" />
           <entry key="Image" value="27" />
           <entry key="JavaScript" value="5" />
@@ -58,15 +58,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3083" />
-          <entry key="html" value="1476" />
+          <entry key="css" value="3126" />
+          <entry key="html" value="1477" />
           <entry key="md" value="2091" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3083" />
-          <entry key="HTML" value="1476" />
+          <entry key="CSS" value="3126" />
+          <entry key="HTML" value="1477" />
           <entry key="Python" value="2091" />
         </counts>
       </usages-collector>
@@ -74,6 +74,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/labs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="282" column="8" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/header.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,20 +123,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/2015-01-20_09.19.29-small.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/img/2015-01-20_12.07.01-small.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -193,10 +197,10 @@
         <option value="$PROJECT_DIR$/layouts/news/single.html" />
         <option value="$PROJECT_DIR$/content/about-us.md" />
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
-        <option value="$PROJECT_DIR$/static/css/labs.css" />
         <option value="$PROJECT_DIR$/layouts/section/datasets.html" />
         <option value="$PROJECT_DIR$/content/faq.md" />
         <option value="$PROJECT_DIR$/layouts/index.html" />
+        <option value="$PROJECT_DIR$/static/css/labs.css" />
       </list>
     </option>
   </component>
@@ -532,13 +536,6 @@
     <entry file="file://$PROJECT_DIR$/static/img/2backgroundtransparent.png" />
     <entry file="file://$PROJECT_DIR$/static/img/3backgroundtransparent.png" />
     <entry file="file://$PROJECT_DIR$/static/img/4backgroundtransparent.png" />
-    <entry file="file://$PROJECT_DIR$/static/css/labs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6775">
-          <caret line="271" column="5" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/5backgroundtransparent.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -599,7 +596,14 @@
     <entry file="file://$PROJECT_DIR$/layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/labs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="282" column="8" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="19" />
         </state>
       </provider>
     </entry>
