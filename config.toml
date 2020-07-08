@@ -2,3 +2,7 @@ baseurl = "http://web.judaicalink.org"
 languageCode = "en-us"
 title = "JudaicaLink"
 metaDataFormat = "toml"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
