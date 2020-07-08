@@ -2,13 +2,13 @@
 
 # FREQUENTLY ASKED QUESTIONS (FAQ)
 
-[What do you offer with JudaicaLink?] ({{<ref "#fqa-offer" >}})  
-[What does it cost?] ({{<ref "#fqa-cost" >}})  
-[What do we have to do?] ({{<ref "#faq-to-do" >}})  
-[What license should we use?] ({{<ref "#faq-license" >}})  
-[How are you funded?]({{<ref "#faq-funded" >}})  
-[Is software and data freely and openly available?]({{<ref "#faq-opensource" >}})  
-[How can I search the data?]({{<ref "#faq-opsearch" >}})  
+[What do you offer with JudaicaLink?]({{<ref "#faq-offer" >}})<br>
+[What does it cost?]({{<ref "#faq-cost" >}})<br>
+[What do we have to do?]({{<ref "#faq-to-do" >}})<br>
+[What license should we use?]({{<ref "#faq-license" >}})<br>
+[How are you funded?]({{<ref "#faq-funded" >}})<br>
+[Is software and data freely and openly available?]({{<ref "#faq-opensource" >}})<br>
+[How can I search the data?]({{<ref "#faq-search" >}})<br>
 [Why do the data pages look so ugly?]({{<ref "#faq-ugly">}})
 
 ----------------------------------------------------------
