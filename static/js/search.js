@@ -1,10 +1,8 @@
+/*-------------HAMBURGER-MENU-BUTTON------------------*/
 
-//$('#sidebarCollapse').click(function(){
-//    $(this).find('i').toggleClass('fas fa-times', 'fas fa-bars')
-//});
-//
-//$("#sidebarCollapse").on("click", ".fas fa-bars", function() {
-//    $(this).toggleClass("fas fa-times");
+$('#sidebarCollapse').click(function(){
+   $('#sidebarCollapse svg').toggleClass('fa-bars fa-times')
+});
 
 /*-------------------SIDEBAR-------------------------*/
 $(document).ready(function () {
