@@ -278,7 +278,7 @@ ul.results {
         margin-left: 50px;
     }
     .header-logos{
-    margin-left: -5%;
+        margin-left: -5%;
     }
     footer-content {
         font-size: 14px;
@@ -345,8 +345,8 @@ ul.results {
         height:120px;
     }
     #content {
-    padding: 10px;
-    margin-top: 20px;
+        padding: 10px;
+        margin-top: 20px;
     }
 
     .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
