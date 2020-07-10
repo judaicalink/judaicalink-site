@@ -29,7 +29,6 @@ a:hover {
     width: 100%;
 }
 
-
 #sidebar a, #sidebar a:hover, #sidebar a:focus {
     color: inherit;
     text-decoration: none;
@@ -125,9 +124,6 @@ a:hover {
     padding: 10px;
     }
 
-.border_left {
-    border-left: solid 1px lightgrey;
-    }
 
 #hdmlogo {
     padding: 5px;
@@ -202,15 +198,26 @@ a:hover {
   width: 215px;
   }
 /*FID Logo oben rechts*/
-
-
+.logofidfooter {
+    width: 160px;
+    }
+.weblabsdatalogo{
+    width: 200px;
+    margin-left: -130px;
+    }
+.weblabsdatalogos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    }
 .footer-logos {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-
 }
 
 .footer-content{
@@ -221,8 +228,8 @@ a:hover {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-
 }
+
 .footer-content a{
     color: grey;
 }
@@ -262,28 +269,47 @@ ul.results {
 
 
 @media (max-width: 540px){
+    .row{
+        padding: 0px;
+    }
     .logo {
         width: 150px;
-        margin-left: 10px;
+        margin-top: 5px;
+        margin-left: 50px;
     }
-
+    .header-logos{
+    margin-left: -5%;
+    }
     footer-content {
         font-size: 14px;
+    }
+
+    h1, h2, h3, h4{
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    h1 {
+        font-size: 33px;
     }
 
     #sidebar {
         margin-left: -100%; /*davor -250px*/
         width: 100%;        /*250px*/
         position:fixed;
+        text-align: center;
+        font-size: 16px;
     }
-
+    #sidebar .sidebar-header {
+        padding: 40px;
+    }
     #sidebar.active {
         margin-left: 0px;
         height: 100%;
     }
     .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
         z-index: 1000;
-        top: 1px;  /*Button außen*/
+        top: 1%;  /*Button außen*/
+        right: 5%;
         height: 40px;
         width: 40px;
         opacity: 0.8;
@@ -299,11 +325,14 @@ ul.results {
         font-size: 13px;
     }
     #content {
-    width: 100%;
-    padding: 10px;
-    margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
     }
-
+    .weblabsdatalogo{
+        width: 200px;
+        margin-left: -100px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -326,16 +355,22 @@ ul.results {
 }
 @media (max-width: 992px) {
     .logo {
-    width: 180px;
+        width: 180px;
     }
 
     .logofid {
-    width: 195px;
+        width: 195px;
     }
-
 }
-
-
+@media (max-width: 1200px){
+    #content {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
+        margin-left: -42px;  /*Button außen*/
+    }
+}
 /*-------------------------------------------------------*/
 
 

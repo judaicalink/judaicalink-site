@@ -1,11 +1,17 @@
 
-<div class="col-md-12 col-lg-3 border-left col-xl-4">
+<div class="col-md-12 col-lg-4 col-xl-4">
 
-<h4 class="text-center text-md-left">News:</h4>
-
+<!--<h4 class="text-center text-md-left">News:</h4>-->
+<div class="card text-center mt-4">
+ <div class="card-header">News:</div>
+    <div class="card-body">
+    <ul class="list-group list-group-flush">
 {{partial "newssidebar.html" . }}
+    </ul>
+    <a class="btn btn-secondary" href="/news">read more</a>
+    </div>
+</div>
 
-<a href="/news">read more</a><br/>
 
 </div>
 
