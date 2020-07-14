@@ -76,6 +76,13 @@
 		    </td>
 		  </tr>
 		  {{end}}
+		  {{with $data.dataslug}}
+		  <tr>
+		    <th>URI Slug: </th>
+		    <!-- <td><a href="{{ . | safeURL}}">{{ . }}</a></td> -->
+		    <td>{{ . }}</td>
+		  </tr>
+		  {{end}}
 		  {{with $data.graph}}
 		  <tr>
 		    <th>Named Graph: </th>
