@@ -3,8 +3,7 @@ author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2018-11-02T10:37:07+02:00"
 title = "Persons from DBPedia" 
-
-
+dataslug = "dbpedia"
 graph = "http://data.judaicalink.org/data/dbpedia-persons"  
 loaded = true
 category = "judaicalink"

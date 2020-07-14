@@ -2,10 +2,9 @@
 author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2019-01-25T10:37:07+02:00"
-title = "Persons from ubffm"  
-
-
-graph = "http://data.judaicalink.org/data/ubffm"  
+title = "Persons from ubffm"
+dataslug = "ubffm"
+graph = "http://data.judaicalink.org/data/ubffm"
 loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/ubffm/Aaron_Emmerich_Gumpertz"

@@ -4,7 +4,7 @@ authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2017-09-14T10:37:07+02:00"
 title = "Biographisches Handbuch der Rabbiner" 
 website = "http://www.steinheim-institut.de/wiki/index.php/Biographisches_Handbuch_der_Rabbiner_%28BHR%29"
-
+dataslug = "bhr"
 graph = "http://data.judaicalink.org/data/bhr"  
 loaded = true
 category = "judaicalink"

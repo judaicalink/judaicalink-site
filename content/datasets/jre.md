@@ -3,8 +3,8 @@ author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2019-07-01T10:37:07+02:00"
 title = "Dataset on Jewish education and religion" 
-
-graph = "http://data.judaicalink.org/data/jre"  
+dataslug = "jre"
+graph = "http://data.judaicalink.org/data/jre"
 loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/jre/Hause_Benedict"

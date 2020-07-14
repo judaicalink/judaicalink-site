@@ -2,10 +2,9 @@
 author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2019-01-25T10:37:07+02:00"
-title = "Persons from NLI"  
-
-
-graph = "http://data.judaicalink.org/data/nli"  
+title = "Persons from NLI"
+dataslug = "nli"
+graph = "http://data.judaicalink.org/data/nli"
 loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/nli/Abner_"

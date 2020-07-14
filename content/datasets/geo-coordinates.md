@@ -3,8 +3,8 @@ author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2018-10-04T10:37:07+02:00"
 title = "Geographical Coordinates" 
-
-graph = "http://data.judaicalink.org/data/geo-coor"  
+dataslug = "geo-coordinates"
+graph = "http://data.judaicalink.org/data/geo-coor"
 loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/Aachen"

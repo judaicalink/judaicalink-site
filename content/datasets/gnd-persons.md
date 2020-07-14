@@ -3,9 +3,8 @@ author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2018-07-25T10:37:07+02:00"
 title = "Persons from GND" 
-
-
-graph = "http://data.judaicalink.org/data/gnd-persons"  
+graph = "http://data.judaicalink.org/data/gnd-persons"
+dataslug = "gnd"
 loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/gnd/102182094"

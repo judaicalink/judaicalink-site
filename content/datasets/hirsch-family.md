@@ -3,9 +3,8 @@ author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2018-11-01T10:37:07+02:00"
 title = "Eine Jüdische Familie aus Aschaffenburg" 
-
-
-graph = "http://data.judaicalink.org/data/hirsch"  
+dataslug = "hirsch"
+graph = "http://data.judaicalink.org/data/hirsch"
 loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/hirsch/1964"
