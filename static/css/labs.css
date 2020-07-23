@@ -201,7 +201,7 @@ a:hover {
 .logofidfooter {
     width: 160px;
     }
-.weblabsdatalogo{
+/*.weblabsdatalogo{
     width: 200px;
     margin-left: -130px;
     }
@@ -211,7 +211,7 @@ a:hover {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    }
+    }*/
 .footer-logos {
     display: flex;
     justify-content: space-evenly;
@@ -329,10 +329,10 @@ ul.results {
         padding: 10px;
         margin-top: 20px;
     }
-    .weblabsdatalogo{
+   /* .weblabsdatalogo{
         width: 200px;
         margin-left: -100px;
-    }
+    }*/
 }
 
 @media (max-width: 768px) {
