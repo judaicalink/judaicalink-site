@@ -3,17 +3,23 @@
 
 <main class="row">
 <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8">
-  <h1 class="text-center text-md-left" id="title">{{ .Title }}</h1>
-  
+  <img src="/img/News.png" height="auto" width="100%">
+  <div class="card">
+    <div class="card-body">
   {{ range first 10 .Data.Pages }}
   <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
   <p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
   <p>{{ .Summary  }}</p>
-  <p class="bottomskip"><a href="{{.Permalink}}">read more</a></p>
+      <div class="d-flex justify-content-center">
+  <a class="btn btn-light" href="{{.Permalink}}">read more</a>
+        </div>
+      <hr>
   {{ end }}
+
 </div>
 
-
+  </div>
+</div>
 
 </main>
 {{partial "footer.html" .}}

@@ -2,11 +2,20 @@
 <!--bezieht sich auf das Design der einzelnen News, nicht News-Webseite-->
 <main class="row">
 	<div class="col-md-12 col-lg-9 col-xl-8">
+<div class="card">
+    <div class="card-body">
 <h3 class="uppercase">{{.Title}}</h3>
-<p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
+<i>{{dateFormat "Mon, January _2, 2006" .Date}}</i>
+<hr>
 
 {{ .Content  }}
-        <img src="/img/information_news.jpg" height="auto" width="100%"></img>
+        <!--<img src="/img/information_news.jpg" height="auto" width="100%">-->
+        <br><br>
+        <div class="d-flex justify-content-end">
+        <a class="btn btn-light" href="/news">back to overview</a>
+            </div>
+        </div>
+</div>
 </div>
 </main>
 

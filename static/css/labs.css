@@ -186,6 +186,15 @@ a:hover {
 
 }
 
+
+.picture_effect_news {
+    transition: all 0.4s;
+}
+
+.picture_effect_news:hover {
+    transform: scale(1.1);
+}
+
 /*JudaicaLink Logo*/
 .logo {
   width: 200px;
@@ -227,7 +236,9 @@ a:hover {
     text-decoration:underline;
 }
 pre{
-    color:grey;}
+    color:grey;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 
 .container-fluid {

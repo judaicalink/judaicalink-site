@@ -10,4 +10,16 @@ After the successful development of the JudaicaLink Labs prototype, we are happy
 
 Starting today, Sara Fischer, Julika Stangl and Patricia Kaluza, all third-semester students in Information Sciences, join our JudaicaLink team to help implement JudaicaLink Labs.
 
-Welcome aboard!
+<b>Welcome aboard!</b>
+
+<div class="d-flex justify-content-around">
+<img class="rounded-circle people_image picture_effect_news" src="/img/Sara Fischer.jpeg" alt="Sara Fischer"/>
+<img class="rounded-circle people_image picture_effect_news"  src="/img/avatar.png"  alt="Julika Stangl"/>
+<img class="rounded-circle people_image picture_effect_news" src="/img/Patricia_Kaluza_JudaicaLink .jpg" alt="Patricia Kaluza"/>
+</div>
+
+
+
+
+
+
