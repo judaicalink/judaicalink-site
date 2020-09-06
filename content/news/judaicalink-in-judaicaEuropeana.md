@@ -5,7 +5,7 @@ title = "JudaicaLink to be used in Judaica-Europeana 2.0"
 
 +++
 
-The second phase of the <a href="www.judaica-europeana.eu">Judaica-Europeanahas</a> been selected for funding by the Innovation and Networks Executive Agency (INEA) under its
+The second phase of the <a href="www.judaica-europeana.eu">Judaica-Europeana</a>has been selected for funding by the Innovation and Networks Executive Agency (INEA) under its
 Connecting Europe programme, CEF Telecom. Judaica Europeana 2.0 continues the aggregation of Jewish heritage materials and will greatly increase and enhance digitised Jewish heritage materials available for re-use in
 education, research, tourism and leisure.  
 JudaicaLink will collaborate by providing a knowledge graph for contextualization. We look forward to our further collaborations.

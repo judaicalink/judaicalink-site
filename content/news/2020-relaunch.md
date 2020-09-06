@@ -12,7 +12,7 @@ After our deciscion to start JudaicaLink Labs, it became clear that the differen
 
 JudaicaLink now uses a consistent design across all three applications. To distinguish them, we introduced three servernames - <span style="color: blue">web</span>, <span style="color: green">labs</span> and <span style="color: red">data</span> - and use three different colors for the sidebar to distinguish them.
 
-The navigation between all three parts is seamless, for example all search functionalities are provided within labs, the dataset catalog is on web and the Linked Data representations of our data is on data.judaicalink.org.
+The navigation between all three parts is seamless, for example all search functionalities are provided within labs, the dataset catalog is on web and the Linked Data representations of our data is on <a href="http://data.judaicalink.org/data/bhr/Aach_Löb">data.judaicalink.org</a>.
 
 We are still exploring the implications of this approach and will fine tune the user experience continuously.
 
