@@ -12,13 +12,15 @@ Starting today, Sara Fischer, Julika Stangl and Patricia Kaluza, all third-semes
 
 <b>Welcome aboard!</b>
 
-<div class="d-flex justify-content-around">
+<div class="footer-logos"> <!--Hier die  gleiche Klasse wie im Footer genommen, weil gleiche Funktion (Verteilung der Bilder)-->
 <img class="rounded-circle people_image picture_effect_news" src="/img/Sara Fischer.jpeg" alt="Sara Fischer"/>
-<img class="rounded-circle people_image picture_effect_news"  src="/img/avatar.png"  alt="Julika Stangl"/>
+<img class="rounded-circle people_image picture_effect_news" src="/img/avatar.png"  alt="Julika Stangl"/>
 <img class="rounded-circle people_image picture_effect_news" src="/img/Patricia_Kaluza_JudaicaLink .jpg" alt="Patricia Kaluza"/>
 </div>
-
-
+<br>
+<div class="d-flex justify-content-center">
+        <a class="btn btn-secondary" href="/about-us">visit About</a>
+            </div>
 
 
 

@@ -16,3 +16,7 @@ Marco Rovera, who started at Stuttgart Media University in May, is now responsib
 
 <img class="rounded-circle people_image picture_effect_news" src="/img/Rovera-quadrat.jpg" alt="Marco Rovera"/>
 </div>
+<br>
+<div class="d-flex justify-content-center">
+        <a class="btn btn-secondary" href="/about-us">visit About</a>
+            </div>
