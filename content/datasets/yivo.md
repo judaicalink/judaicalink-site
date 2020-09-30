@@ -43,3 +43,12 @@ script = "generate_yivo.py"
 gitweb = "https://github.com/wisslab/judaicalink-labs/blob/master/labs/data/management/commands/generate_yivo.py"
 commit = "0a47e9521c85e423c937b5d314d7c544248c856c"
 
+
++++
+
+The YIVO Encyclopedia of Jews in Eastern Europe, courtesy of the YIVO Institute of Jewish Research, NY.
+<!--more-->
+
+The only resource of its kind, this encyclopedia provides the most complete picture of the history and culture of Jews in Eastern Europe from the beginnings of their settlement in the region to the present. This website makes accurate, reliable, scholarly information about East European Jewish life accessible to everyone.
+
+“The YIVO Encyclopedia is so compulsively browsable that you can disappear within its pages for hours without a trace, the equivalent of diving into the coolest, deepest of pools.” —Kenneth Turan, L.A. Times
