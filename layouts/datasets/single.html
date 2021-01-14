@@ -90,6 +90,12 @@
 		    <td>{{ . }}</td>
 		  </tr>
 		  {{end}}
+		  {{with $data.script}}
+		  <tr>
+		    <th>Script: </th>
+		    <td><a href="{{ . | safeURL}}">{{ . }}</a></td>
+		  </tr>
+		  {{end}}
 		  {{with $data.author}}
 		  <tr>
 		    <th>Maintained by: </th>
