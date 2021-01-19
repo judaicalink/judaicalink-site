@@ -32,8 +32,8 @@ example = "http://data.judaicalink.org/data/gnd/102182094"
 [[files]]
 	url = "http://data.judaicalink.org/dumps/gnd-persons/current/jl-zbw.ttl.gz"   
 	description = "This dataset contains common links between JudaicaLink datasets and Pressemappe 20. Jahrhundert. The 20th century press kit offers thematically compiled dossiers with newspaper articles, company publications and other topics from a wide range of economically, politically or socially relevant topics. In their press archives in Kiel and Hamburg, the predecessor institutions of the ZBW - Leibniz Information Center for Economics have collected and prepared material on persons, companies / institutions, goods and subjects from more than 1500 publications for almost one hundred years. They are gradually being developed with appropriate metadata and made publicly available through the Press Kit 20th Century Application (PM20).http://webopac0.hwwa.de/PresseMappe20/index.cfm"
-
-
+	
+	
 +++
 
 Persons from the Common Authority File (Gemeinsame Normdatei, GND) of the German National Library.
