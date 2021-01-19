@@ -16,7 +16,7 @@ script = "https://github.com/wisslab/judaicalink-generators/blob/master/compact-
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/cm-tagme/cm_tagme_references.ttl.gz"
-	description = "Description of each single mention (start, end, text, page, confidence scores, 5.246.122 triples).
+	description = "Description of each single mention (start, end, text, page, confidence scores, 5.246.122 triples)".
     
 [[files]]
 	url = "http://data.judaicalink.org/dumps/cm-tagme/cm_tagme_resource_reference_data.pickle.gz"
