@@ -24,6 +24,5 @@ script = "https://github.com/wisslab/judaicalink-generators/blob/master/compact-
 	
 +++
 Page metadata description in RDF for pages in Compact Memory where an entity mention has been found. The dataset describes pages, journals, journal issues and their relations, along with a pointer to the visual representation of each page in the Visual Library.
-.
 
 <!--more-->

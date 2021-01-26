@@ -15,11 +15,11 @@ script = "https://github.com/wisslab/judaicalink-generators/blob/master/entity-p
 	description = "Entity Pages RDF data (2098149 triples)."
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/ep/ep_index.ttl.gz"
+	url = "http://data.judaicalink.org/dumps/ep/ep_index.pickle.gz"
 	description = "Entity page index."
     
 [[files]]
-	url = "http://data.judaicalink.org/dumps/ep/ep_inv_index.ttl.gz"
+	url = "http://data.judaicalink.org/dumps/ep/ep_inv_index.pickle.gz"
 	description = "Entity page inverted index."
 +++
 
