@@ -8,6 +8,7 @@ aliases = [
     "/datasets/encyclopediae-of-russion-jewry/"
 ]
 loaded = true
+supportdata = "https://web.judaicalink.org/datasets/rujen-translation-supp"
 category = "judaicalink"
 graph = "http://data.judaicalink.org/datasets/rujen-translation"
 
@@ -16,6 +17,8 @@ example = "http://data.judaicalink.org/data/rujen/ben-gurion"
 slug = "rujen-translation"
 namespace_slugs = [ "rujen",]
 date = 2020-09-28T14:47:50.877866Z
+
+
 [[creators]]
 name = "Kai Eckert"
 url = "http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert"
@@ -27,21 +30,9 @@ url = "http://data.judaicalink.org/dumps/rujen-translation/rujen-translation-met
 description = "Metadata for rujen-translation dataset."
 
 [[files]]
-filename = "en_abstract_cache.csv"
-filepath = "rujen-translation/en_abstract_cache.csv"
-url = "http://data.judaicalink.org/dumps/rujen-translation/en_abstract_cache.csv"
-description = "RDF dump of the rujen-translation dataset."
-
-[[files]]
 filename = "rujen-en-abstract-translations.ttl"
 filepath = "rujen-translation/rujen-en-abstract-translations.ttl"
 url = "http://data.judaicalink.org/dumps/rujen-translation/rujen-en-abstract-translations.ttl"
-description = "RDF dump of the rujen-translation dataset."
-
-[[files]]
-filename = "en_label_cache.csv"
-filepath = "rujen-translation/en_label_cache.csv"
-url = "http://data.judaicalink.org/dumps/rujen-translation/en_label_cache.csv"
 description = "RDF dump of the rujen-translation dataset."
 
 [[files]]
@@ -50,11 +41,6 @@ filepath = "rujen-translation/rujen-en-label-translations.ttl"
 url = "http://data.judaicalink.org/dumps/rujen-translation/rujen-en-label-translations.ttl"
 description = "RDF dump of the rujen-translation dataset."
 
-[[files]]
-filename = "de_abstract_cache.csv"
-filepath = "rujen-translation/de_abstract_cache.csv"
-url = "http://data.judaicalink.org/dumps/rujen-translation/de_abstract_cache.csv"
-description = "RDF dump of the rujen-translation dataset."
 
 [[files]]
 filename = "rujen-de-abstract-translations.ttl"
@@ -62,11 +48,6 @@ filepath = "rujen-translation/rujen-de-abstract-translations.ttl"
 url = "http://data.judaicalink.org/dumps/rujen-translation/rujen-de-abstract-translations.ttl"
 description = "RDF dump of the rujen-translation dataset."
 
-[[files]]
-filename = "de_label_cache.csv"
-filepath = "rujen-translation/de_label_cache.csv"
-url = "http://data.judaicalink.org/dumps/rujen-translation/de_label_cache.csv"
-description = "RDF dump of the rujen-translation dataset."
 
 [[files]]
 filename = "rujen-de-label-translations.ttl"
@@ -83,7 +64,6 @@ uri = "https://creativecommons.org/publicdomain/zero/1.0/"
 script = "generate_rujen_translation.py"
 gitweb = "https://github.com/wisslab/judaicalink-labs/blob/master/labs/data/management/commands/generate_rujen_translation.py"
 commit = "39f04c243cacadc2d12e602a8b1b0929d115413a"
-
 +++
 
 Automatic translation of abstracts and preferred labels to English and German using Google Translate.

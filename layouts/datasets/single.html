@@ -58,10 +58,18 @@
 		    <th>Files: </th>
 		    <td> 
 		      {{range $i, $v:=. }}
-		      {{if not (eq $i 0)}}<br/>{{end}}  
+		      {{if not (eq $i 0)}}<br/>{{end}}
+			  {{ if or (strings.HasSuffix $v.url "ttl.gz") (strings.HasSuffix $v.url "ttl") (strings.HasSuffix $v.url "nt.gz") (strings.HasSuffix $v.url "nt") (strings.HasSuffix $v.url "n3.gz")}}
+			  <a href="http://www.w3.org/RDF/" title="RDF Resource Description Framework"> <img border="0" src="http://www.w3.org/RDF/icons/rdf_flyer.24"
+alt="RDF Resource Description Framework Flyer Icon"/></a>
+			  <!--img src="/img/rdf_25.png" title="I am an RDF dataset."/-->
+			  {{ else }}
+			  <img src="/img/support_25.png" title="I am a piece of SUPPORT data."/>
+			  {{end}}
 		      <a href="{{$v.url}}">{{delimit (last 1 (split $v.url "/")) ""}}</a>: {{$v.description}}
 		      {{ end }}
 		    </td>
+
 		  </tr>
 		  {{end}}
 		  {{with $data.loaded}}
@@ -93,6 +101,18 @@
 		  {{with $data.script}}
 		  <tr>
 		    <th>Script: </th>
+		    <td><a href="{{ . | safeURL}}">{{ . }}</a></td>
+		  </tr>
+		  {{ end}}
+		  {{ with $data.referencedataset}}
+		  <tr>
+		    <th>Reference dataset: </th>
+		    <td><a href="{{ . | safeURL}}">{{ . }}</a></td>
+		  </tr>
+		  {{end}}
+		  {{ with $data.supportdata}}
+		  <tr>
+		    <th>Support data: </th>
 		    <td><a href="{{ . | safeURL}}">{{ . }}</a></td>
 		  </tr>
 		  {{end}}

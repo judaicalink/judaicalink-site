@@ -6,6 +6,8 @@
   <h1 class="text-center text-md-left" id="title">{{ .Title }}</h1>
   
   <p>JudaicaLink extracts structural information from various sources, making their described concepts as well as the relations between them accessible as Linked Open Data with stable URIs in the following datasets.</p>
+  <h2> Judaicalink </h2>
+  
   <div class="table-responsive">
   
   <table class="table table-light table-striped">
@@ -14,7 +16,7 @@
     </tr>
     {{ range .Data.Pages }}
     {{$data := .Params}}
-    
+    {{ if eq $data.category "judaicalink"}}
     <tr>
       <td scope="row"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
       <td>{{ .Summary  }}</td>
@@ -26,10 +28,34 @@
 	{{end}}
       </td>
     </tr>
+    {{ end }}
+      {{ end }}
+  </table>	
+  </div>
+  
+  <h2> Support </h2>
+  <div class="table-responsive">
+  
+  <table class="table table-light table-striped">
+    <tr>
+      <th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th>
+    </tr>
+    {{ range .Data.Pages }}
+    {{$data := .Params}}
+    {{ if eq $data.category "support"}}
+    <tr>
+      <td scope="row"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+      <td>{{ .Summary  }}</td>
+      <td>
+	
+	{{end}}
+      </td>
+    </tr>
       
       {{ end }}
   </table>	
   </div>
+  
     </div>
 </main>
 
