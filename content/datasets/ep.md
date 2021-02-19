@@ -18,6 +18,14 @@ supportdata = "https://web.judaicalink.org/datasets/ep-supp"
 [[files]]
 	url = "http://data.judaicalink.org/dumps/ep/ep_labels.ttl.gz"
 	description = "preferred and alternative labels for entity pages. See `label_selector.ipynb` in the repository."
+	
+[[files]]
+	url = "http://data.judaicalink.org/dumps/ep/ep_locations.ttl"
+	description = "Entity Pages type classification - locations."
+
+[[files]]
+	url = "http://data.judaicalink.org/dumps/ep/ep_persons.ttl"
+	description = "Entity Pages type classification - persons."	
 +++
 
 Entity Page data for Judaicalink. For further details see the documentation page https://github.com/wisslab/judaicalink-generators/blob/master/entity-pages/readme.md
