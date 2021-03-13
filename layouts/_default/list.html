@@ -4,19 +4,23 @@
 <main class="row">
 <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8">
   <img src="/img/News.png" height="auto" width="100%">
-  <div class="card">
-    <div class="card-body">
-  {{ range first 10 .Data.Pages }}
+  <div class="card text-center">
+          {{ range first 10 .Data.Pages }}
+
+   <ul class="list-group list-group-flush">
+       <li class="text-dark list-group-item list-group-item-action list-group-item-light">
   <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
   <p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
   <p>{{ .Summary  }}</p>
       <div class="d-flex justify-content-center">
-  <a class="btn btn-light" href="{{.Permalink}}">read more</a>
+  <a class="btn btn-secondary" href="{{.Permalink}}">read more</a>
         </div>
-      <hr>
-  {{ end }}
 
-</div>
+       </li>
+    </ul>
+{{ end }}
+
+
 
   </div>
 </div>

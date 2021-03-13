@@ -58,6 +58,7 @@ a:hover {
     background-size: cover;
     background-blend-mode: multiply;
 }
+
 #sidebar.active {
     margin-left: -250px;
 }
@@ -244,7 +245,6 @@ pre{
 margin-top: -30px;}
 
 
-
 /*--------war davor in search.css---------*/
 .hit {
 	margin-bottom: 10px;
@@ -330,6 +330,8 @@ ul.results {
         margin-top: 20px;
     }
 }
+
+
 
 @media (max-width: 768px) {
     .logo {
