@@ -70,3 +70,5 @@ Well, we hope, this is debatable ;-)
 JudaicaLink is currently a website for (linked) data professionals. The pages are not created to provide a pleasant reading experience, but to quickly show what data we currently have stored about a resource.
 
 However, we are working hard to make the experience more pleasant as part of a tighter integration with the FID Jewish Studies portal. Stay tuned. 
+
+
