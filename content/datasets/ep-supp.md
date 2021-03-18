@@ -16,6 +16,10 @@ referencedataset = "https://web.judaicalink.org/datasets/ep"
 [[files]]
 	url = "http://data.judaicalink.org/dumps/ep/ep_inv_index.pickle.gz"
 	description = "Entity page inverted index."
+	
+[[files]]
+	url = "http://data.judaicalink.org/dumps/ep/ep_GND_ids.json"
+	description = "GND identifiers for Entity Pages."	
 +++
 
 Support data for Entity Pages. For further details see the documentation page https://github.com/wisslab/judaicalink-generators/blob/master/entity-pages/readme.md
