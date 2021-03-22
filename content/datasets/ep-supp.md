@@ -18,7 +18,7 @@ referencedataset = "https://web.judaicalink.org/datasets/ep"
 	description = "Entity page inverted index."
 	
 [[files]]
-	url = "http://data.judaicalink.org/dumps/ep/ep_GND_ids.json"
+	url = "http://data.judaicalink.org/dumps/ep/ep_GND_ids.json.gz"
 	description = "GND identifiers for Entity Pages."	
 +++
 
