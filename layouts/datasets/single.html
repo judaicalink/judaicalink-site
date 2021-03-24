@@ -6,7 +6,7 @@
 		<h3>{{ .Title }}</h3>
 
 		{{ .Content }}
-
+		<div class="table-responsive">
 		<table class="table table-light table-striped">
 		  {{ with $data.picture }}
 		  <tr>
@@ -124,6 +124,7 @@ alt="RDF Resource Description Framework Flyer Icon"/></a>
 		  {{end}}
 
 		</table>
+		</div>
 		</div>
 </main>
 
