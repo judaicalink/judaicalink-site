@@ -4,7 +4,7 @@
 The website is generated using Hugo. Simply download the Hugo executable 
 (Currently used version on the server: [0.31.1](https://github.com/gohugoio/hugo/releases/tag/v0.31.1) )
 
-You have to add hugo in your environment variables under Path:
+You have to add hugo in your environment variables under path:
 
 For example: C:\Users\YourName\Desktop\IT\Installations\hugo_0.31.1_Windows-64bit
 
