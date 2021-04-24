@@ -12,7 +12,7 @@
   
   <table class="table table-light table-striped">
     <tr>
-      <th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th><th scope="col">Online</th>
+      <th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th>
     </tr>
     {{ range .Data.Pages }}
     {{$data := .Params}}
@@ -20,13 +20,16 @@
     <tr>
       <td scope="row"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
       <td>{{ .Summary  }}</td>
-      <td>
-	{{ if $data.loaded  }}
-	<img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL enpoint." />
-	{{else}}
-	<img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL enpoint." />
-	{{end}}
-      </td>
+
+<!--      <td>-->
+<!--	{{ if $data.loaded  }}-->
+<!--	<img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL enpoint." />-->
+<!--	{{else}}-->
+<!--	<img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL enpoint." />-->
+<!--	{{end}}-->
+<!--      </td>-->
+
+
     </tr>
     {{ end }}
       {{ end }}
@@ -57,6 +60,16 @@
   </div>
   
     </div>
+
+<div class="col-md-12 col-lg-3 col-xl-4">
+    <div class="alert alert-success text-center img-fluid mt-4 sticky-top" id="picturemargintop30" role="alert"><i class="fas fa-bullhorn"></i>
+            <b>Give us your datasets!</b> <br>We are always searching for new datasets to expand our knowledge graph. If you have interesting datasets about Jewish Studies, please get in touch with us!
+            <br><br><a class="btn btn-success" href="https://labs.judaicalink.org/contact/">contact Team</a>
+    </div>
+</div>
+
+
+
 </main>
 
 {{partial "footer.html" .}}
