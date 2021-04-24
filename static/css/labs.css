@@ -213,7 +213,9 @@ pre{
 .container-fluid {
 margin-top: -30px;}
 
-
+video {
+     -webkit-filter: brightness(108.5%);
+}
 /*--------war davor in search.css---------*/
 .hit {
 	margin-bottom: 10px;
