@@ -62,10 +62,6 @@ a:hover {
     margin-left: -250px;
 }
 
-#sidebar a[data-toggle="collapse"] {
-    position: relative;
-}
-
 #sidebar ul li a {
     padding: 10px;
     padding-left: 1.1em;
@@ -76,12 +72,6 @@ a:hover {
     background: #73f0ff;  /*Dunkelblau in Hex #004284*/
 }
 
-#sidebar ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    /*background: #bff8ff;*/
-
-}
 #picturemargintop30 {
     top: 30px;
     z-index:-1;
@@ -105,7 +95,6 @@ a:hover {
     padding: 10px;
     }
 
-
 #hdmlogo {
     padding: 5px;
     width: 75px;
@@ -117,7 +106,7 @@ a:hover {
     width: 110px;
     height: auto;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: -10px;
 }
 #jcelogo {
     padding: 5px;
@@ -259,7 +248,7 @@ ul.results {
     }
     .header-logos{
         margin-left: -5%;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     footer-content {
         font-size: 12px;
@@ -280,9 +269,7 @@ ul.results {
         text-align: center;
         font-size: 16px;
     }
-    #sidebar.sidebar-header {
-        padding: 40px;
-    }
+
     #sidebar.active {
         margin-left: 0px;
         height: 100%;

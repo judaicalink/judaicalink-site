@@ -1,4 +1,4 @@
-# Team
+#Team
 
 If you are interested in joining us, either because you are responsible for a reference work or because you want to support us, please contact <a href="http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert/"> Kai Eckert</a>.
 
