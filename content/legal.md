@@ -16,23 +16,23 @@ Germany
 
 **Phone:** +49 (0) 711 8923-3164
 
-Es gilt das [Impressum der Hochschule der Medien](https://www.hdm-stuttgart.de/impressum).
+Please also refer to the [Impressum der Hochschule der Medien](https://www.hdm-stuttgart.de/impressum).
 
-Die Hochschule der Medien Stuttgart ist eine Körperschaft des öffentlichen Rechts. Sie wird durch den Rektor Professor Dr. Alexander W. Roos gesetzlich vertreten.
+Stuttgart Media University is a corporation under public law (Körperschaft des öffentlichen Rechts) represented by the president Professor Dr. Alexander W. Roos.
 
 **USt.-ID-Nr.:** DE 224 427 890
 
-**Zuständige Aufsichtsbehörde:**
+**Supervising Authority:**
 
 Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg  
 Königstraße 46  
 70173 Stuttgart
 
-
-## Privacy Policy
-
-Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website. Beim Besuch unserer Webseite wird Ihre IP-Adresse, Beginn und Ende der Sitzung für die Dauer dieser Sitzung erfasst. Dies ist technisch bedingt und stellt damit ein berechtigtes Interesse iSv Art 6 Abs 1 lit f DSGVO dar. Ihre persönlichen IP-Daten werden von uns nicht weiterverarbeitet.
-
+# Privacy policy
 ## Cookies
 
-Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät abgelegt werden. Sie richten keinen Schaden an. Wir nutzen Cookies dazu, um Ihren Browser beim nächsten Besuch wiederzuerkennen. Einige Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Sie über das Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben. Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.
+The website uses transient session cookies to manage access to the website and delivery of content. Users who object to the use of cookies can set their web browser to reject cookies. This may impair the use of the site.
+
+## Personal data
+
+We store your email address and your name if you use our contact form to be able to answer your message. Otherwise no personal data is stored. Access logs are anonymized, no web analytics are being conducted.
