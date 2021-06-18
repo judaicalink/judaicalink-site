@@ -30,7 +30,11 @@ supportdata = "https://web.judaicalink.org/datasets/ep-supp"
 	
 [[files]]
 	url = "http://data.judaicalink.org/dumps/ep/ep_birth_death_date_loc.ttl"
-	description = "Birth/death dates and locations for Entity Pages."	
+	description = "Birth/death dates and locations for Entity Pages."
+   	
+[[files]]
+	url = "http://data.judaicalink.org/dumps/ep/subcategorization.ttl.gz"
+	description = "Subcategorization dataset for local Judaicalink resources."
 +++
 
 Entity Page data for Judaicalink. For further details see the documentation page https://github.com/wisslab/judaicalink-generators/blob/master/entity-pages/readme.md
