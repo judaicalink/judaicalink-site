@@ -2,7 +2,7 @@
 <!--bezieht sich auf das Design der einzelnen News, nicht News-Webseite-->
 <main class="row">
 	<div class="col-md-12 col-lg-9 col-xl-8">
-<div class="card">
+<div class="card mt-4">
     <div class="card-body">
 <h3 class="uppercase">{{.Title}}</h3>
 <i>{{dateFormat "Mon, January _2, 2006" .Date}}</i>
@@ -17,6 +17,16 @@
         </div>
 </div>
 </div>
+
+<div class="col-md-12 col-lg-3 col-xl-4">
+     <div class="img-fluid mt-4 sticky-top" id="picturemargintop30">
+            <img src="/img/News.jpg" class="img-thumbnail img-fluid" alt="News Picture">
+     </div>
+
+</div>
+
+
+
 </main>
 
 {{ partial "footer.html" . }}

@@ -2,8 +2,8 @@
 <!--bezieht sich auf die News-Seite-->
 
 <main class="row">
-<div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8 mt-4">
-  <img src="/img/News.png" height="auto" width="100%">
+<div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8">
+  <h1 class="text-center text-md-left">News</h1>
   <div class="card text-center text-md-left">
           {{ range first 10 .Data.Pages }}
 
@@ -25,14 +25,14 @@
   </div>
 </div>
 
-<!-- sticky Bild Idee -->
-<!--    <div class="col-md-0 col-lg-3 col-xl-4">-->
-<!--<div class="alert alert-success text-center mt-4 sticky-top" style="top: 30px" role="alert"><i class="fas fa-bullhorn"></i>-->
-<!--            <b>Give us your datasets!</b> We are always searching for new datasets to expand our knowledge graph. If you have interesting datasets about Jewish Studies, please get in touch with us!-->
-<!--            <br><br><a class="btn btn-success" href="/about-us">contact Team</a>-->
-<!--</div>-->
-<!--            -->
-<!--        </div>-->
+<div class="col-md-0 col-lg-3 col-xl-4">
+     <div class="img-fluid mt-4 sticky-top" id="picturemargintop30">
+            <img src="/img/News.jpg" class="img-thumbnail img-fluid" alt="Dataset Picture">
+     </div>
+
+</div>
+
+
 
 </main>
 {{partial "footer.html" .}}

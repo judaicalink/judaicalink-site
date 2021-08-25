@@ -19,7 +19,6 @@ h1, h2, h3, h4{
 }
 /*-------------------------------------------------------*/
 
-
 a:hover {
     color: lighgrey;
 }
@@ -63,33 +62,9 @@ a:hover {
     margin-left: -250px;
 }
 
-#sidebar a[data-toggle="collapse"] {
-    position: relative;
-}
-
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-#sidebar .sidebar-header {
-    padding: 20px;
-   /* background-color: #bff8ff;*/
-}
-
-/*#sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid lightgrey;
-}*/
-
-#sidebar ul p {
-    padding: 10px;
-}
-
 #sidebar ul li a {
     padding: 10px;
+    padding-left: 1.1em;
     font-size: 1.1em;
     display: block;
 }
@@ -97,14 +72,9 @@ a:hover {
     background: #73f0ff;  /*Dunkelblau in Hex #004284*/
 }
 
-#sidebar ul li.active {
-    /*background: #004284;*/
-}
-#sidebar ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    /*background: #bff8ff;*/
-
+#picturemargintop30 {
+    top: 30px;
+    z-index:-1;
 }
 
 #content {
@@ -125,7 +95,6 @@ a:hover {
     padding: 10px;
     }
 
-
 #hdmlogo {
     padding: 5px;
     width: 75px;
@@ -137,7 +106,7 @@ a:hover {
     width: 110px;
     height: auto;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: -10px;
 }
 #jcelogo {
     padding: 5px;
@@ -244,7 +213,9 @@ pre{
 .container-fluid {
 margin-top: -30px;}
 
-
+video {
+     -webkit-filter: brightness(108.5%);
+}
 /*--------war davor in search.css---------*/
 .hit {
 	margin-bottom: 10px;
@@ -279,6 +250,7 @@ ul.results {
     }
     .header-logos{
         margin-left: -5%;
+        margin-top: 10px;
     }
     footer-content {
         font-size: 12px;
@@ -299,13 +271,14 @@ ul.results {
         text-align: center;
         font-size: 16px;
     }
-    #sidebar.sidebar-header {
-        padding: 40px;
-    }
+
     #sidebar.active {
         margin-left: 0px;
         height: 100%;
     }
+    #sidebar ul li a {
+    padding-left: 0;
+}
     .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
         z-index: 1000;
         top: 1%;  /*Button außen*/
@@ -321,6 +294,7 @@ ul.results {
     #sidebarCollapse span {
         display: none;
     }
+
     pre {
         font-size: 13px;
     }

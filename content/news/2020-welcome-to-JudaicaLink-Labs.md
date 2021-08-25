@@ -14,8 +14,9 @@ The idea was to make it easier to get started with JudaicaLink development and t
 
 Currently, the new prototype is evaluated internally, stay tuned for further information what we might be able to do with it.
 
-<b>Version of 06.09.20:<b>
+<b>Version of 06.09.20:</b>
 
 <div class="d-flex justify-content-center">
 <img class="picture_effect_news" src="/img/Labs.png" height="auto" width="80%" alt="JudaicaLink Labs"/>
 </div>
+
