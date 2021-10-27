@@ -4,26 +4,30 @@
 <main class="row">
 <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8">
   <h1 class="text-center text-md-left">News</h1>
-  <div class="card text-center text-md-left">
-          {{ range first 10 .Data.Pages }}
+{{ range first 10 .Data.Pages }}
 
-   <ul class="list-group list-group-flush">
-       <li class="text-dark list-group-item list-group-item-action list-group-item-light">
-  <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
-  <p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
-  <p>{{ .Summary  }}</p>
-      <div class="d-flex justify-content-center">
-  <a class="btn btn-secondary" href="{{.Permalink}}">read more</a>
-        </div>
+      <div class="card">
 
-       </li>
-    </ul>
+
+
+          <div class="card-body">
+              <span class="badge badge-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
+              <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
+              <p>{{ .Summary  }}</p>
+
+                  <div class="d-flex justify-content-end">
+                      <a class="btn btn-secondary" href="{{.Permalink}}">read more</a>
+                  </div>
+
+
+          </div>
+         
+
+      </div> <!--card-->
+
+
 {{ end }}
-
-
-
-  </div>
-</div>
+</div> <!--1 div-->
 
 <div class="col-md-0 col-lg-3 col-xl-4">
      <div class="img-fluid mt-4 sticky-top" id="picturemargintop30">
