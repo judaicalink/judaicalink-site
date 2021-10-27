@@ -4,8 +4,8 @@
 	<div class="col-md-12 col-lg-9 col-xl-8">
 <div class="card mt-4">
     <div class="card-body">
+<span class="badge badge-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
 <h3 class="uppercase">{{.Title}}</h3>
-<i>{{dateFormat "Mon, January _2, 2006" .Date}}</i>
 <hr>
 
 {{ .Content  }}
