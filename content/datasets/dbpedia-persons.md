@@ -10,6 +10,7 @@ category = "judaicalink"
 example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 
 
+
 [[files]]
 	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/generated_persons_DBPedia_enriched_02.ttl.gz"  
 	description = "Rabbis extracted from DBPedia."
@@ -22,6 +23,11 @@ example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/Entityfacts-dbpedia-sameas.ttl.gz" 
 	description = "EntityFacts links for all persons with an GND-id in this dataset."
 
+
+[license]
+name = "CC-BY-SA-3.0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"
+uri = "https://creativecommons.org/licenses/by-sa/3.0/"
 	
 +++
 

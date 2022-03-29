@@ -20,9 +20,16 @@ loaded = true
 category = "judaicalink"
 
 
+
 [[files]]
 	url = "http://data.judaicalink.org/dumps/djh/current/djh.ttl.gz"
 	description = "Extraction from the encyclopedia 'Das Jüdische Hamburg'."
+
+
+[license]
+name = "unknown"
+
+
 +++
 
 Das Jüdische Hamburg contains articles in German by notable scholars about persons, locations and events of the history of Jewish communities in Hamburg.

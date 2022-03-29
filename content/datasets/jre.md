@@ -9,13 +9,17 @@ loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/jre/Hause_Benedict"
 
-
 [[files]]
 	url = "http://data.judaicalink.org/dumps/jre/current/jre.ttl.gz" 
 	
 	
 	description = "Dataset on Jewish education and religion"
-	
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
+
 	
 +++
 

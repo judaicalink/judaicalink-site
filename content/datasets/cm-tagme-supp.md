@@ -15,6 +15,12 @@ referencedataset = "https://web.judaicalink.org/datasets/cm-tagme"
 [[files]]
 	url = "http://data.judaicalink.org/dumps/cm-tagme/cm_entities_tagme.pickle.gz"
 	description = "Raw output of TAGME (entity linker) from Compact Memory."
+
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
 +++
 
 Support data for references of Judaicalink resources in Compact Memory.

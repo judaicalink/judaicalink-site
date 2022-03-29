@@ -121,6 +121,12 @@ alt="RDF Resource Description Framework Flyer Icon"/></a>
 		    <th>Maintained by: </th>
 		    <td>{{with $data.authorlink}}<a href="{{ . | safeURL}}">{{end}}{{ . }}{{with $data.authorlink}}</a>{{end}}</td>
 		  </tr>
+			{{end}}
+			{{ with $data.license}}
+			<tr>
+				<th>License:</th>
+				<td>{{ with $data.license.image }}<a href="{{ $data.license.uri | safeURL}}" target="_blank"> {{end}}{{ $data.license.name}}{{ with $data.license.image }}</a>{{end}} {{ with $data.license.image }}<img src="{{ $data.license.image}}" with="88" height="31" alt="{{ $data.license.name}} Image"/>{{end}}</td>
+		  	</tr>
 		  {{end}}
 
 		</table>

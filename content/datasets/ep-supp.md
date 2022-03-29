@@ -20,6 +20,11 @@ referencedataset = "https://web.judaicalink.org/datasets/ep"
 [[files]]
 	url = "http://data.judaicalink.org/dumps/ep/ep_GND_ids.json.gz"
 	description = "GND identifiers for Entity Pages."	
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
 +++
 
 Support data for Entity Pages. For further details see the documentation page https://github.com/wisslab/judaicalink-generators/blob/master/entity-pages/readme.md

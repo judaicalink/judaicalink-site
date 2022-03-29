@@ -14,6 +14,12 @@ example = "http://data.judaicalink.org/data/stolpersteine/Goldschmitt_Leopold"
 	url = "http://data.judaicalink.org/dumps/stolpersteine/current/stolpersteine.ttl.gz" 
 	
 	description = "Dataset created from the wikipedia page of the list of Stolpersteine (stumbling blocks) in Mainz" 
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
+
 	
 +++
 

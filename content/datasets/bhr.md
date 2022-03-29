@@ -17,7 +17,10 @@ example = "http://data.judaicalink.org/data/bhr/Abarbanell_Hirsch"
 	
 	description = "Biographisches Handbuch der Rabbiner "
 	
-	
+
+[license]
+name = "unknown"
+
 +++
 
 The Biographisches Handbuch der Rabbiner is an online 

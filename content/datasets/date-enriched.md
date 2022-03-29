@@ -20,6 +20,12 @@ category = "judaicalink"
 [[files]]
 	url = "http://data.judaicalink.org/dumps/date-enriched/date-enriched.ttl.gz"
 	description = "Parsed Dates, using Labs Command date_enrichment"
+
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
 	
 +++
 
