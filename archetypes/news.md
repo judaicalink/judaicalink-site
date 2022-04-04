@@ -2,4 +2,5 @@
 title = ""
 date  = ""
 author = ""
+image = ""
 +++

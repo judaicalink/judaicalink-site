@@ -4,16 +4,17 @@
 <main class="row">
 <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8">
   <h1 class="text-center text-md-left">News</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
 {{ range first 10 .Data.Pages }}
-
-      <div class="card">
-
-
-
+            <div class="col">
+      <div class="card mt-3">
+          {{ if .Params.image}}
+            <img src="/img/news/{{ .Params.image }}" class="card-img-top news-img" alt="{{.Title}}" />
+            {{ end}}
           <div class="card-body">
               <span class="badge badge-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
               <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
-              <p>{{ .Summary  }}</p>
 
                   <div class="d-flex justify-content-end">
                       <a class="btn btn-secondary" href="{{.Permalink}}">read more</a>
@@ -24,11 +25,11 @@
          
 
       </div> <!--card-->
-
-
+                        </div>
 {{ end }}
-</div> <!--1 div-->
 
+</div> <!--1 div-->
+</div>
 <div class="col-md-0 col-lg-3 col-xl-4">
      <div class="img-fluid mt-4 sticky-top" id="picturemargintop30">
             <img src="/img/News.jpg" class="img-thumbnail img-fluid" alt="Dataset Picture">
