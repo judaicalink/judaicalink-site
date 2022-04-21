@@ -42,6 +42,15 @@ a:hover {
    width: 35px;
    opacity: 0.6;
 }
+
+.search_button {
+    background-color: #004284;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #004284;
+}
+
 #sidebar {
     width: 250px;
     position: fixed;
