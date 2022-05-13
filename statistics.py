@@ -45,7 +45,10 @@ def sum_entities():
                       WHERE{   ?entity ?p ?o}
     """
     results = sparql_query(query)
-    return results['results']['bindings'][0]['Entities']['value']
+    if results is None:
+        return 0
+    else:
+        return results['results']['bindings'][0]['Entities']['value']
 
 
 def sum_triples():
@@ -55,7 +58,10 @@ def sum_triples():
     """
 
     results = sparql_query(query)
-    return results['results']['bindings'][0]['Triples']['value']
+    if results is None:
+        return 0
+    else:
+        return results['results']['bindings'][0]['Triples']['value']
 
 
 def generate_html_file():
