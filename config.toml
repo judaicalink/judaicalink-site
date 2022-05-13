@@ -10,3 +10,8 @@ metaDataFormat = "toml"
 [mediaTypes]
   [mediaTypes."text/htaccess"]
     suffixes = ["htaccess"]
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
