@@ -1,4 +1,7 @@
-
+---
+description: "Here you can find answers to the questions you might have while using JudaicaLink."
+keywords: ["faq", "question", "answer"]
+---
 
 # FREQUENTLY ASKED QUESTIONS (FAQ)
 

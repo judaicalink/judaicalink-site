@@ -1,3 +1,8 @@
+---
+description: "JudaicaLink provides support to publish and interlink existing reference works of the Jewish culture and history as Linked Data."
+keywords: ["about", "vision", "goal", "team"]
+---
+
 # Team
 
 If you are interested in joining us, either because you are responsible for a reference work or because you want to support us, please contact <a href="http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert/"> Kai Eckert</a> or use our <a href="https://labs.judaicalink.org/contact/">contact form</a>.
