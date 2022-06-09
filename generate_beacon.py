@@ -44,11 +44,8 @@ def save_file(text):
     try:
         with open(filename, 'w') as f:
             result = f.write(text)
-            if result:
+            if result is True:
                 print("File written successfully")
-                # move the file
-                #os.remove(filename, path)
-                #os.rename(filename, path)
                 return filename
             else:
                 print("File not written")
