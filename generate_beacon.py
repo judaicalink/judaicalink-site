@@ -38,7 +38,7 @@ def save_file(text):
     return: boolean
     """
     filename = 'beacon-persons.txt'
-    #filename = os.path.join('/data/judaicalink/dumps/beacon/current', filename)
+    filename = os.path.join('/data/judaicalink/dumps/beacon/current', filename)
     if os.path.exists(filename):
         os.remove(filename)
     try:
