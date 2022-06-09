@@ -1,3 +1,8 @@
+---
+description: "Legal information and disclaimer to JudaicaLink."
+keywords: ["disclaimer", "legal", "responsibility", "privacy", "cookies"]
+---
+
 # Disclaimer
 
 **Responsible for the content of this website:**

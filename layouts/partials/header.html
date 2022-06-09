@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", "}}">{{ end }}
+    {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ end }}
+
+    {{ if eq "https://web.judaicalink.org/" .Permalink }}
+    <meta name="keywords" content="JudaicaLink, knowledge graph, jewish studies">
+    <meta name="description" content="JudaicaLink is the knowledge graph behind the specialized information service for Jewish Studies and offers a data resource for data professionals.">
+    {{ end }}
+
+    {{ if eq "https://web.judaicalink.org/datasets/" .Permalink }}
+    <meta name="keywords" content="datasets, resources">
+    <meta name="description" content="An overview of all our datasets we currently provide access to.">
+    {{ end }}
 
     <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/labs.css">
     <link rel="stylesheet" href="/css/simplePagination.css">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
     <!-- Favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <link rel="manifest" href="/img/site.webmanifest">
       <!--<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
 
-      <title>{{ .Site.Title }}</title>
+    <title>{{ .Site.Title }}</title>
 
     <!-- Matomo -->
     <script type="text/javascript">
