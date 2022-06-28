@@ -45,16 +45,7 @@ If you are interested in joining us, either because you are responsible for a re
 </div>
 </div>
 
-
-
 <div class="row">
-<div class="col-6 col-sm-6 col-md-6 people">
-<a href="http://wiss.iuk.hdm-stuttgart.de/people/patricia-kaluza/">
-<img src="/img/Patricia_Kaluza_JudaicaLink .jpg"   class="rounded-circle people_image" alt="Patricia Kaluza">
-<h3>Patricia Kaluza</h3>
-</a>
-<h5>Research Assistant</h5>
-</div>
 <div class="col-6 col-sm-6 col-md-6 people">
 <a href="http://wiss.iuk.hdm-stuttgart.de/people/sara-fischer/">
 <img src="/img/Sara Fischer.jpeg"   class="rounded-circle people_image" alt="Sara Fischer">
