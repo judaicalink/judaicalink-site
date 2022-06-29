@@ -13,7 +13,7 @@
             <img src="/img/news/{{ .Params.image }}" class="card-img-top news-img" alt="{{.Title}}" />
             {{ end}}
           <div class="card-body">
-              <span class="badge badge-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
+              <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
               <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
 
                   <div class="d-flex justify-content-end">

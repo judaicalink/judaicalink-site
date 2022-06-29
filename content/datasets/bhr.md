@@ -19,7 +19,9 @@ example = "http://data.judaicalink.org/data/bhr/Abarbanell_Hirsch"
 	
 
 [license]
-name = "unknown"
+name = "CC4.0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
+uri = "https://creativecommons.org/licenses/by/4.0/"
 
 +++
 

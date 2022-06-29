@@ -2,7 +2,7 @@
 {{ range first 5 (where .Site.RegularPages "Section" "news") }}
 
 <li class="text-dark list-group-item list-group-item-action list-group-item-light">
-    <span class="badge badge-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
+    <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
     <br>
     <a href="{{.Permalink}}">{{.Title}}</a>
 </li>
