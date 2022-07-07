@@ -2,7 +2,7 @@
 author = "Benjamin Schnabel"
 date = "2022-07-06T15:00:00+02:00"
 title = "Soundscape Synagogue"
-image = "felix-mittermeier--lBNJwn0UR0.jpg"
+image = "felix-mittermeier--lBNJwn0UR0-unsplash.jpg"
 
 +++
 
