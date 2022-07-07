@@ -1,7 +1,7 @@
 +++
 author = "Benjamin Schnabel"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/benjamin-schnabel/"
-date = "2021-07-03T16:00:00+02:00"
+date = "2022-07-06T16:00:00+02:00"
 title = "Soundscape Synagogue" 
 website = "https://www.soundscape-synagoge.de"
 dataslug = "sosy"
