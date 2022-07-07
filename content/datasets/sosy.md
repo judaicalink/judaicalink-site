@@ -8,7 +8,7 @@ dataslug = "sosy"
 graph = "http://data.judaicalink.org/data/sosy"  
 loaded = true
 category = "judaicalink"
-example = "http://data.judaicalink.org/data/sosy/"
+example = "https://data.judaicalink.org/data/html/sosy/Adler_Abraham"
 
 
 [[files]]
