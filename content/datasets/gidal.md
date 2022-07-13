@@ -12,7 +12,7 @@ example = "http://data.judaicalink.org/data/gba/HeinrichHeine"
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/sosy/current/gba-final-01.ttl.gz"
+	url = "http://data.judaicalink.org/dumps/gba/current/gba-final-01.ttl.gz"
 	
 	
 	description = "Gidal Image Archive"
