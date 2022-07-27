@@ -6,7 +6,7 @@ title = "Epidat - Epigraphical Database"
 website = "http://www.steinheim-institut.de/wiki/index.php/Epidat"
 dataslug = "epi"
 graph = "http://data.judaicalink.org/data/epi"  
-loaded = True
+loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/epi/"
 
