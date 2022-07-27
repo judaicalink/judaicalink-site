@@ -1,6 +1,6 @@
 +++
 author = "Benjamin Schnabel"
-authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/benjamin-schnabel/"
+authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/benjamin-schnabel"
 date = "2021-06-29T7:30:00+02:00"
 title = "Epidat - Epigraphical Database" 
 website = "http://www.steinheim-institut.de/wiki/index.php/Epidat"
@@ -8,14 +8,14 @@ dataslug = "epi"
 graph = "http://data.judaicalink.org/data/epi"  
 loaded = true
 category = "judaicalink"
-example = "http://data.judaicalink.org/data/epi/"
+example = "http://data.judaicalink.org/data/epi/AbrahamGottschalk"
 
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/epi/current/epidat-final-01.ttl.gz"
 	
 	
-	description = "Epigraphische Datenbank des Steinheim Instituts"
+	description = "Epigraphical Database of the Steinheim Institute"
 	
 
 [license]
