@@ -72,18 +72,16 @@ alt="RDF Resource Description Framework Flyer Icon"/></a>
 
 		  </tr>
 		  {{end}}
-		  {{with $data.loaded}}
 		  <tr>
 		    <th>Online: </th>
 		    <td> 
 		      {{ if $data.loaded  }}
-		      <img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL enpoint." />
-		      {{else}}
-		      <img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL enpoint." />
-		      {{end}}
+		      <img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL endpoint." />
+		      {{ else }}
+		      <img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL endpoint." />
+		      {{ end }}
 		    </td>
 		  </tr>
-		  {{end}}
 		  {{with $data.dataslug}}
 		  <tr>
 		    <th>URI Slug: </th>
