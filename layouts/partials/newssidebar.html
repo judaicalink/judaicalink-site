@@ -1,4 +1,10 @@
+
 {{ range first 5 (where .Site.RegularPages "Section" "news") }}
 
-<li class="list-group-item">{{dateFormat "Mon, January _2, 2006" .Date}}: <br> <a href="{{.Permalink}}">{{.Title}}</a></li>
-{{end}}
+<li class="text-dark list-group-item list-group-item-action list-group-item-light">
+    <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
+    <br>
+    <a href="{{.Permalink}}">{{.Title}}</a>
+</li>
+
+    {{end}}

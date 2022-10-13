@@ -6,12 +6,18 @@ title = "Beacon file - JudaicaLink Persons"
  
 loaded = false
 category = "support"
+ 
 
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/beacon/current/beacon-persons.txt"  
 	description = "The Beacon file generated from JudaicaLink persons."
  
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
 	
 +++
 

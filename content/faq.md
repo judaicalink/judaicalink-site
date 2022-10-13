@@ -1,4 +1,7 @@
-
+---
+description: "Here you can find answers to the questions you might have while using JudaicaLink."
+keywords: ["faq", "question", "answer"]
+---
 
 # FREQUENTLY ASKED QUESTIONS (FAQ)
 
@@ -30,6 +33,8 @@ JudaicaLink is a non-for-profit project and everything we offer is free of charg
 This depends on your ambitions and local technical possibilities. If your encyclopedia is already online, then you only have to give us the permission (explicit or via a general license) to create a Linked Data version of the encyclopedia and publish it on JudaicaLink.org. Beside that, the minimal requirement is that you keep the URLs of the articles in your encylcopedia <a href="https://www.w3.org/Provider/Style/URI">stable</a>. 
 
 If you want to provide Linked Data on your own website, together with your encyclopedia (which is highly recommended), then the requirements increase. It depends again on what you have and what you want, but in general, the requirements are rather moderate. We are very experienced in publishing Linked Data in many different ways and are quite positive to find the right solution for you.
+
+You can reach out to us here: <a href="https://labs.judaicalink.org/contact/">Contact Team</a>
   
   
 ### What license should we use? {#faq-license} 
@@ -70,3 +75,5 @@ Well, we hope, this is debatable ;-)
 JudaicaLink is currently a website for (linked) data professionals. The pages are not created to provide a pleasant reading experience, but to quickly show what data we currently have stored about a resource.
 
 However, we are working hard to make the experience more pleasant as part of a tighter integration with the FID Jewish Studies portal. Stay tuned. 
+
+

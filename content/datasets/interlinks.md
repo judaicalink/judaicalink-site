@@ -9,7 +9,6 @@ graph = "http://data.judaicalink.org/data/interlinks"
 loaded = true
 category = "judaicalink"
 
-
 [[files]]
 	url = "http://data.judaicalink.org/dumps/interlinks/current/interlinks.n3.gz"
 	description = "Links between JudaicaLink entities."
@@ -17,6 +16,11 @@ category = "judaicalink"
 [[files]]
 	url = "http://data.judaicalink.org/dumps/interlinks/current/interlinks-04-enriched-09.ttl.gz"
 	description = "Links between JudaicaLink persons."
+
+[license]
+name = "CC0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
 	
 	
 +++

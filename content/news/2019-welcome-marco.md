@@ -10,5 +10,13 @@ Today, Marco Rovera joined team JudaicaLink.
 
 Marco Rovera, who started at Stuttgart Media University in May, is now responsible for the DFG-funded project "FID Jewish Studies". In the next three years, he will focus on information extraction from Compact Memory, a full text database of newspaper and journal articles mainly from the 19th century.
 
-Welcome Marco!
+<b>Welcome Marco!</b>
 
+<div class="d-flex justify-content-around">
+
+<img class="rounded-circle people_image picture_effect_news" src="/img/Rovera-quadrat.jpg" alt="Marco Rovera"/>
+</div>
+<br>
+<div class="d-flex justify-content-center">
+        <a class="btn btn-secondary" href="/about-us">visit About</a>
+            </div>

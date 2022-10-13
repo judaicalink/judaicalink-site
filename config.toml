@@ -6,3 +6,12 @@ metaDataFormat = "toml"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[mediaTypes]
+  [mediaTypes."text/htaccess"]
+    suffixes = ["htaccess"]
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5

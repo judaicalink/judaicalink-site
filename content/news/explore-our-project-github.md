@@ -1,7 +1,7 @@
 +++
 author = "Maral Dadvar"
 date = "2018-07-16T10:59:13+02:00"
-title = "Explore our project GitHub"
+title = "Explore our project on GitHub"
 
 +++
 

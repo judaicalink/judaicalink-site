@@ -3,12 +3,12 @@ author = "Maral Dadvar"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2018-11-02T10:37:07+02:00"
 title = "Persons from DBPedia" 
-
-
+dataslug = "dbpedia"
 graph = "http://data.judaicalink.org/data/dbpedia-persons"  
 loaded = true
 category = "judaicalink"
 example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
+
 
 
 [[files]]
@@ -23,6 +23,11 @@ example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 	url = "http://data.judaicalink.org/dumps/dbpedia-person/current/Entityfacts-dbpedia-sameas.ttl.gz" 
 	description = "EntityFacts links for all persons with an GND-id in this dataset."
 
+
+[license]
+name = "CC-BY-SA-3.0"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"
+uri = "https://creativecommons.org/licenses/by-sa/3.0/"
 	
 +++
 

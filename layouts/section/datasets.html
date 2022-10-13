@@ -6,23 +6,52 @@
   <h1 class="text-center text-md-left" id="title">{{ .Title }}</h1>
   
   <p>JudaicaLink extracts structural information from various sources, making their described concepts as well as the relations between them accessible as Linked Open Data with stable URIs in the following datasets.</p>
+
+      <h2 class="text-center text-md-left">Judaicalink</h2>
+  
   <div class="table-responsive">
   
   <table class="table table-light table-striped">
     <tr>
-      <th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th><th scope="col">Online</th>
+      <th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th>
     </tr>
     {{ range .Data.Pages }}
     {{$data := .Params}}
-    
+    {{ if eq $data.category "judaicalink"}}
+    <tr>
+      <td scope="row"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+      <td>{{ .Summary  }}</td>
+
+<!--      <td>-->
+<!--	{{ if $data.loaded  }}-->
+<!--	<img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL enpoint." />-->
+<!--	{{else}}-->
+<!--	<img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL enpoint." />-->
+<!--	{{end}}-->
+<!--      </td>-->
+
+
+    </tr>
+    {{ end }}
+      {{ end }}
+  </table>	
+  </div>
+  
+  <h2 class="text-center text-md-left">Support</h2>
+  <div class="table-responsive">
+  
+  <table class="table table-light table-striped">
+    <tr>
+      <th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th>
+    </tr>
+    {{ range .Data.Pages }}
+    {{$data := .Params}}
+    {{ if eq $data.category "support"}}
     <tr>
       <td scope="row"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
       <td>{{ .Summary  }}</td>
       <td>
-	{{ if $data.loaded  }}
-	<img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL enpoint." />
-	{{else}}
-	<img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL enpoint." />
+	
 	{{end}}
       </td>
     </tr>
@@ -30,7 +59,17 @@
       {{ end }}
   </table>	
   </div>
+  
     </div>
+
+<div class="col-md-0 col-lg-3 col-xl-4">
+     <div class="img-fluid mt-4 sticky-top" id="picturemargintop30">
+            <img src="/img/Datasetsingle.jpg" class="img-thumbnail img-fluid" alt="Newspapers Datasets Picture">
+     </div>
+
+</div>
+
+
 </main>
 
 {{partial "footer.html" .}}

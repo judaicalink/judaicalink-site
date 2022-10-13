@@ -6,7 +6,7 @@
 		<h3>{{ .Title }}</h3>
 
 		{{ .Content }}
-
+		<div class="table-responsive">
 		<table class="table table-light table-striped">
 		  {{ with $data.picture }}
 		  <tr>
@@ -58,22 +58,35 @@
 		    <th>Files: </th>
 		    <td> 
 		      {{range $i, $v:=. }}
-		      {{if not (eq $i 0)}}<br/>{{end}}  
+		      {{if not (eq $i 0)}}<br/>{{end}}
+			  {{ if or (strings.HasSuffix $v.url "ttl.gz") (strings.HasSuffix $v.url "ttl") (strings.HasSuffix $v.url "nt.gz") (strings.HasSuffix $v.url "nt") (strings.HasSuffix $v.url "n3.gz")}}
+			  <a href="http://www.w3.org/RDF/" title="RDF Resource Description Framework"> <img border="0" src="http://www.w3.org/RDF/icons/rdf_flyer.24"
+alt="RDF Resource Description Framework Flyer Icon"/></a>
+			  <!--img src="/img/rdf_25.png" title="I am an RDF dataset."/-->
+			  {{ else }}
+			  <img src="/img/support_25.png" title="I am a piece of SUPPORT data."/>
+			  {{end}}
 		      <a href="{{$v.url}}">{{delimit (last 1 (split $v.url "/")) ""}}</a>: {{$v.description}}
 		      {{ end }}
 		    </td>
+
 		  </tr>
 		  {{end}}
-		  {{with $data.loaded}}
 		  <tr>
 		    <th>Online: </th>
 		    <td> 
 		      {{ if $data.loaded  }}
-		      <img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL enpoint." />
-		      {{else}}
-		      <img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL enpoint." />
-		      {{end}}
+		      <img src="/img/on.png" alt="on" title="This dataset is currently loaded in our public SPARQL endpoint." />
+		      {{ else }}
+		      <img src="/img/off.png" alt="off" title="This dataset is currently not loaded in our public SPARQL endpoint." />
+		      {{ end }}
 		    </td>
+		  </tr>
+		  {{with $data.dataslug}}
+		  <tr>
+		    <th>URI Slug: </th>
+		    <!-- <td><a href="{{ . | safeURL}}">{{ . }}</a></td> -->
+		    <td>{{ . }}</td>
 		  </tr>
 		  {{end}}
 		  {{with $data.graph}}
@@ -83,15 +96,46 @@
 		    <td>{{ . }}</td>
 		  </tr>
 		  {{end}}
+		  {{with $data.script}}
+		  <tr>
+		    <th>Script: </th>
+		    <td><a href="{{ . | safeURL}}">{{ . }}</a></td>
+		  </tr>
+		  {{ end}}
+		  {{ with $data.referencedataset}}
+		  <tr>
+		    <th>Reference dataset: </th>
+		    <td><a href="{{ . | safeURL}}">{{ . }}</a></td>
+		  </tr>
+		  {{end}}
+		  {{ with $data.supportdata}}
+		  <tr>
+		    <th>Support data: </th>
+		    <td><a href="{{ . | safeURL}}">{{ . }}</a></td>
+		  </tr>
+		  {{end}}
 		  {{with $data.author}}
 		  <tr>
 		    <th>Maintained by: </th>
 		    <td>{{with $data.authorlink}}<a href="{{ . | safeURL}}">{{end}}{{ . }}{{with $data.authorlink}}</a>{{end}}</td>
 		  </tr>
+			{{end}}
+			{{ with $data.license}}
+			<tr>
+				<th>License:</th>
+				<td>{{ with $data.license.image }}<a href="{{ $data.license.uri | safeURL}}" target="_blank"> {{end}}{{ $data.license.name}}{{ with $data.license.image }}</a>{{end}} {{ with $data.license.image }}<img src="{{ $data.license.image}}" with="88" height="31" alt="{{ $data.license.name}} Image"/>{{end}}</td>
+		  	</tr>
 		  {{end}}
 
 		</table>
 		</div>
+		</div>
+	<div class="col-md-0 col-lg-3 col-xl-4">
+     <div class="img-fluid mt-4 sticky-top" id="picturemargintop30">
+            <img src="/img/Datasetsingle.jpg" class="img-thumbnail img-fluid" alt="Newspapers Datasets Picture">
+     </div>
+
+</div>
 </main>
 
 

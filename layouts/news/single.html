@@ -1,13 +1,34 @@
 {{ partial "header.html" . }}
 <!--bezieht sich auf das Design der einzelnen News, nicht News-Webseite-->
 <main class="row">
-	<div class="col-md-12 col-lg-9 col-xl-8">
-<h3 class="uppercase">{{.Title}}</h3>
-<p><i>{{dateFormat "Mon, January _2, 2006" .Date}}</i></p>
+    <div class="col-md-12 col-lg-9 col-xl-8">
+        <div class="card mt-4">
+            {{ if .Params.image}}
+            <img src="/img/news/{{ .Params.image }}" class="card-img-top news-img" alt="{{.Title}}" />
+            {{ end}}
+            <div class="card-body">
+                <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
+                <h3 class="uppercase">{{.Title}}</h3>
+                <hr>
 
-{{ .Content  }}
-        <img src="/img/information_news.jpg" height="auto" width="100%"></img>
-</div>
+                {{ .Content }}
+                <!--<img src="/img/information_news.jpg" height="auto" width="100%">-->
+                <br><br>
+                <div class="d-flex justify-content-end">
+                    <a class="btn btn-secondary" href="/news">back to overview</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 col-lg-3 col-xl-4">
+        <div class="img-fluid mt-4 sticky-top" id="picturemargintop30">
+            <img src="/img/News.jpg" class="img-thumbnail img-fluid" alt="News Picture">
+        </div>
+
+    </div>
+
+
 </main>
 
 {{ partial "footer.html" . }}
