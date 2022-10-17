@@ -4,7 +4,7 @@ authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/marco-rovera/"
 date = "2020-04-04T10:37:07+02:00"
 title = "Compact Memory Test Sample" 
  
-loaded = false
+loaded = true
 category = "support"
 
 

@@ -4,7 +4,7 @@ authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
 date = "2019-02-07T10:37:07+02:00"
 title = "Beacon file - JudaicaLink Persons"  
  
-loaded = false
+loaded = true
 category = "support"
  
 

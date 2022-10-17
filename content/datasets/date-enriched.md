@@ -14,7 +14,7 @@ picture = ""
 aliases = []
 
 graph = "http://data.judaicalink.org/data/date-enriched"
-loaded = false
+loaded = true
 category = "judaicalink"
 
 [[files]]
