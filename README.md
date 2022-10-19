@@ -56,7 +56,7 @@ Debian installation: `fsdf`.
 Verify the installation with: `hugo --version`.
 
 ## OsX
-Install hugo with (brew)[https://brew.sh/] `brew install hugo`.
+Install hugo with [brew](https://brew.sh/) `brew install hugo`.
 
 
 # Running
