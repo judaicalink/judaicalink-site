@@ -50,7 +50,7 @@ For example: C:\Users\YourName\Desktop\IT\Githubprojects\judaicalink-site>hugo s
 Afterwards, you can browse the website locally under http://localhost:1313
 
 ## Linux
-Using Ubuntu `apt get update && apt get install hugo`.
+Using Ubuntu: `apt update && apt install hugo`.
 
 
 -------------------------------------------------------------------------------
