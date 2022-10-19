@@ -25,7 +25,17 @@
 
 # JudaicaLink Website
 
+## What is JudaicaLink?
+
+## Installation
+Clone the project: `git clone https://github.com/judaicalink/judaicalink-site.git`.
+Go into the directory: `cd judaicalink-site`.
+
+Install hugo (see below).
+
 ## Hugo
+
+### Windows
 The website is generated using Hugo. Simply download the Hugo executable 
 (Currently used version on the server: [0.31.1](https://github.com/gohugoio/hugo/releases/tag/v0.31.1) )
 
@@ -38,6 +48,10 @@ In your command prompt go to the main directory of the repository (where this RE
 For example: C:\Users\YourName\Desktop\IT\Githubprojects\judaicalink-site>hugo server
 
 Afterwards, you can browse the website locally under http://localhost:1313
+
+## Linux
+Using Ubuntu `apt get update && apt get install hugo`.
+
 
 -------------------------------------------------------------------------------
 
