@@ -37,8 +37,9 @@ Install hugo (see below).
 ## Hugo
 
 ### Windows
-The website is generated using Hugo. Simply download the Hugo executable 
-(Currently used version on the server: [0.31.1](https://github.com/gohugoio/hugo/releases/tag/v0.31.1) )
+The website is generated using Hugo.
+Hugo is a static site generator, using Markdown sites and template to compile static websites.
+Simply download the Hugo executable (Currently used version on the server: [0.104.3](https://github.com/gohugoio/hugo/releases/tag/v0.104.3)).
 
 You have to add hugo in your environment variables under path:
 
@@ -51,15 +52,19 @@ For example: C:\Users\YourName\Desktop\IT\Githubprojects\judaicalink-site>hugo s
 Afterwards, you can browse the website locally under http://localhost:1313
 
 ## Linux
-Using Ubuntu: `apt update && apt install hugo`.
-Debian installation: `fsdf`.
+Ubuntu: `sudo apt update && sudo apt install hugo`.
+Arch: `sudo pacman -S hugo`.
+Fedora, RedHat: `sudo pacman -S hugo`
 Verify the installation with: `hugo --version`.
 
 ## OsX
 Install hugo with [brew](https://brew.sh/) `brew install hugo`.
-
+Verify the installation with: `hugo --version`.
 
 # Running
+Run Hugo on the site: `hugo 
+Hugo compiles the site from the source and puts it into the puiblic folder. In cas you dn't want it, uso
+Serve the `static` folder, too.
 
 # Updating the site
 
