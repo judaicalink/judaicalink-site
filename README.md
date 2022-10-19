@@ -75,12 +75,16 @@ Also check for errors.
 
 # Compiling
 
-If you want to compile the source and generate a live site, just run `hugo`. 
+If you want to compile the source and generate a live site, just run `hugo`.
+
 This generates the `static` files and the `public` folder.
+
 If you want to compile the sites to a specific folder just use: `hugo -d <your-destination>`.
 
 Now you can serve the pages with a webserver like Apache2 or NGINX.
+
 Either copy the `public` and `static` folders to the serving directory or add the directories in `sites-available` to the location directive.
+
 Don't forge to serve the `static` folder, too.
 
 # Updating the site
