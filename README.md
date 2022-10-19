@@ -95,8 +95,11 @@ The compile the site again.
 # Troubleshoot
 
 Check if the Markdown syntax is correct.
+
 Watch the console for errors if your changes do not show up as expected.
+
 Serve the site locally and check for changes.
+
 Clear the cache of your browser.
 
 # Finally
