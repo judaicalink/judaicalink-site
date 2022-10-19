@@ -29,6 +29,7 @@
 
 ## Installation
 Clone the project: `git clone https://github.com/judaicalink/judaicalink-site.git`.
+
 Go into the directory: `cd judaicalink-site`.
 
 Install hugo (see below).
@@ -51,6 +52,12 @@ Afterwards, you can browse the website locally under http://localhost:1313
 
 ## Linux
 Using Ubuntu: `apt update && apt install hugo`.
+Verify the installation with: `hugo --version`.
+
+# Running
+
+# Updating the site
+
 
 
 -------------------------------------------------------------------------------
