@@ -29,6 +29,7 @@
 
 ## Installation
 Clone the project: `git clone https://github.com/judaicalink/judaicalink-site.git`.
+
 Go into the directory: `cd judaicalink-site`.
 
 Install hugo (see below).
