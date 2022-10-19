@@ -34,6 +34,7 @@ Go into the directory: `cd judaicalink-site`.
 
 Install hugo (see below).
 
+
 ## Hugo
 The website is generated using Hugo.
 Hugo is a static site generator, using Markdown sites and template to compile static websites.
@@ -68,11 +69,13 @@ Install hugo with [brew](https://brew.sh/) `brew install hugo`.
 
 Verify the installation with: `hugo --version`.
 
+
 # Running
 
 Serve Hugo directly on your local machine with `hugo serve`. It opens up a webserver. Check the terminal for the link and path.
 
 Also check for errors.
+
 
 # Compiling
 
@@ -88,10 +91,12 @@ Either copy the `public` and `static` folders to the serving directory or add th
 
 Don't forge to serve the `static` folder, too.
 
+
 # Updating the site
 
 Just fetch and pull the latest version of the site, `git fetch` and `git pull`.
 The compile the site again.
+
 
 # Troubleshoot
 
@@ -102,6 +107,7 @@ Watch the console for errors if your changes do not show up as expected.
 Serve the site locally and check for changes.
 
 Clear the cache of your browser.
+
 
 # Finally
 
