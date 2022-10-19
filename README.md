@@ -52,7 +52,12 @@ Afterwards, you can browse the website locally under http://localhost:1313
 
 ## Linux
 Using Ubuntu: `apt update && apt install hugo`.
+Debian installation: `fsdf`.
 Verify the installation with: `hugo --version`.
+
+## OsX
+Install hugo with (brew)[https://brew.sh/] `brew install hugo`.
+
 
 # Running
 
