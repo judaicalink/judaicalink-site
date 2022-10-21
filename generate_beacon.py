@@ -21,8 +21,8 @@ def header():
     """
     now = datetime.datetime.now()
     header_text = """#FORMAT: BEACON
-#PREFIX: http://d-nb.info/gnd/
-#TARGET: http://data.judaicalink.org/data/gnd/{ID}
+#PREFIX: https://d-nb.info/gnd/
+#TARGET: https://data.judaicalink.org/data/gnd/{ID}
 #CONTACT: Benjamin Schnabel <schnabel@hdm-stuttgart.de>
 #INSTITUTION: Stuttgart Media University
 #MESSAGE: JudaicaLink
