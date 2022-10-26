@@ -35,6 +35,9 @@ def sum_datasets():
     for _ in enumerate(results['results']['bindings']):
         counter += 1
 
+    if counter == 0:
+        raise Exception('Error fetching data')
+
     return counter - 6
 
 
@@ -46,7 +49,7 @@ def sum_entities():
     """
     results = sparql_query(query)
     if results is None:
-        return 0
+        raise Exception('Error fetching data')
     else:
         return results['results']['bindings'][0]['Entities']['value']
 
@@ -59,7 +62,7 @@ def sum_triples():
 
     results = sparql_query(query)
     if results is None:
-        return 0
+        raise Exception('Error fetching data')
     else:
         return results['results']['bindings'][0]['Triples']['value']
 
@@ -67,10 +70,20 @@ def sum_triples():
 def generate_html_file():
     path = os.path.join('./layouts/partials/')
 
-    html_string = '<div class="text-center">Currently, we provide data about <b class="counter" akhi="' + str(
-        sum_entities()) + '">0</b><b> entities</b>, consisting of <b class="counter" akhi="' + str(
-        sum_triples()) + '">0</b><b> triples</b>, within <b class="counter" akhi="' + str(
-        sum_datasets()) + '">0</b><b> different datasets</b>.</div>'
+    try:
+        entities = sum_entities()
+        datasets = sum_datasets()
+        triples = sum_triples()
+
+        html_string = '<div class="text-center">Currently, we provide data about <b class="counter" akhi="' + str(
+            entities()) + '">0</b><b> entities</b>, consisting of <b class="counter" akhi="' + str(
+            triples()) + '">0</b><b> triples</b>, within <b class="counter" akhi="' + str(
+            datasets()) + '">0</b><b> different datasets</b>.</div>'
+
+        print('Statistics generated: Entities {}, Triples {}, Datasets {}'.format(entities(), triples(), datasets()))
+    except Exception as e:
+        print('Error fetching data: ', e)
+        html_string = ''
 
     # if path does not exist, create it
     if not os.path.exists(path):
