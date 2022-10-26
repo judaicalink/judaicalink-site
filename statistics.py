@@ -76,11 +76,11 @@ def generate_html_file():
         triples = sum_triples()
 
         html_string = '<div class="text-center">Currently, we provide data about <b class="counter" akhi="' + str(
-            entities()) + '">0</b><b> entities</b>, consisting of <b class="counter" akhi="' + str(
-            triples()) + '">0</b><b> triples</b>, within <b class="counter" akhi="' + str(
-            datasets()) + '">0</b><b> different datasets</b>.</div>'
+            entities) + '">0</b><b> entities</b>, consisting of <b class="counter" akhi="' + str(
+            triples) + '">0</b><b> triples</b>, within <b class="counter" akhi="' + str(
+            datasets) + '">0</b><b> different datasets</b>.</div>'
 
-        print('Statistics generated: Entities {}, Triples {}, Datasets {}'.format(entities(), triples(), datasets()))
+        print('Statistics generated: Entities {}, Triples {}, Datasets {}'.format(entities, triples, datasets))
     except Exception as e:
         print('Error fetching data: ', e)
         html_string = ''
