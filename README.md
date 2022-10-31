@@ -24,6 +24,8 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/judaicalink?style=social)
 
 # JudaicaLink Website
+The website is generated using Hugo.
+Hugo is a static site generator, using Markdown sites and template to compile static websites.
 
 ## What is JudaicaLink?
 
@@ -34,21 +36,20 @@ Go into the directory: `cd judaicalink-site`.
 
 Install hugo (see below).
 
-
-## Hugo
-The website is generated using Hugo.
-Hugo is a static site generator, using Markdown sites and template to compile static websites.
-
 ### Windows
 Simply download the Hugo executable (Currently used version on the server: [0.104.3](https://github.com/gohugoio/hugo/releases/tag/v0.104.3)).
 
-You have to add hugo in your environment variables under path:
+You have to add hugo in your environment variables under PATH:
 
-For example: C:\Users\YourName\Desktop\IT\Installations\hugo_0.31.1_Windows-64bit
+For example: C:\Users\YourName\hugo_0.31.1_Windows-64bit
 
-In your command prompt go to the main directory of the repository (where this README.md file is) and execute "hugo server". 
+To check if the installation worked you can type `hugo help` in your command prompt. You should get a response containing several commands hugo is able to execute.
 
-For example: C:\Users\YourName\Desktop\IT\Githubprojects\judaicalink-site>hugo server
+-> For more detailed directions view the guide hugo provides unter [installation guide for windows](https://gohugo.io/getting-started/installing/#windows)
+
+In your command prompt go to the main directory of the cloned repository (where this README.md file is) and execute the command `hugo server`. 
+
+For example: C:\Users\YourName\judaicalink-site>hugo server
 
 Afterwards, you can browse the website locally under http://localhost:1313
 
