@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../judaicalink-generators/.idea/judaicalink-generators.iml" filepath="$PROJECT_DIR$/../judaicalink-generators/.idea/judaicalink-generators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../judaicalink-labs/.idea/judaicalink-labs.iml" filepath="$PROJECT_DIR$/../judaicalink-labs/.idea/judaicalink-labs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/judaicalink-site.iml" filepath="$PROJECT_DIR$/.idea/judaicalink-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pubby-django/.idea/pubby-django.iml" filepath="$PROJECT_DIR$/../pubby-django/.idea/pubby-django.iml" />
     </modules>
   </component>
 </project>

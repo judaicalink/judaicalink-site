@@ -1,7 +1,6 @@
 public/
 *~
 hugo*
-.idea/
 ### VisualStudioCode template
 .vscode/*
 !.vscode/settings.json
