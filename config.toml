@@ -1,4 +1,4 @@
-baseurl = "http://web.judaicalink.org"
+baseurl = "https://web.judaicalink.org"
 languageCode = "en-us"
 title = "JudaicaLink"
 metaDataFormat = "toml"
