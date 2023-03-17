@@ -9,23 +9,23 @@ keywords: ["disclaimer", "legal", "responsibility", "privacy", "cookies"]
 
 
 
-WISS Research Group 2016
+WISS Research Group 2023
 
 Prof. Dr. Kai Eckert  
-Hochschule der Medien  
-Nobelstr. 10  
-D-70569 Stuttgart  
+Hochschule Mannheim - University of Applied Sciences
+Paul-Wittsack-Straße 10
+68163 Mannheim
 Germany
 
 
 
 **Phone:** +49 (0) 711 8923-3164
 
-Please also refer to the [Impressum der Hochschule der Medien](https://www.hdm-stuttgart.de/impressum).
+Please also refer to the [Legal notice of the Hochschule Mannheim - University of Applied Sciences](https://www.english.hs-mannheim.de/legal-notice.html).
 
-Stuttgart Media University is a corporation under public law (Körperschaft des öffentlichen Rechts) represented by the president Professor Dr. Alexander W. Roos.
+Hochschule Mannheim - University of Applied Sciences is a corporation under public law in Germany, represented by the president Prof. Dr. Astrid Hedtke-Becker.
 
-**USt.-ID-Nr.:** DE 224 427 890
+**USt.-ID-Nr.:** DE 811630438
 
 **Supervising Authority:**
 
