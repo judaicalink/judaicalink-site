@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="vue extra files removed.">
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="labs.css updated.">
       <change afterPath="$PROJECT_DIR$/../haskala/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -87,22 +87,8 @@
       <change beforePath="$PROJECT_DIR$/../haskala/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/home/templates/home/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/templates/home/home_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/input/auth.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/judaicalink-site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/judaicalink-site.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/static/img/hm_CO_011_1-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/static/img/mannheim_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/static/js/design.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/static/js/design.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/issuetracker/fab.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/issuetracker/fab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/issuetracker/issue_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/issuetracker/issue_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/pubby/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/pubby/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/pubby/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/pubby/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/pubby/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/pubby/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/pubby/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/templates/pubby/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/server/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/static/js/design.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/static/js/design.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/static/pubby/labs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/static/pubby/labs.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,10 +115,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="vue" />
+        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="beta" />
+        <entry key="$PROJECT_DIR$/../pubby-django" value="issue-tracker" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../pubby-django" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JiraServerManager">
@@ -176,12 +163,13 @@
       <recent name="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../pubby-django/server/pubby/static/img" />
       <recent name="$PROJECT_DIR$/content/news" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.labs">
+  <component name="RunManager" selected="Django Server.pubby">
     <configuration name="labs" type="Python.DjangoServer" factoryName="Django server">
       <module name="judaicalink-labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,7 +362,56 @@
       <option name="project" value="LOCAL" />
       <updated>1684862040345</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Footer updated, Christian added.">
+      <created>1685094070283</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685094070283</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Hs Mannheim Logo added to footer.">
+      <created>1685094737268</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685094737268</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Hs Mannheim Logo added to footer.">
+      <created>1685094942285</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685094942285</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Issue tracker generates RDF-Star.">
+      <created>1685095050987</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685095050987</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Hs Mannheim logo added to footer.">
+      <created>1685095358473</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685095358473</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Hs Mannheim logo uploaded.">
+      <created>1685095504868</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685095504868</updated>
+    </task>
+    <task id="LOCAL-00023" summary="labs.css updated.">
+      <created>1685095593497</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685095593497</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +444,12 @@
     <MESSAGE value="Static files." />
     <MESSAGE value="Advanced search fixed." />
     <MESSAGE value="vue extra files removed." />
-    <option name="LAST_COMMIT_MESSAGE" value="vue extra files removed." />
+    <MESSAGE value="Footer updated, Christian added." />
+    <MESSAGE value="Hs Mannheim Logo added to footer." />
+    <MESSAGE value="Issue tracker generates RDF-Star." />
+    <MESSAGE value="Hs Mannheim logo added to footer." />
+    <MESSAGE value="Hs Mannheim logo uploaded." />
+    <MESSAGE value="labs.css updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="labs.css updated." />
   </component>
 </project>
