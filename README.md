@@ -1,6 +1,6 @@
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 ![license](https://badgen.net/badge/license/MIT/blue)
-![Maintenance](https://img.shields.io/maintenance/yes/2022)
+![Maintenance](https://img.shields.io/maintenance/yes/2023)
 
 ![hugo](https://img.shields.io/badge/hugo-v0.104.3-green?style=plastic&logo=hugo&link=https://github.com/gohugoio/hugo)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)

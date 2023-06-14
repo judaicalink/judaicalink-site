@@ -6,11 +6,8 @@
       <excludeFolder url="file://$MODULE_DIR$/resources/_gen" />
       <excludeFolder url="file://$MODULE_DIR$/public" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="judaicalink-generators" />
-    <orderEntry type="module" module-name="judaicalink-labs" />
-    <orderEntry type="module" module-name="pubby-django" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
