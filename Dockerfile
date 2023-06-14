@@ -19,6 +19,8 @@ RUN mkdir /data/judaicalink/web.judaicalink.org/judaicalink-site
 WORKDIR /data/
 
 ADD docker/installer.sh ./
+COPY docker/installer.sh ./
+RUN chmod +x /data/installer.sh
 COPY docker/site/* /data/judaicalink/web.judaicalink.org/
 
 # NGINX
