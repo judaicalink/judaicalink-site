@@ -40,4 +40,5 @@ EXPOSE ${PORT_SSL}
 
 CMD [ "nginx", "-g", "daemon off;" ]
 
-RUN bash -c "docker/installer.sh"
+WORKDIR /data/
+RUN bash -c "./installer.sh"
