@@ -98,6 +98,10 @@ Don't forge to serve the `static` folder, too.
 Just fetch and pull the latest version of the site, `git fetch` and `git pull`.
 The compile the site again.
 
+# Docker image
+If you want to build a docker image, clone the repository and run `docker build -t judaicalink-site .` in the root directory of the repository.
+
+To run the image, use `docker run -d -p 80:80 judaicalink-site`.
 
 # Troubleshoot
 
