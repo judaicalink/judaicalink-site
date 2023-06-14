@@ -7,7 +7,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 
 def sparql_query(query):
-    sparql = SPARQLWrapper("http://localhost:3030/judaicalink/query")
+    sparql = SPARQLWrapper("http://data.judaicalink.org/sparql/query")
 
     sparql.setQuery(query)
 
