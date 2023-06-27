@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="labs.css updated.">
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="routing for channels 4">
       <change afterPath="$PROJECT_DIR$/../haskala/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -45,6 +48,7 @@
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.rtl.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.rtl.min.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/overrides.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/Alef-Bold.eot" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/Alef-Bold.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/Alef-Bold.woff" afterDir="false" />
@@ -78,17 +82,32 @@
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/templates/partials/mainmenu.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/templates/places.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../haskala/home/migrations/0003_homepage_body.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../judaicalink-generators/.idea/judaicalink-generators.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/input/auth.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/input/nli-persons-03.ttl" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/scripts/NLI-persons-command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../haskala/haskala/static/css/haskala.css" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LNKD.tech Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/haskala/static/css/haskala.css" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/docker-composer.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/haskala/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/haskala/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/home/templates/home/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/templates/home/home_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/input/auth.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.map.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.map.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/img/favicon.ico.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/img/favicon.ico.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/pubby/static/pubby/labs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/pubby/static/pubby/labs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,18 +128,20 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="beta" />
+        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="issue-tracker" />
         <entry key="$PROJECT_DIR$/../pubby-django" value="issue-tracker" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../pubby-django" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-labs" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JiraServerManager">
     <selected>-1</selected>
@@ -141,6 +162,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;app.teamhub.trackedBranches&quot;: &quot;1i8f87n/master&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
@@ -150,6 +172,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyDependenciesConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -163,13 +186,14 @@
       <recent name="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../judaicalink-labs" />
       <recent name="$PROJECT_DIR$/../pubby-django/server/pubby/static/img" />
       <recent name="$PROJECT_DIR$/content/news" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.pubby">
+  <component name="RunManager" selected="Django Server.labs">
     <configuration name="labs" type="Python.DjangoServer" factoryName="Django server">
       <module name="judaicalink-labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,8 +202,8 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="labs.settings" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../haskala/venv/bin/python" />
-      <option name="SDK_NAME" value="Python 3.11 (haskala)" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../judaicalink-labs/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.8 (venv)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -230,9 +254,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="cs" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/../judaicalink-labs/labs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="cs" />
+      </scripts>
+      <node-interpreter value="/usr/local/bin/node" />
+      <package-manager value="/usr/local/bin/npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Django Server.labs" />
       <item itemvalue="Django Server.pubby" />
+      <item itemvalue="npm.cs" />
       <item itemvalue="npm.build" />
     </list>
   </component>
@@ -411,7 +447,70 @@
       <option name="project" value="LOCAL" />
       <updated>1685095593497</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="labs.css updated.">
+      <created>1685096388787</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1685096388787</updated>
+    </task>
+    <task id="LOCAL-00025" summary="SPAQRL endpoint cherry picked.">
+      <created>1685096630912</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1685096630912</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Filter added to vue.">
+      <created>1687260934024</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687260934024</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Filter-app added to template.">
+      <created>1687261126652</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687261126652</updated>
+    </task>
+    <task id="LOCAL-00028" summary="gitignore updated">
+      <created>1687332106010</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687332106010</updated>
+    </task>
+    <task id="LOCAL-00029" summary="requirements.txt updated">
+      <created>1687332726883</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687332726883</updated>
+    </task>
+    <task id="LOCAL-00030" summary="requirements.txt updated">
+      <created>1687333480905</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1687333480905</updated>
+    </task>
+    <task id="LOCAL-00031" summary="requirements.txt updated">
+      <created>1687336311235</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1687336311235</updated>
+    </task>
+    <task id="LOCAL-00032" summary="routing for channels 4">
+      <created>1687336327237</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1687336327237</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,8 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Header updated and Background information removed." />
-    <MESSAGE value="Small removed." />
     <MESSAGE value="Sidebar div wrapped." />
     <MESSAGE value="Sidebar header removed." />
     <MESSAGE value="Padding to sidebar added." />
@@ -450,6 +547,12 @@
     <MESSAGE value="Hs Mannheim logo added to footer." />
     <MESSAGE value="Hs Mannheim logo uploaded." />
     <MESSAGE value="labs.css updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="labs.css updated." />
+    <MESSAGE value="SPAQRL endpoint cherry picked." />
+    <MESSAGE value="Filter added to vue." />
+    <MESSAGE value="Filter-app added to template." />
+    <MESSAGE value="gitignore updated" />
+    <MESSAGE value="requirements.txt updated" />
+    <MESSAGE value="routing for channels 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="routing for channels 4" />
   </component>
 </project>
