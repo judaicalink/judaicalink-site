@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../judaicalink-labs/.idea/judaicalink-labs.iml" filepath="$PROJECT_DIR$/../judaicalink-labs/.idea/judaicalink-labs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/judaicalink-site.iml" filepath="$PROJECT_DIR$/.idea/judaicalink-site.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pubby-django/.idea/pubby-django.iml" filepath="$PROJECT_DIR$/../pubby-django/.idea/pubby-django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wagtail-common-base/.idea/wagtail-common-base.iml" filepath="$PROJECT_DIR$/../wagtail-common-base/.idea/wagtail-common-base.iml" />
     </modules>
   </component>
 </project>

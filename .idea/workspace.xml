@@ -7,107 +7,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="routing for channels 4">
-      <change afterPath="$PROJECT_DIR$/../haskala/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/css/overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/Alef-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/Alef-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/Alef-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/bellb-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/bellb-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/bellb-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/bellb-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/opensans-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/opensans-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/opensans-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/fonts/opensans-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/images/bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/images/marker-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/images/site_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/images/sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/images/top-search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/templates/partials/footermenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/templates/partials/mainmenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/templates/places.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../haskala/home/migrations/0003_homepage_body.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../judaicalink-generators/.idea/judaicalink-generators.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/input/auth.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/input/nli-persons-03.ttl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/scripts/NLI-persons-command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/LNKD.tech Editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../haskala/haskala/static/css/haskala.css" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/docker-composer.yml" afterDir="false" />
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="linkchecker updated.">
+      <change afterPath="$PROJECT_DIR$/../haskala/haskala/templates/partials/breadcrumbs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/offline.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/haskala/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../haskala/haskala/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../haskala/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../haskala/home/templates/home/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/templates/home/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/input/auth.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.map.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/css/styles.css.map.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/img/favicon.ico.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/img/favicon.ico.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/haskala/templates/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/templates/places.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-GND.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-GND.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-vs-GND-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-vs-GND-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-vs-JudaicaLink-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-vs-JudaicaLink-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/ContentExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/ContentExtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Encyc-to-RDF-ID.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Encyc-to-RDF-ID.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Encyc-to-RDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Encyc-to-RDF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Scrapping_Persons_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Scrapping_Persons_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Entityfacts-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Entityfacts-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Scrapping_Persons_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Scrapping_Persons_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/Entityfacts-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/Entityfacts-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/generated_persons_DBPedia_enrich.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/generated_persons_DBPedia_enrich.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/gndid_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/gndid_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia_modify.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia_modify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia_modify_gnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia_modify_gnd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/geocoordinates/scripts/Locaion-coor-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/geocoordinates/scripts/Location-coor-03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/geocoordinates/scripts/Location-coor-02-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/geocoordinates/scripts/Location-coor-02-02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/Entityfacts-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/Entityfacts-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/Freimann-GND-enrich.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/Freimann-GND-enrich.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/UB-gnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/UB-gnd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_Occontology_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_Occontology_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_Occontology_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_Occontology_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/haskala/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/haskala/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/CSV-to-RDF-Haskala.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/CSV-to-RDF-Haskala.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/CSV-to-RDF-Haskalanet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/CSV-to-RDF-Haskalanet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/GND-enrich-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/GND-enrich-02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/scripts/NLI-persons-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/scripts/NLI-persons-03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/stolpersteine/scripts/Stein-wiki-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/stolpersteine/scripts/Stein-wiki-01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/src/js/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/src/js/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/src/vue/filter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/src/vue/filter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/judaicalink-site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/judaicalink-site.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/contact/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/contact/templates/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/wagtail_hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/wagtail_hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,11 +97,11 @@
       <map>
         <entry key="$PROJECT_DIR$/../judaicalink-labs" value="issue-tracker" />
         <entry key="$PROJECT_DIR$/../pubby-django" value="issue-tracker" />
+        <entry key="$PROJECT_DIR$/../wagtail-common-base" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-labs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-generators" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JiraServerManager">
     <selected>-1</selected>
@@ -150,6 +110,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="1piLWpd5lMJyYB9JXiWvBOiDZd2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,34 +129,84 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;app.teamhub.trackedBranches&quot;: &quot;1i8f87n/master&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/benni/coding/judaicalink/judaicalink-labs/labs/labs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/benni/coding/judaicalink/wagtail-common-base/site/portal/links/templates/links&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyDependenciesConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.black.configuration.BlackFormatterConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/benni/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.9225.15/PyCharm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../judaicalink-labs/labs/labs" />
-      <recent name="$PROJECT_DIR$/../pubby-django/server/pubby/static/img" />
-      <recent name="$PROJECT_DIR$/content/news" />
-      <recent name="$PROJECT_DIR$/../judaicalink-labs/labs/src/img" />
-      <recent name="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/img" />
+      <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links" />
+      <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/static/img" />
+      <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/dashboard/templates/wagtailadmin" />
+      <recent name="$PROJECT_DIR$/../wagtail-common-base/site" />
+      <recent name="$PROJECT_DIR$/public/offline" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal" />
       <recent name="$PROJECT_DIR$/../judaicalink-labs" />
       <recent name="$PROJECT_DIR$/../pubby-django/server/pubby/static/img" />
       <recent name="$PROJECT_DIR$/content/news" />
       <recent name="$PROJECT_DIR$/static/img" />
-      <recent name="$PROJECT_DIR$/static/js" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.labs">
+  <component name="RunManager" selected="Django Server.FID Portal">
+    <configuration name="FID Portal" type="Python.DjangoServer" factoryName="Django server">
+      <module name="wagtail-common-base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="portal.settings.__init__" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../wagtail-common-base/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.11 (venv)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://localhost:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Haskala" type="Python.DjangoServer" factoryName="Django server">
+      <module name="haskala" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../pubby-django/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.9 (pubby-django)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://localhost:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="labs" type="Python.DjangoServer" factoryName="Django server">
       <module name="judaicalink-labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,10 +279,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django Server.Haskala" />
+      <item itemvalue="Django Server.FID Portal" />
       <item itemvalue="Django Server.labs" />
       <item itemvalue="Django Server.pubby" />
-      <item itemvalue="npm.cs" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.cs" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -510,7 +525,83 @@
       <option name="project" value="LOCAL" />
       <updated>1687336327237</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="vuetify component added.">
+      <created>1687856297383</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1687856297383</updated>
+    </task>
+    <task id="LOCAL-00034" summary="package.json added.">
+      <created>1687856958443</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1687856958444</updated>
+    </task>
+    <task id="LOCAL-00035" summary="vuetify loaded exported">
+      <created>1687858204779</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1687858204779</updated>
+    </task>
+    <task id="LOCAL-00036" summary="vuetify loaded exported">
+      <created>1687934429806</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1687934429806</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Readme.rst install order fixed.">
+      <option name="closed" value="true" />
+      <created>1700746507983</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1700746507983</updated>
+    </task>
+    <task id="LOCAL-00038" summary=".gitignore updated.">
+      <option name="closed" value="true" />
+      <created>1700746728725</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1700746728725</updated>
+    </task>
+    <task id="LOCAL-00039" summary="links project started">
+      <option name="closed" value="true" />
+      <created>1700746780534</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1700746780534</updated>
+    </task>
+    <task id="LOCAL-00040" summary=".idea project files added.">
+      <option name="closed" value="true" />
+      <created>1700748903993</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1700748903993</updated>
+    </task>
+    <task id="LOCAL-00041" summary="linkchecker updated.">
+      <option name="closed" value="true" />
+      <created>1700748921398</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1700748921398</updated>
+    </task>
+    <task id="LOCAL-00042" summary="linkchecker updated.">
+      <option name="closed" value="true" />
+      <created>1700748926794</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1700748926794</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,14 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sidebar div wrapped." />
-    <MESSAGE value="Sidebar header removed." />
-    <MESSAGE value="Padding to sidebar added." />
-    <MESSAGE value="Legal statement updated to the Hochschule Mannheim." />
-    <MESSAGE value="Generator updated to the new mail address." />
-    <MESSAGE value="Hs Mannheim logo added." />
-    <MESSAGE value="Footer updated for Hs Mannheim." />
-    <MESSAGE value="News for the move to Mannheim added." />
     <MESSAGE value="Hs Mannheim added in footer." />
     <MESSAGE value="HS Mannheim logo added." />
     <MESSAGE value="Static files." />
@@ -553,6 +636,14 @@
     <MESSAGE value="gitignore updated" />
     <MESSAGE value="requirements.txt updated" />
     <MESSAGE value="routing for channels 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="routing for channels 4" />
+    <MESSAGE value="vuetify component added." />
+    <MESSAGE value="package.json added." />
+    <MESSAGE value="vuetify loaded exported" />
+    <MESSAGE value="Readme.rst install order fixed." />
+    <MESSAGE value=".gitignore updated." />
+    <MESSAGE value="links project started" />
+    <MESSAGE value=".idea project files added." />
+    <MESSAGE value="linkchecker updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="linkchecker updated." />
   </component>
 </project>
