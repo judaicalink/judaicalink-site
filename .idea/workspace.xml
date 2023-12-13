@@ -7,66 +7,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="linkchecker updated.">
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="Cookiebanner added.">
       <change afterPath="$PROJECT_DIR$/../haskala/haskala/templates/partials/breadcrumbs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/offline.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/haskala/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../haskala/haskala/templates/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/templates/places.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-GND.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-GND.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-vs-GND-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-vs-GND-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-vs-JudaicaLink-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/BHR-vs-JudaicaLink-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/ContentExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/ContentExtraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Encyc-to-RDF-ID.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Encyc-to-RDF-ID.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Encyc-to-RDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Encyc-to-RDF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Scrapping_Persons_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round1/scripts/Scrapping_Persons_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Entityfacts-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Entityfacts-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Integrate-new-old-04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Scrapping_Persons_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/bhr/Round2/scripts/Scrapping_Persons_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/Entityfacts-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/Entityfacts-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/generated_persons_DBPedia_enrich.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/generated_persons_DBPedia_enrich.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/gndid_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/gndid_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia_modify.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia_modify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia_modify_gnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/dbpedia-persons/scripts/person_generator_DBPedia_modify_gnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/geocoordinates/scripts/Locaion-coor-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/geocoordinates/scripts/Location-coor-03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/geocoordinates/scripts/Location-coor-02-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/geocoordinates/scripts/Location-coor-02-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/Entityfacts-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/Entityfacts-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/Freimann-GND-enrich.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/Freimann-GND-enrich.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/UB-gnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/UB-gnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_Occontology_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_Occontology_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_Occontology_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/gnd-persons/scripts/person_generator_GND_Occontology_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/haskala/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/haskala/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/CSV-to-RDF-Haskala.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/CSV-to-RDF-Haskala.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/CSV-to-RDF-Haskalanet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/CSV-to-RDF-Haskalanet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/GND-enrich-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/haskala/scripts/GND-enrich-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/interlinks/scripts/JudaicaLink-interlink-04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/scripts/NLI-persons-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/nli-persons/scripts/NLI-persons-03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/stolpersteine/scripts/Stein-wiki-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/stolpersteine/scripts/Stein-wiki-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/static/js/bundle.js.map.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/src/js/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/src/js/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/src/vue/filter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/src/vue/filter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/judaicalink-site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/judaicalink-site.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/footprints/footPrints-final-01.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/footprints/footPrints-final-01.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/contact/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/contact/templates/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/wagtail_hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/wagtail_hooks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/development.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/development.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,18 +53,20 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Dockerfile" />
+        <option value="Markdown File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="issue-tracker" />
+        <entry key="$PROJECT_DIR$/../judaicalink-generators" value="bschnabel" />
+        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="vue" />
         <entry key="$PROJECT_DIR$/../pubby-django" value="issue-tracker" />
         <entry key="$PROJECT_DIR$/../wagtail-common-base" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-generators" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-labs" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JiraServerManager">
@@ -123,6 +89,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -160,6 +127,7 @@
   <component name="RunManager" selected="Django Server.FID Portal">
     <configuration name="FID Portal" type="Python.DjangoServer" factoryName="Django server">
       <module name="wagtail-common-base" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -185,6 +153,7 @@
     </configuration>
     <configuration name="Haskala" type="Python.DjangoServer" factoryName="Django server">
       <module name="haskala" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -209,6 +178,7 @@
     </configuration>
     <configuration name="labs" type="Python.DjangoServer" factoryName="Django server">
       <module name="judaicalink-labs" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -234,6 +204,7 @@
     </configuration>
     <configuration name="pubby" type="Python.DjangoServer" factoryName="Django server">
       <module name="pubby-django" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -279,13 +250,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.Haskala" />
       <item itemvalue="Django Server.FID Portal" />
+      <item itemvalue="Django Server.Haskala" />
       <item itemvalue="Django Server.labs" />
       <item itemvalue="Django Server.pubby" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.cs" />
     </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7a29c1521ef0-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.298" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -553,38 +531,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687934429806</updated>
     </task>
-    <task id="LOCAL-00037" summary="Readme.rst install order fixed.">
-      <option name="closed" value="true" />
-      <created>1700746507983</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1700746507983</updated>
-    </task>
-    <task id="LOCAL-00038" summary=".gitignore updated.">
-      <option name="closed" value="true" />
-      <created>1700746728725</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1700746728725</updated>
-    </task>
-    <task id="LOCAL-00039" summary="links project started">
-      <option name="closed" value="true" />
-      <created>1700746780534</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1700746780534</updated>
-    </task>
-    <task id="LOCAL-00040" summary=".idea project files added.">
-      <option name="closed" value="true" />
-      <created>1700748903993</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1700748903993</updated>
-    </task>
     <task id="LOCAL-00041" summary="linkchecker updated.">
       <option name="closed" value="true" />
       <created>1700748921398</created>
@@ -601,7 +547,95 @@
       <option name="project" value="LOCAL" />
       <updated>1700748926794</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Absolute paths removed">
+      <option name="closed" value="true" />
+      <created>1701430159889</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1701430159889</updated>
+    </task>
+    <task id="LOCAL-00044" summary="offline message.">
+      <option name="closed" value="true" />
+      <created>1701430214863</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1701430214863</updated>
+    </task>
+    <task id="LOCAL-00045" summary="files added">
+      <option name="closed" value="true" />
+      <created>1701430283894</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1701430283894</updated>
+    </task>
+    <task id="LOCAL-00046" summary="files added">
+      <option name="closed" value="true" />
+      <created>1701430300234</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1701430300234</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Elasticsearch removed">
+      <option name="closed" value="true" />
+      <created>1701431107267</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1701431107267</updated>
+    </task>
+    <task id="LOCAL-00048" summary="requirements.txt updated">
+      <option name="closed" value="true" />
+      <created>1701431119509</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1701431119509</updated>
+    </task>
+    <task id="LOCAL-00049" summary="gitignore updated">
+      <option name="closed" value="true" />
+      <created>1702325747970</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1702325747970</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Merged from deployment.">
+      <option name="closed" value="true" />
+      <created>1702504181884</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1702504181884</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Elasticsearch removed in views.">
+      <option name="closed" value="true" />
+      <created>1702504320357</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1702504320357</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Elasticsearch removed in backend/admin.">
+      <option name="closed" value="true" />
+      <created>1702505246876</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1702505246876</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Cookiebanner added.">
+      <option name="closed" value="true" />
+      <created>1702505610266</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1702505610266</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,29 +646,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../judaicalink-labs" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hs Mannheim added in footer." />
-    <MESSAGE value="HS Mannheim logo added." />
-    <MESSAGE value="Static files." />
-    <MESSAGE value="Advanced search fixed." />
-    <MESSAGE value="vue extra files removed." />
-    <MESSAGE value="Footer updated, Christian added." />
-    <MESSAGE value="Hs Mannheim Logo added to footer." />
-    <MESSAGE value="Issue tracker generates RDF-Star." />
     <MESSAGE value="Hs Mannheim logo added to footer." />
     <MESSAGE value="Hs Mannheim logo uploaded." />
     <MESSAGE value="labs.css updated." />
     <MESSAGE value="SPAQRL endpoint cherry picked." />
     <MESSAGE value="Filter added to vue." />
     <MESSAGE value="Filter-app added to template." />
-    <MESSAGE value="gitignore updated" />
-    <MESSAGE value="requirements.txt updated" />
     <MESSAGE value="routing for channels 4" />
     <MESSAGE value="vuetify component added." />
     <MESSAGE value="package.json added." />
@@ -644,6 +680,16 @@
     <MESSAGE value="links project started" />
     <MESSAGE value=".idea project files added." />
     <MESSAGE value="linkchecker updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="linkchecker updated." />
+    <MESSAGE value="Absolute paths removed" />
+    <MESSAGE value="offline message." />
+    <MESSAGE value="files added" />
+    <MESSAGE value="Elasticsearch removed" />
+    <MESSAGE value="requirements.txt updated" />
+    <MESSAGE value="gitignore updated" />
+    <MESSAGE value="Merged from deployment." />
+    <MESSAGE value="Elasticsearch removed in views." />
+    <MESSAGE value="Elasticsearch removed in backend/admin." />
+    <MESSAGE value="Cookiebanner added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cookiebanner added." />
   </component>
 </project>
