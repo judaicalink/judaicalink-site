@@ -7,17 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="npm packages upgraded">
-      <change afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/templates/search/400.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/templates/search/403.html" afterDir="false" />
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="gitignore updated">
       <change beforePath="$PROJECT_DIR$/../judaicalink-generators/footprints/footPrints-final-01.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/footprints/footPrints-final-01.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/judaicalink-site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/judaicalink-site.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubby-django/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubby-django/server/server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/server/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +48,7 @@
         <entry key="$PROJECT_DIR$/../wagtail-common-base" value="url-links" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-labs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../pubby-django" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JiraServerManager">
@@ -514,46 +508,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687934429806</updated>
     </task>
-    <task id="LOCAL-00092" summary="debugging">
-      <option name="closed" value="true" />
-      <created>1704881064569</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1704881064569</updated>
-    </task>
-    <task id="LOCAL-00093" summary="debugging">
-      <option name="closed" value="true" />
-      <created>1704881492650</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1704881492651</updated>
-    </task>
-    <task id="LOCAL-00094" summary="debugging">
-      <option name="closed" value="true" />
-      <created>1704881685225</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1704881685225</updated>
-    </task>
-    <task id="LOCAL-00095" summary="debugging">
-      <option name="closed" value="true" />
-      <created>1704881926989</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1704881926990</updated>
-    </task>
-    <task id="LOCAL-00096" summary="debugging">
-      <option name="closed" value="true" />
-      <created>1704882464239</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1704882464239</updated>
-    </task>
     <task id="LOCAL-00097" summary="localhost added">
       <option name="closed" value="true" />
       <created>1704892478475</created>
@@ -618,7 +572,47 @@
       <option name="project" value="LOCAL" />
       <updated>1705064285069</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Django upgraded to 5.0.1">
+      <option name="closed" value="true" />
+      <created>1705072708120</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1705072708121</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Error pages fixed">
+      <option name="closed" value="true" />
+      <created>1705072723845</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1705072723845</updated>
+    </task>
+    <task id="LOCAL-00107" summary="idea config">
+      <option name="closed" value="true" />
+      <created>1705072787197</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1705072787197</updated>
+    </task>
+    <task id="LOCAL-00108" summary="requirements upgraded">
+      <option name="closed" value="true" />
+      <created>1705072824147</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1705072824147</updated>
+    </task>
+    <task id="LOCAL-00109" summary="gitignore updated">
+      <option name="closed" value="true" />
+      <created>1705072935843</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1705072935843</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,10 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cookiebanner added." />
-    <MESSAGE value="q added" />
-    <MESSAGE value="solr added to settings.py" />
-    <MESSAGE value="user and password added to search/views.py" />
     <MESSAGE value="multicore index" />
     <MESSAGE value="names in query" />
     <MESSAGE value="search/views.py updated" />
@@ -669,10 +659,14 @@
     <MESSAGE value="dummy removed" />
     <MESSAGE value="footer renamed" />
     <MESSAGE value="links included" />
-    <MESSAGE value="gitignore updated" />
     <MESSAGE value="comments" />
     <MESSAGE value="django upgraded to 4.2.9" />
     <MESSAGE value="npm packages upgraded" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm packages upgraded" />
+    <MESSAGE value="Django upgraded to 5.0.1" />
+    <MESSAGE value="Error pages fixed" />
+    <MESSAGE value="idea config" />
+    <MESSAGE value="requirements upgraded" />
+    <MESSAGE value="gitignore updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore updated" />
   </component>
 </project>
