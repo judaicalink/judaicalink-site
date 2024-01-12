@@ -7,31 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="Cookiebanner added.">
-      <change afterPath="$PROJECT_DIR$/../haskala/haskala/templates/partials/breadcrumbs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../haskala/haskala/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../haskala/haskala/templates/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/templates/places.html" afterDir="false" />
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="npm packages upgraded">
+      <change afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/templates/search/400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/templates/search/403.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../judaicalink-generators/footprints/footPrints-final-01.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/footprints/footPrints-final-01.ttl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/judaicalink-site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/judaicalink-site.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/contact/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/contact/templates/contact/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/dummy/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/wagtail_hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/wagtail_hooks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/development.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/development.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +45,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../judaicalink-generators" value="bschnabel" />
         <entry key="$PROJECT_DIR$/../judaicalink-labs" value="vue" />
         <entry key="$PROJECT_DIR$/../pubby-django" value="issue-tracker" />
-        <entry key="$PROJECT_DIR$/../wagtail-common-base" value="main" />
+        <entry key="$PROJECT_DIR$/../wagtail-common-base" value="url-links" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-labs" />
@@ -87,34 +75,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;app.teamhub.trackedBranches&quot;: &quot;1i8f87n/master&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/benni/coding/judaicalink/wagtail-common-base/site/portal/links/templates/links&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.black.configuration.BlackFormatterConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/benni/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/231.9225.15/PyCharm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "app.teamhub.trackedBranches": "1i8f87n/master",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/benni/coding/judaicalink/judaicalink-labs/labs/search/templates/search",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "/Users/benni/Applications/PyCharm Professional Edition 2023.1.4.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../judaicalink-labs/labs/search/templates/search" />
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links" />
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/static/img" />
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/dashboard/templates/wagtailadmin" />
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site" />
-      <recent name="$PROJECT_DIR$/public/offline" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal" />
@@ -127,7 +115,6 @@
   <component name="RunManager" selected="Django Server.FID Portal">
     <configuration name="FID Portal" type="Python.DjangoServer" factoryName="Django server">
       <module name="wagtail-common-base" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -135,7 +122,6 @@
         <env name="DJANGO_SETTINGS_MODULE" value="portal.settings.__init__" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/../wagtail-common-base/venv/bin/python" />
-      <option name="SDK_NAME" value="Python 3.11 (venv)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -153,7 +139,6 @@
     </configuration>
     <configuration name="Haskala" type="Python.DjangoServer" factoryName="Django server">
       <module name="haskala" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -178,7 +163,6 @@
     </configuration>
     <configuration name="labs" type="Python.DjangoServer" factoryName="Django server">
       <module name="judaicalink-labs" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -204,7 +188,6 @@
     </configuration>
     <configuration name="pubby" type="Python.DjangoServer" factoryName="Django server">
       <module name="pubby-django" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -531,111 +514,111 @@
       <option name="project" value="LOCAL" />
       <updated>1687934429806</updated>
     </task>
-    <task id="LOCAL-00041" summary="linkchecker updated.">
+    <task id="LOCAL-00092" summary="debugging">
       <option name="closed" value="true" />
-      <created>1700748921398</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
+      <created>1704881064569</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
       <option name="project" value="LOCAL" />
-      <updated>1700748921398</updated>
+      <updated>1704881064569</updated>
     </task>
-    <task id="LOCAL-00042" summary="linkchecker updated.">
+    <task id="LOCAL-00093" summary="debugging">
       <option name="closed" value="true" />
-      <created>1700748926794</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
+      <created>1704881492650</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
       <option name="project" value="LOCAL" />
-      <updated>1700748926794</updated>
+      <updated>1704881492651</updated>
     </task>
-    <task id="LOCAL-00043" summary="Absolute paths removed">
+    <task id="LOCAL-00094" summary="debugging">
       <option name="closed" value="true" />
-      <created>1701430159889</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
+      <created>1704881685225</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
       <option name="project" value="LOCAL" />
-      <updated>1701430159889</updated>
+      <updated>1704881685225</updated>
     </task>
-    <task id="LOCAL-00044" summary="offline message.">
+    <task id="LOCAL-00095" summary="debugging">
       <option name="closed" value="true" />
-      <created>1701430214863</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
+      <created>1704881926989</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
       <option name="project" value="LOCAL" />
-      <updated>1701430214863</updated>
+      <updated>1704881926990</updated>
     </task>
-    <task id="LOCAL-00045" summary="files added">
+    <task id="LOCAL-00096" summary="debugging">
       <option name="closed" value="true" />
-      <created>1701430283894</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
+      <created>1704882464239</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
       <option name="project" value="LOCAL" />
-      <updated>1701430283894</updated>
+      <updated>1704882464239</updated>
     </task>
-    <task id="LOCAL-00046" summary="files added">
+    <task id="LOCAL-00097" summary="localhost added">
       <option name="closed" value="true" />
-      <created>1701430300234</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
+      <created>1704892478475</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
       <option name="project" value="LOCAL" />
-      <updated>1701430300234</updated>
+      <updated>1704892478475</updated>
     </task>
-    <task id="LOCAL-00047" summary="Elasticsearch removed">
+    <task id="LOCAL-00098" summary="dummy removed">
       <option name="closed" value="true" />
-      <created>1701431107267</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
+      <created>1704892492652</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
       <option name="project" value="LOCAL" />
-      <updated>1701431107267</updated>
+      <updated>1704892492652</updated>
     </task>
-    <task id="LOCAL-00048" summary="requirements.txt updated">
+    <task id="LOCAL-00099" summary="footer renamed">
       <option name="closed" value="true" />
-      <created>1701431119509</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
+      <created>1704892507182</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
       <option name="project" value="LOCAL" />
-      <updated>1701431119509</updated>
+      <updated>1704892507183</updated>
     </task>
-    <task id="LOCAL-00049" summary="gitignore updated">
+    <task id="LOCAL-00100" summary="links included">
       <option name="closed" value="true" />
-      <created>1702325747970</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
+      <created>1704892541737</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
       <option name="project" value="LOCAL" />
-      <updated>1702325747970</updated>
+      <updated>1704892541738</updated>
     </task>
-    <task id="LOCAL-00050" summary="Merged from deployment.">
+    <task id="LOCAL-00101" summary="gitignore updated">
       <option name="closed" value="true" />
-      <created>1702504181884</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
+      <created>1704892620932</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
       <option name="project" value="LOCAL" />
-      <updated>1702504181884</updated>
+      <updated>1704892620932</updated>
     </task>
-    <task id="LOCAL-00051" summary="Elasticsearch removed in views.">
+    <task id="LOCAL-00102" summary="comments">
       <option name="closed" value="true" />
-      <created>1702504320357</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
+      <created>1704892636345</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
       <option name="project" value="LOCAL" />
-      <updated>1702504320357</updated>
+      <updated>1704892636345</updated>
     </task>
-    <task id="LOCAL-00052" summary="Elasticsearch removed in backend/admin.">
+    <task id="LOCAL-00103" summary="django upgraded to 4.2.9">
       <option name="closed" value="true" />
-      <created>1702505246876</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
+      <created>1705057259300</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
       <option name="project" value="LOCAL" />
-      <updated>1702505246876</updated>
+      <updated>1705057259302</updated>
     </task>
-    <task id="LOCAL-00053" summary="Cookiebanner added.">
+    <task id="LOCAL-00104" summary="npm packages upgraded">
       <option name="closed" value="true" />
-      <created>1702505610266</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
+      <created>1705064285069</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
       <option name="project" value="LOCAL" />
-      <updated>1702505610266</updated>
+      <updated>1705064285069</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,31 +648,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hs Mannheim logo added to footer." />
-    <MESSAGE value="Hs Mannheim logo uploaded." />
-    <MESSAGE value="labs.css updated." />
-    <MESSAGE value="SPAQRL endpoint cherry picked." />
-    <MESSAGE value="Filter added to vue." />
-    <MESSAGE value="Filter-app added to template." />
-    <MESSAGE value="routing for channels 4" />
-    <MESSAGE value="vuetify component added." />
-    <MESSAGE value="package.json added." />
-    <MESSAGE value="vuetify loaded exported" />
-    <MESSAGE value="Readme.rst install order fixed." />
-    <MESSAGE value=".gitignore updated." />
-    <MESSAGE value="links project started" />
-    <MESSAGE value=".idea project files added." />
-    <MESSAGE value="linkchecker updated." />
-    <MESSAGE value="Absolute paths removed" />
-    <MESSAGE value="offline message." />
-    <MESSAGE value="files added" />
-    <MESSAGE value="Elasticsearch removed" />
-    <MESSAGE value="requirements.txt updated" />
-    <MESSAGE value="gitignore updated" />
-    <MESSAGE value="Merged from deployment." />
-    <MESSAGE value="Elasticsearch removed in views." />
-    <MESSAGE value="Elasticsearch removed in backend/admin." />
     <MESSAGE value="Cookiebanner added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cookiebanner added." />
+    <MESSAGE value="q added" />
+    <MESSAGE value="solr added to settings.py" />
+    <MESSAGE value="user and password added to search/views.py" />
+    <MESSAGE value="multicore index" />
+    <MESSAGE value="names in query" />
+    <MESSAGE value="search/views.py updated" />
+    <MESSAGE value="cm_search/views.py solr settings updated." />
+    <MESSAGE value="logging added for get_names" />
+    <MESSAGE value="logging added" />
+    <MESSAGE value="localsettings removes, redis added" />
+    <MESSAGE value="redis removed" />
+    <MESSAGE value="redis changed" />
+    <MESSAGE value="TTL added" />
+    <MESSAGE value="logging changed" />
+    <MESSAGE value="logging level debug" />
+    <MESSAGE value="debugging" />
+    <MESSAGE value="localhost added" />
+    <MESSAGE value="dummy removed" />
+    <MESSAGE value="footer renamed" />
+    <MESSAGE value="links included" />
+    <MESSAGE value="gitignore updated" />
+    <MESSAGE value="comments" />
+    <MESSAGE value="django upgraded to 4.2.9" />
+    <MESSAGE value="npm packages upgraded" />
+    <option name="LAST_COMMIT_MESSAGE" value="npm packages upgraded" />
   </component>
 </project>

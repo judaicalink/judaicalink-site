@@ -6,6 +6,5 @@
     <mapping directory="$PROJECT_DIR$/../judaicalink-generators" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../judaicalink-labs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../pubby-django" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../wagtail-common-base" vcs="Git" />
   </component>
 </project>
