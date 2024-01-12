@@ -7,11 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="gitignore updated">
-      <change beforePath="$PROJECT_DIR$/../judaicalink-generators/footprints/footPrints-final-01.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-generators/footprints/footPrints-final-01.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="static files updated">
       <change beforePath="$PROJECT_DIR$/../pubby-django/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubby-django/server/server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pubby-django/server/server/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -508,46 +505,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687934429806</updated>
     </task>
-    <task id="LOCAL-00097" summary="localhost added">
-      <option name="closed" value="true" />
-      <created>1704892478475</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1704892478475</updated>
-    </task>
-    <task id="LOCAL-00098" summary="dummy removed">
-      <option name="closed" value="true" />
-      <created>1704892492652</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1704892492652</updated>
-    </task>
-    <task id="LOCAL-00099" summary="footer renamed">
-      <option name="closed" value="true" />
-      <created>1704892507182</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1704892507183</updated>
-    </task>
-    <task id="LOCAL-00100" summary="links included">
-      <option name="closed" value="true" />
-      <created>1704892541737</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1704892541738</updated>
-    </task>
-    <task id="LOCAL-00101" summary="gitignore updated">
-      <option name="closed" value="true" />
-      <created>1704892620932</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1704892620932</updated>
-    </task>
     <task id="LOCAL-00102" summary="comments">
       <option name="closed" value="true" />
       <created>1704892636345</created>
@@ -612,7 +569,47 @@
       <option name="project" value="LOCAL" />
       <updated>1705072935843</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="gba updated">
+      <option name="closed" value="true" />
+      <created>1705074329042</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1705074329042</updated>
+    </task>
+    <task id="LOCAL-00111" summary="nli updated">
+      <option name="closed" value="true" />
+      <created>1705074339470</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1705074339470</updated>
+    </task>
+    <task id="LOCAL-00112" summary="idea files">
+      <option name="closed" value="true" />
+      <created>1705074355503</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1705074355503</updated>
+    </task>
+    <task id="LOCAL-00113" summary="footprints final file generated">
+      <option name="closed" value="true" />
+      <created>1705074384615</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1705074384615</updated>
+    </task>
+    <task id="LOCAL-00114" summary="static files updated">
+      <option name="closed" value="true" />
+      <created>1705074484193</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1705074484193</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,11 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="multicore index" />
-    <MESSAGE value="names in query" />
-    <MESSAGE value="search/views.py updated" />
-    <MESSAGE value="cm_search/views.py solr settings updated." />
-    <MESSAGE value="logging added for get_names" />
     <MESSAGE value="logging added" />
     <MESSAGE value="localsettings removes, redis added" />
     <MESSAGE value="redis removed" />
@@ -667,6 +659,11 @@
     <MESSAGE value="idea config" />
     <MESSAGE value="requirements upgraded" />
     <MESSAGE value="gitignore updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore updated" />
+    <MESSAGE value="gba updated" />
+    <MESSAGE value="nli updated" />
+    <MESSAGE value="idea files" />
+    <MESSAGE value="footprints final file generated" />
+    <MESSAGE value="static files updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="static files updated" />
   </component>
 </project>
