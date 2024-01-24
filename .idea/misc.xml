@@ -5,5 +5,5 @@
     <option name="pathToExecutable" value="/usr/local/bin/black" />
     <option name="sdkName" value="Python 3.11 (haskala)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (venv)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (judaicalink-labs)" project-jdk-type="Python SDK" />
 </project>

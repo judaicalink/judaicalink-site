@@ -12,7 +12,7 @@ example = "http://data.judaicalink.org/data/hhkeydocs/AbrahamGerson"
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/hhkeydocs/current/HHKeyDocs-final-01.ttl.gz"
+	url = "http://data.judaicalink.org/dumps/hhkeydocs/current/hhkeydocs-final-01.ttl.gz"
 	
 	
 	description = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte"

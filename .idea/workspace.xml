@@ -7,8 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="static files updated">
-      <change beforePath="$PROJECT_DIR$/../pubby-django/requirements.txt" beforeDir="false" />
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="footer refactored">
+      <change beforePath="$PROJECT_DIR$/../haskala/haskala/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/cm_e_search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/cm_e_search/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +36,7 @@
         <option value="JavaScript File" />
         <option value="Dockerfile" />
         <option value="Markdown File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -45,7 +50,7 @@
         <entry key="$PROJECT_DIR$/../wagtail-common-base" value="url-links" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../pubby-django" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-labs" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JiraServerManager">
@@ -505,111 +510,111 @@
       <option name="project" value="LOCAL" />
       <updated>1687934429806</updated>
     </task>
-    <task id="LOCAL-00102" summary="comments">
+    <task id="LOCAL-00222" summary="related entities">
       <option name="closed" value="true" />
-      <created>1704892636345</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
+      <created>1706012903637</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
       <option name="project" value="LOCAL" />
-      <updated>1704892636345</updated>
+      <updated>1706012903638</updated>
     </task>
-    <task id="LOCAL-00103" summary="django upgraded to 4.2.9">
+    <task id="LOCAL-00223" summary="related entities">
       <option name="closed" value="true" />
-      <created>1705057259300</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
+      <created>1706013442741</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
       <option name="project" value="LOCAL" />
-      <updated>1705057259302</updated>
+      <updated>1706013442741</updated>
     </task>
-    <task id="LOCAL-00104" summary="npm packages upgraded">
+    <task id="LOCAL-00224" summary="related entities">
       <option name="closed" value="true" />
-      <created>1705064285069</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
+      <created>1706013708492</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
       <option name="project" value="LOCAL" />
-      <updated>1705064285069</updated>
+      <updated>1706013708492</updated>
     </task>
-    <task id="LOCAL-00105" summary="Django upgraded to 5.0.1">
+    <task id="LOCAL-00225" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705072708120</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
+      <created>1706027889569</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
       <option name="project" value="LOCAL" />
-      <updated>1705072708121</updated>
+      <updated>1706027889569</updated>
     </task>
-    <task id="LOCAL-00106" summary="Error pages fixed">
+    <task id="LOCAL-00226" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705072723845</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
+      <created>1706028409231</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
       <option name="project" value="LOCAL" />
-      <updated>1705072723845</updated>
+      <updated>1706028409231</updated>
     </task>
-    <task id="LOCAL-00107" summary="idea config">
+    <task id="LOCAL-00227" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705072787197</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
+      <created>1706028602899</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
       <option name="project" value="LOCAL" />
-      <updated>1705072787197</updated>
+      <updated>1706028602899</updated>
     </task>
-    <task id="LOCAL-00108" summary="requirements upgraded">
+    <task id="LOCAL-00228" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705072824147</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
+      <created>1706028776302</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
       <option name="project" value="LOCAL" />
-      <updated>1705072824147</updated>
+      <updated>1706028776302</updated>
     </task>
-    <task id="LOCAL-00109" summary="gitignore updated">
+    <task id="LOCAL-00229" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705072935843</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
+      <created>1706029467121</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
       <option name="project" value="LOCAL" />
-      <updated>1705072935843</updated>
+      <updated>1706029467121</updated>
     </task>
-    <task id="LOCAL-00110" summary="gba updated">
+    <task id="LOCAL-00230" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705074329042</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
+      <created>1706029638680</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
       <option name="project" value="LOCAL" />
-      <updated>1705074329042</updated>
+      <updated>1706029638680</updated>
     </task>
-    <task id="LOCAL-00111" summary="nli updated">
+    <task id="LOCAL-00231" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705074339470</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
+      <created>1706029754270</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
       <option name="project" value="LOCAL" />
-      <updated>1705074339470</updated>
+      <updated>1706029754270</updated>
     </task>
-    <task id="LOCAL-00112" summary="idea files">
+    <task id="LOCAL-00232" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705074355503</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
+      <created>1706029950675</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
       <option name="project" value="LOCAL" />
-      <updated>1705074355503</updated>
+      <updated>1706029950675</updated>
     </task>
-    <task id="LOCAL-00113" summary="footprints final file generated">
+    <task id="LOCAL-00233" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705074384615</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
+      <created>1706030158222</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
       <option name="project" value="LOCAL" />
-      <updated>1705074384615</updated>
+      <updated>1706030158223</updated>
     </task>
-    <task id="LOCAL-00114" summary="static files updated">
+    <task id="LOCAL-00234" summary="footer refactored">
       <option name="closed" value="true" />
-      <created>1705074484193</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
+      <created>1706030279789</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
       <option name="project" value="LOCAL" />
-      <updated>1705074484193</updated>
+      <updated>1706030279789</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,31 +644,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="logging added" />
-    <MESSAGE value="localsettings removes, redis added" />
-    <MESSAGE value="redis removed" />
-    <MESSAGE value="redis changed" />
-    <MESSAGE value="TTL added" />
-    <MESSAGE value="logging changed" />
-    <MESSAGE value="logging level debug" />
-    <MESSAGE value="debugging" />
-    <MESSAGE value="localhost added" />
-    <MESSAGE value="dummy removed" />
-    <MESSAGE value="footer renamed" />
-    <MESSAGE value="links included" />
-    <MESSAGE value="comments" />
-    <MESSAGE value="django upgraded to 4.2.9" />
-    <MESSAGE value="npm packages upgraded" />
-    <MESSAGE value="Django upgraded to 5.0.1" />
-    <MESSAGE value="Error pages fixed" />
     <MESSAGE value="idea config" />
     <MESSAGE value="requirements upgraded" />
     <MESSAGE value="gitignore updated" />
     <MESSAGE value="gba updated" />
     <MESSAGE value="nli updated" />
-    <MESSAGE value="idea files" />
     <MESSAGE value="footprints final file generated" />
     <MESSAGE value="static files updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="static files updated" />
+    <MESSAGE value="requirements updated for Django 5.0.1" />
+    <MESSAGE value="idea files" />
+    <MESSAGE value="requirements.txt updated" />
+    <MESSAGE value="name test" />
+    <MESSAGE value="name removed" />
+    <MESSAGE value="debug removed" />
+    <MESSAGE value="debugging in result" />
+    <MESSAGE value="search debugging" />
+    <MESSAGE value="cm debugging" />
+    <MESSAGE value="names debugging" />
+    <MESSAGE value="print statements removed" />
+    <MESSAGE value="logging added" />
+    <MESSAGE value="debugging" />
+    <MESSAGE value="query" />
+    <MESSAGE value="query debugging" />
+    <MESSAGE value="ep exception" />
+    <MESSAGE value="related entities" />
+    <MESSAGE value="footer refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer refactored" />
   </component>
 </project>
