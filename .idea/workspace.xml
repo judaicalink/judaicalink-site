@@ -7,12 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="footer refactored">
-      <change beforePath="$PROJECT_DIR$/../haskala/haskala/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/cm_e_search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/cm_e_search/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="HHKeyDocs updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/datasets/HHKeyDocs.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/datasets/HHKeyDocs.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,7 @@
       <map>
         <entry key="$PROJECT_DIR$/../judaicalink-generators" value="bschnabel" />
         <entry key="$PROJECT_DIR$/../judaicalink-labs" value="vue" />
+        <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$/../pubby-django" value="issue-tracker" />
         <entry key="$PROJECT_DIR$/../wagtail-common-base" value="url-links" />
       </map>
@@ -87,7 +85,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "advanced.settings",
     "ts.external.directory.path": "/Users/benni/Applications/PyCharm Professional Edition 2023.1.4.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -510,111 +508,111 @@
       <option name="project" value="LOCAL" />
       <updated>1687934429806</updated>
     </task>
-    <task id="LOCAL-00222" summary="related entities">
+    <task id="LOCAL-00241" summary="occurences debug">
       <option name="closed" value="true" />
-      <created>1706012903637</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
+      <created>1706112826730</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
       <option name="project" value="LOCAL" />
-      <updated>1706012903638</updated>
+      <updated>1706112826731</updated>
     </task>
-    <task id="LOCAL-00223" summary="related entities">
+    <task id="LOCAL-00242" summary="occurences debug">
       <option name="closed" value="true" />
-      <created>1706013442741</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
+      <created>1706113535658</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
       <option name="project" value="LOCAL" />
-      <updated>1706013442741</updated>
+      <updated>1706113535658</updated>
     </task>
-    <task id="LOCAL-00224" summary="related entities">
+    <task id="LOCAL-00243" summary="occurences debug">
       <option name="closed" value="true" />
-      <created>1706013708492</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
+      <created>1706113586217</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
       <option name="project" value="LOCAL" />
-      <updated>1706013708492</updated>
+      <updated>1706113586217</updated>
     </task>
-    <task id="LOCAL-00225" summary="footer refactored">
+    <task id="LOCAL-00244" summary="occurences debug">
       <option name="closed" value="true" />
-      <created>1706027889569</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
+      <created>1706113657149</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
       <option name="project" value="LOCAL" />
-      <updated>1706027889569</updated>
+      <updated>1706113657149</updated>
     </task>
-    <task id="LOCAL-00226" summary="footer refactored">
+    <task id="LOCAL-00245" summary="occurences debug">
       <option name="closed" value="true" />
-      <created>1706028409231</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
+      <created>1706113706600</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
       <option name="project" value="LOCAL" />
-      <updated>1706028409231</updated>
+      <updated>1706113706600</updated>
     </task>
-    <task id="LOCAL-00227" summary="footer refactored">
+    <task id="LOCAL-00246" summary="sidebarbutton changed">
       <option name="closed" value="true" />
-      <created>1706028602899</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
+      <created>1706176302638</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
       <option name="project" value="LOCAL" />
-      <updated>1706028602899</updated>
+      <updated>1706176302639</updated>
     </task>
-    <task id="LOCAL-00228" summary="footer refactored">
+    <task id="LOCAL-00247" summary="gz compression enabled">
       <option name="closed" value="true" />
-      <created>1706028776302</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
+      <created>1706176324545</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
       <option name="project" value="LOCAL" />
-      <updated>1706028776302</updated>
+      <updated>1706176324545</updated>
     </task>
-    <task id="LOCAL-00229" summary="footer refactored">
+    <task id="LOCAL-00248" summary="occurences debugging">
       <option name="closed" value="true" />
-      <created>1706029467121</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
+      <created>1706176352899</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
       <option name="project" value="LOCAL" />
-      <updated>1706029467121</updated>
+      <updated>1706176352899</updated>
     </task>
-    <task id="LOCAL-00230" summary="footer refactored">
+    <task id="LOCAL-00249" summary="gz removed">
       <option name="closed" value="true" />
-      <created>1706029638680</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
+      <created>1706190244983</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
       <option name="project" value="LOCAL" />
-      <updated>1706029638680</updated>
+      <updated>1706190244983</updated>
     </task>
-    <task id="LOCAL-00231" summary="footer refactored">
+    <task id="LOCAL-00250" summary="gz removed">
       <option name="closed" value="true" />
-      <created>1706029754270</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
+      <created>1706196566095</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
       <option name="project" value="LOCAL" />
-      <updated>1706029754270</updated>
+      <updated>1706196566095</updated>
     </task>
-    <task id="LOCAL-00232" summary="footer refactored">
+    <task id="LOCAL-00251" summary="occurrences debugging">
       <option name="closed" value="true" />
-      <created>1706029950675</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
+      <created>1706266829769</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
       <option name="project" value="LOCAL" />
-      <updated>1706029950675</updated>
+      <updated>1706266829769</updated>
     </task>
-    <task id="LOCAL-00233" summary="footer refactored">
+    <task id="LOCAL-00252" summary="occurrences debugging">
       <option name="closed" value="true" />
-      <created>1706030158222</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
+      <created>1706266965403</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
       <option name="project" value="LOCAL" />
-      <updated>1706030158223</updated>
+      <updated>1706266965403</updated>
     </task>
-    <task id="LOCAL-00234" summary="footer refactored">
+    <task id="LOCAL-00253" summary="HHKeyDocs updated">
       <option name="closed" value="true" />
-      <created>1706030279789</created>
-      <option name="number" value="00234" />
-      <option name="presentableId" value="LOCAL-00234" />
+      <created>1706272689372</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
       <option name="project" value="LOCAL" />
-      <updated>1706030279789</updated>
+      <updated>1706272689373</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,16 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="idea config" />
-    <MESSAGE value="requirements upgraded" />
-    <MESSAGE value="gitignore updated" />
-    <MESSAGE value="gba updated" />
-    <MESSAGE value="nli updated" />
-    <MESSAGE value="footprints final file generated" />
-    <MESSAGE value="static files updated" />
-    <MESSAGE value="requirements updated for Django 5.0.1" />
-    <MESSAGE value="idea files" />
-    <MESSAGE value="requirements.txt updated" />
     <MESSAGE value="name test" />
     <MESSAGE value="name removed" />
     <MESSAGE value="debug removed" />
@@ -669,6 +657,16 @@
     <MESSAGE value="ep exception" />
     <MESSAGE value="related entities" />
     <MESSAGE value="footer refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer refactored" />
+    <MESSAGE value="hhkeydocs small letters" />
+    <MESSAGE value="base templated updated" />
+    <MESSAGE value="occurrences dict refactored" />
+    <MESSAGE value="occurences debug" />
+    <MESSAGE value="sidebarbutton changed" />
+    <MESSAGE value="gz compression enabled" />
+    <MESSAGE value="occurences debugging" />
+    <MESSAGE value="gz removed" />
+    <MESSAGE value="occurrences debugging" />
+    <MESSAGE value="HHKeyDocs updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="HHKeyDocs updated" />
   </component>
 </project>
