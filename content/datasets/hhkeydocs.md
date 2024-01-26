@@ -1,18 +1,18 @@
 +++
 author = "Christian Deuschle"
-authorlink = ""
-date = "2023-011-22T09:00:00+02:00"
-title = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte" 
+authorlink = "https://ki.hs-mannheim.de"
+date = "2024-01-26T09:00:00+02:00"
+title = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte"
 website = "https://schluesseldokumente.net/"
 dataslug = "hhkeydocs"
-graph = "http://data.judaicalink.org/data/hhkeydocs"  
+graph = "https://data.judaicalink.org/data/hhkeydocs"
 loaded = true
 category = "judaicalink"
-example = "http://data.judaicalink.org/data/hhkeydocs/AbrahamGerson"
+example = "https://data.judaicalink.org/data/hhkeydocs/AbrahamGerson"
 
 
 [[files]]
-	url = "http://data.judaicalink.org/dumps/hhkeydocs/current/hhkeydocs-final-01.ttl.gz"
+	url = "https://data.judaicalink.org/dumps/hhkeydocs/current/hhkeydocs-final-01.ttl.gz"
 	
 	
 	description = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte"
