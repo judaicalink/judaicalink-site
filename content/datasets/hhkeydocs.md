@@ -1,17 +1,5 @@
-<<<<<<< HEAD
-+++ author = "Christian Deuschle" 
-authorlink = "" 
-date = "2023-011-22T09:00:00+02:00" 
-title = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte" 
-website = "https://schluesseldokumente.net/" 
-dataslug = "hhkeydocs" 
-graph = "http://data.judaicalink.org/data/hhkeydocs"
-loaded = true 
-category = "judaicalink" 
-example = "http://data.judaicalink.org/data/hhkeydocs/AbrahamGerson"
-
-<<<<<<< HEAD
-+++ author = "Christian Deuschle" 
++++ 
+author = "Christian Deuschle" 
 authorlink = "" 
 date = "2023-011-22T09:00:00+02:00" 
 title = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte" 
