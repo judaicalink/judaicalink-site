@@ -13,7 +13,7 @@ example = "http://data.judaicalink.org/data/footprints/0039ddb3-52b5-5644-bd42-a
 
 
 [[files]]
-	url = "https://data.judaicalink.org/dumps/footprints/current/footprints-final-01.ttl.gz"
+	url = "https://data.judaicalink.org/dumps/footprints/current/footprints.ttl.gz"
 	
 	
 	description = "footprints - Jewish Books through Time and Place"
