@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 +++ author = "Christian Deuschle" 
 authorlink = "" 
 date = "2024-03-12" 
