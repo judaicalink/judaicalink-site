@@ -6,7 +6,7 @@ title = "footprints - Jewish Books through Time and Place"
 website = "https://footprints.ctl.columbia.edu/" 
 dataslug = "hhkeydocs" 
 graph = "http://data.judaicalink.org/data/footprints"
-loaded = false 
+loaded = true 
 category = "judaicalink" 
 example = "http://data.judaicalink.org/data/footprints/0039ddb3-52b5-5644-bd42-a7ab92611d03"
 
