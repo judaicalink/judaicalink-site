@@ -7,10 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="occurences debugging">
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="social media added">
+      <change afterPath="$PROJECT_DIR$/../judaicalink-labs/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../judaicalink-labs/pubby-django" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/datasets/HHKeyDocs.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/datasets/HHKeyDocs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +48,13 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../judaicalink-generators" value="bschnabel" />
-        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="vue" />
+        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="solr" />
         <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$/../pubby-django" value="issue-tracker" />
         <entry key="$PROJECT_DIR$/../wagtail-common-base" value="url-links" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../judaicalink-labs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JiraServerManager">
@@ -69,27 +75,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "app.teamhub.trackedBranches": "1i8f87n/master",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/benni/coding/judaicalink/judaicalink-labs/labs/search/templates/search",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "ts.external.directory.path": "/Users/benni/Applications/PyCharm Professional Edition 2023.1.4.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;app.teamhub.trackedBranches&quot;: &quot;1i8f87n/master&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/benni/coding/judaicalink/judaicalink-labs/labs/search/templates/search&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/benni/Applications/PyCharm Professional Edition 2023.1.4.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../judaicalink-labs/labs/search/templates/search" />
@@ -508,111 +514,111 @@
       <option name="project" value="LOCAL" />
       <updated>1687934429806</updated>
     </task>
-    <task id="LOCAL-00246" summary="sidebarbutton changed">
+    <task id="LOCAL-00279" summary="mail not send error fixed">
       <option name="closed" value="true" />
-      <created>1706176302638</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
+      <created>1710161689642</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
       <option name="project" value="LOCAL" />
-      <updated>1706176302639</updated>
+      <updated>1710161689642</updated>
     </task>
-    <task id="LOCAL-00247" summary="gz compression enabled">
+    <task id="LOCAL-00280" summary="mail not send error fixed">
       <option name="closed" value="true" />
-      <created>1706176324545</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
+      <created>1710162090280</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
       <option name="project" value="LOCAL" />
-      <updated>1706176324545</updated>
+      <updated>1710162090280</updated>
     </task>
-    <task id="LOCAL-00248" summary="occurences debugging">
+    <task id="LOCAL-00281" summary="mail not send error fixed">
       <option name="closed" value="true" />
-      <created>1706176352899</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
+      <created>1710162244790</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
       <option name="project" value="LOCAL" />
-      <updated>1706176352899</updated>
+      <updated>1710162244791</updated>
     </task>
-    <task id="LOCAL-00249" summary="gz removed">
+    <task id="LOCAL-00282" summary="csrf failure error message added">
       <option name="closed" value="true" />
-      <created>1706190244983</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
+      <created>1710176130524</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
       <option name="project" value="LOCAL" />
-      <updated>1706190244983</updated>
+      <updated>1710176130524</updated>
     </task>
-    <task id="LOCAL-00250" summary="gz removed">
+    <task id="LOCAL-00283" summary="csrf failure error message added">
       <option name="closed" value="true" />
-      <created>1706196566095</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
+      <created>1710176423608</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
       <option name="project" value="LOCAL" />
-      <updated>1706196566095</updated>
+      <updated>1710176423608</updated>
     </task>
-    <task id="LOCAL-00251" summary="occurrences debugging">
+    <task id="LOCAL-00284" summary="csrf failure error message added">
       <option name="closed" value="true" />
-      <created>1706266829769</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
+      <created>1710176666496</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
       <option name="project" value="LOCAL" />
-      <updated>1706266829769</updated>
+      <updated>1710176666496</updated>
     </task>
-    <task id="LOCAL-00252" summary="occurrences debugging">
+    <task id="LOCAL-00285" summary="csrf failure error message added">
       <option name="closed" value="true" />
-      <created>1706266965403</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
+      <created>1710176851064</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
       <option name="project" value="LOCAL" />
-      <updated>1706266965403</updated>
+      <updated>1710176851064</updated>
     </task>
-    <task id="LOCAL-00253" summary="HHKeyDocs updated">
+    <task id="LOCAL-00286" summary="csrf failure error message added">
       <option name="closed" value="true" />
-      <created>1706272689372</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
+      <created>1710176893696</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
       <option name="project" value="LOCAL" />
-      <updated>1706272689373</updated>
+      <updated>1710176893696</updated>
     </task>
-    <task id="LOCAL-00254" summary="HHKeyDocs updated">
+    <task id="LOCAL-00287" summary="csrf settings added">
       <option name="closed" value="true" />
-      <created>1706276775604</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
+      <created>1710182395734</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
       <option name="project" value="LOCAL" />
-      <updated>1706276775604</updated>
+      <updated>1710182395734</updated>
     </task>
-    <task id="LOCAL-00255" summary="HHKeyDocs updated">
+    <task id="LOCAL-00288" summary="code cleanup">
       <option name="closed" value="true" />
-      <created>1706276873429</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
+      <created>1710248544956</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
       <option name="project" value="LOCAL" />
-      <updated>1706276873429</updated>
+      <updated>1710248544956</updated>
     </task>
-    <task id="LOCAL-00256" summary="occurences debugging">
+    <task id="LOCAL-00289" summary="app name added">
       <option name="closed" value="true" />
-      <created>1706304919896</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
+      <created>1710248565461</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
       <option name="project" value="LOCAL" />
-      <updated>1706304919896</updated>
+      <updated>1710248565461</updated>
     </task>
-    <task id="LOCAL-00257" summary="occurences debugging">
+    <task id="LOCAL-00290" summary="generate_hash_UUID renamed">
       <option name="closed" value="true" />
-      <created>1706305696057</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
+      <created>1710340191026</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
       <option name="project" value="LOCAL" />
-      <updated>1706305696057</updated>
+      <updated>1710340191026</updated>
     </task>
-    <task id="LOCAL-00258" summary="occurences debugging">
+    <task id="LOCAL-00291" summary="social media added">
       <option name="closed" value="true" />
-      <created>1706305750139</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
+      <created>1710340805363</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
       <option name="project" value="LOCAL" />
-      <updated>1706305750140</updated>
+      <updated>1710340805364</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,21 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="name test" />
-    <MESSAGE value="name removed" />
-    <MESSAGE value="debug removed" />
-    <MESSAGE value="debugging in result" />
-    <MESSAGE value="search debugging" />
-    <MESSAGE value="cm debugging" />
-    <MESSAGE value="names debugging" />
-    <MESSAGE value="print statements removed" />
-    <MESSAGE value="logging added" />
-    <MESSAGE value="debugging" />
-    <MESSAGE value="query" />
-    <MESSAGE value="query debugging" />
-    <MESSAGE value="ep exception" />
-    <MESSAGE value="related entities" />
-    <MESSAGE value="footer refactored" />
     <MESSAGE value="hhkeydocs small letters" />
     <MESSAGE value="base templated updated" />
     <MESSAGE value="occurrences dict refactored" />
@@ -667,6 +658,21 @@
     <MESSAGE value="occurrences debugging" />
     <MESSAGE value="HHKeyDocs updated" />
     <MESSAGE value="occurences debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="occurences debugging" />
+    <MESSAGE value="merge fixed" />
+    <MESSAGE value="requirements.txt updated" />
+    <MESSAGE value="views updated for empty results" />
+    <MESSAGE value="hhkeydocs renamed" />
+    <MESSAGE value="contact form updated" />
+    <MESSAGE value="csrf trusted origins added" />
+    <MESSAGE value="search form updated" />
+    <MESSAGE value="hcaptcha added" />
+    <MESSAGE value="mail not send error fixed" />
+    <MESSAGE value="csrf failure error message added" />
+    <MESSAGE value="csrf settings added" />
+    <MESSAGE value="code cleanup" />
+    <MESSAGE value="app name added" />
+    <MESSAGE value="generate_hash_UUID renamed" />
+    <MESSAGE value="social media added" />
+    <option name="LAST_COMMIT_MESSAGE" value="social media added" />
   </component>
 </project>

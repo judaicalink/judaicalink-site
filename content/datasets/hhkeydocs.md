@@ -22,3 +22,5 @@ example = "http://data.judaicalink.org/data/hhkeydocs/AlbertRosengarten"
 name = "CC BY-NC-ND 4.0"
 image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png"
 uri = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
++++
