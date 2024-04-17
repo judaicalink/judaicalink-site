@@ -23,4 +23,7 @@ name = "CC BY-NC-ND 4.0"
 image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png"
 uri = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 
+
+
 +++
+Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte is an online source edition realized by the Institute for the History of German Jews. It copntains Data about persons, places and institutions.
