@@ -26,4 +26,7 @@ uri = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 
 
 +++
-Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte is an online source edition realized by the Institute for the History of German Jews. It copntains Data about persons, places and institutions.
+Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte is an online source edition realized by the Institute for the History of German Jews. <!--more-->
+It copntains Data about persons, places and institutions.
+
+This online source edition, realized by the Institute for the History of German Jews, sheds thematic light on key aspects of the Jewish history of Hamburg from the early modern period to the present, using selected sources, so-called key documents, as examples.
