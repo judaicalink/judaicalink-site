@@ -1,4 +1,5 @@
-+++ author = "Christian Deuschle" 
++++ 
+author = "Christian Deuschle" 
 authorlink = "" 
 date = "2024-03-12" 
 title = "footprints - Jewish Books through Time and Place" 
@@ -22,9 +23,8 @@ name = "CC BY-SA 4.0"
 image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"
 uri = " https://creativecommons.org/licenses/by-sa/4.0/"
 
-+++ 
-
-Footprints traces the history and movement of Jewish books since the inception of print. 
++++
+Footprints traces the history and movement of Jewish books since the inception of print. <!--more--> 
 
 The history of the book is an important part of humanities scholarship. Especially as more books are digitized, scholars, librarians, collectors, and others have become increasingly attuned to the significance of individual books as objects with their own unique story. Jewish books in particular tell a fascinating story about the spread of knowledge and faith in a global Diaspora.
 
