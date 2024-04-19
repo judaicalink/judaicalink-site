@@ -8,12 +8,12 @@ dataslug = "hhkeydocs"
 graph = "http://data.judaicalink.org/data/hhkeydocs"
 loaded = true 
 category = "judaicalink" 
-example = "http://data.judaicalink.org/data/hhkeydocs/AlbertRosengarten"
+example = "https://data.judaicalink.org/data/hhkeydocs/AlbertRosengarten"
 
 
 
 [[files]]
-	url = "https://data.judaicalink.org/dumps/hhkeydocs/current/hhkeydocs-final-01.ttl.gz"
+	url = "http://data.judaicalink.org/dumps/hhkeydocs/current/hhkeydocs-final-01.ttl.gz"
 	
 	
 	description = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte"
