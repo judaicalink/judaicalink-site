@@ -7,16 +7,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="social media added">
-      <change afterPath="$PROJECT_DIR$/../judaicalink-labs/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../judaicalink-labs/pubby-django" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/labs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="8186c747-2b23-4792-9fd2-7e5e8eabfcde" name="Default Changelist" comment="Graphs placed with from">
+      <change afterPath="$PROJECT_DIR$/../haskala/home/templates/home/my_custom_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/association_types.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/associations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/form_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/form_page_landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/language_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/my_custom_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/haskala/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/haskala/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/haskala/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/home/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haskala/home/wagtail_hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../haskala/home/wagtail_hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/search/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/labs/src/vue/autocomplete.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/labs/src/vue/autocomplete.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judaicalink-labs/pubby-django" beforeDir="false" afterPath="$PROJECT_DIR$/../judaicalink-labs/pubby-django" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/datasets/HHKeyDocs.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/datasets/HHKeyDocs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/datasets/beacon-persons.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/datasets/beacon-persons.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/statistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/statistics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/portal/settings/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/templates/rena/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/wagtail_hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/wagtail_hooks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +55,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Dockerfile" />
         <option value="Markdown File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,7 +68,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../judaicalink-generators" value="bschnabel" />
-        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="solr" />
+        <entry key="$PROJECT_DIR$/../judaicalink-labs" value="origin/solr" />
         <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$/../pubby-django" value="issue-tracker" />
         <entry key="$PROJECT_DIR$/../wagtail-common-base" value="url-links" />
@@ -77,6 +97,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -84,7 +106,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;app.teamhub.trackedBranches&quot;: &quot;1i8f87n/master&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/benni/coding/judaicalink/judaicalink-labs/labs/search/templates/search&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/benni/coding/judaicalink/haskala&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -92,24 +114,24 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/benni/Applications/PyCharm Professional Edition 2023.1.4.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/benni/Applications/PyCharm Professional Edition.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../haskala" />
       <recent name="$PROJECT_DIR$/../judaicalink-labs/labs/search/templates/search" />
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/links/templates/links" />
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/static/img" />
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/dashboard/templates/wagtailadmin" />
-      <recent name="$PROJECT_DIR$/../wagtail-common-base/site" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal/rena/ontology" />
       <recent name="$PROJECT_DIR$/../wagtail-common-base/site/portal" />
       <recent name="$PROJECT_DIR$/../judaicalink-labs" />
       <recent name="$PROJECT_DIR$/../pubby-django/server/pubby/static/img" />
       <recent name="$PROJECT_DIR$/content/news" />
-      <recent name="$PROJECT_DIR$/static/img" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.FID Portal">
@@ -122,6 +144,7 @@
         <env name="DJANGO_SETTINGS_MODULE" value="portal.settings.__init__" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/../wagtail-common-base/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.11 (venv)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -514,119 +537,140 @@
       <option name="project" value="LOCAL" />
       <updated>1687934429806</updated>
     </task>
-    <task id="LOCAL-00279" summary="mail not send error fixed">
+    <task id="LOCAL-00350" summary="apps added">
       <option name="closed" value="true" />
-      <created>1710161689642</created>
-      <option name="number" value="00279" />
-      <option name="presentableId" value="LOCAL-00279" />
+      <created>1715680809072</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
       <option name="project" value="LOCAL" />
-      <updated>1710161689642</updated>
+      <updated>1715680809072</updated>
     </task>
-    <task id="LOCAL-00280" summary="mail not send error fixed">
+    <task id="LOCAL-00351" summary="admin updated according to the models">
       <option name="closed" value="true" />
-      <created>1710162090280</created>
-      <option name="number" value="00280" />
-      <option name="presentableId" value="LOCAL-00280" />
+      <created>1715680845850</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
       <option name="project" value="LOCAL" />
-      <updated>1710162090280</updated>
+      <updated>1715680845850</updated>
     </task>
-    <task id="LOCAL-00281" summary="mail not send error fixed">
+    <task id="LOCAL-00352" summary="migrations for the new model updated">
       <option name="closed" value="true" />
-      <created>1710162244790</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
+      <created>1715680883929</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
       <option name="project" value="LOCAL" />
-      <updated>1710162244791</updated>
+      <updated>1715680883929</updated>
     </task>
-    <task id="LOCAL-00282" summary="csrf failure error message added">
+    <task id="LOCAL-00353" summary="links changed to rena">
       <option name="closed" value="true" />
-      <created>1710176130524</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
+      <created>1715680902476</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
       <option name="project" value="LOCAL" />
-      <updated>1710176130524</updated>
+      <updated>1715680902476</updated>
     </task>
-    <task id="LOCAL-00283" summary="csrf failure error message added">
+    <task id="LOCAL-00354" summary="links changed to rena">
       <option name="closed" value="true" />
-      <created>1710176423608</created>
-      <option name="number" value="00283" />
-      <option name="presentableId" value="LOCAL-00283" />
+      <created>1715680909034</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
       <option name="project" value="LOCAL" />
-      <updated>1710176423608</updated>
+      <updated>1715680909034</updated>
     </task>
-    <task id="LOCAL-00284" summary="csrf failure error message added">
+    <task id="LOCAL-00355" summary="index updated">
       <option name="closed" value="true" />
-      <created>1710176666496</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
+      <created>1715680925222</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
       <option name="project" value="LOCAL" />
-      <updated>1710176666496</updated>
+      <updated>1715680925222</updated>
     </task>
-    <task id="LOCAL-00285" summary="csrf failure error message added">
+    <task id="LOCAL-00356" summary="links removed">
       <option name="closed" value="true" />
-      <created>1710176851064</created>
-      <option name="number" value="00285" />
-      <option name="presentableId" value="LOCAL-00285" />
+      <created>1715680940841</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
       <option name="project" value="LOCAL" />
-      <updated>1710176851064</updated>
+      <updated>1715680940841</updated>
     </task>
-    <task id="LOCAL-00286" summary="csrf failure error message added">
+    <task id="LOCAL-00357" summary="login added">
       <option name="closed" value="true" />
-      <created>1710176893696</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
+      <created>1715680948132</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
       <option name="project" value="LOCAL" />
-      <updated>1710176893696</updated>
+      <updated>1715680948132</updated>
     </task>
-    <task id="LOCAL-00287" summary="csrf settings added">
+    <task id="LOCAL-00358" summary="project detail added">
       <option name="closed" value="true" />
-      <created>1710182395734</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
+      <created>1715680961130</created>
+      <option name="number" value="00358" />
+      <option name="presentableId" value="LOCAL-00358" />
       <option name="project" value="LOCAL" />
-      <updated>1710182395734</updated>
+      <updated>1715680961130</updated>
     </task>
-    <task id="LOCAL-00288" summary="code cleanup">
+    <task id="LOCAL-00359" summary="register added">
       <option name="closed" value="true" />
-      <created>1710248544956</created>
-      <option name="number" value="00288" />
-      <option name="presentableId" value="LOCAL-00288" />
+      <created>1715680967581</created>
+      <option name="number" value="00359" />
+      <option name="presentableId" value="LOCAL-00359" />
       <option name="project" value="LOCAL" />
-      <updated>1710248544956</updated>
+      <updated>1715680967582</updated>
     </task>
-    <task id="LOCAL-00289" summary="app name added">
+    <task id="LOCAL-00360" summary="category moved from links to rena">
       <option name="closed" value="true" />
-      <created>1710248565461</created>
-      <option name="number" value="00289" />
-      <option name="presentableId" value="LOCAL-00289" />
+      <created>1715680993726</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
       <option name="project" value="LOCAL" />
-      <updated>1710248565461</updated>
+      <updated>1715680993726</updated>
     </task>
-    <task id="LOCAL-00290" summary="generate_hash_UUID renamed">
+    <task id="LOCAL-00361" summary="categories moved from links to rena">
       <option name="closed" value="true" />
-      <created>1710340191026</created>
-      <option name="number" value="00290" />
-      <option name="presentableId" value="LOCAL-00290" />
+      <created>1715681003454</created>
+      <option name="number" value="00361" />
+      <option name="presentableId" value="LOCAL-00361" />
       <option name="project" value="LOCAL" />
-      <updated>1710340191026</updated>
+      <updated>1715681003454</updated>
     </task>
-    <task id="LOCAL-00291" summary="social media added">
+    <task id="LOCAL-00362" summary="Graphs placed with from">
       <option name="closed" value="true" />
-      <created>1710340805363</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
+      <created>1724839238663</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
       <option name="project" value="LOCAL" />
-      <updated>1710340805364</updated>
+      <updated>1724839238664</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8b78b204-7bb8-4403-84e4-f2bffdf132ec" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="8b78b204-7bb8-4403-84e4-f2bffdf132ec">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -648,31 +692,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hhkeydocs small letters" />
-    <MESSAGE value="base templated updated" />
-    <MESSAGE value="occurrences dict refactored" />
-    <MESSAGE value="occurences debug" />
-    <MESSAGE value="sidebarbutton changed" />
-    <MESSAGE value="gz compression enabled" />
-    <MESSAGE value="gz removed" />
-    <MESSAGE value="occurrences debugging" />
-    <MESSAGE value="HHKeyDocs updated" />
-    <MESSAGE value="occurences debugging" />
-    <MESSAGE value="merge fixed" />
-    <MESSAGE value="requirements.txt updated" />
-    <MESSAGE value="views updated for empty results" />
-    <MESSAGE value="hhkeydocs renamed" />
-    <MESSAGE value="contact form updated" />
-    <MESSAGE value="csrf trusted origins added" />
-    <MESSAGE value="search form updated" />
-    <MESSAGE value="hcaptcha added" />
-    <MESSAGE value="mail not send error fixed" />
-    <MESSAGE value="csrf failure error message added" />
-    <MESSAGE value="csrf settings added" />
-    <MESSAGE value="code cleanup" />
-    <MESSAGE value="app name added" />
-    <MESSAGE value="generate_hash_UUID renamed" />
-    <MESSAGE value="social media added" />
-    <option name="LAST_COMMIT_MESSAGE" value="social media added" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="journal occurrences updated" />
+    <MESSAGE value="SPARQL Endpoint results in textarea" />
+    <MESSAGE value="SPARQL Endpoint design fixed in xl" />
+    <MESSAGE value="SPARQL Endpoint javascript" />
+    <MESSAGE value="SPARQL Endpoint graph list" />
+    <MESSAGE value="Comments improved" />
+    <MESSAGE value="links renamed to rena" />
+    <MESSAGE value="linkchecker added" />
+    <MESSAGE value="ontology added" />
+    <MESSAGE value="TODO.md added" />
+    <MESSAGE value="moved from links to rena" />
+    <MESSAGE value="urls added" />
+    <MESSAGE value="orcid to views added" />
+    <MESSAGE value="apps added" />
+    <MESSAGE value="admin updated according to the models" />
+    <MESSAGE value="migrations for the new model updated" />
+    <MESSAGE value="links changed to rena" />
+    <MESSAGE value="index updated" />
+    <MESSAGE value="links removed" />
+    <MESSAGE value="login added" />
+    <MESSAGE value="project detail added" />
+    <MESSAGE value="register added" />
+    <MESSAGE value="category moved from links to rena" />
+    <MESSAGE value="categories moved from links to rena" />
+    <MESSAGE value="Graphs placed with from" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graphs placed with from" />
   </component>
 </project>

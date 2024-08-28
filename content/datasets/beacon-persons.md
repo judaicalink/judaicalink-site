@@ -1,13 +1,13 @@
 +++
-author = "Maral Dadvar"
-authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
+author = "Benjamin Schnabel"
+authorlink = "https://wiss.iuk.hdm-stuttgart.de/people/benjamin-schnabel/"
 date = "2019-02-07T10:37:07+02:00"
 title = "Beacon file - JudaicaLink Persons"  
  
 loaded = true
 category = "support"
  
-
+graph = ""  
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/beacon/current/beacon-persons.txt"  
