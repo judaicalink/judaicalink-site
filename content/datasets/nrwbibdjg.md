@@ -15,7 +15,7 @@ example = "http://data.judaicalink.org/data/nrwbibdjg/112504981"
 	url = "https://data.judaicalink.org/dumps/nrwbibdjg/current/nrwbibdjg.ttl.gz"
 	
 	
-	description = "footprints - Jewish Books through Time and Place"
+	description = "Bibliografie deutsch-jüdische Geschichte Nordrhein-Westfalen"
 	
 [license]
 
