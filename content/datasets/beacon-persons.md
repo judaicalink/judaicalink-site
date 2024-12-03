@@ -7,7 +7,7 @@ title = "Beacon file - JudaicaLink Persons"
 loaded = true
 category = "support"
  
-graph = ""  
+graph = "http://data.judaicalink.org/data/beacon-persons"  
 
 [[files]]
 	url = "http://data.judaicalink.org/dumps/beacon/current/beacon-persons.txt"  
@@ -24,4 +24,4 @@ uri = "https://creativecommons.org/publicdomain/zero/1.0/"
 The Beacon file generated from JudaicaLink persons.
 <!--more-->
 
-This file is generated for persons who have a GND-ID and is upated when new datasets are added to JudaicaLink. 
+This file is generated for persons who have a GND-ID and is updated when new datasets are added to JudaicaLink. 
