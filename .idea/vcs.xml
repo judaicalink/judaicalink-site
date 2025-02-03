@@ -2,9 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../docker" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../haskala" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../judaicalink-generators" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../judaicalink-labs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../judaicalink-loader" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../pubby-django" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../rdf_generator" vcs="Git" />
   </component>
 </project>

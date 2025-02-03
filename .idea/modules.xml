@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../docker/.idea/docker.iml" filepath="$PROJECT_DIR$/../docker/.idea/docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/../haskala/.idea/haskala.iml" filepath="$PROJECT_DIR$/../haskala/.idea/haskala.iml" />
       <module fileurl="file://$PROJECT_DIR$/../judaicalink-generators/.idea/judaicalink-generators.iml" filepath="$PROJECT_DIR$/../judaicalink-generators/.idea/judaicalink-generators.iml" />
       <module fileurl="file://$PROJECT_DIR$/../judaicalink-labs/.idea/judaicalink-labs.iml" filepath="$PROJECT_DIR$/../judaicalink-labs/.idea/judaicalink-labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../judaicalink-loader/.idea/judaicalink-loader.iml" filepath="$PROJECT_DIR$/../judaicalink-loader/.idea/judaicalink-loader.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/judaicalink-site.iml" filepath="$PROJECT_DIR$/.idea/judaicalink-site.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pubby-django/.idea/pubby-django.iml" filepath="$PROJECT_DIR$/../pubby-django/.idea/pubby-django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rdf_generator/.idea/rdf_generator.iml" filepath="$PROJECT_DIR$/../rdf_generator/.idea/rdf_generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/../wagtail-common-base/.idea/wagtail-common-base.iml" filepath="$PROJECT_DIR$/../wagtail-common-base/.idea/wagtail-common-base.iml" />
     </modules>
   </component>
