@@ -39,7 +39,7 @@ def sum_datasets():
 
     counter = 0
 
-    for _ in enumerate(results['results']['bindings'][0]['datasetCount']['value']):
+    for _ in enumerate(results['results']['bindings']):
         counter += 1
 
     if counter == 0:
