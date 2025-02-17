@@ -23,10 +23,17 @@ def sparql_query(query):
         return None
 
 
+# List all datasets
 def sum_datasets():
     query = """
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    SELECT ?g WHERE { GRAPH ?g { } }
+    SELECT (COUNT(DISTINCT ?graph) AS ?datasetCount)
+    WHERE {
+      GRAPH ?graph {
+        ?sub ?pred ?obj
+      }
+    }
     """
     results = sparql_query(query)
 
@@ -41,11 +48,20 @@ def sum_datasets():
     return counter - 6
 
 
+# Count all entities
 def sum_entities():
     query = """
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    SELECT  (count(distinct ?entity) AS ?Entities)
-                      WHERE{   ?entity ?p ?o}
+    
+    SELECT (COUNT(DISTINCT ?subject) AS ?entityCount)
+    WHERE {
+      GRAPH ?graph {
+        ?subject ?predicate ?object
+      }
+    }
     """
     results = sparql_query(query)
     if results is None:
@@ -54,10 +70,17 @@ def sum_entities():
         return results['results']['bindings'][0]['Entities']['value']
 
 
+# Count all triples
 def sum_triples():
     query = """
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        SELECT (COUNT(*) as ?Triples) WHERE { ?s ?p ?o. }
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT (COUNT(*) AS ?tripleCount)
+    WHERE {
+      GRAPH ?graph {
+        ?sub ?pred ?obj
+      }
+    }
     """
 
     results = sparql_query(query)
