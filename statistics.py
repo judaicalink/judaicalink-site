@@ -39,7 +39,7 @@ def sum_datasets():
 
     counter = 0
 
-    for _ in enumerate(results['results']['bindings']):
+    for _ in enumerate(results['results']['bindings'][0]['datasetCount']['value']):
         counter += 1
 
     if counter == 0:
@@ -67,7 +67,7 @@ def sum_entities():
     if results is None:
         raise Exception('Error fetching data')
     else:
-        return results['results']['bindings'][0]['Entities']['value']
+        return results['results']['bindings'][0]['entityCount']['value']
 
 
 # Count all triples
@@ -87,7 +87,7 @@ def sum_triples():
     if results is None:
         raise Exception('Error fetching data')
     else:
-        return results['results']['bindings'][0]['Triples']['value']
+        return results['results']['bindings'][0]['tripleCount']['value']
 
 
 def generate_html_file():
