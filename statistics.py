@@ -28,12 +28,7 @@ def sum_datasets():
     query = """
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    SELECT (COUNT(DISTINCT ?graph) AS ?datasetCount)
-    WHERE {
-      GRAPH ?graph {
-        ?sub ?pred ?obj
-      }
-    }
+    SELECT ?g WHERE { GRAPH ?g { } }
     """
     results = sparql_query(query)
 
