@@ -9,7 +9,7 @@ schnabel@hdm-stuttgart.de
 2022-06-09
 """
 
-import datetime
+from datetime import datetime
 import os
 from SPARQLWrapper import SPARQLWrapper, JSON
 
@@ -19,7 +19,7 @@ def header():
     Generate the header of the beacon file with the current date.
     return: string
     """
-    now = datetime.datetime.now()
+    now = datetime.now()
     header_text = """#FORMAT: BEACON
 #PREFIX: https://d-nb.info/gnd/
 #TARGET: https://data.judaicalink.org/data/gnd/{ID}
@@ -38,9 +38,10 @@ def save_file(text):
     return: boolean
     """
     filename = 'beacon-persons.txt'
-    filename = os.path.join('/data/judaicalink/dumps/beacon/current/', filename)
+    filename = os.path.join('/data/dumps/beacon/current/', filename)
     if os.path.exists(filename):
-        os.remove(filename)
+        # rename the file and add the current date
+        os.rename(filename, filename + now.strftime("%Y-%m-%d"))
     try:
         with open(filename, 'w') as f:
             f.write(text)
