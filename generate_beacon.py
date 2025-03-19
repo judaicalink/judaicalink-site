@@ -41,8 +41,7 @@ def save_file(text):
     filename = os.path.join('/data/dumps/beacon/current/', filename)
     if os.path.exists(filename):
         # rename the file and add the current date
-        os.rename(filename, filename.replace('.txt', '') + now.strftime("%Y-%m-%d") + '.txt')
-        os.remove(filename)
+        os.rename(filename, filename.replace('.txt', '-') + now.strftime("%Y-%m-%d") + '.txt')
     try:
         with open(filename, 'w') as f:
             f.write(text)
