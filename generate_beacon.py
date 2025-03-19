@@ -13,13 +13,13 @@ import datetime
 import os
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+now = datetime.datetime.now()
 
 def header():
     """
     Generate the header of the beacon file with the current date.
     return: string
     """
-    now = datetime.datetime.now()
     header_text = """#FORMAT: BEACON
 #PREFIX: https://d-nb.info/gnd/
 #TARGET: https://data.judaicalink.org/data/gnd/{ID}
