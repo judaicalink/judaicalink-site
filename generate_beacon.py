@@ -9,7 +9,7 @@ schnabel@hdm-stuttgart.de
 2022-06-09
 """
 
-from datetime import datetime
+import datetime
 import os
 from SPARQLWrapper import SPARQLWrapper, JSON
 
@@ -19,7 +19,7 @@ def header():
     Generate the header of the beacon file with the current date.
     return: string
     """
-    now = datetime.now()
+    now = datetime.datetime.now()
     header_text = """#FORMAT: BEACON
 #PREFIX: https://d-nb.info/gnd/
 #TARGET: https://data.judaicalink.org/data/gnd/{ID}
