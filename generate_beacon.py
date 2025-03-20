@@ -55,6 +55,9 @@ def save_file(text):
 def remove_duplicates(ids):
     return list(dict.fromkeys(ids))
 
+def remove_uris(ids)
+    return [id.split('/')[-1] for id in ids]
+
 
 def get_gnd_ids():
     # get all gnd ids from the database
@@ -77,9 +80,11 @@ def get_gnd_ids():
 
     SELECT ?id
     WHERE {
-        ?person a foaf:Person.
-        ?person gndo:gndIdentifier ?id.
-        }
+       { GRAPH ?g { ?person gndo:gndIdentifier ?id.} }
+       UNION { GRAPH ?g{ ?person gndo:gndIdentifier ?id. } }
+    }
+
+
     """)
 
     try:
@@ -91,10 +96,7 @@ def get_gnd_ids():
             if result["id"]["type"] == "literal":
                 gnd_ids.append(result["id"]["value"])
 
-        gnd_ids = remove_duplicates(gnd_ids)
-        #print(gnd_ids)
-        #print(len(gnd_ids))
-        return remove_duplicates(gnd_ids)
+        return remove_duplicates(remove_uris(gnd_ids))
     except Exception as e:
         print('Error fetching data: ', e)
 
