@@ -55,7 +55,7 @@ def save_file(text):
 def remove_duplicates(ids):
     return list(dict.fromkeys(ids))
 
-def remove_uris(ids)
+def remove_uris(ids):
     return [id.split('/')[-1] for id in ids]
 
 
