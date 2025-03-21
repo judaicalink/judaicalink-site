@@ -12,7 +12,7 @@ example = "http://data.judaicalink.org/data/nrwbibdjg/112504981"
 
 
 [[files]]
-	url = "https://data.judaicalink.org/dumps/nrwbibdjg/current/nrwbibdjg.ttl.gz"
+	url = "http://data.judaicalink.org/dumps/nrwbibdjg/current/nrwbibdjg.ttl.gz"
 	
 	
 	description = "Bibliografie deutsch-jüdische Geschichte Nordrhein-Westfalen"
