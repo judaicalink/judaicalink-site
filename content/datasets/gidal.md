@@ -8,7 +8,7 @@ dataslug = "gba"
 graph = "http://data.judaicalink.org/data/gba"  
 loaded = true
 category = "judaicalink"
-example = "http://data.judaicalink.org/data/gba/HeinrichHeine"
+example = "http://data.judaicalink.org/data/gba/Moses_Mendelssohn"
 
 
 [[files]]
