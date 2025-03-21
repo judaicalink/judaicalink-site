@@ -8,7 +8,7 @@ dataslug = "hhkeydocs"
 graph = "http://data.judaicalink.org/data/hhkeydocs"
 loaded = true 
 category = "judaicalink" 
-example = "https://data.judaicalink.org/data/hhkeydocs/AlbertRosengarten"
+example = "https://data.judaicalink.org/data/hhkeydocs/Albert_Rosengarten"
 
 
 
