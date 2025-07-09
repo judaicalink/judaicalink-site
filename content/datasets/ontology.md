@@ -24,7 +24,7 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 uri = "https://creativecommons.org/licenses/by/4.0/"
 	
 +++
-[JudaicaLink Ontology](https://ontology.judaicalink.org) This dataset provides the ontology for Judaicalink. <!--more-->
+[JudaicaLink Ontology](https://ontology.judaicalink.org) This dataset provides the ontology for JudaicaLink. <!--more-->
 It is used to describe the data in the JudaicaLink project, which includes various aspects of Jewish cultural heritage, such as texts, objects, and places.
 The ontology is available in Turtle format and can be accessed through the provided URL. It is designed to be used with the JudaicaLink data, which is available in various formats, including RDF and JSON-LD.
 
