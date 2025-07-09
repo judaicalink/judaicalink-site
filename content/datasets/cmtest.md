@@ -12,7 +12,7 @@ category = "support"
 	url = "http://data.judaicalink.org/dumps/cmtest/es_index_test.json.gz"
 	
 	
-	description = "Test sample from Compact Memory, ready for indexing in Elasticsearch"
+	description = "Test sample from Compact Memory, ready for indexing in SOLR"
 
 [license]
 name = "CC0"
