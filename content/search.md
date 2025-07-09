@@ -16,7 +16,7 @@ The search functionality is still under development, therefore it not be availab
 <div id="pagination"> </div>
 <p></p>
 <p>
-The search functionality is powered by ElasticSearch and currently indexes name, birth- and death dates, abstract, and publications.
+The search functionality is powered by SOLR and currently indexes name, birth- and death dates, abstract, and publications.
 </p>
 <p>
 <b>Example Queries:</b><br/>
