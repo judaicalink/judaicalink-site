@@ -1,34 +1,35 @@
 {{ partial "header.html" . }}
 <main class="row">
-	<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
 
 
-
-<h1 class="text-center">Welcome to JudaicaLink!</h1>
+        <h1 class="text-center">Welcome to JudaicaLink!</h1>
         <div class="alert alert-success text-center" role="alert"><i class="fas fa-bullhorn"></i>
-            <b>Give us your datasets!</b> We are always searching for new datasets to expand our knowledge graph. If you have interesting datasets about Jewish Studies, please get in touch with us!
+            <b>Give us your datasets!</b> We are always searching for new datasets to expand our knowledge graph. If you
+            have interesting datasets about Jewish Studies, please get in touch with us!
             <br><br><a class="btn btn-success" href="https://labs.judaicalink.org/contact/">contact Team</a>
-</div>
+        </div>
 
 
         {{partial "statistics.html" . }}
 
-<video height="auto" width="100%" autoplay loop muted>
-          <source src="/img/Animation.mp4" type="video/mp4" />
+        <video height="auto" width="100%" autoplay loop muted>
+            <source src="img/Animation.mp4" type="video/mp4"/>
         </video>
-	<!--<video src="/img/Animation.mp4" height="auto" width="100%" autoplay="autoplay" loop preload="metadata"></video>-->
 
-<!--<img src="/img/homepage-graphics.png" alt="Linked Data Web"/>-->
-<h2 class="text-center text-md-left">Jewish Studies</h2>
-<p>
-JudaicaLink is the knowledge graph behind the <a href="http://www.jewishstudies.de">specialized information service for Jewish Studies</a> (Fachinformationsdienst Jüdische Studien, FID) of the University Library of Frankfurt.
-JudaicaLink is a data resource for data professionals. Stay tuned for more services dedicated to the end user.
-</p>
+        <h2 class="text-center text-md-left">Jewish Studies</h2>
+        <p>
+            JudaicaLink is the knowledge graph behind the <a href="http://www.jewishstudies.de">specialized information
+            service for Jewish Studies</a> (Fachinformationsdienst Jüdische Studien, FID) of the University Library of
+            Frankfurt.
+            JudaicaLink is a data resource for data professionals. Stay tuned for more services dedicated to the end
+            user.
+        </p>
 
-<p>
-	<a href="http://www.jewishstudies.de"><img src="/img/fid-logo.jpg" class="logofid" alt="FID Logo"/></a>
-</p>
-</div>
-{{ partial "sidebar.html" .}}
+        <p>
+            <a href="http://www.jewishstudies.de"><img src="/img/fid-logo.jpg" class="logofid" alt="FID Logo"/></a>
+        </p>
+    </div>
+    {{ partial "sidebar.html" .}}
 </main>
 {{ partial "footer.html" . }}
