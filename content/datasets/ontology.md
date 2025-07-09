@@ -2,7 +2,7 @@
 author = "Benjamin Schnabel"
 authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/benjamin-schnabel/"
 date = "2025-07-09"
-title = "Soundscape Synagogue" 
+title = "JudaicaLink Ontology" 
 website = "ontology.judaicalink.org"
 dataslug = "ontology"
 graph = "http://data.judaicalink.org/ontology"  
