@@ -26,6 +26,7 @@ uri = "https://creativecommons.org/licenses/by/4.0/"
 +++
 [Gidal Image Archive](http://www.steinheim-institut.de/wiki/index.php/Archive:Gidal-Bildarchiv) contains information 
 on the image collection from Ignaz Nachum Gidalewitsch.
+<!--more-->
 
 The Gidal Photography Collection comprises approximately 3,000 pictures documenting the history of Jews in Germany and Europe, covering in particular the areas of:
 

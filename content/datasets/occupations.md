@@ -22,6 +22,7 @@ uri = "https://creativecommons.org/licenses/by/4.0/"
 
 The **Occupations** dataset provides a normalized and reusable collection of occupation concepts
 derived from literal values used in the JudaicaLink knowledge graph.
+<!--more-->
 
 Occupation strings occurring in the property `jl:occupation` (e.g. *Rabbiner*, *Historiker*,
 *Verleger*) are transformed into stable **SKOS concepts** with persistent URIs.  

@@ -23,7 +23,10 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 uri = "https://creativecommons.org/licenses/by/4.0/"
 +++
 
-The bibliography compiled and constantly updated by Harald Lordick with its almost 7,000 references can be researched as an online catalogue on the Steinheim Institute's website. It works with georeferencing and with Linked Open Data (Gemeinsame Normdatei, GND). A corresponding BEACON file is available. The database system (in-house development) is based on XML/XSLT. 
+The **Bibliografie deutsch-jüdische Geschichte Nordrhein-Westfalen** (Bibliography of German-Jewish History in North Rhine-Westphalia) dataset provides bibliographic references on the history and culture of Jews in the region of North Rhine-Westphalia (NRW), Germany.
+<!--more-->
+The bibliography compiled and constantly updated by Harald Lordick with its almost 7,000 references can be researched as an online catalogue on the Steinheim Institute's website. 
+It works with georeferencing and with Linked Open Data (Gemeinsame Normdatei, GND). A corresponding BEACON file is available. The database system (in-house development) is based on XML/XSLT. 
 
 The dataset includes the titles provided by the Steinheim Institute, enriched with data about the authors from the GND.
 
