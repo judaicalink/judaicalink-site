@@ -16,7 +16,7 @@ If you are interested in joining us, either because you are responsible for a re
 <h3>Kai Eckert</h3>
 </a>
 <h5>Project Lead & Co-Founder</h5>
-<p>eckert@hdm-stuttgart.de</p>
+<p><a href="https://www.kaiec.de">Website, Contact</a></p>
 
 </div>
 <div class="col-6 col-sm-6 col-md-6 people">
