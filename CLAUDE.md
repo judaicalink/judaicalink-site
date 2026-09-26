@@ -108,6 +108,44 @@ Beide ziehen `master`, bauen mit `hugo --cleanDestinationDir` und rsyncen `publi
 `/data/judaicalink/web.judaicalink.org/htdocs`. Änderungen gehen also über einen Push nach
 `master` live.
 
+## Assets: lokal und gefingerprintet
+
+CSS und eigenes JS liegen unter `assets/css/` und `assets/js/`, nicht unter `static/` –
+`layouts/partials/header.html` und `footer.html` holen sie über `resources.Get` und haengen
+per `fingerprint` einen Content-Hash an den Dateinamen (`resources.Minify` zusaetzlich für
+eigene Dateien, nicht für die bereits minifizierten Vendor-Dateien). Ein geaendertes
+`labs.css` oder `nav.js` bekommt beim naechsten Build automatisch eine neue URL – dadurch
+kann kein Besucher mehr auf einer alten Version aus dem Browser-Cache haengen bleiben, ein
+frueher aufgetretener Fehlerklasse (Hamburger-Menü zeigte beide Icons gleichzeitig, weil
+CSS und JS aus unterschiedlichen Deploys im Cache standen).
+
+Es gibt keine externen CDN-Abhängigkeiten mehr außer Matomo (siehe „Offene Punkte“).
+Vendorisiert und selbst gehostet:
+
+- **Bootstrap 4.6.2** (`assets/css/bootstrap.min.css`), nur die CSS – kein Bootstrap-JS,
+  kein Popper, kein jQuery, weil die Seite keine ihrer interaktiven Komponenten (Dropdown,
+  Modal, Tooltip, Collapse …) nutzt. Nachpruefbar mit
+  `grep -rn "data-toggle\|dropdown\|modal" layouts/ content/`.
+- **Icons** (`assets/css/icons.css` + `static/webfonts/fa-solid-900.woff2`): auf die elf
+  tatsaechlich verwendeten Glyphen aus Font Awesome Free 5.15.4 Solid zugeschnitten, das
+  Woff2 mit `pyftsubset` von ~80 KB auf ~1,3 KB verkleinert. Kein JS mehr fürs Icon-Rendering
+  (vorher: `use.fontawesome.com/.../all.js` mit `data-auto-replace-svg`). Kommt eine neue
+  Icon-Klasse dazu, muss sie in `icons.css` ergänzt und der Font neu subsettet werden:
+  ```
+  pyftsubset fa-solid-900.woff2 --output-file=fa-solid-900.woff2 --flavor=woff2 \
+    --unicodes=U+xxxx,U+yyyy,... --no-layout-closure --glyph-names \
+    --notdef-glyph --notdef-outline
+  ```
+  Die Unicode-Codepoints der Icons stehen im offiziellen Font-Awesome-Free-Release
+  (`css/fontawesome.min.css`, `.fa-<name>:before{content:"\fXXX"}`).
+- Das **jQuery-Custom-Scrollbar-Plugin** (`malihu-custom-scrollbar-plugin`) ist ersatzlos
+  entfernt – es war reine Zierde, `#sidebar` hat dafür jetzt `overflow-y: auto`.
+- **`jquery.simplePagination.js`** war totes Gewicht: eingebunden, aber nirgends
+  aufgerufen (Rest der alten, nicht mehr funktionierenden Suche). Ersatzlos gelöscht,
+  ebenso `static/js/npm.js` (ungenutzte Grunt-Build-Datei aus dem Bootstrap-Quellpaket).
+- `static/js/activePageHighlighting.js` (jetzt `assets/js/active-page-highlighting.js`)
+  nutzte jQuery für eine einzige Zeile, jetzt Vanilla JS.
+
 ## Content-Konventionen
 
 Dataset-Seiten unter `content/datasets/` nutzen TOML-Frontmatter mit `dataslug`, `graph`,
@@ -242,9 +280,6 @@ daneben.
   gibt es keine Einwilligungsabfrage. Nicht anfassen, bevor das entschieden ist.
   **Der Datenschutzabschnitt in `content/imprint.md` hängt daran** und beschreibt derzeit
   nur den Ist-Zustand; er ist im Quelltext entsprechend markiert.
-- **Externe CDNs.** Bootstrap, jQuery, Popper, FontAwesome und ein Scrollbar-Plugin werden
-  von fünf externen Hosts geladen. Für eine deutsche Seite ist das aus demselben Grund
-  heikel wie Matomo. Lokales Ausliefern wäre die naheliegende Lösung.
 - **`Dockerfile`** installiert Python und Hugo, hat aber mit `ENTRYPOINT ["python3", ""]`
   einen unbrauchbaren Einstiegspunkt. Die GitHub Action baut das Image nur, veröffentlicht
   es nicht. Ausgeliefert wird über die Skripte in `docker/site/`.

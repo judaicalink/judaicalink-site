@@ -58,6 +58,7 @@ a:hover {
     top: 0;
     left: 0;
     height: 100vh;
+    overflow-y: auto;
     z-index: 999;
     /*background: #bff8ff;*/
     color: #505050;

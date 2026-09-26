@@ -75,12 +75,6 @@
                 sync();
             }
         });
-
-        // Der Scrollbar-Plugin ist Zierde: faellt er aus, darf das die
-        // Navigation nicht mitreissen.
-        if (window.jQuery && typeof window.jQuery.fn.mCustomScrollbar === "function") {
-            window.jQuery("#sidebar").mCustomScrollbar({ theme: "minimal" });
-        }
     }
 
     if (document.readyState === "loading") {

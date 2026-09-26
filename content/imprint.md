@@ -35,12 +35,14 @@ Please also refer to the
 # Privacy policy
 
 <!--
-  HINWEIS (25.09.2026): Dieser Abschnitt beschreibt den tatsaechlichen Ist-Zustand der
-  Seite, einschliesslich des eingebundenen Matomo und der externen CDNs. Er ist bewusst
-  nicht von kaiec.de uebernommen worden, weil jene Seite rein statisch ist und weder
-  Analytics noch externe Ressourcen einbindet. Sobald geklaert ist, ob und was ueber
-  Matomo erfasst wird, gehoert dieser Abschnitt ueberarbeitet. Siehe CLAUDE.md,
-  Abschnitt "Offene Punkte".
+  HINWEIS (26.09.2026): Dieser Abschnitt beschreibt den tatsaechlichen Ist-Zustand der
+  Seite, einschliesslich des eingebundenen Matomo. Er ist bewusst nicht von kaiec.de
+  uebernommen worden, weil jene Seite rein statisch ist und keine Analytics einbindet.
+  Sobald geklaert ist, ob und was ueber Matomo erfasst wird, gehoert dieser Abschnitt
+  ueberarbeitet. Siehe CLAUDE.md, Abschnitt "Offene Punkte". Die fruehere externe
+  Einbindung von Bootstrap, jQuery, Popper, FontAwesome und einem Scrollbar-Plugin von
+  Drittanbieter-CDNs wurde am 26.09.2026 beendet, alle Ressourcen ausser Matomo werden
+  seitdem lokal ausgeliefert.
 -->
 
 This website is a static site. It has no contact form, no user accounts and no login, and it
@@ -53,10 +55,9 @@ This is needed to deliver the site and to keep it secure.
 **Web analytics.** The pages embed Matomo, a web analytics tool hosted on our own server at
 `web.judaicalink.org`. Data collected this way is not passed on to third parties.
 
-**External resources.** The pages load stylesheets, fonts, icons and JavaScript libraries
-(Bootstrap, jQuery, Popper, FontAwesome and a scrollbar plugin) from third-party content
-delivery networks. When a page is opened, your IP address is transmitted to those providers.
-The privacy policies of the respective providers apply.
+**External resources.** All stylesheets, fonts, icons and JavaScript used on this site are
+hosted on our own server. No data is transmitted to third-party content delivery networks
+when you open a page.
 
 **The JudaicaLink service.** The knowledge graph itself is operated in the portal of the
 Specialized Information Service Jewish Studies at the University Library Johann Christian
