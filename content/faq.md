@@ -1,4 +1,5 @@
 ---
+title: "FAQ"
 description: "Here you can find answers to the questions you might have while using JudaicaLink."
 keywords: ["faq", "question", "answer"]
 ---
@@ -34,7 +35,7 @@ This depends on your ambitions and local technical possibilities. If your encycl
 
 If you want to provide Linked Data on your own website, together with your encyclopedia (which is highly recommended), then the requirements increase. It depends again on what you have and what you want, but in general, the requirements are rather moderate. We are very experienced in publishing Linked Data in many different ways and are quite positive to find the right solution for you.
 
-You can reach out to us here: <a href="https://labs.judaicalink.org/contact/">Contact Team</a>
+You can reach out to us here: <a href="/about-us/">Contact Team</a>
   
   
 ### What license should we use? {#faq-license} 
@@ -50,7 +51,7 @@ You could even use no license at all which means that noone is allowed to do any
 
 Currently, we receive funding for Maral from the German Research Foundation for our participation in the development of the specialized information service Jewish Studies (FID Jüdische Studien) at the University Library of Frankfurt. 
 
-The technical resources to actually run JudaicaLink are provided by the <a href="http://wiss.iuk.hdm-stuttgart.de/">WISS Research Group</a> of the <a href="https://www.hdm-stuttgart.de/">Stuttgart Media University</a>. 
+JudaicaLink is operated in the portal of the Specialized Information Service Jewish Studies at the <a href="https://www.ub.uni-frankfurt.de">University Library Johann Christian Senckenberg</a> in Frankfurt am Main; development takes place at the <a href="https://www.th-mannheim.de">Mannheim Technical University</a>. See <a href="/production/">JudaicaLink in production</a>. 
 
   
 ### Is software and data freely and openly available? {#faq-opensource}  
@@ -67,5 +68,5 @@ All software to create the data and to produce this very website is available on
 
 Development of a proper search functionality that is more suitable for end users is planned for end of 2018. Currently we focus on the integration of our various datasets and the contextualization of the data in the FID project.
 
-However, you can always use our [SPARQL endpoint](http://data.judaicalink.org/sparql.html) to query our knowledge graph.
+However, you can always use our [SPARQL endpoint](https://www.jewishstudies.de/en/judaicalink/sparql/) to query our knowledge graph.
 

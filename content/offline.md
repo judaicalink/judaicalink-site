@@ -1,4 +1,5 @@
 ---
+title: "Offline"
 description: "JudaicaLink provides support to publish and interlink existing reference works of the Jewish culture and history as Linked Data."
 keywords: ["about", "vision", "goal", "team"]
 ---

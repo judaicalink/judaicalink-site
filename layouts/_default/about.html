@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<!-- Teamseite: Fliesstext links, Ansprechpartner in Frankfurt rechts. -->
+
+<main class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        {{ .Content }}
+    </div>
+
+    {{ partial "team-frankfurt.html" . }}
+</main>
+
+{{ partial "footer.html" . }}

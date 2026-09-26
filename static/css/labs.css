@@ -54,6 +54,7 @@ a:hover {
 #sidebar {
     width: 250px;
     position: fixed;
+    transform: translateX(0);
     top: 0;
     left: 0;
     height: 100vh;
@@ -67,8 +68,8 @@ a:hover {
     background-blend-mode: multiply;
 }
 
-#sidebar.active {
-    margin-left: -250px;
+#sidebar.nav-collapsed {
+    transform: translateX(-100%);
 }
 
 #sidebar ul li a {
@@ -96,7 +97,7 @@ a:hover {
     right: 0;
 }
 
-#content.active {
+#content.nav-collapsed {
     width: 100%;
 }
 
@@ -245,8 +246,47 @@ ul.results {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-/*@media (max-width: 1000px) wenn kleiner als 1000px oder =1000px dann...*/
+/* Media Queries von gross nach klein. Bei max-width gelten bei schmalem
+   Viewport alle Bloecke gleichzeitig, der zuletzt notierte gewinnt. */
 
+@media (max-width: 1200px){
+    #content {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
+        margin-left: -42px;  /*Button außen*/
+    }
+}
+
+@media (max-width: 992px) {
+    .logo {
+        width: 180px;
+    }
+
+    .logofid {
+        width: 195px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 170px;
+        margin-left: 10px;
+    }
+    .people_image {
+        width:120px;
+        height:120px;
+    }
+    #content {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
+        margin-left: -38px;  /*Button außen*/
+    }
+}
 
 @media (max-width: 540px){
     .row{
@@ -274,24 +314,32 @@ ul.results {
     }
 
     #sidebar {
-        margin-left: -100%; /*davor -250px*/
-        width: 100%;        /*250px*/
-        position:fixed;
+        width: 100%;
+        position: fixed;
         text-align: center;
         font-size: 16px;
+        transform: translateX(-100%);
     }
 
-    #sidebar.active {
-        margin-left: 0px;
+    #sidebar.nav-expanded {
+        transform: translateX(0);
         height: 100%;
+    }
+
+    /* Der Inhalt nimmt mobil immer die volle Breite ein, unabhaengig davon,
+       ob die Sidebar offen ist. */
+    #content,
+    #content.nav-collapsed {
+        width: 100%;
     }
     #sidebar ul li a {
     padding-left: 0;
 }
-    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
+    .buttonnav {
         z-index: 1000;
-        top: 1%;  /*Button außen*/
+        top: 1%;
         right: 5%;
+        margin-left: 0;   /* sonst zieht der Wert aus den breiteren Bloecken */
         height: 40px;
         width: 40px;
         opacity: 1;
@@ -316,42 +364,13 @@ ul.results {
 
 
 
-@media (max-width: 768px) {
-    .logo {
-        width: 170px;
-        margin-left: 10px;
-    }
-    .people_image {
-        width:120px;
-        height:120px;
-    }
-    #content {
-        padding: 10px;
-        margin-top: 20px;
-    }
 
-    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
-        margin-left: -38px;  /*Button außen*/
-    }
-}
-@media (max-width: 992px) {
-    .logo {
-        width: 180px;
-    }
 
-    .logofid {
-        width: 195px;
-    }
-}
-@media (max-width: 1200px){
-    #content {
-        padding-left: 15px;
-        padding-right: 0px;
-    }
-    .buttonnav {                    /*evtl. hier buttonnav vgl. labs*/
-        margin-left: -42px;  /*Button außen*/
-    }
-}
+
+
+
+
+
 /*-------------------------------------------------------*/
 
 
@@ -369,4 +388,84 @@ ul.results {
     max-width: 100%;
     max-height: 250px;
     margin-bottom: 1rem;
+}
+
+/* Abgesetzter Navigationsblock fuer den Produktivbetrieb in Frankfurt */
+.nav-external {
+    margin-top: 1.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.nav-external-label {
+    display: block;
+    padding: 0 20px 0.35rem 20px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    opacity: 0.7;
+}
+
+
+/* --- Hamburger-Button: jeweils nur ein Icon ---------------------------------
+   Den Zustand setzt nav.js als data-nav am Button. Offen heisst: die Sidebar
+   ist sichtbar, also zeigt der Button das Kreuz zum Schliessen.            */
+
+.buttonnav .fa-bars,
+.buttonnav .fa-times {
+    display: none;
+}
+
+.buttonnav[data-nav="open"] .fa-times { display: inline-block; }
+.buttonnav[data-nav="closed"] .fa-bars { display: inline-block; }
+
+/* Ohne JavaScript steht die Sidebar auf grossen Schirmen offen. */
+.buttonnav:not([data-nav]) .fa-times { display: inline-block; }
+
+/* --- Frankfurter Team ------------------------------------------------------
+   Bewusst anders als .people: keine Fotos, keine Kreise, keine Hover-Skalierung.
+   Der Unterschied in der Darstellung entspricht dem Unterschied in der Rolle –
+   dort laeuft der Dienst, hier wird entwickelt.                             */
+
+.team-external {
+    /* auto-fill statt auto-fit: die letzte Karte in einer unvollen Zeile behaelt
+       ihre Breite, statt sich ueber die ganze Zeile zu dehnen. */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 1rem;
+    margin: 1.25rem 0 1.5rem 0;
+}
+
+.team-external-person {
+    padding: 0.85rem 1rem;
+    border-left: 4px solid #004284;
+    background: rgba(191, 248, 255, 0.35);
+    line-height: 1.5;
+}
+
+@media (max-width: 540px) {
+    .team-external {
+        display: block;
+    }
+
+    .team-external-person {
+        margin-bottom: 0.75rem;
+        text-align: left;
+    }
+}
+
+/* Panel der Frankfurter Ansprechpartner in der rechten Spalte der Teamseite */
+.team-external-panel {
+    padding: 1rem 1.1rem;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(0, 66, 132, 0.15);
+}
+
+.team-external-heading {
+    font-size: 1.35rem;
+    margin-top: 0;
+}
+
+.team-external-panel p {
+    font-size: 0.95rem;
 }

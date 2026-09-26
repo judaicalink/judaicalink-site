@@ -12,7 +12,7 @@ Then have a look at our project GitHub: https://github.com/wisslab/judaicalink-l
 
 There you can find the ontology used in JudaicaLink datasets as well as the source codes and descriptions of each generated datasets and our Hugo-based dataset loader. 
 
-Each section contains all the steps, trials and errors that we have been through to reach to the final datasets for which public [SPARQL endpoint](http://data.judaicalink.org/sparql.html) is also available. 
+Each section contains all the steps, trials and errors that we have been through to reach to the final datasets for which a public SPARQL endpoint is also available. *(Update 2026-09-25: link removed with the move of the production service to Frankfurt, see [JudaicaLink in production](/production/).)* 
 
 Moreover, you can download the datasets [here](http://www.judaicalink.org/datasets). 
 

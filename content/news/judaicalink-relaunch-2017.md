@@ -9,7 +9,7 @@ With the move, we also rethought the whole technical setup and aimed at increasi
 
 1. The Fuseki triple store runs now within Apache Tomcat that reliably restarts when the server gets restarted. This hopefully leads to less (or none) downtime of JudaicaLink.
 2. The Drupal system running www.judaicalink.org (this website) has been replaced by [Hugo](http://gohugo.io). This means no worrying about security issues in Drupal anymore and also more flexibility in reusing the content, which is worth an own point:
-3. The frontmatter (i.e., metadata that is defined for each Hugo page) is now directly used by a Python script to keep the triple store in sync with the dataset descriptions on the website. This way, you (and we... ;-)) always know what's actually loaded in JudaicaLink if you use our [SPARQL endpoint](http://data.judaicalink.org/sparql.html).
+3. The frontmatter (i.e., metadata that is defined for each Hugo page) is now directly used by a Python script to keep the triple store in sync with the dataset descriptions on the website. This way, you (and we... ;-)) always know what's actually loaded in JudaicaLink if you use our SPARQL endpoint. *(Update 2026-09-25: link removed with the move of the production service to Frankfurt, see [JudaicaLink in production](/production/).)*
 4. As we now use page metadata to load JudaicaLink, we can of course also make the data that is loaded available to you: you can now download all data as single dump files listed on the dataset descriptions.
 5. As JudaicaLink constantly moves from providing data versions of encyclopediae to providing a diverse knowledge graph for the Judaica domain, we renamed the Encyclopediae section to Datasets, accordingly. 
 

@@ -1,32 +1,31 @@
+---
+title: "Search"
+description: "Search the JudaicaLink knowledge graph in the FID portal in Frankfurt."
+keywords: ["search", "graph", "frankfurt", "portal"]
+aliases: ["/search/"]
+---
 
+# Search
 
-# SEARCH
+The search for the JudaicaLink knowledge graph is provided by the portal of the Specialized
+Information Service Jewish Studies in Frankfurt. The experimental search that used to run on
+this site has been retired.
 
-## Fulltext Search
-<b>ALPHA version, things will break!</b>
+<div class="alert alert-primary" role="alert">
+<b>Search JudaicaLink in the FID portal</b><br>
+<a class="btn btn-primary mt-2" href="https://www.jewishstudies.de/en/judaicalink/graph-search/">Graph Search</a>
+</div>
 
-The search functionality is still under development, therefore it not be available at all or have errors. See our [news](/news/experimental-search-online/).
+Three entry points are available there:
 
-<form action="javascript:search()">
-<input type="text" id="query">
-<input type="submit" value="Search" />
-</form>
-<p></p>
-<div id="results"> </div>
-<div id="pagination"> </div>
-<p></p>
-<p>
-The search functionality is powered by SOLR and currently indexes name, birth- and death dates, abstract, and publications.
-</p>
-<p>
-<b>Example Queries:</b><br/>
-<pre>
-thora
-birthDate:1870
-birthDate:18*
-name:abraham
-deathLocation:Hamburg
-</pre>
-</p>
-## SPARQL Endpoint
-To further investigate the knowledge graph, you can of course use our public <a href="http://data.judaicalink.org/sparql.html">SPARQL endpoint</a>.
+- **[Graph Search](https://www.jewishstudies.de/en/judaicalink/graph-search/)** for persons,
+  places, concepts and institutions, with facets for names, occupations, dates and locations.
+- **[Compact Memory Fulltext Search](https://www.jewishstudies.de/en/judaicalink/cm-search/)**
+  searches the full texts and jumps to the context where a term occurs.
+- **[Compact Memory Entity Search](https://www.jewishstudies.de/en/judaicalink/cm-e-search/)**
+  finds entities extracted from Compact Memory and links back into the knowledge graph.
+
+For programmatic access, use the
+[REST API](https://www.jewishstudies.de/en/judaicalink/api/swagger/), the
+[SPARQL endpoint](https://www.jewishstudies.de/en/judaicalink/sparql/) or the
+[dumps](https://www.jewishstudies.de/en/judaicalink/datasets/).

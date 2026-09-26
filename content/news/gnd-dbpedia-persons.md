@@ -21,7 +21,7 @@ This dataset includes 4,029 persons and 303 occupations. Here is an example:  ht
 
 All the extraction and data generation python codes are available open source on our Github <a href="https://github.com/wisslab/judaicalink-loader/">repository</a>. 
 In the resulted RDF files the persons and their corresponding attributes were mapped to JudaicaLink ontology. 
-The datasets data can also be accessed directly via our SPARQL <a href="http://data.judaicalink.org/sparql.html">endpoint</a>.  
+The datasets data can also be accessed directly via our SPARQL endpoint. <em>(Update 2026-09-25: link removed with the move of the production service to Frankfurt, see <a href="/production/">JudaicaLink in production</a>.)</em>  
 Details on all 7 JudaicaLink datasets can be found <a href="http://www.judaicalink.org/datasets/">here</a>  
 
 

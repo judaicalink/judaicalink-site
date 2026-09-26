@@ -31,7 +31,7 @@
     <link rel="manifest" href="/img/site.webmanifest">
       <!--<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
 
-    <title>{{ .Site.Title }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} &middot; {{ end }}{{ .Site.Title }}{{ end }}</title>
 
     <!-- Matomo -->
     <script type="text/javascript">
@@ -48,7 +48,6 @@
     })();
   </script>
   <!-- End Matomo Code -->
-  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
 
   </head>
 
@@ -65,16 +64,31 @@
                     <a href="/"><i class="fas fa-home"></i>  Home</a>
                 </li>
                 <li>
-                    <a href="https://labs.judaicalink.org/search/all_search_nav"><i class="fas fa-search"></i>  Search</a>
+                    <a href="/about-us/"><i class="fas fa-info-circle"></i> About</a>
                 </li>
                 <li>
-                    <a href="/datasets" id="datasets"><i class="fa fa-database"></i>  Datasets</a>
+                    <a href="/datasets/" id="datasets"><i class="fa fa-database"></i>  Datasets</a>
                 </li>
                 <li>
                     <a href="/news"><i class="fas fa-comment"></i>  News</a>
                 </li>
                 <li>
-                    <a href="https://www.ub.uni-frankfurt.de/judaica3/home.html" target="_blank">
+                    <a href="/production/"><i class="fas fa-server"></i> In production</a>
+                </li>
+                <li>
+                    <a href="https://judaicalink-docs.readthedocs.io"><i class="fas fa-book"></i> Docs</a>
+                </li>
+                <li>
+                    <a href="/labs/"><i class="fas fa-door-open"></i> Labs</a>
+                </li>
+            </ul>
+
+            <!-- Der Dienst laeuft in Frankfurt: eigener, abgesetzter Block -->
+            <div class="nav-external">
+                <span class="nav-external-label">The service runs in Frankfurt</span>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.jewishstudies.de/en/judaicalink/" target="_blank" rel="noopener">
                    <!-----FID SVG Icon----->
                    <svg class="svg"
                    xmlns="http://www.w3.org/2000/svg"
@@ -90,26 +104,11 @@
                    fill="#505050"
                    d="m 18.537,3.709 h 1.914 v 2.583 l 0.917,0.002 V 7.03 h -0.911 l -0.015,7.32 c 2.082,-0.223 4.566,-1.049 4.901,-4.705 H 24.424 V 8.908 h 0.919 V 8.222 h 1.705 v 0.687 h 0.915 v 0.74 L 27.048,9.646 c -0.293,4.326 -3.555,6.399 -6.598,6.513 -0.003,0 0.002,3.749 0.008,3.748 3.815,-0.814 10.053,-3.254 9.586,-10.263 L 29.135,9.647 29.132,8.91 h 0.913 V 8.222 h 1.698 v 0.687 h 0.916 L 32.653,9.646 31.74,9.643 c 0.254,8.604 -7.194,11.332 -11.29,12.058 v 3.795 C 29.41,24.667 34.577,18.829 35.056,9.643 L 34.263,9.646 34.262,8.909 h 0.794 V 8.222 h 1.704 v 0.687 h 0.916 V 9.646 H 36.76 c -0.205,7.628 -3.738,16.886 -16.302,17.645 -0.008,0.001 -0.004,5.854 0,5.854 l 2.145,-0.009 c 0,3.739 2.01,3.733 2.01,3.733 h 1.914 V 38.83 H 18.536 V 3.709 Z"
                    />
-                   </svg>FID Jewish Studies</a>
+                   </svg>JudaicaLink in the FID portal</a>
                    <!-----FID SVG Icon----->
-                </li>
-                <li>
-                    <a href="/about-us"><i class="fas fa-info-circle"></i> About</a>
-                </li>
-                <li>
-                    <a href="https://judaicalink-docs.readthedocs.io"><i class="fas fa-book"></i> Docs</a>
-                </li>
-                <li>
-                    <a href="/legal"><i class="fas fa-shield-alt"></i> Disclaimer</a>
-                </li>
-                <li>
-                    <a href="https://labs.judaicalink.org/contact/"><i class="fas fa-envelope"></i> Contact</a>
-                </li>
-                <br>
-                <li>
-                    <small><a href="https://labs.judaicalink.org/"><i class="fas fa-door-open"></i> Labs Home</a></small>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
       <!-- Page Navigation -->
@@ -128,12 +127,12 @@
             <!-- tablet and laptop sizes start with x-button -->
             <i class="fas fa-times"></i>
             <!-- smartphone size starts with hamburger-menu-button (because the sidebar is collapsed)-->
-            <i class="fas fa-bars"></i>">
+            <i class="fas fa-bars"></i>
                     </button>
 
         <div class="header-logos">
-       <a href="/"><img src="/img/transp_judaica_web.png" alt="JudaicaLink labs logo" class="logo"/></a>
-    <a href="https://www.ub.uni-frankfurt.de/judaica3/home.html" target="_blank"><img src="/img/fid-logo.jpg" alt="FID logo" class="logofid d-none d-md-block"/></a>
+       <a href="/"><img src="/img/transp_judaica_web.png" alt="JudaicaLink logo" class="logo"/></a>
+    <a href="https://www.jewishstudies.de/en/judaicalink/" target="_blank" rel="noopener"><img src="/img/fid-logo.jpg" alt="FID Jewish Studies logo" class="logofid d-none d-md-block"/></a>
    </div>
     </div>
 </header>
