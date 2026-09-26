@@ -171,6 +171,34 @@ statt die Liste hier vollstaendig zu pflegen. Reihenfolge: Kerstin von der Krone
 Marie-Luise Schmidt, Aaron Christianson. Die Ueberschrift im Partial traegt die id
 `the-fid-team-in-frankfurt`; `/production/` verlinkt darauf.
 
+## Archivierter Katalog
+
+`content/datasets/_index.md` plus die 36 Dateien in `content/datasets/` bilden den
+**letzten Katalogstand vor der Bereinigung** (Commit `81b42a5`). Er steht als "Archived
+catalogue" unterhalb des neuen Verweistexts auf `/datasets/`; die Tabellen und
+Einzelansichten kommen aus `layouts/section/datasets.html` und
+`layouts/datasets/single.html`.
+
+Jede Datensatz-Seite traegt im Frontmatter `productionurl`, den Link auf die
+entsprechende Katalogseite im FID-Portal
+(`https://www.jewishstudies.de/en/judaicalink/datasets/dataset/<slug>/`). Ist das Feld
+gesetzt, zeigt `layouts/datasets/single.html` oben einen Warnhinweis, dass die Seite
+nicht den aktuellen Stand zeigen muss, mit Link ins Portal. Aktuell haben alle 36 Seiten
+eine `productionurl` – geprueft am 26.09.2026, alle 200.
+
+Dump-Links (`[[files]]`, Feld `url`) zeigen auf `archive.judaicalink.org/dumps/`, nicht
+mehr auf `data.judaicalink.org/dumps/`. Dieser Host ist mit `dumps-clean` gesynct und
+entspricht dessen Stand exakt (bestaetigt von Kai Eckert, 26.09.2026). Fuer `occupations`
+existiert kein Dump; der `[[files]]`-Block ist entfernt, nicht durch einen toten Link
+ersetzt. Hintergrund dazu in `dumps-2026/dumps-clean/README.md` (separates
+Datenverzeichnis, nicht in diesem Repository).
+
+**Fallstrick:** `content/datasets.md` als Sibling neben `content/datasets/` verwirft in
+Hugo 0.73.0 den Markdown-Body der Section-Seite, obwohl Kind und `.Pages` korrekt
+aufgeloest werden – nur `.Content` bleibt leer. Inhalt fuer eine Section-Listing-Seite
+gehoert nach `_index.md` innerhalb des Verzeichnisses, nicht in eine gleichnamige Datei
+daneben.
+
 ## Offene Punkte
 
 - **Matomo.** Im Seitenkopf wird ein Matomo unter `//web.judaicalink.org/matomo/` ohne
