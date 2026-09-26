@@ -2,7 +2,7 @@
 ![license](https://badgen.net/badge/license/MIT/blue)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025)
 
-![hugo](https://img.shields.io/badge/hugo-v0.104.3-green?style=plastic&logo=hugo&link=https://github.com/gohugoio/hugo)
+![hugo](https://img.shields.io/badge/hugo-v0.166.0%20extended-green?style=plastic&logo=hugo&link=https://github.com/gohugoio/hugo)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
 ![github](https://badgen.net/badge/icon/github?icon=github&label)
@@ -26,6 +26,8 @@
 The website is generated using Hugo.
 Hugo is a static site generator, using Markdown sites and template to compile static websites.
 
+**Hugo version:** 0.166.0, extended edition. The Hugo binary is not checked into this repository (see `.gitignore`); download it yourself, see [Installation](#installation) below. For how the pinned version is set up reproducibly, see `CLAUDE.md`.
+
 ## What is JudaicaLink?
 
 ## Installation
@@ -36,7 +38,7 @@ Go into the directory: `cd judaicalink-site`.
 Install hugo (see below).
 
 ### Windows
-Simply download the Hugo executable (Currently used version on the server: [0.104.3](https://github.com/gohugoio/hugo/releases/tag/v0.104.3)).
+Simply download the Hugo executable (Currently used version: [0.166.0, extended](https://github.com/gohugoio/hugo/releases/tag/v0.166.0)).
 
 You have to add hugo in your environment variables under PATH:
 

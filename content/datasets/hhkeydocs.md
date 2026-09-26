@@ -1,7 +1,7 @@
 +++
 author = "Christian Deuschle" 
 authorlink = "" 
-date = "2023-011-22T09:00:00+02:00" 
+date = "2023-11-22T09:00:00+02:00" 
 title = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte" 
 website = "https://schluesseldokumente.net/" 
 dataslug = "hhkeydocs" 

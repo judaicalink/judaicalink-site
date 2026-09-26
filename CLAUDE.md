@@ -64,8 +64,37 @@ hugo                # baut nach public/
 hugo -d <ziel>      # baut in anderes Verzeichnis
 ```
 
-Im Repo liegt ein Hugo 0.73.0 als Symlink `./hugo`; die README nennt 0.104.3 als
-Serverversion. Bei Templatefehlern zuerst die Hugo-Version prüfen.
+### Hugo-Version
+
+Gepinnt ist **0.166.0, extended**. Der Binary liegt nicht im Repo – `hugo*` steht ganz oben
+in `.gitignore` – sondern wird lokal heruntergeladen und verlinkt:
+
+```bash
+cd judaicalink-site
+curl -sLO https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_extended_0.166.0_linux-amd64.tar.gz
+curl -sLO https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_0.166.0_checksums.txt
+grep "hugo_extended_0.166.0_linux-amd64.tar.gz" hugo_0.166.0_checksums.txt | sha256sum -c -
+mkdir -p hugo_0.166.0
+tar -xzf hugo_extended_0.166.0_linux-amd64.tar.gz -C hugo_0.166.0
+rm hugo_extended_0.166.0_linux-amd64.tar.gz hugo_0.166.0_checksums.txt
+ln -sf hugo_0.166.0/hugo hugo
+./hugo version
+```
+
+Die Konvention ist `hugo_<version>/` als Zielverzeichnis, `./hugo` als Symlink auf den
+Binary darin – dieselbe Anordnung wie zuvor mit 0.73.0. Wer die Version wechselt, legt ein
+neues `hugo_<version>/` an und zieht den Symlink um, statt das alte Verzeichnis zu
+überschreiben; die alte Version bleibt so greifbar, bis sie sich als unnötig erweist, und
+wird dann gelöscht.
+
+**Extended, nicht Standard:** Das Template nutzt kein Sass/SCSS, Standard-Hugo würde
+reichen. Extended ist aber die von Hugo empfohlene Ausgabe ohne Nachteil und vermeidet eine
+Überraschung, falls spätere Templates doch Ressourcenverarbeitung brauchen.
+
+Bei Templatefehlern nach einem Hugo-Update zuerst `./hugo version` prüfen – die häufigste
+Ursache ist eine zwischen den Versionen verschärfte Prüfung (siehe Fallstrick unten zum
+Datumsformat) oder eine Config-Option, die umbenannt wurde (`languageCode` → `locale` seit
+0.158.0).
 
 Deployment läuft per Skript auf dem Mannheimer Server, nicht über die GitHub Action (die
 baut nur ein Docker-Image und veröffentlicht es nicht):
@@ -110,6 +139,11 @@ früheren Funktionen den heutigen Angeboten zu.
 
 ## Fallstricke
 
+- **Strengeres Datumsparsing seit dem Hugo-Upgrade.** `content/datasets/hhkeydocs.md` trug
+  `date = "2023-011-22T..."` (dreistelliger Monat, Tippfehler). Hugo 0.73.0 hat das
+  klaglos akzeptiert, 0.166.0 bricht den Build mit einem harten Fehler ab. Korrigiert;
+  falls beim nächsten Versionswechsel wieder ein Build abbricht, zuerst alle
+  `date =`-Felder in `content/` auf gültige TOML-Daten prüfen – das ist der Klassiker.
 - **`statistics.py` ist funktionslos.** Das Skript fragt
   `data.judaicalink.org/sparql/query` ab; der Endpoint liefert seit der Migration HTTP 500.
   Das Skript fängt den Fehler ab und schreibt eine **leere**

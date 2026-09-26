@@ -34,7 +34,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Navigation und Fusszeile von labs.judaicalink.org geloest; FID-Links auf
   jewishstudies.de gesetzt.
 
+### Changed
+- Hugo auf 0.166.0 (extended) aktualisiert; alte Binaries (0.18.1, 0.73.0) entfernt. Der
+  Binary wird nicht mehr eingecheckt (war ohnehin schon gitignored), README nennt die
+  Version, CLAUDE.md dokumentiert den reproduzierbaren Download inklusive
+  Checksummenpruefung.
+- `config.toml`: `languageCode` zu `locale` umbenannt (Hugo-Deprecation seit 0.158.0).
+- `.hugo_build.lock` aus dem Git-Tracking entfernt (war vor der .gitignore-Regel
+  eingecheckt worden, leere Datei ohne Funktion).
+
 ### Fixed
+- Tippfehler im Datum von `content/datasets/hhkeydocs.md` (`2023-011-22`), der von Hugo
+  0.73.0 toleriert wurde, den Build unter 0.166.0 aber hart abbrechen liess.
 - Hamburger-Menue und Sidebar funktionieren wieder. Die Logik steckte in
   `static/js/search.js` und war mit der Suche entfernt worden; sie liegt jetzt in
   `static/js/nav.js`. Zugleich war sie an den Scrollbar-Plugin gekoppelt: fiel der aus,
