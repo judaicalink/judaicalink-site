@@ -41,8 +41,8 @@ Historisch gab es vier Systeme. Wer hier etwas ändert, sollte wissen, was wo l�
 | Host | Was | Betrieb | Status |
 |---|---|---|---|
 | `web.judaicalink.org` | diese Hugo-Seite | Mannheim, 141.19.143.18 | aktiv, auf Langzeitbetrieb ausgelegt |
-| `data.judaicalink.org` | LOD-Auslieferung, früher Pubby/Django | **Frankfurt, 141.2.140.18** | migriert, DNS umgestellt |
-| `labs.judaicalink.org` | Django-Prototyp, Vorlage für Frankfurt | Mannheim, 141.19.143.18 | Abschaltung vorgesehen, zeitweise 502 |
+| `data.judaicalink.org` | LOD-Auslieferung über pubby-django (seit jeher die Django-App dafür, kein Ablösungs-Ereignis) | **Frankfurt, 141.2.140.18** | migriert, DNS umgestellt |
+| `labs.judaicalink.org` | Django-Anwendungen: die tatsächliche Produktivplattform für JudaicaLink bis zur Migration (Ingestion, Backend-Indexsteuerung, Frontend-Suche) | Mannheim, 141.19.143.18 | Abschaltung vorgesehen, zeitweise 502 |
 | `search.judaicalink.org` | ElasticSearch-Backend der alten Suche | Mannheim, 141.19.143.18 | defekt, Abschaltung vorgesehen |
 
 `data.judaicalink.org` ist bereits vollständig migriert. Alte Entitäts-URIs und Dump-Links

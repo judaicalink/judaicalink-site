@@ -1,21 +1,20 @@
 +++
 author = "Kai Eckert"
 date = "2024-10-01T10:00:00+02:00"
-# HINWEIS: Datum bitte pruefen.
-title = "DjangoRDF: a by-product of JudaicaLink, useful beyond it"
+title = "DjangoRDF: a software project of its own within the FID"
 +++
 
-Working with RDF inside a Django application turned out to be a recurring problem. The library we
-built for it is available on its own.
+Working with RDF inside a Django application is a recurring problem, not one specific to any
+single service. We have released the library we use for it under an open licence.
 <!--more-->
 
-JudaicaLink is a Django application that has to keep a triple store in step with its own models.
-Doing that by hand is tedious and easy to get wrong. DjangoRDF handles the mapping: full CRUD on
-RDF triples, automatic synchronisation with the triple store, and generation of the ontology from
-the model definitions.
+DjangoRDF grew out of work within the FID Jewish Studies project and is developed and
+maintained as a project in its own right. It supports building and extending RDF-based
+services in Django: keeping a triple store in step with Django models, without doing that
+synchronisation by hand.
 
-None of this is specific to Jewish Studies. Any project that wants to publish Linked Open Data
-from a Django application faces the same task, which is why the library is released separately
-under an open licence.
+It is currently used in the Research Navigator, which is being developed for the FID portal
+in Frankfurt. None of what it does is specific to Jewish Studies, which is why it is released
+separately, for anyone building Linked Open Data services on Django.
 
 [DjangoRDF on GitHub](https://github.com/judaicalink/djangordf)

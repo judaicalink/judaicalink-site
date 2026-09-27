@@ -17,6 +17,26 @@ For each entity described in such works, a Unique Resource Identifier (URI) is c
 
 JudaicaLink is developed as part of the DFG-funded project [FID Jewish Studies](https://www.jewishstudies.de/), where a specialized information service is provided for the Jewish Studies. The project is led by the University Library Johann Christian Senckenberg in Frankfurt am Main, together with Mannheim Technical University and the State and University Library Hamburg.
 
+# History
+
+JudaicaLink began in the DM2E project (Digitised Manuscripts to Europeana). Since 2016 it has
+continued as part of the DFG-funded FID Jewish Studies, developed as a knowledge graph in
+support of research applications in the FID.
+
+The first reference works to be connected were the YIVO Encyclopedia, followed by RUJEN
+(Russian Jewry Encyclopedia) and then the dataset on the history of the Jews in Hamburg. DBpedia
+was the first large-scale data source we linked against, which made it possible to connect the
+individual datasets to each other, including across language boundaries, rather than just to
+an external reference point.
+
+Over the course of the FID funding phases, the catalogue grew step by step to its current
+scope. Two milestones stand out. The connection to the GND, and the extraction of records
+relevant to Jewish Studies from it, put JudaicaLink in a position to supply EntityFacts, which
+is what lets library systems link out to JudaicaLink directly. And the Entity Pages brought
+together information about a single entity from across the different source datasets into one
+consolidated view, giving users a simple way to see everything JudaicaLink knows about it in
+one place.
+
 # Team
 
 Development and operation are in two different places, so are the people to ask. Questions

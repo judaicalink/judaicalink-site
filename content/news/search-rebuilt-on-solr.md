@@ -1,7 +1,6 @@
 +++
 author = "Kai Eckert"
 date = "2025-11-24T10:00:00+02:00"
-# HINWEIS: Datum bitte pruefen.
 title = "Migration: the search has been rebuilt on Apache SOLR"
 +++
 

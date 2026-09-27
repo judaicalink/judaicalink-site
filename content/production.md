@@ -18,15 +18,17 @@ Main.
 
 ## Why the move
 
-A knowledge graph is only useful if it is still there in ten years. Research groups change,
-projects end, staff move on. Libraries, on the other hand, are built for exactly this kind of
-continuity: they keep collections, catalogues and authority data available across decades.
+Moving JudaicaLink into the FID portal was part of the plan since the project's third DFG
+funding phase, not a late decision. Two things motivated it. A knowledge graph is only useful
+if it is still there in ten years, and libraries are built for exactly that kind of
+continuity, unlike a research group whose staff and projects change. And a connection between
+two institutions and several servers that relies purely on Linked Data conventions only goes
+so far — moving JudaicaLink into the same application as the rest of the subject
+infrastructure allows a closer integration with the subject catalogue, the repository and the
+authority data work of the FID than that.
 
 JudaicaLink was developed at Mannheim Technical University, previously at Stuttgart
-Media University. Running the production service there would have tied it to the lifetime of
-a research group. Moving it into the FID portal puts it where the rest of the subject
-infrastructure already lives, next to the subject catalogue, the repository and the authority
-data work of the FID.
+Media University.
 
 ## What changed technically
 
@@ -34,11 +36,14 @@ The move was not a copy. The service was rebuilt to fit the portal:
 
 - JudaicaLink is integrated as a **Django application** in the FID portal rather than running
   as a separate system.
-- The search backend was migrated from **ElasticSearch to Apache SOLR**, all indices were
-  rebuilt, and data structures and source code were adapted.
-- Operation happens in the **Kubernetes infrastructure** of the library, with data kept on its
-  central PostgreSQL server — the same environment that carries the portal itself and the
-  Research Navigator. JudaicaLink no longer needs infrastructure of its own.
+- The search backend was migrated from **ElasticSearch to Apache SOLR** already in Mannheim,
+  ahead of the move, since SOLR is what all search applications in the Frankfurt portal use.
+  All indices were rebuilt, and data structures and source code were adapted.
+- The service was **containerized**, again already in Mannheim ahead of the move, to make
+  deployment simpler and more flexible than the previous server setup allowed.
+- **Data ingestion was consolidated.** The Django applications that control loading and
+  indexing datasets were cleaned up and brought together, so that fewer, clearer components
+  do the job.
 - **`data.judaicalink.org` now resolves to Frankfurt.** Entity URIs keep working and serve
   HTML, RDF/XML, Turtle or JSON-LD through content negotiation, so references stored in other
   applications remain valid.
@@ -70,7 +75,7 @@ Three systems were in use during development. Only this website remains in Mannh
 |---|---|---|
 | `web.judaicalink.org` | this website, the project site | active |
 | `data.judaicalink.org` | Linked Data delivery | migrated to Frankfurt |
-| `labs.judaicalink.org` | the prototype that became the production system | [being retired](/labs/) |
+| `labs.judaicalink.org` | where JudaicaLink itself ran during development | [being retired](/labs/) |
 
 If an old link brought you here, the [Labs page](/labs/) lists where each function can be
 found today.
