@@ -38,5 +38,5 @@ The background of the move is described under [JudaicaLink in production](/produ
 
 ## What happens to Labs
 
-Most of what was available on labs is not in production and from a user's perspective it does not make sense to have two entry points into JudaicaLink. We plan to reduce labs back to what it was in the beginning: a minimal showcase for new developments around JudaicaLink. 
+Most of what was available on labs is now in production and from a user's perspective it does not make sense to have two entry points into JudaicaLink. We plan to reduce labs back to what it was in the beginning: a minimal showcase for new developments around JudaicaLink. 
 
