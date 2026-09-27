@@ -2,6 +2,7 @@
 title: "JudaicaLink Labs"
 description: "JudaicaLink Labs has been superseded by the production service in the FID portal in Frankfurt."
 keywords: ["labs", "migration", "frankfurt", "portal"]
+aliases: ["/search/"]
 ---
 
 # JudaicaLink Labs
@@ -37,6 +38,5 @@ The background of the move is described under [JudaicaLink in production](/produ
 
 ## What happens to Labs
 
-Labs is being retired. Requests to `labs.judaicalink.org` are redirected to this page for
-the time being. Whether Mannheim will again host demonstrators and experimental work under a
-separate address is open; if so, it will be announced in the [news](/news/).
+Most of what was available on labs is not in production and from a user's perspective it does not make sense to have two entry points into JudaicaLink. We plan to reduce labs back to what it was in the beginning: a minimal showcase for new developments around JudaicaLink. 
+

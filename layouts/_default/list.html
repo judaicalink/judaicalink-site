@@ -15,7 +15,10 @@
           <div class="card-body">
               <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
               <h4 class="uppercase"><a href="{{.Permalink }}">{{ .Title }}</a></h4>
-
+<!-- Insert the summary here -->
+    <div class="card-text my-3">
+        {{ .Summary }}
+    </div>
                   <div class="d-flex justify-content-end">
                       <a class="btn btn-secondary" href="{{.Permalink}}">read more</a>
                   </div>

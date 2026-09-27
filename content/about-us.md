@@ -39,10 +39,8 @@ one place.
 
 # Team
 
-Development and operation are in two different places, so are the people to ask. Questions
-about the content of JudaicaLink, about the datasets, and anything concerning the service in
-production go to the FID team in Frankfurt, listed on this page. Questions about ongoing
-development, the data model, the ontology or the source code go to Mannheim.
+These are the people who currently develop JudaicaLink or who did this in the past. Feel free to get in contact if you are interested in the technology, have new ideas for applications of the knowledge graph
+or want to contribute to knowledge graph research.
 
 ## JudaicaLink in Mannheim
 
@@ -67,7 +65,7 @@ development, the data model, the ontology or the source code go to Mannheim.
 <img src="/img/dov_winer.jpg" class="rounded-circle people_image" alt="Dov Winer">
 <h3>Dov Winer</h3>
 <h5>Founder</h5>
-<p>Dov Winer initiated JudaicaLink and established the early contacts to the institutions
+<p>Dov Winer originally formulated the idea of a knowledge graph for Jewish Studies as a data foundation for the DM2E project. He established the early contacts to the institutions
 whose reference works form the basis of the knowledge graph.</p>
 </div>
 </div>
@@ -79,15 +77,13 @@ whose reference works form the basis of the knowledge graph.</p>
 <div class="col-6 col-sm-6 col-md-6 people">
 <img src="/img/maral_dadvar.jpg" class="rounded-circle people_image" alt="Maral Dadvar">
 <h3>Maral Dadvar</h3>
-<h5>Postdoctoral Researcher</h5>
+<h5>Postdoctoral Researcher, FID Phase 1</h5>
 </div>
 
 <div class="col-6 col-sm-6 col-md-6 people">
 <img src="/img/Rovera-quadrat.jpg" class="rounded-circle people_image" alt="Marco Rovera">
 <h3>Marco Rovera</h3>
-<h5>Postdoctoral Researcher</h5>
-<p>now Postdoctoral Researcher in Computational Linguistics and NLP at
-Fondazione Bruno Kessler (FBK)</p>
+<h5>Postdoctoral Researcher, FID Phase 2</h5>
 </div>
 
 </div>
@@ -97,12 +93,28 @@ Fondazione Bruno Kessler (FBK)</p>
 <div class="col-6 col-sm-6 col-md-6 people">
 <img src="/img/Schnabel-Quadrat.jpg" class="rounded-circle people_image" alt="Benjamin Schnabel">
 <h3>Benjamin Schnabel</h3>
-<h5>Web Developer and Researcher</h5>
+<h5>Web Developer and Researcher, FID Phase 3</h5>
 </div>
 
 <div class="col-6 col-sm-6 col-md-6 people">
-<img src="/img/avatar.png" class="rounded-circle people_image" alt="Christian Deuschle">
+<img src="/img/deuschle.jpg" class="rounded-circle people_image" alt="Christian Deuschle">
 <h3>Christian Deuschle</h3>
+<h5>Research Assistant</h5>
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/kaluza.jpg" class="rounded-circle people_image" alt="Patricia Kaluza">
+<h3>Patricia Kaluza</h3>
+<h5>Research Assistant</h5>
+</div>
+
+<div class="col-6 col-sm-6 col-md-6 people">
+<img src="/img/Sara Fischer.jpeg" class="rounded-circle people_image" alt="Sara Fischer">
+<h3>Sara Fischer</h3>
 <h5>Research Assistant</h5>
 </div>
 

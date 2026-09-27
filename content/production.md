@@ -6,8 +6,7 @@ keywords: ["production", "frankfurt", "portal", "migration", "infrastructure"]
 
 # JudaicaLink in production
 
-JudaicaLink started as a research project. It is now a service that libraries and researchers
-can rely on, operated in the portal of the Specialized Information Service Jewish Studies
+JudaicaLink started as a research project around 2012. Since 2016, the development is funded by the German Research Foundation as part of the Specialized Information Service Jewish Studies
 (FID Jüdische Studien) at the University Library Johann Christian Senckenberg in Frankfurt am
 Main.
 
@@ -18,23 +17,17 @@ Main.
 
 ## Why the move
 
-Moving JudaicaLink into the FID portal was part of the plan since the project's third DFG
-funding phase, not a late decision. Two things motivated it. A knowledge graph is only useful
-if it is still there in ten years, and libraries are built for exactly that kind of
-continuity, unlike a research group whose staff and projects change. And a connection between
-two institutions and several servers that relies purely on Linked Data conventions only goes
-so far — moving JudaicaLink into the same application as the rest of the subject
-infrastructure allows a closer integration with the subject catalogue, the repository and the
-authority data work of the FID than that.
+While JudaicaLink originally was a stand-alone Linked Data project, it became clear that the knowledge graph ultimately should be integral part of the FID services and run in Frankfurt to ensure long-term availability and to facilitate further applications and developments built on top of JudaicaLink within the FID portal. JudaicaLink within the FID portal allows a closer integration with the subject catalogue, the repository and the authority data work of the FID.
 
-JudaicaLink was developed at Mannheim Technical University, previously at Stuttgart
-Media University.
+Moving JudaicaLink into the FID portal was therefore part of the mission of the since third DFG
+funding phase (2023 - 2025). This phase actually saw two migrations: first, in 2023, JudaicaLink moved from Stuttgart Media University to Mannheim Technical University. Then, in 2025, the actual migration to Frankfurt happened in close coordination with the development of the FID portal.
+
 
 ## What changed technically
 
 The move was not a copy. The service was rebuilt to fit the portal:
 
-- JudaicaLink is integrated as a **Django application** in the FID portal rather than running
+- JudaicaLink is integrated as several **Django applications** in the FID portal rather than running
   as a separate system.
 - The search backend was migrated from **ElasticSearch to Apache SOLR** already in Mannheim,
   ahead of the move, since SOLR is what all search applications in the Frankfurt portal use.
@@ -64,9 +57,6 @@ model and ontology, provenance of individual statements using RDF-star, the plan
 integration with Wikidata, and the processes that turn heterogeneous source data into Linked
 Open Data. What proves itself here moves into the portal.
 
-That division is the point of the arrangement. Development can take risks; a production
-service should not.
-
 ## The older systems
 
 Three systems were in use during development. Only this website remains in Mannheim:
@@ -76,6 +66,7 @@ Three systems were in use during development. Only this website remains in Mannh
 | `web.judaicalink.org` | this website, the project site | active |
 | `data.judaicalink.org` | Linked Data delivery | migrated to Frankfurt |
 | `labs.judaicalink.org` | where JudaicaLink itself ran during development | [being retired](/labs/) |
+| `search.judaicalink.org` | Search backend | migrated to Frankfurt, now part of the API |
 
-If an old link brought you here, the [Labs page](/labs/) lists where each function can be
-found today.
+
+By the way, this was always the reason for the distribution of the JudaicaLink service across different subdomains and servers. We want to keep the entry point stable, but systems should be able to move.

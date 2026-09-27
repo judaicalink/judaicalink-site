@@ -5,6 +5,10 @@
     <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
     <br>
     <a href="{{.Permalink}}">{{.Title}}</a>
+    <!-- Insert the summary here -->
+    <div class="card-text my-3">
+        <small>{{ .Summary }}</small>
+    </div>
 </li>
 
     {{end}}

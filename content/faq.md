@@ -12,8 +12,6 @@ keywords: ["faq", "question", "answer"]
 [What license should we use?]({{<ref "#faq-license" >}})<br>
 [How are you funded?]({{<ref "#faq-funded" >}})<br>
 [Is software and data freely and openly available?]({{<ref "#faq-opensource" >}})<br>
-[How can I search the data?]({{<ref "#faq-search" >}})<br>
-[Why do the data pages look so ugly?]({{<ref "#faq-ugly">}})
 
 ----------------------------------------------------------
 
@@ -49,7 +47,7 @@ You could even use no license at all which means that noone is allowed to do any
   
 ### How are you funded? {#faq-funded}  
 
-Currently, we receive funding for Maral from the German Research Foundation for our participation in the development of the specialized information service Jewish Studies (FID Jüdische Studien) at the University Library of Frankfurt. 
+Currently, we receive funding from the German Research Foundation for our participation in the development of the specialized information service Jewish Studies (FID Jüdische Studien) at the University Library of Frankfurt. 
 
 JudaicaLink is operated in the portal of the Specialized Information Service Jewish Studies at the <a href="https://www.ub.uni-frankfurt.de">University Library Johann Christian Senckenberg</a> in Frankfurt am Main; development takes place at the <a href="https://www.th-mannheim.de">Mannheim Technical University</a>. See <a href="/production/">JudaicaLink in production</a>. 
 
@@ -60,13 +58,5 @@ Yes, of course. All our data is available as downloadable data dumps, see at our
 
 All software to create the data and to produce this very website is available on GitHub:
 
-- [Website](https://github.com/wisslab/judaicalink-site)
-- [Data Pages (Pubby)](https://github.com/wisslab/judaicalink-pubby)
-- [Data Generators](https://github.com/wisslab/judaicalink-loader)
-
-### How can I search the data? {#faq-search}
-
-Development of a proper search functionality that is more suitable for end users is planned for end of 2018. Currently we focus on the integration of our various datasets and the contextualization of the data in the FID project.
-
-However, you can always use our [SPARQL endpoint](https://www.jewishstudies.de/en/judaicalink/sparql/) to query our knowledge graph.
+- [GitHub](https://github.com/judaicalink)
 
