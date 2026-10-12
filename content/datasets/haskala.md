@@ -24,7 +24,7 @@ path = "generators/haskala"
 version = "2026-10-12"
 issued = "2026-10-12"
 author = "Kai Eckert"
-commit = "4617329de6dedf1425693b95ab83a76a7ba9f66d"
+commit = "75c5921ff58df3ecdb3602144958f703b40e4cff"
 description = "Made from the Drupal database of the Library of Haskala (dump of 2015-04-20): all 1,980 persons, 525 books, editions, mentions, productions, prefaces, translations and 809 taxonomy terms with all their fields, and the schema of the database; the 2019 IRIs replaced; the haskala.net persons of 2019 kept."
 
   [[versions.files]]
@@ -41,9 +41,9 @@ description = "Made from the Drupal database of the Library of Haskala (dump of 
 
   [[versions.files]]
   path = "haskala-vocabulary.ttl.gz"
-  bytes = 11694
-  sha256 = "93db5319dfaac0467134197a7b29c2c06ddcdf0c4a5e7d0df63bd043392e8430"
-  triples = 2779
+  bytes = 13093
+  sha256 = "2bc6a01ce4bb316b4efd715533899be52bfdd273b78619f8499268b79f179440"
+  triples = 3026
 
   [[versions.files]]
   path = "haskala.ttl.gz"
@@ -53,9 +53,9 @@ description = "Made from the Drupal database of the Library of Haskala (dump of 
 
   [[versions.files]]
   path = "haskala-meta.ttl.gz"
-  bytes = 4288
-  sha256 = "df26bfb4f2d510795db1f9bfb14d82a8700d74ab2ba4d5c6c721843a06d016f8"
-  triples = 102
+  bytes = 4556
+  sha256 = "785e7e051f233b03b5e0396f12a1a32a7b4854b683ba235e2cf3f868b2a4c4ec"
+  triples = 104
 
 [[versions]]
 version = "2025-03-24"
@@ -98,6 +98,12 @@ description = "The enriched version of 2019, with birth and death dates and plac
 
 [[changelog]]
 date = "2026-10-13"
+version = "2026-10-12"
+author = "Kai Eckert"
+text = "Made again from the source (decisions 0024, 0026): the Drupal database of haskala-library.net (dump of 2015-04-20, content tables only), true to the database: 5,657 nodes of seven content types (1,980 persons, 525 books, 327 editions, 1,867 mentions, 667 productions, 272 prefaces, 19 translations), 809 terms of 19 taxonomies, 39,225 field values, and the schema (haskala-vocabulary.ttl.gz: classes and properties in data/haskala/vocab/ with labels, types, targets and order). Persons foaf:Person with VIAF links (583), books jl:Work, cities jl:Place with coordinates. The 194 library persons of 2019 are dcterms:isReplacedBy their nodes (5 by two duplicate nodes), their GND links carried over (125); the 32 haskala.net persons keep their IRIs and 2019 data, with their occupations. Made by generators/haskala/generate.py."
+
+[[changelog]]
+date = "2026-10-13"
 author = "Kai Eckert"
 text = "Licence CC BY 4.0 (was CC0), crediting the authors of the Library of Haskala, the FID Jewish Studies and JudaicaLink; from version 2026-10-12 on, the first with the data of the whole database. Versions 2019-07-01 and 2025-03-24 were published under CC0 and stay available under it."
 
@@ -106,11 +112,6 @@ date = "2026-10-12"
 author = "Kai Eckert"
 text = "Version 2026-10-12 (from the database) made the stable version; example IRI of that version."
 
-[[changelog]]
-date = "2026-10-13"
-version = "2026-10-12"
-author = "Kai Eckert"
-text = "Made again from the source (decisions 0024, 0026): the Drupal database of haskala-library.net (dump of 2015-04-20, content tables only), true to the database: 5,657 nodes of seven content types (1,980 persons, 525 books, 327 editions, 1,867 mentions, 667 productions, 272 prefaces, 19 translations), 809 terms of 19 taxonomies, 39,225 field values, and the schema (haskala-vocabulary.ttl.gz: classes and properties in data/haskala/vocab/ with labels, types, targets and order). Persons foaf:Person with VIAF links (583), books jl:Work, cities jl:Place with coordinates. The 194 library persons of 2019 are dcterms:isReplacedBy their nodes (5 by two duplicate nodes), their GND links carried over (125); the 32 haskala.net persons keep their IRIs and 2019 data, with their occupations. Made by generators/haskala/generate.py."
 +++
 <!-- Copy of catalog/haskala.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 The Library of Haskala contains 525 books in German and Hebrew identified by leading scholars as Haskala literature,

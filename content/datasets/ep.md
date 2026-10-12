@@ -33,24 +33,24 @@ path = "generators/ep"
 version = "2026-10-12"
 issued = "2026-10-12"
 author = "Kai Eckert"
-commit = "250a2465e64abd0487a1086a7bc3be913b9c3074"
+commit = "75c5921ff58df3ecdb3602144958f703b40e4cff"
 
   [[versions.files]]
   path = "ep-history.ttl.gz"
-  bytes = 4335422
-  sha256 = "ceb43a4684e584b714196278237145568689716830fed3bd22527b77c0b13c42"
+  bytes = 4335406
+  sha256 = "663d5746212a69b3ec89cdb524f42e3b9ca0766fb32e0c18b6a11cda50d2903c"
   triples = 1489277
 
   [[versions.files]]
   path = "ep.ttl.gz"
-  bytes = 42328654
-  sha256 = "a3b89444c186a4564da3a26363e7947cfd75ba8b4aafce9a05c874d53d686b46"
-  triples = 3295414
+  bytes = 42328178
+  sha256 = "e362789591cac1ed098bb04b0ad788cbaa37deaf129a12d50e787225cb9da79c"
+  triples = 3295425
 
   [[versions.files]]
   path = "ep-meta.ttl.gz"
-  bytes = 3530
-  sha256 = "8d1e62405080df1824f61fc911943201e6968d82615c55063a235ebc972514fd"
+  bytes = 3528
+  sha256 = "0cb009e20ceb91e0ec619aa405a783d1103e8c75aa478c7c5c55846912f3a662"
   triples = 177
 
 [[versions]]
@@ -99,7 +99,7 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
 date = "2026-10-13"
 version = "2026-10-12"
 author = "Kai Eckert"
-text = "New entity pages made from the legacy set 2021-05-28 and the records of all datasets (decision 0022): 310,205 pages; 246,291 IRIs kept, 14,917 merged, 1,492 split, 1,454,491 retired, 63,914 new. The legacy NLI pages are carried over (0010 superseded). With epidat 2026-10-12 (one record per Epidat person), the YIVO articles (typed by record-classes, linked to Wikidata by ls-yivo-wikidata, decision 0025) geo-coordinates 2026-10-12, footprints 2026-10-12 (identifier links as IRIs: 715 of its pages joined with other records) and haskala 2026-10-12 (the whole Library of Haskala database: 252 of its pages joined)."
+text = "New entity pages made from the legacy set 2021-05-28 and the records of all datasets (decision 0022): 310,214 pages; 246,291 IRIs kept, 14,917 merged, 1,492 split, 1,454,491 retired, 63,923 new. The legacy NLI pages are carried over (0010 superseded). With epidat 2026-10-12 (one record per Epidat person), the YIVO articles (typed by record-classes, linked to Wikidata by ls-yivo-wikidata, decision 0025) geo-coordinates 2026-10-12, footprints 2026-10-12 (identifier links as IRIs: 708 of its pages joined with other records) and haskala 2026-10-12 (the whole Library of Haskala database: 250 of its pages joined)."
 
 [[changelog]]
 date = "2025-06-05"

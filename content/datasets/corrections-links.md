@@ -3,10 +3,10 @@ slug = "corrections-links"
 title = "Corrections of identity links"
 author = "Kai Eckert"
 date = "2026-10-12"
-stable = "2026-10-12"
+stable = "2026-10-12-2"
 kind = "correction"
 method = ["curated"]
-inputs = ["interlinks", "dbpedia-persons", "gnd-persons", "ubffm-persons", "hhkeydocs", "nli-records", "ls-nli-legacy", "dbp-wiki-geo-linking", "cm-entities"]
+inputs = ["interlinks", "dbpedia-persons", "gnd-persons", "ubffm-persons", "hhkeydocs", "nli-records", "ls-nli-legacy", "dbp-wiki-geo-linking", "cm-entities", "footprints", "haskala"]
 
 [license]
 name = "CC0"
@@ -16,6 +16,23 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/corrections-links"
+
+[[versions]]
+version = "2026-10-12-2"
+issued = "2026-10-12"
+author = "Kai Eckert"
+commit = "75c5921ff58df3ecdb3602144958f703b40e4cff"
+
+  [[versions.files]]
+  path = "corrections-links-deletions.ru.gz"
+  bytes = 3291
+  sha256 = "e84a2cd9a6b8f2970a90be28747415512755603018c491802c1414582837c79c"
+
+  [[versions.files]]
+  path = "corrections-links-meta.ttl.gz"
+  bytes = 2062
+  sha256 = "dbbcc01b4c3afe4c83fa057270fdbe1bd46ff9138163bb0149672e80e71f18f7"
+  triples = 82
 
 [[versions]]
 version = "2026-10-12"
@@ -33,6 +50,12 @@ commit = "b3bbaa879db15c0feced64fadaa8ddab38a705e7"
   bytes = 2018
   sha256 = "7f7312f39cd825b13420ca155649963d6e5710e1d2e1b8a76f2dcb78ea841c14"
   triples = 78
+
+[[changelog]]
+date = "2026-10-13"
+version = "2026-10-12-2"
+author = "Kai Eckert"
+text = "Second version: 85 wrong identity links deleted in 11 datasets, the 76 of 2026-10-12 and 9 VIAF links of footprints and haskala persons to the VIAF cluster of a work (found with the entity-page closure: persons joined with NLI work records). Made a new version because eleven versions already record 2026-10-12 as an applied correction."
 
 [[changelog]]
 date = "2026-10-12"
