@@ -1,23 +1,29 @@
 +++
-author = "Benjamin Schnabel"
-authorlink = ""
-date = "2025-12-18T14:00:00+01:00"
+slug = "occupations"
 title = "Occupations"
+author = "Kai Eckert"
+date = "2025-12-18"
 website = "https://www.judaicalink.org/"
-dataslug = "occupations"
-graph = "http://data.judaicalink.org/data/occupations"
-loaded = true
-category = "judaicalink"
-productionurl = "https://www.jewishstudies.de/en/judaicalink/datasets/dataset/occupations/"
 example = "http://data.judaicalink.org/data/occupation/rabbiner"
-
+namespaces = ["occupation"]
+kind = "vocabulary"
+method = ["rule-based"]
 
 [license]
 name = "CC BY 4.0"
-image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 uri = "https://creativecommons.org/licenses/by/4.0/"
-+++
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 
+[generator]
+repo = "https://github.com/judaicalink/judaicalink-data"
+path = "generators/occupations"
+
+[[changelog]]
+date = "2025-12-18"
+author = "Benjamin Schnabel"
+text = "Entry and generator added (judaicalink-generators); no dump of this dataset was found."
++++
+<!-- Copy of catalog/occupations.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 The **Occupations** dataset provides a normalized and reusable collection of occupation concepts
 derived from literal values used in the JudaicaLink knowledge graph.
 <!--more-->

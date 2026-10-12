@@ -1,38 +1,55 @@
 +++
-author = "Kai Eckert"
-authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert"
-date = "2016-07-12T10:37:07+02:00"
+slug = "djh"
 title = "Das Jüdische Hamburg"
+author = "Kai Eckert"
+date = "2016-07-12"
 website = "http://dasjuedischehamburg.de/"
-concepts = "260"
-persons = "196"
-links = "981"
-dataslug = "djh"
 example = "http://data.judaicalink.org/data/html/djh/ehre-ida"
-bookmarklet = "javascript:location.href=location.href.replace('http://dasjuedischehamburg.de/inhalt/', 'http://data.judaicalink.org/data/djh/')"
 picture = "/img/igdj_logo_0.jpg"
-aliases = [
-    "/encyclopediae/das-juedische-hamburg/",
-    "/datasets/das-juedische-hamburg/"
-]
-graph = "http://data.judaicalink.org/data/djh"
-loaded = true
-category = "judaicalink"
-
-
-
-productionurl = "https://www.jewishstudies.de/en/judaicalink/datasets/dataset/djh/"
-[[files]]
-	url = "https://archive.judaicalink.org/dumps/djh/current/djh.ttl.gz"
-	description = "Extraction from the encyclopedia 'Das Jüdische Hamburg'."
-
+namespaces = ["djh"]
+aliases = ["/encyclopediae/das-juedische-hamburg/", "/datasets/das-juedische-hamburg/"]
+stable = "2018-10-22"
+kind = "records"
+method = ["scraped", "rule-based"]
 
 [license]
 name = "unknown"
 
+[generator]
+repo = "https://github.com/judaicalink/judaicalink-data"
+path = "generators/djh"
 
+[files]
+"djh.ttl.gz" = "Extraction from the encyclopedia 'Das Jüdische Hamburg'."
+
+[[versions]]
+version = "2018-10-22"
+issued = "2018-10-22"
+author = "Maral Dadvar"
+description = "Data files of the catalogue state judaicalink-site 81b42a5 (the state Frankfurt loaded)."
+
+  [[versions.files]]
+  path = "djh.ttl.gz"
+  bytes = 104832
+  sha256 = "b77f295c62f8687a18a4a14783add3a952248a4182d13573a3e6a8e5419e7019"
+
+  [[versions.files]]
+  path = "djh-meta.ttl.gz"
+  bytes = 2109
+  sha256 = "4c21631061ac018f3004767054c3ebfa578f98205f269f412ff6e7bacb3481ea"
+  triples = 63
+
+[[changelog]]
+date = "2025-06-05"
+author = "Benjamin Schnabel"
+text = "Encyclopedia converters rewritten in Python (judaicalink-generators); the published version was not regenerated."
+
+[[changelog]]
+date = "2016-07-12"
+author = "Kai Eckert"
+text = "First version (djh.n3.gz)."
 +++
-
+<!-- Copy of catalog/djh.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 Das Jüdische Hamburg contains articles in German by notable scholars about persons, locations and events of the history of Jewish communities in Hamburg.
 <!--more-->
 
@@ -40,3 +57,5 @@ Das Jüdische Hamburg contains articles in German by notable scholars about pers
 
 
 For "Das Jüdische Hamburg", we for the first time implemented a Person recognition and have been able to identify 196 person descriptions among the articles. The persons are ideally described by occupation, date of birth and death as well as location of birth and death. This automatic extraction, however, is not flawless, some errors have to be expected.
+
+Counts in the former catalogue entry: concepts: 260; persons: 196; links: 981.

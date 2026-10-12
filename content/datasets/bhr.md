@@ -1,31 +1,100 @@
 +++
-author = "Maral Dadvar"
-authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
-date = "2017-09-14T10:37:07+02:00"
-title = "Biographisches Handbuch der Rabbiner" 
+slug = "bhr"
+title = "Biographisches Handbuch der Rabbiner"
+author = "Kai Eckert"
+date = "2017-09-14"
 website = "http://www.steinheim-institut.de/wiki/index.php/Biographisches_Handbuch_der_Rabbiner_%28BHR%29"
-dataslug = "bhr"
-graph = "http://data.judaicalink.org/data/bhr"  
-loaded = true
-category = "judaicalink"
-productionurl = "https://www.jewishstudies.de/en/judaicalink/datasets/dataset/bhr/"
 example = "http://data.judaicalink.org/data/bhr/Abarbanell_Hirsch"
-
-
-[[files]]
-	url = "https://archive.judaicalink.org/dumps/bhr/current/bhr-final-05.ttl.gz"
-	
-	
-	description = "Biographisches Handbuch der Rabbiner "
-	
+namespaces = ["bhr"]
+stable = "2026-10-12"
+kind = "records"
+method = ["scraped", "rule-based", "lookup"]
 
 [license]
-name = "CC4.0"
-image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
+name = "CC BY 4.0"
 uri = "https://creativecommons.org/licenses/by/4.0/"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 
+[generator]
+repo = "https://github.com/judaicalink/judaicalink-data"
+path = "generators/bhr"
+
+[files]
+"Entityfacts-bhr-sameas.ttl.gz" = "Links of the persons to the GND and to EntityFacts (owl:sameAs)."
+
+[[versions]]
+version = "2026-10-12"
+issued = "2026-10-12"
+author = "Kai Eckert"
+commit = "95dca09e53d201cb60058b58a4b3a3f65541dec4"
+
+  [[versions.files]]
+  path = "Entityfacts-bhr-sameas.ttl.gz"
+  bytes = 29596
+  sha256 = "9f62e0d592c89b796aa3873cec32dfb45fbd91ad8262568a08008c5461a33962"
+  triples = 4358
+
+  [[versions.files]]
+  path = "bhr-final-05.ttl.gz"
+  bytes = 1439067
+  sha256 = "333b321a0641f753dc528a15d928243bf8aeeefcb5b6fae4a2ae54cb8c6a4519"
+  triples = 26394
+
+  [[versions.files]]
+  path = "bhr-meta.ttl.gz"
+  bytes = 2404
+  sha256 = "03631e16f3b5089bdc3e88d732e50d05309fc761ca80db6fa004f1a318ae81a3"
+  triples = 77
+
+[[versions]]
+version = "2018-10-24"
+issued = "2018-10-24"
+author = "Maral Dadvar"
+description = "Data files of the catalogue state judaicalink-site 81b42a5 (the state Frankfurt loaded). The EntityFacts links were on the dumps server but not in the catalogue."
+
+  [[versions.files]]
+  path = "bhr-final-05.ttl.gz"
+  bytes = 1516250
+  sha256 = "a64d950ecc572e9fb8bceb9d289647857fcc68bad0363b60ecc6f0625f5c959f"
+
+  [[versions.files]]
+  path = "Entityfacts-bhr-sameas.ttl.gz"
+  bytes = 32483
+  sha256 = "2f1706d67e03b34d204a6c578b0e2f421104a55b144a0afe2f99bfc1039602f4"
+
+  [[versions.files]]
+  path = "bhr-meta.ttl.gz"
+  bytes = 2646
+  sha256 = "38843d50dc0f7f3e2281f466b21643d4990121fa64e9f9699fb042086e413090"
+  triples = 83
+
+[[changelog]]
+date = "2026-10-12"
+version = "2026-10-12"
+author = "Kai Eckert"
+text = "Errors of the 2018 generator fixed (decision 0024): owl:sameAs to the DNB EntityFacts service page (783) and links with empty identifiers (9) removed, empty literals (2,141) and the GND placeholder \"NA\" (1,692) removed, the mixed records of Glückmann and Gunzenhausen separated (15 values of other records removed), jl:occpation stated as jl:occupationURI (2,900). Made from 2018-10-24 by generators/bhr/generate.py."
+
+[[changelog]]
+date = "2026-10-12"
+author = "Kai Eckert"
+text = "Licence name corrected to CC BY 4.0 (was \"CC4.0\"); the licence URI is unchanged."
+
+[[changelog]]
+date = "2025-06-24"
+author = "Benjamin Schnabel"
+text = "A script of the generator reformatted for Python 3 (judaicalink-generators); the published version was not regenerated."
+
+[[changelog]]
+date = "2017-10-02"
+author = "Maral Dadvar"
+text = "Links to JudaicaLink added (EncycBHR-ID-GND-JL.ttl.gz)."
+
+[[changelog]]
+date = "2017-09-14"
+author = "Maral Dadvar"
+text = "First version (EncycBHR-ID-GND.ttl.gz)."
 +++
-
+<!-- Copy of catalog/bhr.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 The Biographisches Handbuch der Rabbiner is an online 
 encyclopedia provided by the [Salomon L. Steinheim-Institute
 for German-Jewish history](http://www.steinheim-institut.de) at the University of Duisburg-Essen, 
@@ -48,7 +117,3 @@ böhmischen und großpolnischen Ländern (1781 – 1871), edited by Carsten Wilk
 
 Part 2: Die Rabbiner im Deutschen Reich (1871 – 1945), 
 edited by Katrin Nele Jansen.
-
-
-
-
