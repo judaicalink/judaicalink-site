@@ -97,17 +97,10 @@ Ursache ist eine zwischen den Versionen verschärfte Prüfung (siehe Fallstrick 
 Datumsformat) oder eine Config-Option, die umbenannt wurde (`languageCode` → `locale` seit
 0.158.0).
 
-Deployment läuft per Skript auf dem Mannheimer Server, nicht über die GitHub Action (die
-baut nur ein Docker-Image und veröffentlicht es nicht):
-
-```
-docker/site/rebuild.sh   # prüft auf neue Commits in master, baut nur bei Änderung
-docker/site/update.sh    # baut unbedingt
-```
-
-Beide ziehen `master`, bauen mit `hugo --cleanDestinationDir` und rsyncen `public/` nach
-`/data/judaicalink/web.judaicalink.org/htdocs`. Änderungen gehen also über einen Push nach
-`master` live.
+Deployment is manual (since the move from the labs server to the current web server, which hosts the static
+and stable JudaicaLink data; the automation was removed in `f1c007d`): build locally and rsync the result to
+the server `bart` (ssh), document root `/home/eckert/judaicalink/`. A push to `master` does not change the live
+site.
 
 ## Assets: lokal und gefingerprintet
 
@@ -271,9 +264,6 @@ daneben.
   gibt es keine Einwilligungsabfrage. Nicht anfassen, bevor das entschieden ist.
   **Der Datenschutzabschnitt in `content/imprint.md` hängt daran** und beschreibt derzeit
   nur den Ist-Zustand; er ist im Quelltext entsprechend markiert.
-- **`Dockerfile`** installiert Python und Hugo, hat aber mit `ENTRYPOINT ["python3", ""]`
-  einen unbrauchbaren Einstiegspunkt. Die GitHub Action baut das Image nur, veröffentlicht
-  es nicht. Ausgeliefert wird über die Skripte in `docker/site/`.
 
 ## Alte Links auffangen
 
