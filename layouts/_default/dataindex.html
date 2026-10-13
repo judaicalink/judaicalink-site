@@ -45,8 +45,9 @@
     html += "<p>No catalogue currently lists this dataset.</p>";
   }
   if (d.replaced_by && d.replaced_by.length) {
-    html += "<div class='alert alert-info'>This dataset is replaced by " + d.replaced_by.map(function (r) {
-      return "<a href='?dataset=" + encodeURIComponent(r) + "'>" + esc(r) + "</a>"; }).join(", ") + ".</div>";
+    html += "<div class='alert alert-danger'><b>Deprecated.</b> This dataset is replaced by " + d.replaced_by.map(function (r) {
+      return "<a href='?dataset=" + encodeURIComponent(r) + "'>" + esc(r) + "</a>"; }).join(", ") +
+      ". The <a href='/datasets/" + encodeURIComponent(slug) + "/'>dataset page</a> gives the reason.</div>";
   }
   var versions = d.versions;
   var ids = versions.map(function (v) { return v.version; });

@@ -11,6 +11,17 @@
 	<div class="col-md-12 col-lg-9 col-xl-8 dataset">
 		<h3>{{ .Title }}</h3>
 
+		{{/* A replaced dataset is deprecated (0007); the reason is its newest changelog entry, which records the supersession (0013). */}}
+		{{ $replacedBy := slice }}{{ with $idx }}{{ with .replaced_by }}{{ $replacedBy = . }}{{ end }}{{ end }}
+		{{ if $replacedBy }}
+		<div class="alert alert-danger" role="alert">
+		  <b>Deprecated.</b> This dataset is replaced by
+		  {{ range $i, $r := $replacedBy }}{{ if $i }}, {{ end }}<a href="/datasets/{{ $r }}/">{{ with site.GetPage (printf "/datasets/%s" $r) }}{{ .Title }}{{ else }}{{ $r }}{{ end }}</a>{{ end }}
+		  and no longer part of the JudaicaLink knowledge graph. Its files remain available for reference.
+		  {{ with $p.changelog }}{{ with index (sort . "date" "desc") 0 }}<br><b>Reason</b> ({{ .date }}): {{ .text | markdownify }}{{ end }}{{ end }}
+		</div>
+		{{ end }}
+
 		{{ .Content }}
 
 		<div class="table-responsive">
@@ -41,9 +52,9 @@
 		  {{ with $p.replaces }}
 		  <tr><th>Replaces:</th><td>{{ range $i, $r := . }}{{ if $i }}, {{ end }}<a href="/datasets/{{ $r }}/">{{ $r }}</a>{{ end }}</td></tr>
 		  {{ end }}
-		  {{ with $idx }}{{ with .replaced_by }}
+		  {{ with $replacedBy }}
 		  <tr><th>Replaced by:</th><td>{{ range $i, $r := . }}{{ if $i }}, {{ end }}<a href="/datasets/{{ $r }}/">{{ $r }}</a>{{ end }}</td></tr>
-		  {{ end }}{{ end }}
+		  {{ end }}
 		  {{ with $p.author }}
 		  <tr><th>Maintained by:</th><td>{{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}</td></tr>
 		  {{ end }}
@@ -78,7 +89,7 @@
 		  {{ $shown = add $shown 1 }}
 		  <details class="version mb-3" {{ if eq $status "stable" }}open{{ end }}>
 		    <summary><b>{{ $v.version }}</b>
-		      {{ if eq $status "stable" }}<span class="badge badge-success">stable</span>{{ else if eq $status "preview" }}<span class="badge badge-warning">preview</span>{{ else }}<span class="badge badge-secondary">older</span>{{ end }}
+		      {{ if and (eq $status "stable") $replacedBy }}<span class="badge badge-danger">deprecated</span>{{ else if eq $status "stable" }}<span class="badge badge-success">stable</span>{{ else if eq $status "preview" }}<span class="badge badge-warning">preview</span>{{ else }}<span class="badge badge-secondary">older</span>{{ end }}
 		      {{ with $v.author }}· {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}
 		    </summary>
 		    {{ with $v.description }}<p class="mt-2">{{ . | markdownify }}</p>{{ end }}
