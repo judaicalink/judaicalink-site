@@ -254,7 +254,7 @@ and dump links to the old archive paths). It was replaced by the copies of the `
 (43 entries): the five datasets dropped there (`beacon-persons`, `cm-tagme-supp`, `cmtest`, `ep-supp`,
 `rujen-translation-supp`) and `stolperstein` (now `stolpersteine`) were removed; their old URLs redirect through
 `aliases` in the entries where a related dataset exists. The dump links follow the store layout
-`<slug>/<version>/<path>`; they work once archive.judaicalink.org holds the store.
+`<slug>/<version>/<path>`; they point to `archive.judaicalink.org/store/` (the old `/dumps/` stays for now, decision 0027 in judaicalink-data).
 
 **Fallstrick:** `content/datasets.md` als Sibling neben `content/datasets/` verwirft in
 Hugo 0.73.0 den Markdown-Body der Section-Seite, obwohl Kind und `.Pages` korrekt
