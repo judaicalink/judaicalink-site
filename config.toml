@@ -2,6 +2,10 @@ baseurl = "https://web.judaicalink.org"
 locale = "en-us"
 title = "JudaicaLink"
 metaDataFormat = "toml"
+
+[params]
+  # the dumps locations whose files the dataset pages link (names of locations.toml in judaicalink-data, decision 0014)
+  dumpLocations = ["archive"]
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

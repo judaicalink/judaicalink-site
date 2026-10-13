@@ -1,52 +1,69 @@
 +++
-author = "Kai Eckert"
-authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert"
-website = "http://www.yivoencyclopedia.org"
-picture = "/img/yivo_logo_black-on-white-135x68.jpg"
-aliases = [
-    "/encyclopediae/yivo-encyclopedia/",
-	"/datasets/yivo-encyclopedia/"
-]
-
-graph = "http://data.judaicalink.org/datasets/yivo"
-loaded = true
-category = "judaicalink"
-
-productionurl = "https://www.jewishstudies.de/en/judaicalink/datasets/dataset/yivo/"
-title = "Yivo Encyclopedia"
-example = "http://data.judaicalink.org/data/yivo/Moscow"
 slug = "yivo"
-namespace_slugs = [ "yivo",]
-date = 2020-09-30T09:05:13.093339Z
-[[creators]]
-name = "Kai Eckert"
-url = "http://wiss.iuk.hdm-stuttgart.de/people/kai-eckert"
-
-[[files]]
-filename = "yivo-metadata.ttl.gz"
-filepath = "yivo/yivo-metadata.ttl.gz"
-url = "https://archive.judaicalink.org/dumps/yivo/yivo-metadata.ttl.gz"
-description = "Metadata for yivo dataset."
-
-[[files]]
-filename = "yivo.ttl.gz"
-filepath = "yivo/yivo.ttl.gz"
-url = "https://archive.judaicalink.org/dumps/yivo/yivo.ttl.gz"
-description = "RDF dump of the yivo dataset."
+title = "Yivo Encyclopedia"
+author = "Kai Eckert"
+date = "2020-09-30"
+website = "http://www.yivoencyclopedia.org"
+example = "http://data.judaicalink.org/data/yivo/Moscow"
+picture = "/img/yivo_logo_black-on-white-135x68.jpg"
+namespaces = ["yivo"]
+aliases = ["/encyclopediae/yivo-encyclopedia/", "/datasets/yivo-encyclopedia/"]
+stable = "2020-09-30"
+kind = "records"
+method = ["scraped"]
 
 [license]
 name = "CC0"
-image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
 uri = "https://creativecommons.org/publicdomain/zero/1.0/"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
 
 [generator]
-script = "generate_yivo.py"
-gitweb = "https://github.com/wisslab/judaicalink-labs/blob/master/labs/data/management/commands/generate_yivo.py"
-commit = "0a47e9521c85e423c937b5d314d7c544248c856c"
+repo = "https://github.com/judaicalink/judaicalink-data"
+path = "generators/yivo"
 
+[files]
+"yivo.jsonl.gz" = "Raw data crawled from the YIVO Encyclopedia, input of the generator."
 
+[[versions]]
+version = "2020-09-30"
+issued = "2020-09-30"
+author = "Kai Eckert"
+description = "Data files of the catalogue state judaicalink-site 81b42a5 (the state Frankfurt loaded)."
+
+  [[versions.files]]
+  path = "yivo.ttl.gz"
+  bytes = 695155
+  sha256 = "a81c03d366a2eaa103f5864e401e90386dd9cf6e08ba6c181f8c1a5152a1e842"
+
+  [[versions.files]]
+  path = "yivo.jsonl.gz"
+  bytes = 913257
+  sha256 = "d86ff6504e24f869ae1e286e533b175c289b033ed735107add218f31269be6c1"
+
+  [[versions.files]]
+  path = "yivo-meta.ttl.gz"
+  bytes = 2024
+  sha256 = "80a557f5386a401a510fb3b93e2053679a5913fd52866e5186f2867a3e7082da"
+  triples = 68
+
+[[changelog]]
+date = "2026-10-11"
+version = "2020-09-30"
+author = "Kai Eckert"
+text = "Self-description written by the labs generator (yivo-metadata.ttl.gz) removed from the version; the generated -meta file takes its place. Its generation time and commit are documented in the generator folder."
+refs = ["0018"]
+
+[[changelog]]
+date = "2025-06-05"
+author = "Benjamin Schnabel"
+text = "Encyclopedia converters rewritten in Python (judaicalink-generators); the published version was not regenerated."
+
+[[changelog]]
+date = "2016-09-12"
+author = "Kai Eckert"
+text = "First version (date of the first catalogue listing)."
 +++
-
+<!-- Copy of catalog/yivo.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 The YIVO Encyclopedia of Jews in Eastern Europe, courtesy of the YIVO Institute of Jewish Research, NY.
 <!--more-->
 

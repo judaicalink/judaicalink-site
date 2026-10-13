@@ -1,36 +1,25 @@
 +++
 title = "Datasets"
-description = "The JudaicaLink datasets are documented in the dataset catalogue of the FID portal in Frankfurt."
-keywords = ["datasets", "resources", "catalogue"]
+description = "The catalogue of the JudaicaLink datasets in the version developed in Mannheim, with all versions, files and changes."
+keywords = ["datasets", "resources", "catalogue", "dumps"]
 aliases = ["/encyclopediae/"]
 +++
-
-# Datasets
 
 JudaicaLink extracts structural information from reference works, encyclopediae and research
 databases, and makes the described concepts and the relations between them available as
 Linked Open Data with stable URIs.
 
 <div class="alert alert-primary" role="alert">
-<b>The dataset catalogue is maintained in the FID portal in Frankfurt.</b><br>
-It lists every dataset with description, provenance, named graph, example URI, license and
-downloadable dumps.<br>
-<a class="btn btn-primary mt-2" href="https://www.jewishstudies.de/en/judaicalink/datasets/">Go to the dataset catalogue</a>
+<b>JudaicaLink runs in the FID portal in Frankfurt.</b> Search, the SPARQL endpoint, the REST API
+and the resolution of the entity URIs are offered there, and its
+<a href="https://www.jewishstudies.de/judaicalink/datasets/">dataset catalogue</a> describes the data
+in production.<br>
+This page is the catalogue of the version of the data developed in Mannheim: every dataset with its
+versions, files, sources and changes. It can differ from the production state in Frankfurt; where a
+dataset is also in the Frankfurt catalogue, its page links there.
 </div>
 
-Datasets that are being developed in Mannheim and are not yet part of the catalogue are
-announced in the [news](/news/). At the moment there are none.
-
-## Using the data
-
-- **Entity URIs** such as `data.judaicalink.org/data/gnd/118584472` resolve to the portal and
-  serve HTML, RDF/XML, Turtle or JSON-LD depending on the request.
-- **Dumps** for every dataset are linked from the catalogue.
-- **[SPARQL endpoint](https://www.jewishstudies.de/en/judaicalink/sparql/)** for queries
-  against the knowledge graph.
-- **[REST API](https://www.jewishstudies.de/en/judaicalink/api/swagger/)** for programmatic
-  access.
-- **BEACON file** for authority linking; the German National Library receives updates from
-  JudaicaLink through it.
-- **[Ontology](https://ontology.judaicalink.org/judaicalink-ontology)** describing how
-  entities, relations and provenance are modelled.
+Every dataset page lists the versions and their files with size and checksum. The
+[data finder](/dataindex/) shows all places where the files of a dataset are available.
+How the data is made is documented in the
+[judaicalink-data repository](https://github.com/judaicalink/judaicalink-data).

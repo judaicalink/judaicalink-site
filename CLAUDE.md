@@ -26,11 +26,12 @@ Daraus folgt:
 
 - Auf jeder Einstiegsseite gehört ein prominenter Verweis auf die JudaicaLink-Einstiegsseite
   in Frankfurt. Wer den Dienst nutzen will, soll dorthin geleitet werden, nicht hierher.
-- Die **Datensatzdokumentation wird in Frankfurt gepflegt**, unter
-  <https://www.jewishstudies.de/en/judaicalink/datasets/>. Auch dann, wenn dort etwas fehlen
-  sollte – nachgetragen wird in Frankfurt, nicht hier.
-- Hier werden nur Datensätze gelistet, die in Mannheim entwickelt werden und (noch) nicht in
-  Frankfurt vorliegen. Ansonsten Verweis auf den Frankfurter Katalog.
+- **Dataset catalogue (since 2026-10, decision 0014 of judaicalink-data):** `/datasets/` shows the complete
+  catalogue of the Mannheim data version, copied from `judaicalink-data` (`jl sync-site`): every dataset with its
+  versions, files, sources and changelog. The page says that production runs in Frankfurt and that the Frankfurt
+  catalogue (<https://www.jewishstudies.de/judaicalink/datasets/>) describes the production state, which can
+  differ; each dataset page links to its Frankfurt page where Frankfurt lists it. Entries are changed in
+  `judaicalink-data`, never here.
 - Eigene Such- und Datenzugänge bietet diese Seite nicht mehr. Suchanfragen gehören an die
   Graph Search im Portal.
 
@@ -148,10 +149,13 @@ Vendorisiert und selbst gehostet:
 
 ## Content-Konventionen
 
-Dataset-Seiten unter `content/datasets/` nutzen TOML-Frontmatter mit `dataslug`, `graph`,
-`example`, `loaded`, `category`, wiederholbaren `[[files]]`-Blöcken für Dumps und einem
-`[license]`-Block. Gerendert wird das über `layouts/datasets/single.html` und
-`layouts/section/datasets.html`.
+Dataset pages under `content/datasets/` are copies of the catalogue entries of `judaicalink-data` (format of its
+decision 0013: `kind`, `method`, `[[versions]]` with files, `stable`, `[[changelog]]`, `[license]` with an optional
+`attribution`), made by `jl sync-site`, which also writes `data/dataindex.json` (where the files are, decision 0014)
+and `data/catalogvocabulary.json` (labels of kinds and methods). Rendered by `layouts/datasets/single.html` and
+`layouts/section/datasets.html` (grouped by kind); the data finder `/dataindex/` is `content/dataindex.md` with
+`layouts/_default/dataindex.html`. Files are linked only at the dumps locations named in `params.dumpLocations`
+(`config.toml`).
 
 News unter `content/news/`, ein Beitrag pro Datei, gerendert über `layouts/news/single.html`.
 Historische Beiträge bleiben inhaltlich stehen. Links auf abgeschaltete Dienste werden nicht
@@ -243,27 +247,14 @@ statt die Liste hier vollstaendig zu pflegen. Reihenfolge: Kerstin von der Krone
 Marie-Luise Schmidt, Aaron Christianson. Die Ueberschrift im Partial traegt die id
 `the-fid-team-in-frankfurt`; `/production/` verlinkt darauf.
 
-## Archivierter Katalog
+## Dataset catalogue
 
-`content/datasets/_index.md` plus die 36 Dateien in `content/datasets/` bilden den
-**letzten Katalogstand vor der Bereinigung** (Commit `81b42a5`). Er steht als "Archived
-catalogue" unterhalb des neuen Verweistexts auf `/datasets/`; die Tabellen und
-Einzelansichten kommen aus `layouts/section/datasets.html` und
-`layouts/datasets/single.html`.
-
-Jede Datensatz-Seite traegt im Frontmatter `productionurl`, den Link auf die
-entsprechende Katalogseite im FID-Portal
-(`https://www.jewishstudies.de/en/judaicalink/datasets/dataset/<slug>/`). Ist das Feld
-gesetzt, zeigt `layouts/datasets/single.html` oben einen Warnhinweis, dass die Seite
-nicht den aktuellen Stand zeigen muss, mit Link ins Portal. Aktuell haben alle 36 Seiten
-eine `productionurl` – geprueft am 26.09.2026, alle 200.
-
-Dump-Links (`[[files]]`, Feld `url`) zeigen auf `archive.judaicalink.org/dumps/`, nicht
-mehr auf `data.judaicalink.org/dumps/`. Dieser Host ist mit `dumps-clean` gesynct und
-entspricht dessen Stand exakt (bestaetigt von Kai Eckert, 26.09.2026). Fuer `occupations`
-existiert kein Dump; der `[[files]]`-Block ist entfernt, nicht durch einen toten Link
-ersetzt. Hintergrund dazu in `dumps-2026/dumps-clean/README.md` (separates
-Datenverzeichnis, nicht in diesem Repository).
+Until 2026-10 `content/datasets/` held the archived catalogue state (commit `81b42a5`, 36 entries with `productionurl`
+and dump links to the old archive paths). It was replaced by the copies of the `judaicalink-data` catalogue
+(43 entries): the five datasets dropped there (`beacon-persons`, `cm-tagme-supp`, `cmtest`, `ep-supp`,
+`rujen-translation-supp`) and `stolperstein` (now `stolpersteine`) were removed; their old URLs redirect through
+`aliases` in the entries where a related dataset exists. The dump links follow the store layout
+`<slug>/<version>/<path>`; they point to `archive.judaicalink.org/store/` (the old `/dumps/` stays for now, decision 0027 in judaicalink-data).
 
 **Fallstrick:** `content/datasets.md` als Sibling neben `content/datasets/` verwirft in
 Hugo 0.73.0 den Markdown-Body der Section-Seite, obwohl Kind und `.Pages` korrekt

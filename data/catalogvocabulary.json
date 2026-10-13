@@ -1,0 +1,90 @@
+{
+ "kind": {
+  "label": "Kinds of JudaicaLink datasets",
+  "definition": "What a dataset is: its role in the JudaicaLink knowledge graph.",
+  "values": {
+   "records": {
+    "label": "Records",
+    "definition": "Records from one source about persons, places, works or other entities, one resource per record."
+   },
+   "complement": {
+    "label": "Complement",
+    "definition": "Statements about the resources of other datasets that only add to them (normalised values, enrichments, links), without changing them."
+   },
+   "linkset": {
+    "label": "Linkset",
+    "definition": "Links between resources of different datasets, or from them to resources outside JudaicaLink, and nothing else."
+   },
+   "entity-pages": {
+    "label": "Entity pages",
+    "definition": "The entity pages of JudaicaLink: one resource per entity, bringing together the records about it."
+   },
+   "ontology": {
+    "label": "Ontology",
+    "definition": "Classes and properties used to describe the data."
+   },
+   "vocabulary": {
+    "label": "Vocabulary",
+    "definition": "A controlled vocabulary: concepts used as values in the data or in its description."
+   },
+   "correction": {
+    "label": "Correction",
+    "definition": "Corrections of the data of other datasets: triples it adds (its data) and triples it deletes from every graph that contains them (a SPARQL Update file); applied after all other datasets."
+   },
+   "support": {
+    "label": "Support data",
+    "definition": "Data that other datasets are made from or that describes them (caches, label lists, page metadata, agents), rather than data about the entities themselves."
+   }
+  }
+ },
+ "method": {
+  "label": "Methods by which JudaicaLink datasets are made",
+  "definition": "How the statements of a dataset were made; a dataset may name several methods.",
+  "automated": {
+   "label": "Automated",
+   "definition": "Made automatically by a method whose statements can be wrong individually, and not checked statement by statement by people (at most samples were checked)."
+  },
+  "values": {
+   "curated": {
+    "label": "Curated",
+    "definition": "Made or checked statement by statement by people."
+   },
+   "scraped": {
+    "label": "Scraped",
+    "definition": "Extracted from web pages written for human readers."
+   },
+   "converted": {
+    "label": "Converted",
+    "definition": "Converted by a program from structured data of the source (an export, a dump, an API), keeping its content."
+   },
+   "deterministic": {
+    "label": "Deterministic",
+    "definition": "Derived by a program from other data with exact rules: the same input always gives the same statements, and every statement follows from the input."
+   },
+   "rule-based": {
+    "label": "Rule-based",
+    "definition": "Derived with heuristic rules: patterns, normalisation, and matching by names, labels or similarity (also when looking up a name in an external service); a statement can be wrong in an individual case.",
+    "automated": true
+   },
+   "lookup": {
+    "label": "Lookup",
+    "definition": "Looked up by identifier in an external service (e.g. a GND number in DNB EntityFacts, a Wikidata item); taken as correct. Matching by names is rule-based."
+   },
+   "statistical": {
+    "label": "Statistical",
+    "definition": "Made by statistical methods or machine learning (scores, estimates, automatic entity linking); statements are probable, not certain.",
+    "automated": true
+   },
+   "machine-translation": {
+    "label": "Machine translation",
+    "definition": "Translated automatically by a machine translation service (e.g. Google Translate); translations may be wrong.",
+    "automated": true
+   },
+   "ai-generated": {
+    "label": "AI-generated",
+    "definition": "Made by generative AI (large language models); statements may be wrong and were not checked one by one.",
+    "automated": true
+   }
+  }
+ }
+}

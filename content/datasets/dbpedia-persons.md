@@ -1,37 +1,70 @@
 +++
-author = "Maral Dadvar"
-authorlink = "http://wiss.iuk.hdm-stuttgart.de/people/maral-dadvar"
-date = "2018-11-02T10:37:07+02:00"
-title = "Persons from DBPedia" 
-dataslug = "dbpedia"
-graph = "http://data.judaicalink.org/data/dbpedia-persons"  
-loaded = true
-category = "judaicalink"
-productionurl = "https://www.jewishstudies.de/en/judaicalink/datasets/dataset/dbpedia-persons/"
+slug = "dbpedia-persons"
+title = "Persons from DBPedia"
+author = "Kai Eckert"
+date = "2018-11-02"
 example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
-
-
-
-[[files]]
-	url = "https://archive.judaicalink.org/dumps/dbpedia-person/current/generated_persons_DBPedia_enriched_02.ttl.gz"  
-	description = "Rabbis extracted from DBPedia."
-	
-[[files]]
-	url = "https://archive.judaicalink.org/dumps/dbpedia-person/current/persons-gndid.ttl.gz" 
-	description = "GND links for all persons in this dataset."
-
-[[files]]
-	url = "https://archive.judaicalink.org/dumps/dbpedia-person/current/Entityfacts-dbpedia-sameas.ttl.gz" 
-	description = "EntityFacts links for all persons with an GND-id in this dataset."
-
+namespaces = ["dbpedia"]
+stable = "2018-10-24"
+kind = "records"
+method = ["converted", "lookup"]
 
 [license]
 name = "CC-BY-SA-3.0"
-image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"
 uri = "https://creativecommons.org/licenses/by-sa/3.0/"
-	
-+++
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"
 
+[generator]
+repo = "https://github.com/judaicalink/judaicalink-data"
+path = "generators/dbpedia-persons"
+
+[files]
+"persons-gndid.ttl.gz" = "GND links for all persons in this dataset."
+"Entityfacts-dbpedia-sameas.ttl.gz" = "EntityFacts links for all persons with an GND-id in this dataset."
+
+[[versions]]
+version = "2018-10-24"
+issued = "2018-10-24"
+author = "Maral Dadvar"
+description = "Data files of the catalogue state judaicalink-site 81b42a5 (the state Frankfurt loaded)."
+
+  [[versions.files]]
+  path = "generated_persons_DBPedia_enriched_02.ttl.gz"
+  bytes = 710023
+  sha256 = "34e353fd9b7bf20e8c53a673503eeeb400e4bef4c14a6f532041fde3191c96b3"
+
+  [[versions.files]]
+  path = "persons-gndid.ttl.gz"
+  bytes = 30570
+  sha256 = "e8d8cdab643f0b98840c5181299b7c6a00ea0274331ffd3420b2fe9ff68392f8"
+
+  [[versions.files]]
+  path = "Entityfacts-dbpedia-sameas.ttl.gz"
+  bytes = 135800
+  sha256 = "c1ff0f22f44f0c244aec4f609822cccc5710b706ca1b4b21e8c68ab750844105"
+
+  [[versions.files]]
+  path = "dbpedia-persons-meta.ttl.gz"
+  bytes = 2124
+  sha256 = "1c3afc910668cb8b4e602b71c395995aef55eb1eaedd5b3b607c067108166b63"
+  triples = 87
+
+[[changelog]]
+date = "2018-04-03"
+author = "Maral Dadvar"
+text = "Enriched version (generated_persons_DBPedia_enriched_02.ttl.gz)."
+
+[[changelog]]
+date = "2017-04-21"
+author = "Maral Dadvar"
+text = "Regenerated (generated_persons_dbpedia.ttl.gz)."
+
+[[changelog]]
+date = "2017-03-27"
+author = "Maral Dadvar"
+text = "First version (dbpedia-persons.ttl.gz)."
++++
+<!-- Copy of catalog/dbpedia-persons.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 List of persons from DBpedia.
 <!--more-->
 

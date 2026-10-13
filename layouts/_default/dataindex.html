@@ -1,0 +1,100 @@
+{{ partial "header.html" . }}
+<!-- The data finder (decision 0014): shows the state of the last data index (data/dataindex.json, copied from
+     judaicalink-data by jl sync-site) for ?dataset=<slug> or ?file=<slug>/<version>/<path>. No live checks. -->
+<main class="row">
+	<div class="col-md-12 col-lg-9 col-xl-8">
+		<h3>{{ .Title }}</h3>
+		<div id="finder"><p>Loading …</p></div>
+		<noscript><p>The data finder needs JavaScript. The catalogue is on the <a href="/datasets/">dataset pages</a>.</p></noscript>
+	</div>
+</main>
+<script id="dataindex" type="application/json">{{ site.Data.dataindex | jsonify | safeJS }}</script>
+<script>
+(function () {
+  var idx = JSON.parse(document.getElementById("dataindex").textContent);
+  var out = document.getElementById("finder");
+  var q = new URLSearchParams(location.search);
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]; }); }
+  function host(u) { try { return new URL(u).host; } catch (e) { return u; } }
+  function size(b) { return b == null ? "" : b >= 1e6 ? (b / 1e6).toFixed(1) + " MB" : (b / 1e3).toFixed(1) + " kB"; }
+  var checked = "<p class='text-muted'><small>State of the last check: " + esc(idx.checked) +
+    (idx.assumed ? " (test: assumed locations)" : "") + ". This page does not check the locations itself.</small></p>";
+  var file = q.get("file"), slug = q.get("dataset"), vid = null, path = null;
+  if (file) { var parts = file.split("/"); slug = parts[0]; vid = parts[1]; path = parts.slice(2).join("/"); }
+  if (!slug) {
+    var rows = Object.keys(idx.datasets).sort().map(function (s) {
+      return "<li><a href='?dataset=" + encodeURIComponent(s) + "'>" + esc(idx.datasets[s].title || s) + "</a> <small class='text-muted'>" + esc(s) + "</small></li>";
+    });
+    out.innerHTML = "<p>Choose a dataset to see where its files are.</p><ul>" + rows.join("") + "</ul>" + checked;
+    return;
+  }
+  var d = idx.datasets[slug];
+  if (!d) {
+    out.innerHTML = "<div class='alert alert-warning'>No catalogue currently lists the dataset <code>" + esc(slug) +
+      "</code>, and no version of it is known. If this seems to be a mistake, please <a href='/about-us/'>contact us</a>.</div>" + checked;
+    return;
+  }
+  var html = "<h4>" + esc(d.title || slug) + " <small class='text-muted'>" + esc(slug) + "</small></h4>";
+  // catalogues
+  if (d.catalogues.length) {
+    html += "<p>Described in: " + d.catalogues.map(function (c) {
+      var u = idx.locations.catalogues[c] + encodeURIComponent(slug) + "/";
+      return "<a href='" + esc(u) + "'>" + esc(host(u)) + "</a>";
+    }).join(", ") + "</p>";
+  } else {
+    html += "<p>No catalogue currently lists this dataset.</p>";
+  }
+  if (d.replaced_by && d.replaced_by.length) {
+    html += "<div class='alert alert-info'>This dataset is replaced by " + d.replaced_by.map(function (r) {
+      return "<a href='?dataset=" + encodeURIComponent(r) + "'>" + esc(r) + "</a>"; }).join(", ") + ".</div>";
+  }
+  var versions = d.versions;
+  var ids = versions.map(function (v) { return v.version; });
+  if (!vid) { vid = ids.indexOf(d.stable) >= 0 ? d.stable : ids[0]; }
+  var v = versions.filter(function (x) { return x.version === vid; })[0];
+  function fileRows(ver, first) {
+    var fs = ver.files.slice();
+    if (first) { fs.sort(function (a, b) { return (b.path === first) - (a.path === first); }); }
+    return "<table class='table table-sm'><tr><th>File</th><th class='text-right'>Size</th><th>Download</th></tr>" + fs.map(function (f) {
+      var rel = slug + "/" + ver.version + "/" + f.path;
+      var links = f.locations.length ? f.locations.map(function (l) {
+        var u = idx.locations.dumps[l] + rel;
+        return "<a href='" + esc(u) + "'>" + esc(host(u)) + "</a>";
+      }).join(", ") : "<span class='text-muted'>no location known</span>";
+      var mark = first && f.path === first ? " class='table-primary'" : "";
+      return "<tr" + mark + "><td>" + esc(f.path) + "<br><small class='text-muted' title='SHA-256'>" + esc(f.sha256 || "") + "</small></td><td class='text-right text-nowrap'>" + size(f.bytes) + "</td><td>" + links + "</td></tr>";
+    }).join("") + "</table>";
+  }
+  if (!versions.length) {
+    html += "<div class='alert alert-warning'>No download location is currently known for any version of this dataset.</div>";
+  } else if (!v) {
+    html += "<div class='alert alert-warning'>No download location is currently known for version <code>" + esc(vid) + "</code>.</div>";
+  } else {
+    html += "<h5>Version " + esc(v.version) + (v.version === d.stable ? " <span class='badge badge-success'>stable</span>" : "") + "</h5>";
+    if (path && !v.files.some(function (f) { return f.path === path; })) {
+      html += "<div class='alert alert-warning'>The file <code>" + esc(path) + "</code> is not known in this version.</div>";
+    }
+    html += fileRows(v, path);
+    var pos = ids.indexOf(v.version), spos = ids.indexOf(d.stable);
+    if (d.stable && v.version !== d.stable) {
+      html += "<p>" + (spos >= 0 && pos < spos ? "This version is a preview. " : "") + "The stable version is <a href='?dataset=" +
+        encodeURIComponent(slug) + "'>" + esc(d.stable) + "</a>" + (spos >= 0 ? "" : " (no download location known)") + ".</p>";
+    }
+    var previews = (spos >= 0 ? ids.slice(0, spos) : (d.stable ? [] : ids.slice(0, pos))).filter(function (n) { return n !== v.version; });
+    if (previews.length) {
+      html += "<p>Newer versions (previews): " + previews.map(function (n) {
+        return "<a href='?file=" + encodeURIComponent(slug + "/" + n + "/") + "'>" + esc(n) + "</a>"; }).join(", ") + ".</p>";
+    }
+    if (pos === 0) { html += "<p>This is the most recent known version.</p>"; }
+  }
+  if (versions.length > 1 || (versions.length && !v)) {
+    html += "<details><summary>All versions (" + versions.length + ")</summary>" + versions.map(function (x) {
+      return "<div class='mt-3" + (v && x.version === v.version ? " border-left border-primary pl-2" : "") + "'><b>" + esc(x.version) + "</b> " +
+        (x.version === d.stable ? "<span class='badge badge-success'>stable</span>" : "") + fileRows(x, null) + "</div>";
+    }).join("") + "</details>";
+  }
+  html += "<p><a href='/datasets/" + encodeURIComponent(slug) + "/'>The dataset page</a></p>" + checked;
+  out.innerHTML = html;
+})();
+</script>
+{{ partial "footer.html" . }}
