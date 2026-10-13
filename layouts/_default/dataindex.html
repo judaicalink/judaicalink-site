@@ -65,7 +65,9 @@
       return "<tr" + mark + "><td>" + esc(f.path) + "<br><small class='text-muted' title='SHA-256'>" + esc(f.sha256 || "") + "</small></td><td class='text-right text-nowrap'>" + size(f.bytes) + "</td><td>" + links + "</td></tr>";
     }).join("") + "</table>";
   }
-  if (!v) {
+  if (!versions.length) {
+    html += "<div class='alert alert-warning'>No download location is currently known for any version of this dataset.</div>";
+  } else if (!v) {
     html += "<div class='alert alert-warning'>No download location is currently known for version <code>" + esc(vid) + "</code>.</div>";
   } else {
     html += "<h5>Version " + esc(v.version) + (v.version === d.stable ? " <span class='badge badge-success'>stable</span>" : "") + "</h5>";
@@ -85,7 +87,7 @@
     }
     if (pos === 0) { html += "<p>This is the most recent known version.</p>"; }
   }
-  if (versions.length > 1 || !v) {
+  if (versions.length > 1 || (versions.length && !v)) {
     html += "<details><summary>All versions (" + versions.length + ")</summary>" + versions.map(function (x) {
       return "<div class='mt-3" + (v && x.version === v.version ? " border-left border-primary pl-2" : "") + "'><b>" + esc(x.version) + "</b> " +
         (x.version === d.stable ? "<span class='badge badge-success'>stable</span>" : "") + fileRows(x, null) + "</div>";
