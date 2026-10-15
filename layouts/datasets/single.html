@@ -63,6 +63,7 @@
 		    {{ with .image }}<a href="{{ $p.license.uri | safeURL }}" target="_blank" rel="noopener"><img src="{{ . }}" width="88" height="31" alt="{{ $p.license.name }}"></a> {{ end }}
 		    <a href="{{ .uri | safeURL }}" target="_blank" rel="noopener">{{ .name }}</a>
 		    {{ with .attribution }}<br><small>Please credit: {{ . }}</small>{{ end }}
+		    {{ with .statement }}<br><small><a href="{{ . | safeURL }}" target="_blank" rel="noopener">Licence as stated by the source</a></small>{{ end }}
 		  </td></tr>
 		  {{ end }}
 		  {{ with $idx }}{{ if in .catalogues "portal" }}
