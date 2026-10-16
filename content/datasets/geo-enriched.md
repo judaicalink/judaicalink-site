@@ -4,8 +4,7 @@ title = "Geographic Enrichment"
 author = "Kai Eckert"
 date = "2019-12-18"
 example = "http://data.judaicalink.org/data/djh/banco-alma-henriette-del"
-namespaces = ["geo-enriched"]
-stable = "2019-12-18"
+stable = "2026-10-16"
 kind = "complement"
 method = ["rule-based"]
 
@@ -20,6 +19,25 @@ path = "generators/geo-enriched"
 
 [files]
 "geo_interlinks.ttl" = "Mappings Geonames - JudaicaLink"
+
+[[versions]]
+version = "2026-10-16"
+issued = "2026-10-16"
+author = "Kai Eckert"
+commit = "8ce98cbcb278dc4ce4df6d093e75a36f3c0bda1e"
+description = "Made again (decision 0024): the birth and death places that our records give only as text, linked to a geo-coordinates place or a GeoNames feature by a stated, conservative rule (gazetteer.py); places that have an IRI are not touched."
+
+  [[versions.files]]
+  path = "geo-enriched.ttl.gz"
+  bytes = 270321
+  sha256 = "b1b5783f1669b50cadf1fb46e7492ba9644d5ecc20ba5578c4a30c2473c246e9"
+  triples = 32952
+
+  [[versions.files]]
+  path = "geo-enriched-meta.ttl.gz"
+  bytes = 3128
+  sha256 = "3cb578e03ca66c4995202176014a3e0f48d406d4518bd93c46ed39d1eef61ff1"
+  triples = 114
 
 [[versions]]
 version = "2019-12-18"
@@ -67,6 +85,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2225
   sha256 = "5d63ce17eaec0c04d4eab1d249c871e75aff117b4b1c6dcc7d7c0b900e620045"
   triples = 117
+
+[[changelog]]
+date = "2026-10-16"
+version = "2026-10-16"
+author = "Kai Eckert"
+text = "Made again from the current records: 32,952 links of place texts without an IRI (bhr, nli-records, ubffm-persons, dbpedia-persons, epidat, djh, sosy, haskala, hirsch-family) to geo-coordinates places or GeoNames features (data/geonames/<id>); ambiguous names left out; the first-hit links of 2019 (89 of them wrong places) replaced."
 +++
 <!-- Copy of catalog/geo-enriched.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 The birth and death places of the persons of bhr, djh, gnd-persons, haskala, hirsch-family and ubffm-persons as IRIs

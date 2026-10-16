@@ -8,6 +8,7 @@ example = "http://data.judaicalink.org/data/lc/n79021164"
 kind = "authority"
 method = ["converted"]
 namespaces = ["lc"]
+stable = "2026-10-16"
 
 [license]
 name = "Public domain"
@@ -18,6 +19,36 @@ statement = "https://web.archive.org/web/20260814162252/https://id.loc.gov/about
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/lc"
+
+[[versions]]
+version = "2026-10-16"
+issued = "2026-10-16"
+author = "Kai Eckert"
+commit = "9dec0f129c40ea47066735128868e0a869c4bed1"
+description = "The records of the LC Name Authority File JudaicaLink uses, from the LC dump (MADS/RDF, 2026-09-27): every LC record that one of our datasets links."
+
+  [[versions.files]]
+  path = "lc-selection.tsv.gz"
+  bytes = 669590
+  sha256 = "859d9c9dbe96c591c97fda5c3e4b8fb437a06d30906318d99886a363e1ed5483"
+
+  [[versions.files]]
+  path = "lc.ttl.gz"
+  bytes = 9233750
+  sha256 = "8d79b2af56f36706457c18f4d1556d4600af7903b969e6651cc80417d7e806ca"
+  triples = 1731974
+
+  [[versions.files]]
+  path = "lc-meta.ttl.gz"
+  bytes = 3358
+  sha256 = "b37e43166627e3eb834b77bd4af08415d7a71b0e1fced796e5850c39dc337e78"
+  triples = 158
+
+[[changelog]]
+date = "2026-10-16"
+version = "2026-10-16"
+author = "Kai Eckert"
+text = "First version (decision 0029): 79,683 authority records with their MADS statements, names, life dates and places, occupations; deprecated records cited by our data marked owl:deprecated (LC states no successors)."
 +++
 <!-- Copy of catalog/lc.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 The records of the Library of Congress Name Authority File (LCNAF) that one of our datasets links.
