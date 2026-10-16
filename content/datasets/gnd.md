@@ -9,6 +9,7 @@ kind = "authority"
 method = ["converted"]
 namespaces = ["gnd"]
 replaces = ["gnd-persons"]
+stable = "2026-10-16"
 
 [license]
 name = "CC0"
@@ -19,6 +20,36 @@ statement = "https://web.archive.org/web/20260624101124/https://data.dnb.de/open
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/gnd"
+
+[[versions]]
+version = "2026-10-16"
+issued = "2026-10-16"
+author = "Kai Eckert"
+commit = "7d4339fdcb7ee96c413ce07b5bc6a91bb4f36509"
+description = "The GND records JudaicaLink uses, from the DNB dumps (GND 2026-02-17, EntityFacts and redirects 2026-10-13): every GND record our datasets link, the Freimann and UB Frankfurt lists, and every record of gnd-persons 2018."
+
+  [[versions.files]]
+  path = "gnd-selection.tsv.gz"
+  bytes = 594947
+  sha256 = "192c67a6609be89af0cb233b5c33ba5c877d00603886b347498ec74a4e37361c"
+
+  [[versions.files]]
+  path = "gnd.ttl.gz"
+  bytes = 11973998
+  sha256 = "553d87cf4518115fc5114a9f74eb2f73fafc0128187d0c667fa53f2702db2be9"
+  triples = 1419588
+
+  [[versions.files]]
+  path = "gnd-meta.ttl.gz"
+  bytes = 4007
+  sha256 = "24e70761d465b628303e6b6ef3cf6bf49e44e1fff7cdd5d0b0ec557d00c681ad"
+  triples = 178
+
+[[changelog]]
+date = "2026-10-16"
+version = "2026-10-16"
+author = "Kai Eckert"
+text = "First version (decision 0029): 42,207 records with the GND's statements, our terms, and the links of EntityFacts; replaces gnd-persons (2018-11-29) and gnd-persons-entityfacts."
 +++
 <!-- Copy of catalog/gnd.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
 The records of the Gemeinsame Normdatei (GND) of the Deutsche Nationalbibliothek that JudaicaLink uses: every GND
