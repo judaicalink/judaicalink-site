@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/rujen/ben-gurion"
 picture = "/img/rujen_logo.png"
 namespaces = ["rujen"]
 aliases = ["/encyclopediae/encyclopediae-of-russion-jewry/", "/datasets/encyclopediae-of-russion-jewry/"]
-stable = "2020-09-28"
+stable = "2026-10-16"
 kind = "records"
 method = ["scraped"]
 
@@ -23,6 +23,30 @@ path = "generators/rujen"
 
 [files]
 "rujen.jsonl.gz" = "Raw data crawled from rujen.ru, input of the generator."
+
+[[versions]]
+version = "2026-10-16"
+issued = "2026-10-16"
+author = "Kai Eckert"
+commit = "e1a85a3ceb9e4170a88e269930ecc6a6b1e5debe"
+description = "Made from the crawl of 2020 with two fixes: the page addresses without the doubled /index.php//index.php/, and the crawled main page (junk records) left out."
+
+  [[versions.files]]
+  path = "rujen.jsonl.gz"
+  bytes = 7829862
+  sha256 = "2ded560739a06d39eee86c0506aa093d961a144491a246efc09755f1d49b3d6e"
+
+  [[versions.files]]
+  path = "rujen.ttl.gz"
+  bytes = 6829500
+  sha256 = "3e68c0aa3f47c0d7f8e7fe29f085c8f70118c54c2cba2b288a6fb32fd48b5c11"
+  triples = 140402
+
+  [[versions.files]]
+  path = "rujen-meta.ttl.gz"
+  bytes = 2032
+  sha256 = "a135802e8e111feccca0f9167334e2dd2ec2eae57ebaeb5145d121994989a94d"
+  triples = 71
 
 [[versions]]
 version = "2020-09-28"
@@ -45,6 +69,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2141
   sha256 = "abdcc232b23d7ce6c00fb9e7d82b4749e650790dce90cfb201c3fffdea5ac977"
   triples = 69
+
+[[changelog]]
+date = "2026-10-16"
+version = "2026-10-16"
+author = "Kai Eckert"
+text = "Page addresses fixed (describedAt); the crawled main page and its 34 junk records left out (70 triples)."
 
 [[changelog]]
 date = "2026-10-11"

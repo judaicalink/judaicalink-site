@@ -6,7 +6,7 @@ date = "2022-06-29"
 website = "http://www.steinheim-institut.de/wiki/index.php/Epidat"
 example = "http://data.judaicalink.org/data/epidat/hha-2512-1"
 namespaces = ["epidat"]
-stable = "2026-10-12"
+stable = "2026-10-16"
 kind = "records"
 method = ["converted", "rule-based"]
 
@@ -18,6 +18,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/epidat"
+
+[[versions]]
+version = "2026-10-16"
+issued = "2026-10-16"
+author = "Kai Eckert"
+commit = "b57d381e790de0f9ccfb6feabfbc775b62afe03b"
+description = "Made from the repository at 61046f3 as 2026-10-12, with birth dates, Gedenkbuch and Yad Vashem links from the person table, the family relations of the inscriptions, and IRIs and points in canonical form."
+
+  [[versions.files]]
+  path = "epidat.ttl.gz"
+  bytes = 1832757
+  sha256 = "435146d4c6df73e5f3b7f4eaa40917cd2697689a40e0d5a3122fd24ac859d076"
+  triples = 435464
+
+  [[versions.files]]
+  path = "epidat-meta.ttl.gz"
+  bytes = 3393
+  sha256 = "fd0ba30d7b1bc75902807463ef5340e631c4d93019297ba4b315dee692c106fb"
+  triples = 73
 
 [[versions]]
 version = "2026-10-12"
@@ -54,6 +73,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2183
   sha256 = "100ec89226d9b71fecab2386fae4cdd2b9f2078f2564e20e469ef564db747141"
   triples = 60
+
+[[changelog]]
+date = "2026-10-16"
+version = "2026-10-16"
+author = "Kai Eckert"
+text = "Birth dates (3,203), links to the Gedenkbuch (116) and Yad Vashem (63), family relations (6,685 parent, 221 grandparent, 5,702 spouse, 2,750 sibling), GND and GeoNames IRIs and points in canonical form."
 
 [[changelog]]
 date = "2026-10-12"

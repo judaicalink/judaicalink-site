@@ -4,11 +4,11 @@ title = "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte"
 author = "Kai Eckert"
 date = "2023-11-22"
 website = "https://schluesseldokumente.net/"
-example = "http://data.judaicalink.org/data/hhkeydocs/Albert_Rosengarten"
+example = "http://data.judaicalink.org/data/hhkeydocs/person/gnd/119119013"
 namespaces = ["hhkeydocs"]
-stable = "2025-03-21"
+stable = "2026-10-16"
 kind = "records"
-method = ["scraped", "lookup"]
+method = ["scraped"]
 
 [license]
 name = "CC BY-NC-ND 4.0"
@@ -18,6 +18,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/hhkeydocs"
+
+[[versions]]
+version = "2026-10-16"
+issued = "2026-10-16"
+author = "Kai Eckert"
+commit = "b57d381e790de0f9ccfb6feabfbc775b62afe03b"
+description = "Made again from the source (JSON-LD of schluesseldokumente.net, harvested 2026-10-15/16), true to the source: IRIs from the GND, TGN and site numbers; the name IRIs of 2025-03-21 replaced."
+
+  [[versions.files]]
+  path = "hhkeydocs.ttl.gz"
+  bytes = 258738
+  sha256 = "e36abbab400c9a32d21e705fa625289ef110358ef0fec6a4bd472a94fa2ac489"
+  triples = 32088
+
+  [[versions.files]]
+  path = "hhkeydocs-meta.ttl.gz"
+  bytes = 2268
+  sha256 = "8455a7dca3f56b6835e967f41f05d2d16d8b7b6460b8a256b44d69cdb4074fe3"
+  triples = 63
 
 [[versions]]
 version = "2025-03-21"
@@ -35,6 +54,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 1780
   sha256 = "618f2e6321ed3d328d274172d3e05854a564594cda6291ca932e126c753bc3c9"
   triples = 58
+
+[[changelog]]
+date = "2026-10-16"
+version = "2026-10-16"
+author = "Kai Eckert"
+text = "Made from the source: 1,191 persons, 751 organisations, 1,111 places; GND numbers with hyphen or X no longer dropped; GND and TGN links as IRIs; malformed VIAF links dropped; the 1,824 name IRIs of 2025-03-21 dcterms:isReplacedBy the new records."
 
 [[changelog]]
 date = "2024-01-23"
