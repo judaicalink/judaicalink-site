@@ -74,4 +74,6 @@ Rujen.ru provides an Internet version of the Encyclopedia of Russian Jewry, whic
 
 The encyclopedia is structurally divided into three parts: 1. biographical information, 2. local history of the Jewish community in pre-revolutionary Russia, the Soviet Union and the CIS, and 3. thematic information on concepts related to Jewish civilization, the contribution of the Jews of Russia in various fields of activity, various Jewish social, scientific, cultural organizations, etc. The originally published volumes contain more than 10,000 biographies and more than 10,000 place names. The electronic version contains corrections and additions in the form of new articles.
 
+Published as CC0 with the written permission of the source.
+
 Counts in the former catalogue entry: concepts: 20,434; links: 30,052.

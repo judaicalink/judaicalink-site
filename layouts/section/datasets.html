@@ -12,7 +12,7 @@
 	{{/* Replaced datasets are deprecated (0007): listed only in their own group at the end. */}}
 	{{ $pages := slice }}{{ $deprecated := slice }}
 	{{ range .Pages }}{{ $e := index $idx.datasets .File.ContentBaseName }}{{ if and $e $e.replaced_by }}{{ $deprecated = $deprecated | append . }}{{ else }}{{ $pages = $pages | append . }}{{ end }}{{ end }}
-	{{ range $kind := slice "records" "complement" "linkset" "correction" "entity-pages" "ontology" "vocabulary" "support" }}
+	{{ range $kind := slice "records" "authority" "complement" "linkset" "correction" "entity-pages" "ontology" "vocabulary" "support" }}
 	  {{ $ps := where $pages "Params.kind" $kind }}
 	  {{ if $ps }}
 	  {{ $k := index $vocab.kind.values $kind }}

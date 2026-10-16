@@ -69,5 +69,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   triples = 117
 +++
 <!-- Copy of catalog/geo-enriched.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
-Dataset geographic enrichment through GeoNames. 
-Introduced the use of birthLocationURI and deathLocationURI properties.
+The birth and death places of the persons of bhr, djh, gnd-persons, haskala, hirsch-family and ubffm-persons as IRIs
+(`jl:birthLocationURI`, `jl:deathLocationURI`, next to the place names of the records).
+<!--more-->
+
+Since 2026-10-15 the places are found offline and deterministically: a place name that is the label of a place of
+geo-coordinates gets that place (with its GND and GeoNames links); any other name is looked up in the GeoNames dump,
+with rules for exonyms (Lissa for Leszno), qualifiers ("(Oberschlesien)", ", Calif.") and population, and ambiguous
+names are left out. The version of 2019 took the first hit of the GeoNames search for every name, which linked, for
+example, Königsberg to Königsberg in Bayern and Karlsbad to Carlsbad in California.

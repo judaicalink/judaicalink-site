@@ -6,7 +6,7 @@ date = "2018-11-02"
 example = "http://data.judaicalink.org/data/dbpedia/Aaron_Alfandari"
 namespaces = ["dbpedia"]
 stable = "2018-10-24"
-kind = "records"
+kind = "authority"
 method = ["converted", "lookup"]
 
 [license]

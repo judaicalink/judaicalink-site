@@ -14,6 +14,8 @@ method = ["converted", "rule-based", "machine-translation"]
 name = "CC BY-SA 4.0"
 uri = "https://creativecommons.org/licenses/by-sa/4.0/"
 image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"
+attribution = "Footprints: Jewish Books Through Time and Place, ed. Michelle Chesner et al."
+statement = "https://web.archive.org/web/20251002115806/https://footprints.ctl.columbia.edu/faq/"
 
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"

@@ -39,7 +39,12 @@ author = "Benjamin Schnabel"
 text = "Generator ported from Jupyter notebooks to Python scripts (judaicalink-generators); the published version was not regenerated."
 +++
 <!-- Copy of catalog/dbp-wiki-geo-linking.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
-Links between JudaicaLink Locations and DBpedia/Wikipedia via Geonames
+The places of geo-coordinates linked to Wikidata, DBpedia and their Wikipedia articles.
 <!--more-->
+
+Since 2026-10-15 the links come from Wikidata: the item with the GND number of the place (P227), or, for places
+without one, the item with its GeoNames id (P1566); `owl:sameAs` the item and the DBpedia resource of its English
+article, `foaf:isPrimaryTopicOf` the English, German and Russian articles. The version of 2021 was made through a
+GeoNames mirror that is closed.
 
 Counts in the former catalogue entry: links: 7023 triples.

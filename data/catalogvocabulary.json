@@ -7,6 +7,10 @@
     "label": "Records",
     "definition": "Records from one source about persons, places, works or other entities, one resource per record."
    },
+   "authority": {
+    "label": "Authority data",
+    "definition": "Records of an authority file, gazetteer or knowledge base (GND, LC, VIAF, NLI, Wikidata, GeoNames, DBpedia) that JudaicaLink uses as reference points and as the evidence for its links, kept as the source states them (decision 0029)."
+   },
    "complement": {
     "label": "Complement",
     "definition": "Statements about the resources of other datasets that only add to them (normalised values, enrichments, links), without changing them."

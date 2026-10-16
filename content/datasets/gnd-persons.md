@@ -6,7 +6,7 @@ date = "2018-07-25"
 example = "http://data.judaicalink.org/data/gnd/102182094"
 namespaces = ["gnd"]
 stable = "2018-11-29"
-kind = "records"
+kind = "authority"
 method = ["converted", "lookup"]
 
 [license]

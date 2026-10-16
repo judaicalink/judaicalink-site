@@ -13,7 +13,9 @@ kind = "records"
 method = ["scraped", "rule-based"]
 
 [license]
-name = "unknown"
+name = "CC0"
+uri = "https://creativecommons.org/publicdomain/zero/1.0/"
+image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png"
 
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
@@ -57,5 +59,7 @@ Das Jüdische Hamburg contains articles in German by notable scholars about pers
 
 
 For "Das Jüdische Hamburg", we for the first time implemented a Person recognition and have been able to identify 196 person descriptions among the articles. The persons are ideally described by occupation, date of birth and death as well as location of birth and death. This automatic extraction, however, is not flawless, some errors have to be expected.
+
+Published as CC0 with the written permission of the source. The data holds only the beginning of each article (at most about 900 characters), not the full text.
 
 Counts in the former catalogue entry: concepts: 260; persons: 196; links: 981.

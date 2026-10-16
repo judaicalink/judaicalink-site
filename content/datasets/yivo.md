@@ -69,4 +69,6 @@ The YIVO Encyclopedia of Jews in Eastern Europe, courtesy of the YIVO Institute 
 
 The only resource of its kind, this encyclopedia provides the most complete picture of the history and culture of Jews in Eastern Europe from the beginnings of their settlement in the region to the present. This website makes accurate, reliable, scholarly information about East European Jewish life accessible to everyone.
 
+Published as CC0 with the written permission of the source. The data holds only the beginning of each article (at most about 2,100 characters), not the full text.
+
 “The YIVO Encyclopedia is so compulsively browsable that you can disappear within its pages for hours without a trace, the equivalent of diving into the coolest, deepest of pools.” —Kenneth Turan, L.A. Times
