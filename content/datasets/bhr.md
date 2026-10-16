@@ -4,11 +4,11 @@ title = "Biographisches Handbuch der Rabbiner"
 author = "Kai Eckert"
 date = "2017-09-14"
 website = "http://www.steinheim-institut.de/wiki/index.php/Biographisches_Handbuch_der_Rabbiner_%28BHR%29"
-example = "http://data.judaicalink.org/data/bhr/Abarbanell_Hirsch"
+example = "http://data.judaicalink.org/data/bhr/1"
 namespaces = ["bhr"]
-stable = "2026-10-12"
+stable = "2026-10-16"
 kind = "records"
-method = ["scraped", "rule-based", "lookup"]
+method = ["scraped"]
 
 [license]
 name = "CC BY 4.0"
@@ -21,6 +21,40 @@ path = "generators/bhr"
 
 [files]
 "Entityfacts-bhr-sameas.ttl.gz" = "Links of the persons to the GND and to EntityFacts (owl:sameAs)."
+"bhr.ttl.gz" = "The entries of the Biographisches Portal der Rabbiner, one record per entry (from 2026-10-16)."
+"bhr-beacon.ttl.gz" = "The GND numbers of the entries, from the BEACON file the Steinheim-Institut publishes (owl:sameAs)."
+"bhr-vocabulary.ttl.gz" = "The properties of the sections of the portal pages (literature, documents, publications, …)."
+
+[[versions]]
+version = "2026-10-16"
+issued = "2026-10-16"
+author = "Kai Eckert"
+commit = "3d369ecc9c1c074d22784a88bd22a09e4bb0a6de"
+description = "Made again from the source: a full harvest of the Biographisches Portal der Rabbiner (2,703 entries, 2026-10-16), true to the portal; IRIs from the BHR ids; the GND numbers from the portal's BEACON in a file of their own."
+
+  [[versions.files]]
+  path = "bhr-beacon.ttl.gz"
+  bytes = 6684
+  sha256 = "5378c6f76daf2980afaaca4409bfb0bd88755b9d337ba40afa218120bc173047"
+  triples = 805
+
+  [[versions.files]]
+  path = "bhr-vocabulary.ttl.gz"
+  bytes = 528
+  sha256 = "d9c4c0ad89e44d435c814c36a7e35abcd644c3dd510603b3bcd88a9c3c2eb996"
+  triples = 42
+
+  [[versions.files]]
+  path = "bhr.ttl.gz"
+  bytes = 2352277
+  sha256 = "f03b2b1e257128434830ef1aed146e509a4b2f4b49983bc918bf421611f20d64"
+  triples = 80775
+
+  [[versions.files]]
+  path = "bhr-meta.ttl.gz"
+  bytes = 2876
+  sha256 = "4b9edfbcd43949f6643f809ecd52376001c480d5dd220dd657128553df073e1b"
+  triples = 89
 
 [[versions]]
 version = "2026-10-12"
@@ -67,6 +101,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2646
   sha256 = "38843d50dc0f7f3e2281f466b21643d4990121fa64e9f9699fb042086e413090"
   triples = 83
+
+[[changelog]]
+date = "2026-10-16"
+version = "2026-10-16"
+author = "Kai Eckert"
+text = "Made from the portal: 2,703 records data/bhr/<id> with names, dates, places, biography, handbook reference and the sections of the pages; the 805 GND numbers of the BEACON (bhr-beacon.ttl.gz); the EntityFacts lookups of 2018 not carried over (links come from the linksets, decision 0029); the name IRIs of 2026-10-12 replaced by the records of their BHR id or name (2,773), 127 without a successor deprecated."
 
 [[changelog]]
 date = "2026-10-12"
