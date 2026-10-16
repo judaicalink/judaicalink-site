@@ -79,6 +79,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   triples = 146
 
 [[changelog]]
+date = "2026-10-16"
+author = "Kai Eckert"
+text = "Superseded by gnd (the GND records JudaicaLink uses, from the DNB dumps), which keeps every record of this dataset under the same IRI and its selection rules (the Freimann and UB Frankfurt lists; the rule of 2017 as `previous`)."
+refs = ["0029"]
+
+[[changelog]]
 date = "2018-11-01"
 author = "Maral Dadvar"
 text = "EntityFacts links added."

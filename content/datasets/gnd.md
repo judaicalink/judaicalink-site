@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/gnd/118540238"
 kind = "authority"
 method = ["converted"]
 namespaces = ["gnd"]
-replaces = ["gnd-persons"]
+replaces = ["gnd-persons", "gnd-persons-entityfacts"]
 stable = "2026-10-16"
 
 [license]
@@ -41,9 +41,9 @@ description = "The GND records JudaicaLink uses, from the DNB dumps (GND 2026-02
 
   [[versions.files]]
   path = "gnd-meta.ttl.gz"
-  bytes = 4007
-  sha256 = "24e70761d465b628303e6b6ef3cf6bf49e44e1fff7cdd5d0b0ec557d00c681ad"
-  triples = 178
+  bytes = 4048
+  sha256 = "55e42219b662342d6c6acc524ed3fb9e7a37154ff0399860676a6f834f3ae0d9"
+  triples = 179
 
 [[changelog]]
 date = "2026-10-16"

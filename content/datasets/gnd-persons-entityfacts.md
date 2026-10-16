@@ -39,6 +39,12 @@ commit = "b3bbaa879db15c0feced64fadaa8ddab38a705e7"
   triples = 74
 
 [[changelog]]
+date = "2026-10-16"
+author = "Kai Eckert"
+text = "Superseded by gnd, which holds its records under the same IRIs, with the links of EntityFacts from the DNB dump."
+refs = ["0029"]
+
+[[changelog]]
 date = "2026-10-12"
 version = "2026-10-12"
 author = "Kai Eckert"
