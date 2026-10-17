@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/rujen/ben-gurion"
 picture = "/img/rujen_logo.png"
 namespaces = ["rujen"]
 aliases = ["/encyclopediae/encyclopediae-of-russion-jewry/", "/datasets/encyclopediae-of-russion-jewry/"]
-stable = "2026-10-16"
+stable = "2026-10-18"
 kind = "records"
 method = ["scraped"]
 
@@ -23,6 +23,30 @@ path = "generators/rujen"
 
 [files]
 "rujen.jsonl.gz" = "Raw data crawled from rujen.ru, input of the generator."
+
+[[versions]]
+version = "2026-10-18"
+issued = "2026-10-18"
+author = "Kai Eckert"
+commit = "704a36d0f885a2199ea12de02114899ff909f577"
+description = "Made from the crawl of 2020; records typed with the classes of the common layer."
+
+  [[versions.files]]
+  path = "rujen.jsonl.gz"
+  bytes = 7829862
+  sha256 = "2ded560739a06d39eee86c0506aa093d961a144491a246efc09755f1d49b3d6e"
+
+  [[versions.files]]
+  path = "rujen.ttl.gz"
+  bytes = 6832950
+  sha256 = "1ac2da8a90f3abc79b02708fb289a71ee154daccdaef388e8455961409a311b7"
+  triples = 140402
+
+  [[versions.files]]
+  path = "rujen-meta.ttl.gz"
+  bytes = 2079
+  sha256 = "7a3028069ed738bbc51e5aa02bf41e0aab3a1bc784ffa79c3d1f02b6d12beffb"
+  triples = 77
 
 [[versions]]
 version = "2026-10-16"
@@ -69,6 +93,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2141
   sha256 = "abdcc232b23d7ce6c00fb9e7d82b4749e650790dce90cfb201c3fffdea5ac977"
   triples = 69
+
+[[changelog]]
+date = "2026-10-18"
+version = "2026-10-18"
+author = "Kai Eckert"
+text = "Classes of the common layer: foaf:Person for 8,283 records typed jl:Person (never defined), schema:Place for 7,446 typed jl:Place."
 
 [[changelog]]
 date = "2026-10-16"

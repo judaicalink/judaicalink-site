@@ -6,7 +6,7 @@ date = "2025-07-09"
 website = "http://ontology.judaicalink.org"
 example = "http://data.judaicalink.org/ontology/describedAt"
 namespaces = ["ontology"]
-stable = "2026-10-17"
+stable = "2026-10-18"
 kind = "ontology"
 method = ["curated"]
 
@@ -18,6 +18,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ontology"
+
+[[versions]]
+version = "2026-10-18"
+issued = "2026-10-18"
+author = "Kai Eckert"
+commit = "704a36d0f885a2199ea12de02114899ff909f577"
+description = "The ontology as of judaicalink-ontology 918d57c: the common layer, with the terms of pull requests 24 and 25."
+
+  [[versions.files]]
+  path = "judaicalink-ontology.ttl.gz"
+  bytes = 8965
+  sha256 = "0b83e3fe9565fbc94e63ce127c314a1a54ef1485649c28c17de4575371ba75b6"
+  triples = 659
+
+  [[versions.files]]
+  path = "ontology-meta.ttl.gz"
+  bytes = 1687
+  sha256 = "2030e77ceb021e3f84354e63e4099c72fce17d5c7290cc8c909a2740cc5831fa"
+  triples = 62
 
 [[versions]]
 version = "2026-10-17"
@@ -73,6 +92,12 @@ description = "The ontology as of judaicalink-ontology b26c961, as served on ont
   bytes = 1710
   sha256 = "21762f0fca59f12e4326358643be3cac98db973d49409ac306143e31138561c8"
   triples = 57
+
+[[changelog]]
+date = "2026-10-18"
+version = "2026-10-18"
+author = "Kai Eckert"
+text = "Common layer: terms used by several datasets (dcterms:isPartOf, dcterms:title, dcterms:date, foaf:page, gndo:editor, gndo:relatedPerson and others); Dublin Core: dcterms: only (decision 0030)."
 
 [[changelog]]
 date = "2026-10-17"
