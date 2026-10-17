@@ -38,6 +38,11 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   triples = 56
 
 [[changelog]]
+date = "2026-10-17"
+author = "Kai Eckert"
+text = "Superseded by records-normalized, which gives the normalised birth and death dates (jl:birthYear is deprecated)."
+
+[[changelog]]
 date = "2020-08-03"
 author = "Sara Fischer"
 text = "Date parsing of the generator (judaicalink-labs, date_enrichment) extended; the published version was not regenerated."

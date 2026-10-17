@@ -6,7 +6,7 @@ date = "2025-07-09"
 website = "http://ontology.judaicalink.org"
 example = "http://data.judaicalink.org/ontology/describedAt"
 namespaces = ["ontology"]
-stable = "2026-10-12"
+stable = "2026-10-17"
 kind = "ontology"
 method = ["curated"]
 
@@ -18,6 +18,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ontology"
+
+[[versions]]
+version = "2026-10-17"
+issued = "2026-10-17"
+author = "Kai Eckert"
+commit = "99431d119c508fdb07ca1a28aa378ba254ff8f53"
+description = "The ontology as of judaicalink-ontology d7abf5f: the common layer, with the terms of pull requests 21, 22 and 23."
+
+  [[versions.files]]
+  path = "judaicalink-ontology.ttl.gz"
+  bytes = 7874
+  sha256 = "680a6b0ddd512a0c9ec30c6598b9a7125c6439a27191d6ba36e69648684c9b6c"
+  triples = 596
+
+  [[versions.files]]
+  path = "ontology-meta.ttl.gz"
+  bytes = 1688
+  sha256 = "13e624c4445aadcc049c781a59f5c8c2a8655a02bfca819a62f9698c30f77abb"
+  triples = 62
 
 [[versions]]
 version = "2026-10-12"
@@ -54,6 +73,12 @@ description = "The ontology as of judaicalink-ontology b26c961, as served on ont
   bytes = 1710
   sha256 = "21762f0fca59f12e4326358643be3cac98db973d49409ac306143e31138561c8"
   triples = 57
+
+[[changelog]]
+date = "2026-10-17"
+version = "2026-10-17"
+author = "Kai Eckert"
+text = "Common layer: the shared terms, foreign terms with jl:label and jl:comment; new jl:sameAs, jl:label, jl:comment, jl:currentSubjects, jl:grandparent, jl:burialLocation(URI); standard classes; 41 terms deprecated; GND ontology terms in https."
 
 [[changelog]]
 date = "2026-10-12"

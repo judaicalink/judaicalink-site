@@ -6,6 +6,7 @@ date = "2026-10-12"
 stable = "2026-10-12"
 kind = "complement"
 method = ["rule-based", "deterministic"]
+replaces = ["date-enriched"]
 inputs = ["bhr", "dbpedia-persons", "djh", "epidat", "footprints", "geo-enriched", "gnd-persons", "gnd-persons-entityfacts", "haskala", "hhkeydocs", "hirsch-family", "jre", "nli-records", "sosy", "ubffm-persons", "rujen", "geo-coordinates", "cm-entities"]
 
 [license]
@@ -43,9 +44,9 @@ commit = "75c5921ff58df3ecdb3602144958f703b40e4cff"
 
   [[versions.files]]
   path = "records-normalized-meta.ttl.gz"
-  bytes = 3347
-  sha256 = "cdaec6f9688bf0a94efd58fd17fba641985a61387f74793c7320805b0b4d45bb"
-  triples = 138
+  bytes = 3432
+  sha256 = "42732fac82e3b15922b39a129b07aded93d2f9482fd49facdf44329b4fbe262d"
+  triples = 141
 
 [[changelog]]
 date = "2026-10-13"
