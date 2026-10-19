@@ -48,8 +48,10 @@
     html += "<div class='alert alert-danger'><b>Deprecated.</b> This dataset is replaced by " + d.replaced_by.map(function (r) {
       return "<a href='?dataset=" + encodeURIComponent(r) + "'>" + esc(r) + "</a>"; }).join(", ") +
       ". The <a href='/datasets/" + encodeURIComponent(slug) + "/'>dataset page</a> gives the reason.</div>";
+  } else if (d.withdrawn) {
+    html += "<div class='alert alert-danger'><b>Withdrawn.</b> " + esc(d.withdrawn) + "</div>";
   }
-  var badge = d.replaced_by && d.replaced_by.length ? "<span class='badge badge-danger'>deprecated</span>" : "<span class='badge badge-success'>stable</span>";
+  var badge = (d.replaced_by && d.replaced_by.length) || d.withdrawn ? "<span class='badge badge-danger'>deprecated</span>" : "<span class='badge badge-success'>stable</span>";
   var versions = d.versions;
   var ids = versions.map(function (v) { return v.version; });
   if (!vid) { vid = ids.indexOf(d.stable) >= 0 ? d.stable : ids[0]; }

@@ -9,9 +9,9 @@
 
 	{{ .Content }}
 
-	{{/* Replaced datasets are deprecated (0007): listed only in their own group at the end. */}}
+	{{/* Replaced and withdrawn datasets are deprecated (0007): listed only in their own group at the end. */}}
 	{{ $pages := slice }}{{ $deprecated := slice }}
-	{{ range .Pages }}{{ $e := index $idx.datasets .File.ContentBaseName }}{{ if and $e $e.replaced_by }}{{ $deprecated = $deprecated | append . }}{{ else }}{{ $pages = $pages | append . }}{{ end }}{{ end }}
+	{{ range .Pages }}{{ $e := index $idx.datasets .File.ContentBaseName }}{{ if and $e (or $e.replaced_by $e.withdrawn) }}{{ $deprecated = $deprecated | append . }}{{ else }}{{ $pages = $pages | append . }}{{ end }}{{ end }}
 	{{ range $kind := slice "records" "authority" "complement" "linkset" "correction" "entity-pages" "ontology" "vocabulary" "support" }}
 	  {{ $ps := where $pages "Params.kind" $kind }}
 	  {{ if $ps }}
@@ -34,7 +34,7 @@
 	{{ end }}
 	{{ with $deprecated }}
 	<h3 class="text-center text-md-left mt-4" id="deprecated">Deprecated</h3>
-	<p><small>Replaced by another dataset and no longer part of the knowledge graph; the files remain available for reference.</small></p>
+	<p><small>Replaced by another dataset or withdrawn, and no longer part of the knowledge graph; the files remain available for reference.</small></p>
 	<div class="table-responsive">
 	<table class="table table-light table-striped">
 	  <tr><th scope="col" style="width: 35%">Name</th><th scope="col">Summary</th><th scope="col">Replaced by</th></tr>
@@ -42,7 +42,7 @@
 	  <tr>
 	    <td scope="row"><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
 	    <td>{{ .Summary }}</td>
-	    <td>{{ range $i, $r := (index $idx.datasets .File.ContentBaseName).replaced_by }}{{ if $i }}, {{ end }}<a href="/datasets/{{ $r }}/">{{ $r }}</a>{{ end }}</td>
+	    <td>{{ with (index $idx.datasets .File.ContentBaseName) }}{{ range $i, $r := .replaced_by }}{{ if $i }}, {{ end }}<a href="/datasets/{{ $r }}/">{{ $r }}</a>{{ else }}withdrawn{{ end }}{{ end }}</td>
 	  </tr>
 	  {{ end }}
 	</table>

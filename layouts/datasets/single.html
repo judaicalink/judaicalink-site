@@ -20,7 +20,12 @@
 		  and no longer part of the JudaicaLink knowledge graph. Its files remain available for reference.
 		  {{ with $p.changelog }}{{ with index (sort . "date" "desc") 0 }}<br><b>Reason</b> ({{ .date }}): {{ .text | markdownify }}{{ end }}{{ end }}
 		</div>
-		{{ end }}
+		{{ else }}{{ with $p.withdrawn }}
+		<div class="alert alert-danger" role="alert">
+		  <b>Withdrawn.</b> This dataset is no longer part of the JudaicaLink knowledge graph. Its files remain available for reference.
+		  <br><b>Reason:</b> {{ . | markdownify }}
+		</div>
+		{{ end }}{{ end }}
 
 		{{ .Content }}
 
