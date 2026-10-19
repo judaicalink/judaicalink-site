@@ -11,6 +11,9 @@ namespaces = ["nli/record"]
 replaces = ["nli-persons"]
 stable = "2026-10-12"
 
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["viaf", "lc-names"]
+
 [license]
 name = "CC0"
 uri = "https://creativecommons.org/publicdomain/zero/1.0/"

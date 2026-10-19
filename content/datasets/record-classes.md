@@ -7,7 +7,7 @@ example = "http://data.judaicalink.org/data/yivo/abramovich_rafail"
 kind = "complement"
 method = ["lookup", "rule-based"]
 inputs = ["yivo"]
-stable = "2026-10-12"
+stable = "2026-10-18"
 
 [license]
 name = "CC0"
@@ -17,6 +17,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/record-classes"
+
+[[versions]]
+version = "2026-10-18"
+issued = "2026-10-18"
+author = "Kai Eckert"
+commit = "906c9b0d7c201f32c0dc966c0c4c5256747469e8"
+description = "The classes of the yivo articles, as 2026-10-12, with the classes of the common layer."
+
+  [[versions.files]]
+  path = "record-classes.ttl.gz"
+  bytes = 16275
+  sha256 = "931ce0da0b1aeaf78d5d35f03f28b78e9695024f0045b0b8101638745217575b"
+  triples = 1798
+
+  [[versions.files]]
+  path = "record-classes-meta.ttl.gz"
+  bytes = 2345
+  sha256 = "d6121c261300d9269521c97d16f7a91b928f6eac97b403984691af720b4337a0"
+  triples = 67
 
 [[versions]]
 version = "2026-10-12"
@@ -36,6 +55,12 @@ description = "Classes of the yivo articles: from their Wikidata item, else life
   bytes = 2246
   sha256 = "c7e3294345d5487cd145e887eafba6d27efa1da1d224d34198e5b79ee9bd3860"
   triples = 62
+
+[[changelog]]
+date = "2026-10-18"
+version = "2026-10-18"
+author = "Kai Eckert"
+text = "Classes of the common layer: skos:Concept (356), schema:Place (199), schema:CreativeWork (54) instead of jl:Subject, jl:Place, jl:Work."
 
 [[changelog]]
 date = "2026-10-12"

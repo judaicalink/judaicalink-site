@@ -8,6 +8,9 @@ namespaces = ["jre"]
 stable = "2019-11-29"
 kind = "records"
 
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["viaf"]
+
 [license]
 name = "CC0"
 uri = "https://creativecommons.org/publicdomain/zero/1.0/"

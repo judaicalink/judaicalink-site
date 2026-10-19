@@ -10,6 +10,10 @@ stable = "2026-10-12"
 kind = "records"
 method = ["converted", "rule-based", "machine-translation"]
 
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["viaf", "gnd", "lc-names"]
+"gndo:gndIdentifier" = ["gnd"]
+
 [license]
 name = "CC BY-SA 4.0"
 uri = "https://creativecommons.org/licenses/by-sa/4.0/"

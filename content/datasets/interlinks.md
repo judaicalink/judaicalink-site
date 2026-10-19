@@ -8,6 +8,9 @@ stable = "2018-07-18"
 kind = "linkset"
 method = ["deterministic", "rule-based"]
 
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["gnd", "viaf", "wikidata", "wikipedia-en", "wikipedia-de", "judaicalink"]
+
 [license]
 name = "CC0"
 uri = "https://creativecommons.org/publicdomain/zero/1.0/"

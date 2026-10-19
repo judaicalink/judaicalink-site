@@ -10,6 +10,12 @@ stable = "2026-10-12"
 kind = "records"
 method = ["scraped", "converted", "lookup", "curated"]
 
+several_per_entity = "two sources: the library database and the 32 biographies of haskala.net (haskala/Salomon_Pappenheim next to haskala/person/395)"
+
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["gnd"]   # VIAF: matched by name (37% in docs/reports/2026-10-18-link-quality.md)
+"gndo:gndIdentifier" = ["gnd"]
+
 [license]
 name = "CC BY 4.0"
 uri = "https://creativecommons.org/licenses/by/4.0/"

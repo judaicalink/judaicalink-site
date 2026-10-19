@@ -8,6 +8,11 @@ namespaces = ["geo-coordinates"]
 stable = "2026-10-12"
 kind = "records"
 method = ["rule-based"]
+several_per_entity = "one record per place name as the sources write it (Czernowitz, Cernăuţi, Černivci)"
+
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["gnd", "viaf", "geonames"]
+"gndo:gndIdentifier" = ["gnd"]
 
 [license]
 name = "CC0"

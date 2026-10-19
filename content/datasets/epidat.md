@@ -6,9 +6,12 @@ date = "2022-06-29"
 website = "http://www.steinheim-institut.de/wiki/index.php/Epidat"
 example = "http://data.judaicalink.org/data/epidat/hha-2512-1"
 namespaces = ["epidat"]
-stable = "2026-10-16"
+stable = "2026-10-18"
 kind = "records"
 method = ["converted", "rule-based"]
+
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["gnd"]
 
 [license]
 name = "CC BY 4.0"
@@ -18,6 +21,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/epidat"
+
+[[versions]]
+version = "2026-10-18"
+issued = "2026-10-18"
+author = "Kai Eckert"
+commit = "906c9b0d7c201f32c0dc966c0c4c5256747469e8"
+description = "Made from the epidat repository as 2026-10-16; the cemetery is the place of burial."
+
+  [[versions.files]]
+  path = "epidat.ttl.gz"
+  bytes = 1848653
+  sha256 = "cd108ec89541404736dc13ae0b4875a008762f72790f82b40883e3f22019beee"
+  triples = 435464
+
+  [[versions.files]]
+  path = "epidat-meta.ttl.gz"
+  bytes = 3470
+  sha256 = "42ebaafc29a3db2dd9536c79e432e735d314fdb1be0689f8eec7eda5f449f509"
+  triples = 81
 
 [[versions]]
 version = "2026-10-16"
@@ -73,6 +95,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2183
   sha256 = "100ec89226d9b71fecab2386fae4cdd2b9f2078f2564e20e469ef564db747141"
   triples = 60
+
+[[changelog]]
+date = "2026-10-18"
+version = "2026-10-18"
+author = "Kai Eckert"
+text = "The cemetery of a gravestone as jl:burialLocation and jl:burialLocationURI (41,378 persons), no longer as place of death."
 
 [[changelog]]
 date = "2026-10-16"

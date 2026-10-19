@@ -5,8 +5,12 @@ author = "Kai Eckert"
 date = "2014-11-15"
 namespaces = ["2014links"]
 stable = "2026-10-12"
+withdrawn = "Name matches of 2014 (Silk) below the quality threshold (DBpedia 0.91, GeoNames 0.92, decision 0032), most targets gone (Freebase, DM2E, LinkedGeoData, NYTimes); not reproducible."
 kind = "linkset"
 method = ["rule-based"]
+
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["wikipedia-en", "geonames"]
 
 [license]
 name = "CC0"
@@ -186,6 +190,11 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2681
   sha256 = "e0247e27fdbae37c38a1d66e441ce301b9bb533363ea5b7a105f622da66e4263"
   triples = 196
+
+[[changelog]]
+date = "2026-10-19"
+author = "Kai Eckert"
+text = "Withdrawn (decision 0033): no longer part of the knowledge graph and no longer a seed of the authority cascade."
 
 [[changelog]]
 date = "2026-10-12"

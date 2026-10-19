@@ -8,6 +8,10 @@ namespaces = ["ubffm"]
 stable = "2019-01-24"
 kind = "records"
 
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["gnd", "viaf", "wikipedia-en"]
+"gndo:gndIdentifier" = ["gnd"]
+
 [license]
 name = "CC0"
 uri = "https://creativecommons.org/publicdomain/zero/1.0/"

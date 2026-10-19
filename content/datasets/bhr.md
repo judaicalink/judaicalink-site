@@ -6,9 +6,12 @@ date = "2017-09-14"
 website = "http://www.steinheim-institut.de/wiki/index.php/Biographisches_Handbuch_der_Rabbiner_%28BHR%29"
 example = "http://data.judaicalink.org/data/bhr/1"
 namespaces = ["bhr"]
-stable = "2026-10-16"
+stable = "2026-10-18"
 kind = "records"
 method = ["scraped"]
+
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["gnd"]
 
 [license]
 name = "CC BY 4.0"
@@ -24,6 +27,37 @@ path = "generators/bhr"
 "bhr.ttl.gz" = "The entries of the Biographisches Portal der Rabbiner, one record per entry (from 2026-10-16)."
 "bhr-beacon.ttl.gz" = "The GND numbers of the entries, from the BEACON file the Steinheim-Institut publishes (owl:sameAs)."
 "bhr-vocabulary.ttl.gz" = "The properties of the sections of the portal pages (literature, documents, publications, …)."
+
+[[versions]]
+version = "2026-10-18"
+issued = "2026-10-18"
+author = "Kai Eckert"
+commit = "906c9b0d7c201f32c0dc966c0c4c5256747469e8"
+description = "Made from the portal harvest of 2026-10-16; the vocabulary links its terms to the common layer."
+
+  [[versions.files]]
+  path = "bhr-beacon.ttl.gz"
+  bytes = 6684
+  sha256 = "4474eeebbd4469688fc9d63c4dc2c1a88afd6ff46e968fb1439d4bc59b4ed0ea"
+  triples = 805
+
+  [[versions.files]]
+  path = "bhr-vocabulary.ttl.gz"
+  bytes = 563
+  sha256 = "0b660e99e29cc378b22266a949a27d77897d120ff342a302e01f3678a08dbf2b"
+  triples = 44
+
+  [[versions.files]]
+  path = "bhr.ttl.gz"
+  bytes = 2352277
+  sha256 = "d623747814a001ba82bf00617872d840a0d01ab3c794b17453afa4569f0affa3"
+  triples = 80775
+
+  [[versions.files]]
+  path = "bhr-meta.ttl.gz"
+  bytes = 2938
+  sha256 = "80218068e022dd329b2306677cc294fb52069792ff3240d78d8358a126eb20c3"
+  triples = 97
 
 [[versions]]
 version = "2026-10-16"
@@ -101,6 +135,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2646
   sha256 = "38843d50dc0f7f3e2281f466b21643d4990121fa64e9f9699fb042086e413090"
   triples = 83
+
+[[changelog]]
+date = "2026-10-18"
+version = "2026-10-18"
+author = "Kai Eckert"
+text = "Vocabulary: the terms publication and dissertation are rdfs:subPropertyOf jl:hasPublication."
 
 [[changelog]]
 date = "2026-10-16"

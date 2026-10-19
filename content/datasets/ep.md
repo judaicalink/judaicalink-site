@@ -6,7 +6,7 @@ date = "2021-01-22"
 example = "http://data.judaicalink.org/data/ep/1000037"
 namespaces = ["ep"]
 aliases = ["/datasets/ep-supp/"]
-stable = "2026-10-12"
+stable = "2026-10-19"
 kind = "entity-pages"
 method = ["rule-based"]
 
@@ -28,6 +28,31 @@ path = "generators/ep"
 "subcategorization.ttl.gz" = "Subcategorization dataset for local Judaicalink resources."
 "ep.ttl.gz" = "The entity pages: class, names, life dates and places, occupations, descriptions, coordinates, the records they represent (jl:represents) and their external identifiers (owl:sameAs)."
 "ep-history.ttl.gz" = "IRIs that are no longer entity pages, one statement per event with its date: merged (jl:mergedInto), split (jl:splitInto), retired (jl:retiredDate); the history of earlier versions unchanged."
+
+[[versions]]
+version = "2026-10-19"
+issued = "2026-10-19"
+author = "Kai Eckert"
+commit = "396294c9a26ac8c730cbb6a709df2d2a3e49e18a"
+description = "Made from ep 2026-10-12 and the stable versions of 2026-10-19, identity from our linksets only (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "ep-history.ttl.gz"
+  bytes = 4403207
+  sha256 = "913a39a505bcd1b174f3be912ad3f5e72d66b0326612c6eb4b93f8d33285ccae"
+  triples = 1498828
+
+  [[versions.files]]
+  path = "ep.ttl.gz"
+  bytes = 52688291
+  sha256 = "1de24a2aa4678ebc9a0677c46748c0c553651d76c2f66dd1bffcb98460b6c272"
+  triples = 4248364
+
+  [[versions.files]]
+  path = "ep-meta.ttl.gz"
+  bytes = 3771
+  sha256 = "e783b7e2006c972c5c71860a51e9311441e872dedc1feb788458fb76d19c8949"
+  triples = 184
 
 [[versions]]
 version = "2026-10-12"
@@ -94,6 +119,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 3193
   sha256 = "5536fb2339d73221953443aae454102fecba25b31c09bd09b4e626ce0008e5ef"
   triples = 124
+
+[[changelog]]
+date = "2026-10-19"
+version = "2026-10-19"
+author = "Kai Eckert"
+text = "Identity only from our linksets, declared per dataset and above the quality threshold; at most one record per record dataset in an entity (788 links refused); all identifiers linked, facts from the first record by a fixed order; 313,312 entities (2,428 merged, 1,395 split, 7,124 new)."
 
 [[changelog]]
 date = "2026-10-13"

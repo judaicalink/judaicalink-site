@@ -8,7 +8,10 @@ example = "http://data.judaicalink.org/data/lc/n79021164"
 kind = "authority"
 method = ["converted"]
 namespaces = ["lc"]
-stable = "2026-10-16"
+stable = "2026-10-19"
+
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"madsrdf:hasExactExternalAuthority" = ["gnd", "tgn", "wikidata", "viaf", "isni", "geonames"]
 
 [license]
 name = "Public domain"
@@ -19,6 +22,30 @@ statement = "https://web.archive.org/web/20260814162252/https://id.loc.gov/about
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/lc"
+
+[[versions]]
+version = "2026-10-19"
+issued = "2026-10-19"
+author = "Kai Eckert"
+commit = "a925699a8fcec1c453a3634722f5c3625f385e78"
+description = "Made in the cascade of the authority datasets of 2026-10-19 (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "lc-selection.tsv.gz"
+  bytes = 1238030
+  sha256 = "bc6140c8e84704c7cb1c53dd4294803708b7b12ad5bc8cc30276420fc16f8b13"
+
+  [[versions.files]]
+  path = "lc.ttl.gz"
+  bytes = 10663248
+  sha256 = "26c237b2c3e9a133f12696309b613d19b23a4354b41868d62da74d6839a7de51"
+  triples = 1986497
+
+  [[versions.files]]
+  path = "lc-meta.ttl.gz"
+  bytes = 2956
+  sha256 = "a99645106d2d48cc0079187169a5d04c2cea7e67a3ea492d86037d2a2946426b"
+  triples = 83
 
 [[versions]]
 version = "2026-10-16"
@@ -45,13 +72,20 @@ description = "The records of the LC Name Authority File JudaicaLink uses, from 
   triples = 158
 
 [[changelog]]
+date = "2026-10-19"
+version = "2026-10-19"
+author = "Kai Eckert"
+text = "Made in the cascade: 91,943 records (2026-10-16: 79,683), the LC identifiers of VIAF and Wikidata included; the MADS class namespace in canonical form."
+
+[[changelog]]
 date = "2026-10-16"
 version = "2026-10-16"
 author = "Kai Eckert"
 text = "First version (decision 0029): 79,683 authority records with their MADS statements, names, life dates and places, occupations; deprecated records cited by our data marked owl:deprecated (LC states no successors)."
 +++
 <!-- Copy of catalog/lc.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
-The records of the Library of Congress Name Authority File (LCNAF) that one of our datasets links.
+The records of the Library of Congress Name Authority File (LCNAF) that one of our datasets or another authority
+dataset links.
 
 <!--more-->
 

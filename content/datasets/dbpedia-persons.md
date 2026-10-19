@@ -9,6 +9,9 @@ stable = "2018-10-24"
 kind = "authority"
 method = ["converted", "lookup"]
 
+[identity]   # the properties that state identity, and towards which sources (decision 0032)
+"owl:sameAs" = ["wikipedia-en", "wikipedia-de"]
+
 [license]
 name = "CC-BY-SA-3.0"
 uri = "https://creativecommons.org/licenses/by-sa/3.0/"
