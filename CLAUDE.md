@@ -120,7 +120,7 @@ Vendorisiert und selbst gehostet:
   kein Popper, kein jQuery, weil die Seite keine ihrer interaktiven Komponenten (Dropdown,
   Modal, Tooltip, Collapse …) nutzt. Nachpruefbar mit
   `grep -rn "data-toggle\|dropdown\|modal" layouts/ content/`.
-- **Icons** (`assets/css/icons.css` + `static/webfonts/fa-solid-900.woff2`): auf die elf
+- **Icons** (`assets/css/icons.css` + `static/webfonts/fa-solid-900.woff2`): auf die zwölf
   tatsaechlich verwendeten Glyphen aus Font Awesome Free 5.15.4 Solid zugeschnitten, das
   Woff2 mit `pyftsubset` von ~80 KB auf ~1,3 KB verkleinert. Kein JS mehr fürs Icon-Rendering
   (vorher: `use.fontawesome.com/.../all.js` mit `data-auto-replace-svg`). Kommt eine neue

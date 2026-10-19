@@ -2,7 +2,7 @@
  * Icons drawn from Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1)
  *
- * Subset to the eleven glyphs actually used on this site (see the woff2 in
+ * Subset to the twelve glyphs actually used on this site (see the woff2 in
  * static/webfonts/, cut down from the ~80KB stock file with pyftsubset). Add
  * a rule and re-subset the font if a page ever needs another icon.
  */
@@ -32,6 +32,7 @@
 .fa-server:before { content: "\f233"; }
 .fa-book:before { content: "\f02d"; }
 .fa-door-open:before { content: "\f52b"; }
+.fa-flask:before { content: "\f0c3"; }
 .fa-code:before { content: "\f121"; }
 .fa-external-link-alt:before { content: "\f35d"; }
 .fa-bars:before { content: "\f0c9"; }
