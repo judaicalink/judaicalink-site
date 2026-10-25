@@ -1,7 +1,6 @@
 /* The title animation of web.judaicalink.org: the people, organisations and publications of JudaicaLink appear on
    the map decade by decade, from the data of the Atlas; then the logo. Before it starts again, the map dives into
-   the Dead Sea beside Jerusalem until all is white, and the logo fades out. Buttons start again, stop at the map with
-   the logo, or show the map alone. Plain canvas, no library, no requests but the data file. */
+   the Dead Sea beside Jerusalem until all is white, and the logo fades out. Plain canvas, no library, no requests but the data file. */
 (function () {
   "use strict";
   const W0 = 256;
@@ -223,7 +222,6 @@
     }
 
     let running = false, raf = 0, t0 = null, visible = false;
-    let fixed = null;  // the logo (0 or 1) of the full map shown by Stop or Graph map; null while it runs
     function frame(now) {
       if (t0 === null) t0 = now;
       if (!step((now - t0) / 1000)) { reset(); t0 = now; step(0); }
@@ -236,16 +234,9 @@
     const still = window.matchMedia("(prefers-reduced-motion: reduce)");
     function run() {
       if (still.matches) { full(1); return; }  // no motion: the full map with the logo
-      if (fixed !== null) { full(fixed); return; }
       if (!running) { running = true; t0 = null; reset(); raf = requestAnimationFrame(frame); }
     }
     colours(); resize(); reset();
-    // the buttons beside the canvas: start again from the beginning, stop at the full map with the logo, the full map
-    const buttons = cv.parentElement.querySelectorAll("button[data-action]");
-    const show = () => buttons.forEach((b) => { b.hidden = still.matches; });
-    show(); still.addEventListener("change", show);
-    const actions = { again: null, stop: 1, map: 0 };
-    buttons.forEach((b) => b.addEventListener("click", () => { fixed = actions[b.dataset.action]; halt(); run(); }));
     if (cv.dataset.at) {  // one frame at a given second, for stills
       const at = +cv.dataset.at, dv = cv.dataset.dive;
       for (let t = 0; t < at; t += 1 / 30) { if (dv && t >= +dv) beginDive(+dv); step(t); }
