@@ -236,10 +236,14 @@ margin-top: -30px;}
     --jg-bg: #ffffff; --jg-land: #eef1f5; --jg-border: #d3dae3; --jg-k0: #004284; --jg-k1: #c8922a;
     --jg-pulse: #1aa7d8; --jg-line: #004284; --jg-year: rgba(0, 66, 132, .75); --jg-logo: #1f4c9e;
 }
-.title-animation button {
+.title-animation-buttons {
     position: absolute;
     right: 8px;
     bottom: 8px;
+    display: flex;
+    gap: 6px;
+}
+.title-animation button {
     font-size: 0.8rem;
     color: #004284;
     background: rgba(255, 255, 255, 0.85);

@@ -144,7 +144,8 @@ Vendorisiert und selbst gehostet:
 
 Die Animation auf der Startseite (seit 2026-10-25, ersetzt `static/img/Animation.mp4`) zeichnet die Daten des
 Atlas (`jlma-atlas`): Personen, Organisationen und Publikationen erscheinen Jahrzehnt für Jahrzehnt auf der Karte,
-dann das Logo; vor dem Neustart taucht die Karte ins Tote Meer neben Jerusalem, bis alles weiß ist. Canvas, eigenes
+dann das Logo; vor dem Neustart taucht die Karte ins Tote Meer neben Jerusalem, bis alles weiß ist. Knöpfe:
+*Start again* (sofort von vorn), *Stop* (fertige Karte mit Logo), *Graph map* (fertige Karte ohne Logo). Canvas, eigenes
 Vanilla-JS (`assets/js/title-animation.js`), keine Bibliothek, keine fremden Anfragen; Farben als `--jg-*` in
 `labs.css` (`.title-animation`). Wer reduzierte Bewegung eingestellt hat, sieht die fertige Karte mit Logo. Die
 Daten (`assets/data/title-animation.json`) entstehen in `jlma-atlas` mit `tools/make_title_animation.py` aus einem
