@@ -140,6 +140,16 @@ Vendorisiert und selbst gehostet:
 - `static/js/activePageHighlighting.js` (jetzt `assets/js/active-page-highlighting.js`)
   nutzte jQuery für eine einzige Zeile, jetzt Vanilla JS.
 
+## Titelanimation
+
+Die Animation auf der Startseite (seit 2026-10-25, ersetzt `static/img/Animation.mp4`) zeichnet die Daten des
+Atlas (`jlma-atlas`): Personen, Organisationen und Publikationen erscheinen Jahrzehnt für Jahrzehnt auf der Karte,
+dann das Logo; vor dem Neustart taucht die Karte ins Tote Meer neben Jerusalem, bis alles weiß ist. Canvas, eigenes
+Vanilla-JS (`assets/js/title-animation.js`), keine Bibliothek, keine fremden Anfragen; Farben als `--jg-*` in
+`labs.css` (`.title-animation`). Wer reduzierte Bewegung eingestellt hat, sieht die fertige Karte mit Logo. Die
+Daten (`assets/data/title-animation.json`) entstehen in `jlma-atlas` mit `tools/make_title_animation.py` aus einem
+Atlas-Build; danach neu bauen und ausliefern.
+
 ## Content-Konventionen
 
 Dataset pages under `content/datasets/` are copies of the catalogue entries of `judaicalink-data` (format of its

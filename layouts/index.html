@@ -32,9 +32,14 @@
             <a href="https://mannheim.judaicalink.org/haskala/">Library of Haskala</a>.
         </p>
 
-        <video height="auto" width="100%" autoplay loop muted>
-            <source src="img/Animation.mp4" type="video/mp4"/>
-        </video>
+        {{ $animData := resources.Get "data/title-animation.json" | fingerprint }}
+        {{ $anim := resources.Get "js/title-animation.js" | resources.Minify | fingerprint }}
+        <div class="title-animation">
+            <canvas data-growth="{{ $animData.RelPermalink }}" role="img"
+                    aria-label="Map animation: the places of the people, organisations and publications in JudaicaLink appear decade by decade, from 1000 to today, followed by the JudaicaLink logo"></canvas>
+            <button type="button" hidden>Start again</button>
+        </div>
+        <script src="{{ $anim.RelPermalink }}"></script>
 
         <h2 class="text-center text-md-left">Jewish Studies</h2>
         <p>
