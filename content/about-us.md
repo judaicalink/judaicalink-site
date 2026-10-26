@@ -47,13 +47,13 @@ or want to contribute to knowledge graph research.
 <div class="row">
 
 <div class="col-6 col-sm-6 col-md-6 people">
-<a href="https://www.kaiec.de">
+<a href="https://www.kaiec.de/people/kai-eckert/">
 <img src="/img/kai-portrait-quadrat.jpg" class="rounded-circle people_image" alt="Kai Eckert">
 <h3>Kai Eckert</h3>
 </a>
 <h5>Project Lead &amp; Co-Founder</h5>
 <p>Mannheim Technical University</p>
-<p><a href="https://www.kaiec.de">Website, Contact</a></p>
+<p><a href="https://www.kaiec.de/people/kai-eckert/">Website, Contact</a></p>
 </div>
 
 </div>
