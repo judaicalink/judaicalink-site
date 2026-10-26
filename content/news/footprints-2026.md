@@ -29,5 +29,8 @@ by time, area and kind of evidence. Select a place, a book, a copy or a person, 
 Footprints site and to its view in the knowledge graph. The picture shows the way of one copy of the Prague Haggadah
 of 1526. The [Atlas](https://mannheim.judaicalink.org/atlas/) now includes the imprints of Footprints as well.
 
-Footprints is edited by Michelle Chesner et al. and published under CC BY-SA 4.0. The JudaicaLink service itself
-is part of the [FID Jewish Studies portal](https://www.jewishstudies.de/en/judaicalink/).
+Footprints is directed by Marjorie Lehman (Jewish Theological Seminary), Michelle Margolis (Columbia University
+Libraries), Adam Shear (University of Pittsburgh) and Joshua Teplitsky (University of Pennsylvania), with software by
+Columbia's Center for Teaching and Learning; since 2018 the University Library Frankfurt am Main is among its partners.
+Its data are published under CC BY-SA 4.0 ([About Footprints](https://footprints.ctl.columbia.edu/about/)). The
+JudaicaLink service itself is part of the [FID Jewish Studies portal](https://www.jewishstudies.de/en/judaicalink/).
