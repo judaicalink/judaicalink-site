@@ -16,7 +16,7 @@ Paul-Wittsack-Straße 10
 Germany
 
 **Phone:** +49 (0) 621 292-6225  
-**Contact:** <a href="https://www.kaiec.de">www.kaiec.de</a>
+**Contact:** <a href="https://www.kaiec.de/people/kai-eckert/">www.kaiec.de/people/kai-eckert</a>
 
 Mannheim Technical University is a corporation under public law
 (Körperschaft des öffentlichen Rechts), legally represented by the Rektorin.
