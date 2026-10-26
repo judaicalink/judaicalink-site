@@ -19,8 +19,17 @@ h1, h2, h3, h4{
 }
 /*-------------------------------------------------------*/
 
-a:hover {
-    color: lighgrey;
+/* Links im Text: das dunkle Blau der Seite, unterstrichen (Bootstraps #007bff ohne Unterstreichung war schwer lesbar) */
+main p a:not(.btn), main li a:not(.btn), main td a:not(.btn), main dd a:not(.btn), main blockquote a:not(.btn) {
+    color: #004284;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+main p a:not(.btn):hover, main li a:not(.btn):hover, main td a:not(.btn):hover, main dd a:not(.btn):hover,
+main blockquote a:not(.btn):hover, main p a:not(.btn):focus-visible, main li a:not(.btn):focus-visible {
+    color: #002a55;
+    text-decoration-thickness: 2px;
 }
 
 .wrapper {
