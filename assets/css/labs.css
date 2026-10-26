@@ -494,3 +494,13 @@ ul.results {
 .team-external-panel p {
     font-size: 0.95rem;
 }
+
+/* Startseite: Animation ganz oben, Frankfurt-Kasten mit FID-Logo am Ende */
+.title-animation-top { margin-top: .25rem; }
+.frankfurt-box { display: flex; gap: 1.25rem; align-items: flex-start; margin-top: 1.5rem; }
+.frankfurt-box .frankfurt-logo { flex: none; background: #fff; border-radius: .3rem; padding: .5rem .6rem; }
+.frankfurt-box .frankfurt-logo img { display: block; width: 180px; height: auto; }
+.frankfurt-box .btn { margin: .15rem .25rem .15rem 0; }
+@media (max-width: 768px) {
+    .frankfurt-box { flex-direction: column; }
+}

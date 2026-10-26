@@ -2,64 +2,64 @@
 <main class="row">
     <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
 
-        <h1 class="text-center">Welcome to JudaicaLink!</h1>
-
-        <div class="alert alert-primary" role="alert">
-            <h4 class="alert-heading"><i class="fas fa-external-link-alt"></i> JudaicaLink in Frankfurt</h4>
-            <p>
-                The JudaicaLink knowledge graph is operated as part of the portal of the
-                Specialized Information Service Jewish Studies (FID Jüdische Studien) at
-                Goethe University Library Frankfurt. Search the graph, browse the datasets
-                and use the interfaces there.
-            </p>
-            <a class="btn btn-primary" href="https://www.jewishstudies.de/en/judaicalink/">Go to JudaicaLink in the FID portal</a>
-            <a class="btn btn-outline-primary" href="/production/">About the move</a>
-        </div>
-
-        <h2 class="text-center text-md-left">This site</h2>
-        <p>
-            This is the site of the JudaicaLink project at Mannheim Technical University,
-            where JudaicaLink is developed further. We use the site to demonstrate new 
-            developments before they go into production. 
-            You will find news about ongoing work, our ontology, the source code and 
-            the people behind the project.
-        </p>
-        <p>
-            Our demo server <a href="https://mannheim.judaicalink.org/">mannheim.judaicalink.org</a> shows
-            the latest changes to the knowledge graph, with two showcases:
-            <a href="https://mannheim.judaicalink.org/compact-memory/">Compact Memory</a>, access to the
-            Jewish periodicals by full text and by the people, places and works they mention, and the
-            <a href="https://mannheim.judaicalink.org/haskala/">Library of Haskala</a>.
-        </p>
-
         {{ $animData := resources.Get "data/title-animation.json" | fingerprint }}
         {{ $anim := resources.Get "js/title-animation.js" | resources.Minify | fingerprint }}
-        <div class="title-animation">
+        <div class="title-animation title-animation-top">
             <canvas data-growth="{{ $animData.RelPermalink }}" role="img"
                     aria-label="Map animation: the places of the people, organisations and publications in JudaicaLink appear decade by decade, from 1000 to today, followed by the JudaicaLink logo"></canvas>
             <a class="title-animation-link" href="https://mannheim.judaicalink.org/atlas/">View the data</a>
         </div>
         <script src="{{ $anim.RelPermalink }}"></script>
 
-        <h2 class="text-center text-md-left">Jewish Studies</h2>
+        <h1 class="text-center">Welcome to JudaicaLink!</h1>
+
         <p>
             JudaicaLink is the knowledge graph behind the
-            <a href="https://www.jewishstudies.de/en/" target="_blank" rel="noopener">specialized information
-            service for Jewish Studies</a> (Fachinformationsdienst Jüdische Studien, FID) of the University
+            <a href="https://www.jewishstudies.de/en/" target="_blank" rel="noopener">Specialized Information
+            Service Jewish Studies</a> (Fachinformationsdienst Jüdische Studien, FID) of the University
             Library Johann Christian Senckenberg in Frankfurt am Main. It brings together reference works,
             encyclopediae and research data on Jewish culture and history as Linked Open Data.
         </p>
-
         <p>
-            <a href="https://www.jewishstudies.de/en/" target="_blank" rel="noopener"><img src="/img/fid-logo.jpg" class="logofid" alt="FID Jewish Studies logo"/></a>
+            This is the site of the JudaicaLink project at Mannheim Technical University, where JudaicaLink
+            is developed further: the data model, the generation and cleaning of the data, the entity pages
+            and new ways to use the graph. Here you find news about our work, the
+            <a href="/datasets/">datasets</a> of our current data version, our ontology, the source code and
+            the people behind the project.
+        </p>
+        <p>
+            New developments are shown on <a href="https://mannheim.judaicalink.org/">mannheim.judaicalink.org</a>
+            before they go into production, with the latest version of the knowledge graph and these showcases:
+        </p>
+        <ul>
+            <li><a href="https://mannheim.judaicalink.org/atlas/">Atlas</a>: the people, organisations and
+                publications of JudaicaLink on a map, in time and space, with their connections.</li>
+            <li><a href="https://mannheim.judaicalink.org/footprints/">Footprints</a>: where Jewish books were
+                printed and where their copies went.</li>
+            <li><a href="https://mannheim.judaicalink.org/compact-memory/">Compact Memory</a>: the Jewish
+                periodicals, by full text and by the people, places and works they mention.</li>
+            <li><a href="https://mannheim.judaicalink.org/haskala/">Library of Haskala</a>: the books, authors
+                and printers of the Jewish Enlightenment.</li>
+        </ul>
+        <p>
+            We are always looking for datasets that extend the knowledge graph. If you are responsible for a
+            reference work or a research dataset on Jewish Studies, please <a href="/about-us/">get in touch</a>.
         </p>
 
-        <h2 class="text-center text-md-left">Contribute data</h2>
-        <p>
-            We are always looking for datasets that extend the knowledge graph. If you are
-            responsible for a reference work or a research dataset on Jewish Studies, please
-            <a href="/about-us/">get in touch</a>.
-        </p>
+        <div class="alert alert-primary frankfurt-box" role="alert">
+            <a class="frankfurt-logo" href="https://www.jewishstudies.de/en/" target="_blank" rel="noopener"><img
+               src="/img/fid-logo.jpg" alt="FID Jewish Studies logo"/></a>
+            <div>
+                <h4 class="alert-heading"><i class="fas fa-external-link-alt"></i> JudaicaLink in Frankfurt</h4>
+                <p>
+                    The JudaicaLink knowledge graph is operated as part of the portal of the FID Jewish Studies
+                    at Goethe University Library Frankfurt. Search the graph, browse the datasets and use the
+                    interfaces there.
+                </p>
+                <a class="btn btn-primary" href="https://www.jewishstudies.de/en/judaicalink/">Go to JudaicaLink in the FID portal</a>
+                <a class="btn btn-outline-primary" href="/production/">About the move</a>
+            </div>
+        </div>
     </div>
     {{ partial "sidebar.html" .}}
 </main>
