@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-16"
 example = "http://data.judaicalink.org/data/nli/record/viaf-100219535"
 kind = "linkset"
-stable = "2026-10-19"
+stable = "2026-10-26"
 method = ["deterministic"]
 inputs = ["lc"]
 
@@ -20,6 +20,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-lc"
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "7f1572d6c0ba5fdc5ddabcbee2d7370744df4870"
+description = "Made in the cascade of the authority datasets of 2026-10-26 (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "ls-lc.ttl.gz"
+  bytes = 3239431
+  sha256 = "72bb6b9400946258d27613c3a7cae4a9e26f4cc1cd2697be02d6686ee5d137cb"
+  triples = 313041
+
+  [[versions.files]]
+  path = "ls-lc-meta.ttl.gz"
+  bytes = 2555
+  sha256 = "32c2e76ace9b8a27eccc4e5c6e9d9dc6d3d9f3b69d359ec0a20f4aa2557b865b"
+  triples = 134
 
 [[versions]]
 version = "2026-10-19"
@@ -39,6 +58,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2633
   sha256 = "571172b66d95bf6c0ab9612277904202c90733003cdf7b96d12fe8885a7e63ec"
   triples = 146
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version in the cascade of 2026-10-26: with the VIAF and GeoNames identifiers of footprints 2026-10-26 (from the Footprints API), without the records only the withdrawn 2014links and the former footprints version led to."
 
 [[changelog]]
 date = "2026-10-19"

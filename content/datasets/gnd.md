@@ -9,7 +9,7 @@ kind = "authority"
 method = ["converted"]
 namespaces = ["gnd"]
 replaces = ["gnd-persons", "gnd-persons-entityfacts"]
-stable = "2026-10-19"
+stable = "2026-10-26"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "owl:sameAs" = ["viaf", "lc-names", "wikidata", "geonames", "isni", "wikipedia-en", "wikipedia-de"]
@@ -23,6 +23,30 @@ statement = "https://web.archive.org/web/20260624101124/https://data.dnb.de/open
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/gnd"
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "7f1572d6c0ba5fdc5ddabcbee2d7370744df4870"
+description = "Made in the cascade of the authority datasets of 2026-10-26 (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "gnd-selection.tsv.gz"
+  bytes = 1105497
+  sha256 = "44d10d20339bd826ae7b8955d24d82b28455e3973df4adf3ac33e4f1e6e2fbd7"
+
+  [[versions.files]]
+  path = "gnd.ttl.gz"
+  bytes = 18968733
+  sha256 = "4bc54107d96609c956b457bbd5a0998ee32cc28ce383713e4e184d59f7db0de1"
+  triples = 2277189
+
+  [[versions.files]]
+  path = "gnd-meta.ttl.gz"
+  bytes = 4329
+  sha256 = "b16c4f1236253b9da236186b576378044558653bbdbe9d7580b83d77bcd65bf7"
+  triples = 175
 
 [[versions]]
 version = "2026-10-19"
@@ -71,6 +95,12 @@ description = "The GND records JudaicaLink uses, from the DNB dumps (GND 2026-02
   bytes = 4048
   sha256 = "55e42219b662342d6c6acc524ed3fb9e7a37154ff0399860676a6f834f3ae0d9"
   triples = 179
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version in the cascade of 2026-10-26: with the VIAF and GeoNames identifiers of footprints 2026-10-26 (from the Footprints API), without the records only the withdrawn 2014links and the former footprints version led to."
 
 [[changelog]]
 date = "2026-10-19"

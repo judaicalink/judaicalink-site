@@ -84,6 +84,11 @@
     "definition": "Translated automatically by a machine translation service (e.g. Google Translate); translations may be wrong.",
     "automated": true
    },
+   "llm-judged": {
+    "label": "LLM-judged",
+    "definition": "Selected or checked statement by statement by a large language model that judged each one on the evidence shown (e.g. which links of a source are correct); the judgements can be wrong and were not checked by people.",
+    "automated": true
+   },
    "ai-generated": {
     "label": "AI-generated",
     "definition": "Made by generative AI (large language models); statements may be wrong and were not checked one by one.",

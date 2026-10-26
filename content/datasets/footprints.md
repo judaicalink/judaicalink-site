@@ -4,15 +4,14 @@ title = "Footprints - Jewish Books through Time and Place"
 author = "Kai Eckert"
 date = "2024-03-12"
 website = "https://footprints.ctl.columbia.edu/"
-example = "http://data.judaicalink.org/data/footprints/0039ddb3-52b5-5644-bd42-a7ab92611d03"
+example = "http://data.judaicalink.org/data/footprints/person/6914"
 namespaces = ["footprints"]
-stable = "2026-10-12"
+stable = "2026-10-26-2"
 kind = "records"
-method = ["converted", "rule-based", "machine-translation"]
+method = ["converted"]
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
-"owl:sameAs" = ["viaf", "gnd", "lc-names"]
-"gndo:gndIdentifier" = ["gnd"]
+"owl:sameAs" = ["viaf", "geonames"]
 
 [license]
 name = "CC BY-SA 4.0"
@@ -24,6 +23,56 @@ statement = "https://web.archive.org/web/20251002115806/https://footprints.ctl.c
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/footprints"
+
+[[versions]]
+version = "2026-10-26-2"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "2ca32e5dd8ccbba1b5bd6ebc2f861d6c61ea01d4"
+description = "As 2026-10-26, with the links of the works to their page on the site."
+
+  [[versions.files]]
+  path = "footprints-vocabulary.ttl.gz"
+  bytes = 1623
+  sha256 = "3a631b4c790e6c477b39a9d4dd97e07bf702bc9b869c800782c4f0c0fbfd57be"
+  triples = 148
+
+  [[versions.files]]
+  path = "footprints.ttl.gz"
+  bytes = 5548113
+  sha256 = "a8c3f82c7ccf32b52c97f7d0325689767974c3db8bd9481c3c8d6e013797f659"
+  triples = 804465
+
+  [[versions.files]]
+  path = "footprints-meta.ttl.gz"
+  bytes = 3277
+  sha256 = "8f568cbd274202bf69674c56ef505320cbcb8f8521093c1c1766b27d009a394f"
+  triples = 89
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "004ae61d948ec64ebb37bfea0d71ff86a0201168"
+description = "Converted from the Footprints API (harvest of 2026-10-19/20): works, imprints, copies, footprints, persons, places and actor records with every field; dates normalised; persons linked to VIAF, places to GeoNames."
+
+  [[versions.files]]
+  path = "footprints-vocabulary.ttl.gz"
+  bytes = 1623
+  sha256 = "692d9631989bbe4c11d04f4bdf645dd91e11b489d9dcad37c5204e70e0214add"
+  triples = 148
+
+  [[versions.files]]
+  path = "footprints.ttl.gz"
+  bytes = 5533393
+  sha256 = "c4c2c21ae0a2664267b66b9cf06b863e5202daa16f5175747fbf6accc23faa8b"
+  triples = 800700
+
+  [[versions.files]]
+  path = "footprints-meta.ttl.gz"
+  bytes = 3315
+  sha256 = "a7d134789091c728fed76ffe1036150a2a9263fe9c837951c9771489f5499cec"
+  triples = 89
 
 [[versions]]
 version = "2026-10-12"
@@ -79,6 +128,24 @@ description = "The richer version: books with titles, owners, former owners, pla
   triples = 60
 
 [[changelog]]
+date = "2026-10-26"
+version = "2026-10-26-2"
+author = "Kai Eckert"
+text = "The works link their page on the Footprints site (jl:describedAt, 3,765); otherwise as 2026-10-26."
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version from the Footprints API (decision 0034), made the stable version: 3,765 works, 6,860 imprints, 10,998 copies, 24,482 footprints, 11,642 persons (1,556 with VIAF), 1,027 places (983 with GeoNames confirmed by the API), 24,734 actor records; terms in the Footprints vocabulary; dates as displayed and normalised (decision 0035); IRIs from the API ids; the IRIs of 2024 replaced by the records they stood for (8,713 persons, 2,185 works, 120 places). Made by generators/footprints/generate.py."
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version, made by the generator in judaicalink-data (run-20261026T072438Z)."
+
+[[changelog]]
 date = "2026-10-12"
 author = "Kai Eckert"
 text = "Version 2026-10-12 made the stable version (it keeps all data of 2024-03-18, with its errors fixed)."
@@ -101,5 +168,11 @@ The history of the book is an important part of humanities scholarship. Especial
 
 Every literary work represents a moment in time and space where an idea was conceived and documented. But the history of a book continues long after composition as it is bought, sold, shared, read, confiscated, stored, or even discarded. This history is the essence of Footprints.
 
-This dataset contains persons (foaf.name, skos.prefLabel, jl.birthDate, jl.deathDate, owl.sameAs [GND,VIAF,LOC],  jl.occupation), books (gndo.author,jl.hasAbstract, gndo.language, gndo.associatedPlace, gndo.dateOfPublication, dc.publisher, gndo.author, gndo.editor, gndo.printer, dc.contributor, gndo.compiler, gndo.translator, gndo.sponsorOrPatron, gndo.dedicatee, jl.hasAbstract, jl.describedAt, gndo.owner, gndo.formerOwner) and places (
-gndo.gndIdentifier, jl.describedAt, rdfs.label, skos.prefLabel, geo.asWKT, gndo.hierarchicalSuperiorOfPlaceOrGeographicName)
+The dataset is converted from the Footprints API: written works, imprints, copies (books) and their footprints
+(where a copy was, when, and who owned or handled it), with the persons, places and actors (the roles of persons in
+a work, imprint, copy or footprint), every field as the API gives it, with the terms of the Footprints vocabulary
+(`footprints-vocabulary.ttl.gz`); names, birth and death dates, authors, editors and publishers also with the common
+properties of JudaicaLink. Persons are linked to VIAF as Footprints gives it, places to GeoNames where the API
+confirms the GeoNames id. Dates are given as displayed and normalised, as XSD dates or EDTF. Footprints does not tell
+persons from organisations; their classes are in the dataset record-classes. The IRIs of the earlier versions are
+replaced by the records they stood for.

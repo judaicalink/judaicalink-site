@@ -4,7 +4,7 @@ title = "JudaicaLink dataset vocabulary"
 author = "Kai Eckert"
 date = "2026-10-11"
 example = "http://data.judaicalink.org/datasets/vocabulary/method/ai-generated"
-stable = "2026-10-12"
+stable = "2026-10-26"
 kind = "vocabulary"
 method = ["curated"]
 
@@ -16,6 +16,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/judaicalink-vocabulary"
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "bad6b6df15b667db8c8ff797fe2d5f0c05ecf5fa"
+description = "With the kind authority (decision 0029) and the method llm-judged (decision 0037)."
+
+  [[versions.files]]
+  path = "judaicalink-vocabulary.ttl.gz"
+  bytes = 2102
+  sha256 = "1c8b4613559884c9e28bef6b1c71fb0cc6148cb0f1b988771a4d90763cc5f502"
+  triples = 147
+
+  [[versions.files]]
+  path = "judaicalink-vocabulary-meta.ttl.gz"
+  bytes = 1621
+  sha256 = "a460236e6c9de6d48af59285267dae848060481f5aa24fbe5219adafe8c4e059"
+  triples = 59
 
 [[versions]]
 version = "2026-10-12"
@@ -34,6 +53,12 @@ commit = "60eec2e747b7fe4cd05e84ad2a62c8fa694b3266"
   bytes = 1519
   sha256 = "ef227244f8769f01a85b2ec6def1cd0b84bf08f990b47e44629d298134fdf8ed"
   triples = 55
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version: 9 kinds and 10 methods; new are the kind authority and the method llm-judged."
 
 [[changelog]]
 date = "2026-10-12"

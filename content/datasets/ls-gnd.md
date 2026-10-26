@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-16"
 example = "http://data.judaicalink.org/data/bhr/1"
 kind = "linkset"
-stable = "2026-10-19"
+stable = "2026-10-26"
 method = ["deterministic"]
 inputs = ["gnd"]
 
@@ -20,6 +20,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-gnd"
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "7f1572d6c0ba5fdc5ddabcbee2d7370744df4870"
+description = "Made in the cascade of the authority datasets of 2026-10-26 (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "ls-gnd.ttl.gz"
+  bytes = 1379136
+  sha256 = "a3aa80bc45cd6748a9ad0ce739c455a0557b076e24a2437d1329d44b1b477ace"
+  triples = 138069
+
+  [[versions.files]]
+  path = "ls-gnd-meta.ttl.gz"
+  bytes = 2636
+  sha256 = "b369683f9817967618ef86034cabffc49f2f5d1d628fd4b033b22cde6d090d74"
+  triples = 134
 
 [[versions]]
 version = "2026-10-19"
@@ -39,6 +58,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2670
   sha256 = "01d64e32838790d8a5c444e8a15d64e9acf6f4e3cadff48ea3531762ccf06406"
   triples = 146
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version in the cascade of 2026-10-26: with the VIAF and GeoNames identifiers of footprints 2026-10-26 (from the Footprints API), without the records only the withdrawn 2014links and the former footprints version led to."
 
 [[changelog]]
 date = "2026-10-19"

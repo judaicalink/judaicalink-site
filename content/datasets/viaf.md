@@ -6,7 +6,7 @@ date = "2026-10-18"
 website = "https://viaf.org/en/viaf/data"
 example = "http://data.judaicalink.org/data/viaf/54984961"
 kind = "authority"
-stable = "2026-10-19"
+stable = "2026-10-26"
 method = ["converted"]
 namespaces = ["viaf"]
 
@@ -22,6 +22,30 @@ attribution = "VIAF (Virtual International Authority File), OCLC"
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/viaf"
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "7f1572d6c0ba5fdc5ddabcbee2d7370744df4870"
+description = "Made in the cascade of the authority datasets of 2026-10-26 (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "viaf-selection.tsv.gz"
+  bytes = 2346608
+  sha256 = "61db926f3a5d8f3aa56f87fd08e0988e8fcbfc91031dce4f362dbb61d5bf1011"
+
+  [[versions.files]]
+  path = "viaf.ttl.gz"
+  bytes = 22731604
+  sha256 = "c33131702b851856b18f4d970c6ade3d091cae8852cef0b11bcbd6a9078f7b88"
+  triples = 2957280
+
+  [[versions.files]]
+  path = "viaf-meta.ttl.gz"
+  bytes = 2706
+  sha256 = "39b26c8d8b6739ed0e4c9332afae38e55534d574e701dd3feaf4d333635c461a"
+  triples = 80
 
 [[versions]]
 version = "2026-10-19"
@@ -46,6 +70,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2683
   sha256 = "fa7dffb00a8746888268645ad7390675fe2fb747950b329ef37ef06543ffda4b"
   triples = 80
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version in the cascade of 2026-10-26: with the VIAF and GeoNames identifiers of footprints 2026-10-26 (from the Footprints API), without the records only the withdrawn 2014links and the former footprints version led to."
 
 [[changelog]]
 date = "2026-10-19"

@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/geonames/281184"
 kind = "authority"
 method = ["converted"]
 namespaces = ["geonames"]
-stable = "2026-10-19"
+stable = "2026-10-26"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "owl:sameAs" = ["wikidata"]
@@ -23,6 +23,30 @@ statement = "https://web.archive.org/web/20261006030315/https://download.geoname
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/geonames"
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "7f1572d6c0ba5fdc5ddabcbee2d7370744df4870"
+description = "Made in the cascade of the authority datasets of 2026-10-26 (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "geonames-selection.tsv.gz"
+  bytes = 90144
+  sha256 = "fc223c4e8b6897d3ebfc3d6d4e2fee4496a65b956cbbe490f1b48759a8d6c593"
+
+  [[versions.files]]
+  path = "geonames.ttl.gz"
+  bytes = 1592035
+  sha256 = "e21e9c5e334d55f105fe6f372d022230793242e5ed79d7a1a3dbfba610c695b5"
+  triples = 248098
+
+  [[versions.files]]
+  path = "geonames-meta.ttl.gz"
+  bytes = 2955
+  sha256 = "a980feb8d36536fcb96d2d9e7b5f103eab699e46543f2a1758f35ffe8e82bda4"
+  triples = 81
 
 [[versions]]
 version = "2026-10-19"
@@ -71,6 +95,12 @@ description = "The GeoNames features JudaicaLink uses, from the GeoNames dump of
   bytes = 3338
   sha256 = "a0113ca9de471be0b7eaf835b5f2061a3a0af965d7eb51fbcb98892edb4ad708"
   triples = 159
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version in the cascade of 2026-10-26: with the VIAF and GeoNames identifiers of footprints 2026-10-26 (from the Footprints API), without the records only the withdrawn 2014links and the former footprints version led to."
 
 [[changelog]]
 date = "2026-10-19"

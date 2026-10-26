@@ -6,7 +6,7 @@ date = "2026-10-16"
 website = "https://www.wikidata.org/"
 example = "http://data.judaicalink.org/data/wikidata/Q559622"
 kind = "authority"
-stable = "2026-10-19"
+stable = "2026-10-26"
 method = ["converted", "lookup"]
 namespaces = ["wikidata"]
 
@@ -27,6 +27,30 @@ statement = "https://web.archive.org/web/20261006200927/https://www.wikidata.org
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/wikidata"
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "7f1572d6c0ba5fdc5ddabcbee2d7370744df4870"
+description = "Made in the cascade of the authority datasets of 2026-10-26 (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "wikidata-selection.tsv.gz"
+  bytes = 3372888
+  sha256 = "67888a98aafee282496ef4404f6b719bb6e4dc6a71c367820dab1fc887f7d323"
+
+  [[versions.files]]
+  path = "wikidata.ttl.gz"
+  bytes = 8301951
+  sha256 = "344890bf1892128ade051abaf6199efe28614fde16fbd05bf2ad200705a272dd"
+  triples = 1227487
+
+  [[versions.files]]
+  path = "wikidata-meta.ttl.gz"
+  bytes = 2833
+  sha256 = "14575cef9c4cdf3e506d2623886d9799fa65b0d7a825e8c471a91ef3dd2341d2"
+  triples = 81
 
 [[versions]]
 version = "2026-10-19"
@@ -51,6 +75,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2803
   sha256 = "b6d3999ec64649d5cecf028c7b690a572d692fd148e5f35efc17eaec525b1f73"
   triples = 81
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version in the cascade of 2026-10-26: with the VIAF and GeoNames identifiers of footprints 2026-10-26 (from the Footprints API), without the records only the withdrawn 2014links and the former footprints version led to."
 
 [[changelog]]
 date = "2026-10-19"

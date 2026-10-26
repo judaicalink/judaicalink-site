@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/lc/n79021164"
 kind = "authority"
 method = ["converted"]
 namespaces = ["lc"]
-stable = "2026-10-19"
+stable = "2026-10-26"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "madsrdf:hasExactExternalAuthority" = ["gnd", "tgn", "wikidata", "viaf", "isni", "geonames"]
@@ -22,6 +22,30 @@ statement = "https://web.archive.org/web/20260814162252/https://id.loc.gov/about
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/lc"
+
+[[versions]]
+version = "2026-10-26"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "7f1572d6c0ba5fdc5ddabcbee2d7370744df4870"
+description = "Made in the cascade of the authority datasets of 2026-10-26 (decisions 0029, 0032)."
+
+  [[versions.files]]
+  path = "lc-selection.tsv.gz"
+  bytes = 1240053
+  sha256 = "dfa5133d8fb9175306c6d18efe212806e0a7e47e1298d19486c9213434600d83"
+
+  [[versions.files]]
+  path = "lc.ttl.gz"
+  bytes = 10639997
+  sha256 = "18de75081066102d1066fd9e8a68f4c195a8872fa9e8930843e7ce9c50a6506c"
+  triples = 1982800
+
+  [[versions.files]]
+  path = "lc-meta.ttl.gz"
+  bytes = 2977
+  sha256 = "f41ebddefc593296ea10afdf105273c17d745f0233a4da35c7984f01c4186578"
+  triples = 83
 
 [[versions]]
 version = "2026-10-19"
@@ -70,6 +94,12 @@ description = "The records of the LC Name Authority File JudaicaLink uses, from 
   bytes = 3358
   sha256 = "b37e43166627e3eb834b77bd4af08415d7a71b0e1fced796e5850c39dc337e78"
   triples = 158
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "New version in the cascade of 2026-10-26: with the VIAF and GeoNames identifiers of footprints 2026-10-26 (from the Footprints API), without the records only the withdrawn 2014links and the former footprints version led to."
 
 [[changelog]]
 date = "2026-10-19"
