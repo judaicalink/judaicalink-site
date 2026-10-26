@@ -1,0 +1,54 @@
+/* The feedback panel, a copy of /kit/1/feedback.css of mannheim.judaicalink.org (judaicalink-mannheim decision 0008). Prefixed jl-fb-, with its own fonts
+   and colours, so that it looks the same on top of any page. */
+.jl-fb {
+  --jl-fb-fg: #1d1d1f; --jl-fb-muted: #5b5b66; --jl-fb-line: #d8d8de; --jl-fb-bg: #ffffff; --jl-fb-accent: #1f4e8c;
+  --jl-fb-field: #f6f6f8;
+  all: initial; box-sizing: border-box; position: fixed; right: 16px; top: 16px; z-index: 2000;
+  width: min(26rem, calc(100vw - 32px)); max-height: calc(100vh - 32px); overflow-y: auto;
+  background: var(--jl-fb-bg); color: var(--jl-fb-fg); border: 1px solid var(--jl-fb-line); border-radius: 10px;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, .22); padding: 14px 16px 16px;
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.jl-fb[hidden] { display: none; }
+@media (prefers-color-scheme: dark) {
+  .jl-fb { --jl-fb-fg: #e8e8ec; --jl-fb-muted: #a2a2ad; --jl-fb-line: #3a3a42; --jl-fb-bg: #1c1d22;
+           --jl-fb-accent: #8db4ec; --jl-fb-field: #26272e; }
+}
+.jl-fb *, .jl-fb *::before, .jl-fb *::after { box-sizing: border-box; }
+.jl-fb p, .jl-fb ol, .jl-fb li, .jl-fb h2, .jl-fb label, .jl-fb details, .jl-fb summary {
+  font: inherit; color: inherit; letter-spacing: normal; text-transform: none; }
+.jl-fb p { margin: 0 0 8px; }
+.jl-fb ol { margin: 0 0 8px; padding-left: 1.3em; }
+.jl-fb li { margin: 0 0 4px; }
+.jl-fb a { color: var(--jl-fb-accent); text-decoration: underline; text-underline-offset: 2px; }
+.jl-fb-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.jl-fb h2 { margin: 0; font-size: 16px; font-weight: 600; }
+.jl-fb-close { all: unset; cursor: pointer; font-size: 22px; line-height: 1; padding: 0 4px; color: var(--jl-fb-muted); }
+.jl-fb-close:hover, .jl-fb-close:focus-visible { color: var(--jl-fb-fg); }
+.jl-fb-field { margin: 0 0 10px; }
+.jl-fb label { display: block; font-weight: 600; font-size: 13px; margin-bottom: 3px; }
+.jl-fb input, .jl-fb textarea {
+  all: unset; box-sizing: border-box; display: block; width: 100%; padding: 6px 8px; background: var(--jl-fb-field);
+  border: 1px solid var(--jl-fb-line); border-radius: 6px; font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--jl-fb-fg); white-space: pre-wrap; overflow-wrap: anywhere; }
+.jl-fb textarea { resize: vertical; min-height: 3.2em; }
+.jl-fb input[readonly], .jl-fb textarea[readonly] { color: var(--jl-fb-muted); }
+.jl-fb input:focus-visible, .jl-fb textarea:focus-visible { outline: 2px solid var(--jl-fb-accent); outline-offset: 1px; }
+.jl-fb-hint { color: var(--jl-fb-muted); font-size: 12px; margin: 3px 0 0 !important; }
+.jl-fb-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 6px; }
+.jl-fb-primary, .jl-fb-secondary {
+  all: unset; box-sizing: border-box; display: inline-block; cursor: pointer; padding: 7px 12px; border-radius: 6px;
+  font: 600 13px/1.3 system-ui, -apple-system, "Segoe UI", sans-serif; text-decoration: none !important; }
+.jl-fb-primary { background: var(--jl-fb-accent); color: var(--jl-fb-bg) !important; }
+.jl-fb-primary[aria-disabled=true] { opacity: .45; cursor: not-allowed; }
+.jl-fb-secondary { border: 1px solid var(--jl-fb-line); color: var(--jl-fb-fg); }
+.jl-fb-primary:focus-visible, .jl-fb-secondary:focus-visible { outline: 2px solid var(--jl-fb-accent); outline-offset: 2px; }
+.jl-fb-status { color: var(--jl-fb-muted); font-size: 12px; min-height: 1em; }
+.jl-fb-more summary { cursor: pointer; color: var(--jl-fb-muted); font-size: 13px; margin: 4px 0; }
+.jl-fb-more textarea { margin-top: 4px; }
+@media (max-width: 560px) {
+  .jl-fb { right: 0; top: auto; bottom: 0; width: 100vw; max-height: 85vh; border-radius: 10px 10px 0 0; }
+}
+/* the button in the platform bar */
+.jl-bar .jl-feedback-button { all: unset; cursor: pointer; padding: 6px 0; color: var(--jl-bar-fg); font: inherit; }
+.jl-bar .jl-feedback-button:hover, .jl-bar .jl-feedback-button:focus-visible { color: var(--jl-bar-accent); }

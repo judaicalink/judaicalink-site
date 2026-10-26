@@ -27,6 +27,10 @@
     <link rel="stylesheet" href="{{ $bootstrap.RelPermalink }}">
     <link rel="stylesheet" href="{{ $icons.RelPermalink }}">
     <link rel="stylesheet" href="{{ $labs.RelPermalink }}">
+    {{ $fbcss := resources.Get "css/feedback.css" | resources.Minify | fingerprint }}
+    {{ $fbjs := resources.Get "js/feedback.js" | resources.Minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $fbcss.RelPermalink }}">
+    <script src="{{ $fbjs.RelPermalink }}" defer></script>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
@@ -86,6 +90,9 @@
                 </li>
                 <li>
                     <a href="/labs/"><i class="fas fa-door-open"></i> Labs</a>
+                </li>
+                <li>
+                    <a href="#feedback" data-jl-feedback><i class="fas fa-comment"></i> Feedback</a>
                 </li>
             </ul>
 
