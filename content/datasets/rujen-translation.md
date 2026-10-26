@@ -11,6 +11,7 @@ aliases = ["/datasets/rujen-translation-supp/"]
 stable = "2026-10-12"
 kind = "complement"
 method = ["machine-translation"]
+inputs = ["rujen"]
 
 [license]
 name = "CC0"

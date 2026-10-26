@@ -7,6 +7,7 @@ example = "http://data.judaicalink.org/data/bhr/Aach_Löb"
 stable = "2020-07-31"
 kind = "complement"
 method = ["deterministic"]
+inputs = ["bhr", "dbpedia-persons", "djh", "gnd-persons", "jre", "ubffm-persons", "nli-persons"]
 
 [license]
 name = "CC0"

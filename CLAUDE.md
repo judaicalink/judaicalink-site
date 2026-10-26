@@ -151,6 +151,16 @@ Vanilla-JS (`assets/js/title-animation.js`), keine Bibliothek, keine fremden Anf
 Daten (`assets/data/title-animation.json`) entstehen in `jlma-atlas` mit `tools/make_title_animation.py` aus einem
 Atlas-Build; danach neu bauen und ausliefern.
 
+## Datensatz-Wolke
+
+Oben auf `/datasets/` zeigt eine Wolke (seit 2026-10-26), wie die Datensätze zusammenhängen: die Entitätsseiten in
+der Mitte, die Normdaten im Ring darum, die Quellen (records) beim Normdatensatz, mit dem sie verlinkt sind, die
+Komplemente außen bei den Datensätzen, aus denen sie gemacht sind. Unsere Linksets je Normdatensatz (`jl:sameAs`)
+sind die farbigen Linien zwischen Quelle und Normdatensatz, ältere Linksets bleiben Kreise. Alles kommt aus den
+Katalogeinträgen (`kind`, `inputs`, `identity`, Tripel der stabilen Version), die `layouts/partials/dataset-cloud.html`
+als JSON ausgibt; das Layout rechnet `assets/js/dataset-cloud.js` im Browser, ohne Zufall, immer gleich. Fehlt eine
+Verbindung, gehört sie in den Katalog von judaicalink-data (`inputs`), nicht hierher.
+
 ## Content-Konventionen
 
 Dataset pages under `content/datasets/` are copies of the catalogue entries of `judaicalink-data` (format of its

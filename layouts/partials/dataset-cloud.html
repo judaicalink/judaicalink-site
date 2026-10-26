@@ -1,0 +1,39 @@
+{{/* The datasets as a cloud (assets/js/dataset-cloud.js): the current datasets of the catalogue with their kind, their
+     inputs, the identity they declare (decision 0032 of judaicalink-data) and the triples of their stable version.
+     Replaced and withdrawn datasets, vocabularies and the ontology are left out; support data only where a
+     shown dataset is made from it (the script decides). */}}
+{{ $idx := site.Data.dataindex }}
+{{ $vocab := site.Data.catalogvocabulary }}
+{{ $nodes := slice }}
+{{ range .Pages }}
+  {{ $slug := .File.ContentBaseName }}
+  {{ $e := index $idx.datasets $slug }}
+  {{ $kind := .Params.kind }}
+  {{ if and $e (not (or $e.replaced_by $e.withdrawn)) (in (slice "records" "authority" "complement" "linkset" "correction" "entity-pages" "support") $kind) }}
+    {{ $triples := 0 }}
+    {{ $stable := .Params.stable }}
+    {{ range .Params.versions }}{{ if eq .version $stable }}{{ range .files }}{{ if and .triples (not (strings.HasSuffix .path "-meta.ttl.gz")) }}{{ $triples = add $triples .triples }}{{ end }}{{ end }}{{ end }}{{ end }}
+    {{ $identity := slice }}
+    {{ range $prop, $sources := .Params.identity }}{{ $identity = $identity | append (dict "p" $prop "s" $sources) }}{{ end }}
+    {{ $nodes = $nodes | append (dict "id" $slug "title" .Title "kind" $kind "inputs" (.Params.inputs | default slice)
+        "identity" $identity "triples" $triples "stable" (.Params.stable | default "") "url" .RelPermalink) }}
+  {{ end }}
+{{ end }}
+{{ $kinds := dict }}
+{{ range $k, $v := $vocab.kind.values }}{{ $kinds = merge $kinds (dict $k $v.label) }}{{ end }}
+<figure class="dataset-cloud" id="cloud">
+  <div class="dataset-cloud-canvas">
+    <svg role="img" aria-labelledby="dataset-cloud-caption"></svg>
+    <div class="dataset-cloud-tip" hidden></div>
+  </div>
+  <figcaption id="dataset-cloud-caption">
+    How the datasets work together. <b>Sources</b> (records) are linked to the <b>authority data</b> (GND, VIAF,
+    Wikidata, GeoNames, LC, DBpedia) by our <b>linksets</b>, drawn as lines in the colour of the authority;
+    <b>complements</b> add to the sources they are made from; the <b>entity pages</b> in the middle bring the records
+    of all sources and authorities together. A bubble's size follows the triples of its stable version. Point at a
+    dataset for its connections, select it for its page.
+  </figcaption>
+  <script type="application/json" class="dataset-cloud-data">{{ dict "nodes" $nodes "kinds" $kinds | jsonify | safeJS }}</script>
+</figure>
+{{ $cloud := resources.Get "js/dataset-cloud.js" | resources.Minify | fingerprint }}
+<script src="{{ $cloud.RelPermalink }}" defer></script>

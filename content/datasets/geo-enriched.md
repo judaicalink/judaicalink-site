@@ -7,6 +7,7 @@ example = "http://data.judaicalink.org/data/djh/banco-alma-henriette-del"
 stable = "2026-10-16"
 kind = "complement"
 method = ["rule-based"]
+inputs = ["bhr", "djh", "gnd-persons", "haskala", "hirsch-family", "ubffm-persons", "geo-coordinates", "geonames"]
 
 [license]
 name = "CC0"

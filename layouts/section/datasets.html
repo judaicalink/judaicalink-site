@@ -7,6 +7,8 @@
 
 	<h1 class="text-center text-md-left" id="title">{{ .Title }}</h1>
 
+	{{ partial "dataset-cloud.html" . }}
+
 	{{ .Content }}
 
 	{{/* Replaced and withdrawn datasets are deprecated (0007): listed only in their own group at the end. */}}

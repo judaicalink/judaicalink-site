@@ -8,6 +8,7 @@ aliases = ["/datasets/cm-tagme-supp/"]
 stable = "2021-01-18"
 kind = "complement"
 method = ["statistical"]
+inputs = ["compact-memory"]
 
 [license]
 name = "CC0"

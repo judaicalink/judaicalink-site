@@ -513,3 +513,34 @@ ul.results {
 @media (max-width: 768px) {
     .frankfurt-box { flex-direction: column; }
 }
+
+/* Die Datensätze als Wolke (assets/js/dataset-cloud.js, layouts/partials/dataset-cloud.html) */
+.dataset-cloud { margin: 1rem 0 1.5rem; }
+.dataset-cloud-canvas { position: relative; border: 1px solid #dfe5ec; border-radius: .4rem; background: #fbfcfd; }
+.dataset-cloud svg { display: block; width: 100%; height: auto; }
+.dataset-cloud .dc-edge { fill: none; stroke-width: 1.4; opacity: .45; transition: opacity .15s; }
+.dataset-cloud .dc-ep { stroke-width: 1; opacity: .16; }
+.dataset-cloud .dc-input { stroke-width: 1.1; opacity: .5; }
+.dataset-cloud svg.dc-focus .dc-edge { opacity: .05; }
+.dataset-cloud svg.dc-focus .dc-edge.dc-on { opacity: .95; stroke-width: 2.2; }
+.dataset-cloud .dc-node circle { stroke: #fff; stroke-width: 1.5; transition: opacity .15s; }
+.dataset-cloud .dc-node text { font: 14px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #2b3440;
+                               paint-order: stroke; stroke: #fbfcfd; stroke-width: 3px; stroke-linejoin: round; }
+.dataset-cloud .dc-node text.dc-inside { fill: #fff; stroke: none; font-weight: 600; }
+.dataset-cloud .dc-node:hover circle, .dataset-cloud .dc-node:focus circle { stroke: #1d1d1f; stroke-width: 2.5; }
+.dataset-cloud .dc-node:focus { outline: none; }
+.dataset-cloud .dc-node.dc-dim { opacity: .25; }
+.dataset-cloud-tip { position: absolute; z-index: 5; max-width: 22rem; pointer-events: none; background: #fff;
+                     border: 1px solid #d3dae3; border-radius: .35rem; padding: .45rem .6rem; font-size: .82rem;
+                     line-height: 1.35; box-shadow: 0 4px 16px rgba(0, 0, 0, .12); }
+.dataset-cloud-legend { display: flex; flex-wrap: wrap; gap: .3rem 1rem; margin: .5rem 0 .25rem; font-size: .82rem; }
+.dataset-cloud-legend span { display: inline-flex; align-items: center; gap: .35rem; }
+.dataset-cloud-legend a { color: inherit; display: inline-flex; align-items: center; gap: .35rem; text-decoration: none; }
+.dataset-cloud-legend a:hover { text-decoration: underline; }
+.dataset-cloud-legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; }
+.dataset-cloud-legend b { display: inline-block; width: 20px; height: 3px; border-radius: 2px; }
+.dataset-cloud-legend b.dc-dash { height: 0; border-top: 3px dashed; background: none; }
+.dataset-cloud-legend b.dc-grey { background: #8b95a1; }
+.dataset-cloud-legend b.dc-dots { height: 0; border-top: 3px dotted #5a6672; background: none; }
+.dataset-cloud figcaption { font-size: .86rem; color: #4a5562; }
+
