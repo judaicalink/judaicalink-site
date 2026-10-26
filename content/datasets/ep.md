@@ -6,7 +6,7 @@ date = "2021-01-22"
 example = "http://data.judaicalink.org/data/ep/1000037"
 namespaces = ["ep"]
 aliases = ["/datasets/ep-supp/"]
-stable = "2026-10-26"
+stable = "2026-10-26-2"
 kind = "entity-pages"
 method = ["rule-based"]
 
@@ -28,6 +28,31 @@ path = "generators/ep"
 "subcategorization.ttl.gz" = "Subcategorization dataset for local Judaicalink resources."
 "ep.ttl.gz" = "The entity pages: class, names, life dates and places, occupations, descriptions, coordinates, the records they represent (jl:represents) and their external identifiers (owl:sameAs)."
 "ep-history.ttl.gz" = "IRIs that are no longer entity pages, one statement per event with its date: merged (jl:mergedInto), split (jl:splitInto), retired (jl:retiredDate); the history of earlier versions unchanged."
+
+[[versions]]
+version = "2026-10-26-2"
+issued = "2026-10-26"
+author = "Kai Eckert"
+commit = "06ce8eeadb1e57d9d03f38e07eeebf38861b1534"
+description = "As 2026-10-26, with the facts of works, organisations and subjects (decision 0038) and descriptions from the GND notes."
+
+  [[versions.files]]
+  path = "ep-history.ttl.gz"
+  bytes = 4417180
+  sha256 = "0e078dc45e5897d38d77191f01ea36866bc97fc443238e4c64022feed0ed8945"
+  triples = 1502918
+
+  [[versions.files]]
+  path = "ep.ttl.gz"
+  bytes = 54803605
+  sha256 = "824a00358794e02b85fa0dfa56904e4e152404516f9091ddb51ac712a9e2a523"
+  triples = 4334199
+
+  [[versions.files]]
+  path = "ep-meta.ttl.gz"
+  bytes = 3677
+  sha256 = "0e71732be4757c6ce57b96cec964931c075e55066557cef743f9108c8c718616"
+  triples = 176
 
 [[versions]]
 version = "2026-10-26"
@@ -144,6 +169,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 3193
   sha256 = "5536fb2339d73221953443aae454102fecba25b31c09bd09b4e626ce0008e5ef"
   triples = 124
+
+[[changelog]]
+date = "2026-10-26"
+version = "2026-10-26-2"
+author = "Kai Eckert"
+text = "The facts of works (creators, date and place of publication, language, publisher), organisations (dates of establishment and termination, seat) and subjects (broader subjects), chosen as for persons (decision 0038); descriptions also from the GND's biographical and historical notes (29,634 more); normalised dates by jl.dates: 139 EDTF values typed correctly, 5 impossible dates left out. Same entities and IRIs as 2026-10-26."
 
 [[changelog]]
 date = "2026-10-26"
