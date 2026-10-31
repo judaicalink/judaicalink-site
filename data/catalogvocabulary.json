@@ -19,6 +19,10 @@
     "label": "Linkset",
     "definition": "Links between resources of different datasets, or from them to resources outside JudaicaLink, and nothing else."
    },
+   "correction": {
+    "label": "Correction",
+    "definition": "Corrections of the data of other datasets: triples it adds (its data) and triples it deletes from every graph that contains them (a SPARQL Update file); applied after all other datasets."
+   },
    "entity-pages": {
     "label": "Entity pages",
     "definition": "The entity pages of JudaicaLink: one resource per entity, bringing together the records about it."
@@ -30,10 +34,6 @@
    "vocabulary": {
     "label": "Vocabulary",
     "definition": "A controlled vocabulary: concepts used as values in the data or in its description."
-   },
-   "correction": {
-    "label": "Correction",
-    "definition": "Corrections of the data of other datasets: triples it adds (its data) and triples it deletes from every graph that contains them (a SPARQL Update file); applied after all other datasets."
    },
    "support": {
     "label": "Support data",

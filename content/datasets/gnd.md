@@ -9,7 +9,7 @@ kind = "authority"
 method = ["converted"]
 namespaces = ["gnd"]
 replaces = ["gnd-persons", "gnd-persons-entityfacts"]
-stable = "2026-10-26"
+stable = "2026-10-31"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "owl:sameAs" = ["viaf", "lc-names", "wikidata", "geonames", "isni", "wikipedia-en", "wikipedia-de"]
@@ -23,6 +23,30 @@ statement = "https://web.archive.org/web/20260624101124/https://data.dnb.de/open
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/gnd"
+
+[[versions]]
+version = "2026-10-31"
+issued = "2026-10-31"
+author = "Kai Eckert"
+commit = "6b4002357716b34cc813ec54801b23e61b594859"
+description = "The occupations of the records (50,944), as GND subject headings; their names are in occupations."
+
+  [[versions.files]]
+  path = "gnd-selection.tsv.gz"
+  bytes = 1105497
+  sha256 = "948928754a64558a8b54a648dbf3eb26a50c79bdcd9eacfc4fa3ec163db4b79f"
+
+  [[versions.files]]
+  path = "gnd.ttl.gz"
+  bytes = 20114835
+  sha256 = "29029a47c2c99a2f383f1106d014d2254f7db0e119b1802ce6c347b1dfe4e4a9"
+  triples = 2477347
+
+  [[versions.files]]
+  path = "gnd-meta.ttl.gz"
+  bytes = 4317
+  sha256 = "9333427ee24ff11ffd941ae0276b739e7757af38a190b65d7a156044fbf5d736"
+  triples = 175
 
 [[versions]]
 version = "2026-10-26"
@@ -95,6 +119,12 @@ description = "The GND records JudaicaLink uses, from the DNB dumps (GND 2026-02
   bytes = 4048
   sha256 = "55e42219b662342d6c6acc524ed3fb9e7a37154ff0399860676a6f834f3ae0d9"
   triples = 179
+
+[[changelog]]
+date = "2026-10-31"
+version = "2026-10-31"
+author = "Kai Eckert"
+text = "The occupations of the records, which the GND lists in an rdf:Seq and the generator had skipped: jl:occupationURI and gndo:professionOrOccupation with the GND subject heading (decision 0039)."
 
 [[changelog]]
 date = "2026-10-26"

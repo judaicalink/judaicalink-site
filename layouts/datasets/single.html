@@ -32,7 +32,7 @@
 		<div class="table-responsive">
 		<table class="table table-light table-striped">
 		  {{ with $p.picture }}
-		  <tr><th><img src="{{ . }}" alt="Logo" style="width: 80%;"></th><td></td></tr>
+		  <tr><th><img src="{{ printf "catalog/%s" . | relURL }}" alt="Logo" style="width: 80%;"></th><td></td></tr>
 		  {{ end }}
 		  {{ with $p.kind }}
 		  {{ $k := index $vocab.kind.values . }}
