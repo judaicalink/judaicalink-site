@@ -38,25 +38,6 @@ description = "The classes of the yivo articles, as 2026-10-18, and of the Footp
   triples = 73
 
 [[versions]]
-version = "2026-10-18"
-issued = "2026-10-18"
-author = "Kai Eckert"
-commit = "906c9b0d7c201f32c0dc966c0c4c5256747469e8"
-description = "The classes of the yivo articles, as 2026-10-12, with the classes of the common layer."
-
-  [[versions.files]]
-  path = "record-classes.ttl.gz"
-  bytes = 16275
-  sha256 = "931ce0da0b1aeaf78d5d35f03f28b78e9695024f0045b0b8101638745217575b"
-  triples = 1798
-
-  [[versions.files]]
-  path = "record-classes-meta.ttl.gz"
-  bytes = 2345
-  sha256 = "d6121c261300d9269521c97d16f7a91b928f6eac97b403984691af720b4337a0"
-  triples = 67
-
-[[versions]]
 version = "2026-10-12"
 issued = "2026-10-12"
 author = "Kai Eckert"
@@ -74,6 +55,13 @@ description = "Classes of the yivo articles: from their Wikidata item, else life
   bytes = 2246
   sha256 = "c7e3294345d5487cd145e887eafba6d27efa1da1d224d34198e5b79ee9bd3860"
   triples = 62
+
+[[changelog]]
+date = "2026-10-31"
+version = "2026-10-18"
+author = "Kai Eckert"
+text = "Pruned (decision 0041): no longer published; its files, sizes and checksums are in the git history of this entry."
+refs = ["0041"]
 
 [[changelog]]
 date = "2026-10-26"

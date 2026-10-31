@@ -6,7 +6,7 @@ date = "2021-01-22"
 example = "http://data.judaicalink.org/data/ep/1000037"
 namespaces = ["ep"]
 aliases = ["/datasets/ep-supp/"]
-stable = "2026-10-26-2"
+stable = "2026-10-31"
 kind = "entity-pages"
 method = ["rule-based"]
 
@@ -28,6 +28,31 @@ path = "generators/ep"
 "subcategorization.ttl.gz" = "Subcategorization dataset for local Judaicalink resources."
 "ep.ttl.gz" = "The entity pages: class, names, life dates and places, occupations, descriptions, coordinates, the records they represent (jl:represents) and their external identifiers (owl:sameAs)."
 "ep-history.ttl.gz" = "IRIs that are no longer entity pages, one statement per event with its date: merged (jl:mergedInto), split (jl:splitInto), retired (jl:retiredDate); the history of earlier versions unchanged."
+
+[[versions]]
+version = "2026-10-31"
+issued = "2026-10-31"
+author = "Kai Eckert"
+commit = "da00df1614a974a79a2cf26d4c788c4d4c63af7f"
+description = "As 2026-10-26-2, with the GND occupations of gnd 2026-10-31 (99,607 on 50,468 pages)."
+
+  [[versions.files]]
+  path = "ep-history.ttl.gz"
+  bytes = 4417177
+  sha256 = "258fe03a6f3b435c58b6b92d834a156452268f0c6de6cabf2909aed140ea417a"
+  triples = 1502918
+
+  [[versions.files]]
+  path = "ep.ttl.gz"
+  bytes = 55523249
+  sha256 = "f7e9e10b015c3ffd22167e71f40722f39336584d0433acd4a41dc68c31e73ec3"
+  triples = 4433806
+
+  [[versions.files]]
+  path = "ep-meta.ttl.gz"
+  bytes = 3714
+  sha256 = "7ae1fc3dc9d3f89f7aea5c7410a1f971d491586da4e69ad2a9b2421d5aa34e3a"
+  triples = 176
 
 [[versions]]
 version = "2026-10-26-2"
@@ -53,80 +78,6 @@ description = "As 2026-10-26, with the facts of works, organisations and subject
   bytes = 3677
   sha256 = "0e71732be4757c6ce57b96cec964931c075e55066557cef743f9108c8c718616"
   triples = 176
-
-[[versions]]
-version = "2026-10-26"
-issued = "2026-10-26"
-author = "Kai Eckert"
-commit = "09d07e5a0360b0588a53a7af775fbed2592ad80f"
-description = "Made from ep 2026-10-19 and the stable versions of 2026-10-26 (footprints from the API, the cascade of 2026-10-26, ls-footprints-viaf; decisions 0036, 0037)."
-
-  [[versions.files]]
-  path = "ep-history.ttl.gz"
-  bytes = 4417177
-  sha256 = "879d7308634b4af70274440de15d185ffd673fa19e9dd9a8014c1213c7111324"
-  triples = 1502918
-
-  [[versions.files]]
-  path = "ep.ttl.gz"
-  bytes = 52455091
-  sha256 = "b859bf792724c4ae1d8a956c46067eaa3463c0f3831cee993fddb95faed0e96b"
-  triples = 4259456
-
-  [[versions.files]]
-  path = "ep-meta.ttl.gz"
-  bytes = 3700
-  sha256 = "35ff776f84566e1e9874cc84a8b1f65c5000fb40d246526545eacd592821aa2d"
-  triples = 174
-
-[[versions]]
-version = "2026-10-19"
-issued = "2026-10-19"
-author = "Kai Eckert"
-commit = "396294c9a26ac8c730cbb6a709df2d2a3e49e18a"
-description = "Made from ep 2026-10-12 and the stable versions of 2026-10-19, identity from our linksets only (decisions 0029, 0032)."
-
-  [[versions.files]]
-  path = "ep-history.ttl.gz"
-  bytes = 4403207
-  sha256 = "913a39a505bcd1b174f3be912ad3f5e72d66b0326612c6eb4b93f8d33285ccae"
-  triples = 1498828
-
-  [[versions.files]]
-  path = "ep.ttl.gz"
-  bytes = 52688291
-  sha256 = "1de24a2aa4678ebc9a0677c46748c0c553651d76c2f66dd1bffcb98460b6c272"
-  triples = 4248364
-
-  [[versions.files]]
-  path = "ep-meta.ttl.gz"
-  bytes = 3771
-  sha256 = "e783b7e2006c972c5c71860a51e9311441e872dedc1feb788458fb76d19c8949"
-  triples = 184
-
-[[versions]]
-version = "2026-10-12"
-issued = "2026-10-12"
-author = "Kai Eckert"
-commit = "75c5921ff58df3ecdb3602144958f703b40e4cff"
-
-  [[versions.files]]
-  path = "ep-history.ttl.gz"
-  bytes = 4335406
-  sha256 = "663d5746212a69b3ec89cdb524f42e3b9ca0766fb32e0c18b6a11cda50d2903c"
-  triples = 1489277
-
-  [[versions.files]]
-  path = "ep.ttl.gz"
-  bytes = 42328178
-  sha256 = "e362789591cac1ed098bb04b0ad788cbaa37deaf129a12d50e787225cb9da79c"
-  triples = 3295425
-
-  [[versions.files]]
-  path = "ep-meta.ttl.gz"
-  bytes = 3528
-  sha256 = "0cb009e20ceb91e0ec619aa405a783d1103e8c75aa478c7c5c55846912f3a662"
-  triples = 177
 
 [[versions]]
 version = "2021-05-28"
@@ -169,6 +120,33 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 3193
   sha256 = "5536fb2339d73221953443aae454102fecba25b31c09bd09b4e626ce0008e5ef"
   triples = 124
+
+[[changelog]]
+date = "2026-10-31"
+version = "2026-10-26"
+author = "Kai Eckert"
+text = "Pruned (decision 0041): no longer published; its files, sizes and checksums are in the git history of this entry."
+refs = ["0041"]
+
+[[changelog]]
+date = "2026-10-31"
+version = "2026-10-19"
+author = "Kai Eckert"
+text = "Pruned (decision 0041): no longer published; its files, sizes and checksums are in the git history of this entry."
+refs = ["0041"]
+
+[[changelog]]
+date = "2026-10-31"
+version = "2026-10-12"
+author = "Kai Eckert"
+text = "Pruned (decision 0041): no longer published; its files, sizes and checksums are in the git history of this entry."
+refs = ["0041"]
+
+[[changelog]]
+date = "2026-10-31"
+version = "2026-10-31"
+author = "Kai Eckert"
+text = "The GND occupations of the records (gnd 2026-10-31, decision 0039); the entities, IRIs and history are those of 2026-10-26-2."
 
 [[changelog]]
 date = "2026-10-26"
