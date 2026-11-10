@@ -3,7 +3,7 @@ slug = "records-normalized"
 title = "Normalised dates, places and occupations of the records"
 author = "Kai Eckert"
 date = "2026-10-12"
-stable = "2026-10-12"
+stable = "2026-11-10"
 kind = "complement"
 method = ["rule-based", "deterministic"]
 replaces = ["date-enriched"]
@@ -17,6 +17,36 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/records-normalized"
+
+[[versions]]
+version = "2026-11-10"
+issued = "2026-11-10"
+author = "Kai Eckert"
+commit = "6ebe86672092fff6ad48158d5d1a8ac14d68c7c1"
+
+  [[versions.files]]
+  path = "records-normalized-dates.ttl.gz"
+  bytes = 1519902
+  sha256 = "1a7885f849cd5a04db053138f53e5dc22c6183cf0b551cb7b583043f3a3d846b"
+  triples = 226198
+
+  [[versions.files]]
+  path = "records-normalized-occupations.ttl.gz"
+  bytes = 80751
+  sha256 = "b396b1c015a965aeddded8cf5052e8669e33e65547111843933cdd82f8b27b4a"
+  triples = 9480
+
+  [[versions.files]]
+  path = "records-normalized-places.ttl.gz"
+  bytes = 6784
+  sha256 = "c8cc4b7b88e3f8fa1e583dd4131933e423f9936d021ac261c3a34da3e1e8c4f7"
+  triples = 664
+
+  [[versions.files]]
+  path = "records-normalized-meta.ttl.gz"
+  bytes = 3456
+  sha256 = "e8797acb1afd8eaff5bba1ba975695216aa97e359f758971cea687ba5bb0ffa7"
+  triples = 126
 
 [[versions]]
 version = "2026-10-12"
@@ -47,6 +77,13 @@ commit = "75c5921ff58df3ecdb3602144958f703b40e4cff"
   bytes = 3432
   sha256 = "42732fac82e3b15922b39a129b07aded93d2f9482fd49facdf44329b4fbe262d"
   triples = 141
+
+[[changelog]]
+date = "2026-11-10"
+version = "2026-11-10"
+author = "Kai Eckert"
+text = "Made again on the stable versions of its inputs (decision 0043): version 2026-10-12 still read geo-enriched 2019 and gave 97 records named \"Bonn\" the GeoNames feature of Cologne Bonn Airport. dbpedia instead of dbpedia-persons; place texts compared in NFC. 664 place links (geo-enriched now links almost every place text)."
+refs = ["0043", "0042"]
 
 [[changelog]]
 date = "2026-10-13"

@@ -6,7 +6,7 @@ date = "2021-01-22"
 example = "http://data.judaicalink.org/data/ep/1000037"
 namespaces = ["ep"]
 aliases = ["/datasets/ep-supp/"]
-stable = "2026-10-31"
+stable = "2026-11-10"
 kind = "entity-pages"
 method = ["rule-based"]
 
@@ -28,6 +28,30 @@ path = "generators/ep"
 "subcategorization.ttl.gz" = "Subcategorization dataset for local Judaicalink resources."
 "ep.ttl.gz" = "The entity pages: class, names, life dates and places, occupations, descriptions, coordinates, the records they represent (jl:represents) and their external identifiers (owl:sameAs)."
 "ep-history.ttl.gz" = "IRIs that are no longer entity pages, one statement per event with its date: merged (jl:mergedInto), split (jl:splitInto), retired (jl:retiredDate); the history of earlier versions unchanged."
+
+[[versions]]
+version = "2026-11-10"
+issued = "2026-11-10"
+author = "Kai Eckert"
+commit = "6ebe86672092fff6ad48158d5d1a8ac14d68c7c1"
+
+  [[versions.files]]
+  path = "ep-history.ttl.gz"
+  bytes = 4417178
+  sha256 = "31d8679b303d772932385a59264f053732086ddea67218b175b8719d3c5f8de6"
+  triples = 1502918
+
+  [[versions.files]]
+  path = "ep.ttl.gz"
+  bytes = 55544591
+  sha256 = "428175222bede1b6045d4ddd94ecc6af6a2601fa8bb97689edf33c391b4ce7fa"
+  triples = 4440948
+
+  [[versions.files]]
+  path = "ep-meta.ttl.gz"
+  bytes = 3650
+  sha256 = "0f6504c1519ec70f9a07d755c5c816448a7ee88d2fa0375af292ab0bdcf4170c"
+  triples = 175
 
 [[versions]]
 version = "2026-10-31"
@@ -120,6 +144,13 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 3193
   sha256 = "5536fb2339d73221953443aae454102fecba25b31c09bd09b4e626ce0008e5ef"
   triples = 124
+
+[[changelog]]
+date = "2026-11-10"
+version = "2026-11-10"
+author = "Kai Eckert"
+text = "As 2026-10-31 (the same entities, IRIs and history), with the new geo-enriched and records-normalized, and the place IRI of a page stated by a source (Wikidata included) before one derived from the text of a place (decision 0042): 25,558 place links changed, Moses Hess (ep/1025124) born in Bonn, not at the airport."
+refs = ["0042", "0044"]
 
 [[changelog]]
 date = "2026-10-31"

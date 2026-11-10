@@ -4,7 +4,7 @@ title = "Geographic Enrichment"
 author = "Kai Eckert"
 date = "2019-12-18"
 example = "http://data.judaicalink.org/data/djh/banco-alma-henriette-del"
-stable = "2026-10-16"
+stable = "2026-11-10"
 kind = "complement"
 method = ["rule-based"]
 inputs = ["bhr", "djh", "gnd-persons", "haskala", "hirsch-family", "ubffm-persons", "geo-coordinates", "geonames"]
@@ -20,6 +20,24 @@ path = "generators/geo-enriched"
 
 [files]
 "geo_interlinks.ttl" = "Mappings Geonames - JudaicaLink"
+
+[[versions]]
+version = "2026-11-10"
+issued = "2026-11-10"
+author = "Kai Eckert"
+commit = "6ebe86672092fff6ad48158d5d1a8ac14d68c7c1"
+
+  [[versions.files]]
+  path = "geo-enriched.ttl.gz"
+  bytes = 307820
+  sha256 = "a3b15e8aac1ef9cc704796101b985a6c0927b1e405b89058aaac4557bb353e99"
+  triples = 37204
+
+  [[versions.files]]
+  path = "geo-enriched-meta.ttl.gz"
+  bytes = 3142
+  sha256 = "755696b7f6b36f4ff379158dad81ee3f2f0880eeae08d5faab7136d1bc7c7a98"
+  triples = 121
 
 [[versions]]
 version = "2026-10-16"
@@ -86,6 +104,13 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2225
   sha256 = "5d63ce17eaec0c04d4eab1d249c871e75aff117b4b1c6dcc7d7c0b900e620045"
   triples = 117
+
+[[changelog]]
+date = "2026-11-10"
+version = "2026-11-10"
+author = "Kai Eckert"
+text = "Made again: a place text gets the place our sources state for it (two thirds of the records), else the place our data names most often; population only among places our data does not name (decision 0044). Bonn, Königsberg, Lissa by the GND's statements; Carlsbad, Hollywood, Rostov, Jarosław no longer namesakes elsewhere. 37,204 links."
+refs = ["0044"]
 
 [[changelog]]
 date = "2026-10-16"
