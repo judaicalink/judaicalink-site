@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-16"
 example = "http://data.judaicalink.org/data/geo-coordinates/Jerusalem"
 kind = "linkset"
-stable = "2026-10-26"
+stable = "2026-11-11"
 method = ["deterministic"]
 inputs = ["geonames"]
 
@@ -20,6 +20,24 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-geonames"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "5c1925e013a0eb6bf7147855d97790dd995572ff"
+
+  [[versions.files]]
+  path = "ls-geonames.ttl.gz"
+  bytes = 144091
+  sha256 = "c3d9c8671330b92d87754d3c2e5ede473c93907fc178aecd5e2f69a453b2ad8f"
+  triples = 16313
+
+  [[versions.files]]
+  path = "ls-geonames-meta.ttl.gz"
+  bytes = 2470
+  sha256 = "c54dd7ac04bee42ee04a1386769a8001d948260ad3e42ec2c9946bf049725cfb"
+  triples = 137
 
 [[versions]]
 version = "2026-10-26"
@@ -58,6 +76,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2576
   sha256 = "65e703a7fbd1998253627e88f54106f7ce057ab3a9245cc0f27f1c011bf93e4b"
   triples = 146
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-26"

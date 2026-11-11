@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-18"
 example = "http://data.judaicalink.org/data/yivo/abramovich_rafail"
 kind = "linkset"
-stable = "2026-10-26"
+stable = "2026-11-11"
 method = ["deterministic", "rule-based"]
 inputs = ["wikidata", "yivo", "bhr", "rujen", "dbpedia-persons"]
 replaces = ["ls-yivo-wikidata"]
@@ -21,6 +21,24 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-wikidata"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "5c1925e013a0eb6bf7147855d97790dd995572ff"
+
+  [[versions.files]]
+  path = "ls-wikidata.ttl.gz"
+  bytes = 2244167
+  sha256 = "76c988d6ba540344d6627e5d77f5f9e656c12b8203bdb8927a313bde6cf99a66"
+  triples = 204791
+
+  [[versions.files]]
+  path = "ls-wikidata-meta.ttl.gz"
+  bytes = 2724
+  sha256 = "b1773b177e55221371c298f5f60ffbdb0edfc973fed01e5287dbe574ca64df1d"
+  triples = 147
 
 [[versions]]
 version = "2026-10-26"
@@ -59,6 +77,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2840
   sha256 = "b44028ed18099e32aed6ca005a0ac36ac42d4fab6b3932d58b7dd9adbac86f4d"
   triples = 156
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-26"

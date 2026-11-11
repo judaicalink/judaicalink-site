@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/lc/n79021164"
 kind = "authority"
 method = ["converted"]
 namespaces = ["lc"]
-stable = "2026-10-26"
+stable = "2026-11-11"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "madsrdf:hasExactExternalAuthority" = ["gnd", "tgn", "wikidata", "viaf", "isni", "geonames"]
@@ -22,6 +22,29 @@ statement = "https://web.archive.org/web/20260814162252/https://id.loc.gov/about
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/lc"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "5c1925e013a0eb6bf7147855d97790dd995572ff"
+
+  [[versions.files]]
+  path = "lc-selection.tsv.gz"
+  bytes = 1246261
+  sha256 = "2e8e383a7f5ac142c69f84f34ab0fb8de060c81c304d4af8bf7a36db29526a84"
+
+  [[versions.files]]
+  path = "lc.ttl.gz"
+  bytes = 10657639
+  sha256 = "2b753bca0c632a977fa22306714d12d05043817007891e3b1fb314a7c0eb58e1"
+  triples = 1985230
+
+  [[versions.files]]
+  path = "lc-meta.ttl.gz"
+  bytes = 2944
+  sha256 = "8eef29d073a8b33cd639b72090908c9d10522341c2ec1375a6ba4d729a4f90cb"
+  triples = 82
 
 [[versions]]
 version = "2026-10-26"
@@ -94,6 +117,12 @@ description = "The records of the LC Name Authority File JudaicaLink uses, from 
   bytes = 3358
   sha256 = "b37e43166627e3eb834b77bd4af08415d7a71b0e1fced796e5850c39dc337e78"
   triples = 158
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-26"

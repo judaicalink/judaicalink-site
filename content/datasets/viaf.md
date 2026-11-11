@@ -6,7 +6,7 @@ date = "2026-10-18"
 website = "https://viaf.org/en/viaf/data"
 example = "http://data.judaicalink.org/data/viaf/54984961"
 kind = "authority"
-stable = "2026-10-26"
+stable = "2026-11-11"
 method = ["converted"]
 namespaces = ["viaf"]
 
@@ -22,6 +22,29 @@ attribution = "VIAF (Virtual International Authority File), OCLC"
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/viaf"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "5c1925e013a0eb6bf7147855d97790dd995572ff"
+
+  [[versions.files]]
+  path = "viaf-selection.tsv.gz"
+  bytes = 2349054
+  sha256 = "eeb6c65fa1c6bf08deeb27d7ca015a9003289ffe74f560d40b2f4b8a7554424d"
+
+  [[versions.files]]
+  path = "viaf.ttl.gz"
+  bytes = 22777924
+  sha256 = "8277bf9d4d0078dca5256153d8c74de47d45c33dbceb78b0c1c4d363d911a42a"
+  triples = 2962078
+
+  [[versions.files]]
+  path = "viaf-meta.ttl.gz"
+  bytes = 2662
+  sha256 = "e1d443434801bc17f869b05d54d1d419b9456f482c7dc02c35a8ed6cb19a6141"
+  triples = 79
 
 [[versions]]
 version = "2026-10-26"
@@ -70,6 +93,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2683
   sha256 = "fa7dffb00a8746888268645ad7390675fe2fb747950b329ef37ef06543ffda4b"
   triples = 80
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-26"

@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-18"
 example = "http://data.judaicalink.org/data/nli/record/viaf-54984961"
 kind = "linkset"
-stable = "2026-10-26"
+stable = "2026-11-11"
 method = ["deterministic"]
 inputs = ["viaf"]
 
@@ -20,6 +20,24 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-viaf"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "5c1925e013a0eb6bf7147855d97790dd995572ff"
+
+  [[versions.files]]
+  path = "ls-viaf.ttl.gz"
+  bytes = 4969128
+  sha256 = "ed080b7d4d27de978651afd6f32442e28c11d557e9f01e8365165c0eb9aed955"
+  triples = 485310
+
+  [[versions.files]]
+  path = "ls-viaf-meta.ttl.gz"
+  bytes = 2673
+  sha256 = "61629d5f14ab158d253ad53ec6ad6235a14cdd215d8109d6dadf986e52932c3b"
+  triples = 138
 
 [[versions]]
 version = "2026-10-26"
@@ -58,6 +76,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2801
   sha256 = "a4ff97994799eb52a73fe91e6e14b508156657aa236875187797a5418d295b9a"
   triples = 147
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-26"

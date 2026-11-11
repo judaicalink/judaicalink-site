@@ -6,7 +6,7 @@ date = "2025-07-09"
 website = "http://ontology.judaicalink.org"
 example = "http://data.judaicalink.org/ontology/describedAt"
 namespaces = ["ontology"]
-stable = "2026-10-18"
+stable = "2026-11-11"
 kind = "ontology"
 method = ["curated"]
 
@@ -18,6 +18,24 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ontology"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "655d1164818cefabb86be6f492767b8bc09deed9"
+
+  [[versions.files]]
+  path = "judaicalink-ontology.ttl.gz"
+  bytes = 9608
+  sha256 = "d2bd7744a3b2c54bf0ef7691ae4f55cc4d971d51a9ba7814823683c24d55cab6"
+  triples = 693
+
+  [[versions.files]]
+  path = "ontology-meta.ttl.gz"
+  bytes = 1638
+  sha256 = "1b2a81d870dadc4b62dcf2112ceee7a49fd26acd9202d02c33c57b700bdf4994"
+  triples = 60
 
 [[versions]]
 version = "2026-10-18"
@@ -54,6 +72,12 @@ description = "The ontology as of judaicalink-ontology b26c961, as served on ont
   bytes = 1710
   sha256 = "21762f0fca59f12e4326358643be3cac98db973d49409ac306143e31138561c8"
   triples = 57
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "judaicalink-ontology 1e35339: pull requests 26 to 29 (facts of the entity pages per class, decision 0038; EDTF dates of Footprints; jl:onProperty for the conflicts, decision 0045)."
 
 [[changelog]]
 date = "2026-10-31"

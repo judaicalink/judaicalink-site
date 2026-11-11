@@ -6,7 +6,7 @@ date = "2026-10-18"
 website = "https://www.dbpedia.org"
 example = "http://data.judaicalink.org/data/dbpedia/en/Moses_Mendelssohn"
 kind = "authority"
-stable = "2026-10-26"
+stable = "2026-11-11"
 method = ["converted", "lookup"]
 namespaces = ["dbpedia"]
 replaces = ["dbpedia-persons"]
@@ -22,6 +22,29 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.pn
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/dbpedia"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "5c1925e013a0eb6bf7147855d97790dd995572ff"
+
+  [[versions.files]]
+  path = "dbpedia-selection.tsv.gz"
+  bytes = 1184390
+  sha256 = "946a46c4ca6f05849ff18df1897c413f29cb4c59d1b7318b7a94ded5fb239d98"
+
+  [[versions.files]]
+  path = "dbpedia.ttl.gz"
+  bytes = 2866410
+  sha256 = "0ee37cb1b3cc3b0871683c9e8b4240cc0d4990c17e4e303c8e3975776be1b283"
+  triples = 403663
+
+  [[versions.files]]
+  path = "dbpedia-meta.ttl.gz"
+  bytes = 2441
+  sha256 = "0682bcca5308ee575124adb860da36baf2b3f894e3ac120ac117ac273e2f018e"
+  triples = 83
 
 [[versions]]
 version = "2026-10-26"
@@ -70,6 +93,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2465
   sha256 = "d96cc353a07f8f97147daa8b174d840141c1258bc2246fb52df593453d020647"
   triples = 84
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-26"

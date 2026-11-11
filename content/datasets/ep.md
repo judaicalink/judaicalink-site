@@ -6,7 +6,7 @@ date = "2021-01-22"
 example = "http://data.judaicalink.org/data/ep/1000037"
 namespaces = ["ep"]
 aliases = ["/datasets/ep-supp/"]
-stable = "2026-11-10"
+stable = "2026-11-11"
 kind = "entity-pages"
 method = ["rule-based"]
 
@@ -28,6 +28,30 @@ path = "generators/ep"
 "subcategorization.ttl.gz" = "Subcategorization dataset for local Judaicalink resources."
 "ep.ttl.gz" = "The entity pages: class, names, life dates and places, occupations, descriptions, coordinates, the records they represent (jl:represents) and their external identifiers (owl:sameAs)."
 "ep-history.ttl.gz" = "IRIs that are no longer entity pages, one statement per event with its date: merged (jl:mergedInto), split (jl:splitInto), retired (jl:retiredDate); the history of earlier versions unchanged."
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "9d7c7190196f44f08a3c8fca0f301225e0a67c58"
+
+  [[versions.files]]
+  path = "ep-history.ttl.gz"
+  bytes = 4417318
+  sha256 = "764c478d37b6e918d5d707a56a41f3f901a2e16a79b442f141c45c0f703fce16"
+  triples = 1502950
+
+  [[versions.files]]
+  path = "ep.ttl.gz"
+  bytes = 55573443
+  sha256 = "750f79833484b9d44b755ed1e057b9f0b2c09f49d7c85060e58b1a964f1039c6"
+  triples = 4444434
+
+  [[versions.files]]
+  path = "ep-meta.ttl.gz"
+  bytes = 3655
+  sha256 = "ea3f559541c95018ba5ed8ade30a039a2c87d87f76876471be3d2472405aa483"
+  triples = 175
 
 [[versions]]
 version = "2026-11-10"
@@ -144,6 +168,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 3193
   sha256 = "5536fb2339d73221953443aae454102fecba25b31c09bd09b4e626ce0008e5ef"
   triples = 124
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "As 2026-11-10, with the authority datasets and linksets of the cascade of 2026-11-11 and the datasets made again on them (decision 0043): 323,283 pages, 198 new IRIs; 32 retired, places that only authority records name now (Mount Hagen, a namesake of geo-enriched 2019, among them)."
 
 [[changelog]]
 date = "2026-11-10"

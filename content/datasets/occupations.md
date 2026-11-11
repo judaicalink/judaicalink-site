@@ -8,7 +8,7 @@ namespaces = ["occupation"]
 kind = "vocabulary"
 method = ["converted", "rule-based", "curated"]
 inputs = ["gnd", "records-normalized", "bhr", "sosy", "dbpedia"]
-stable = "2026-10-31"
+stable = "2026-11-11"
 
 [license]
 name = "CC0"
@@ -18,6 +18,24 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/occupations"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "ab71aadc4c0349c853ae424957b2beae398541e0"
+
+  [[versions.files]]
+  path = "occupations.ttl.gz"
+  bytes = 80751
+  sha256 = "230541ce9f21652bb22240830e6e04108d34197a5fa3dd627b7b3545959ac3ec"
+  triples = 15029
+
+  [[versions.files]]
+  path = "occupations-meta.ttl.gz"
+  bytes = 2310
+  sha256 = "a09eee224068013bf4b87216561a0e64a3e20216a7ed66add0a61b997ec013dc"
+  triples = 79
 
 [[versions]]
 version = "2026-10-31"
@@ -37,6 +55,12 @@ description = "The 2,535 GND subject headings of the occupations of gnd and thei
   bytes = 2335
   sha256 = "5e9f3091bfab79c921a7aba58a18053f84eddee959738e9994b3bb3ab450a699"
   triples = 80
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again on the stable versions of 2026-11-11 (the authority datasets and linksets of the cascade of 2026-11-11; decision 0043)."
 
 [[changelog]]
 date = "2026-10-31"

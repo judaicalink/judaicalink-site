@@ -9,7 +9,7 @@ kind = "authority"
 method = ["converted"]
 namespaces = ["gnd"]
 replaces = ["gnd-persons", "gnd-persons-entityfacts"]
-stable = "2026-10-31"
+stable = "2026-11-11"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "owl:sameAs" = ["viaf", "lc-names", "wikidata", "geonames", "isni", "wikipedia-en", "wikipedia-de"]
@@ -23,6 +23,29 @@ statement = "https://web.archive.org/web/20260624101124/https://data.dnb.de/open
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/gnd"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "655d1164818cefabb86be6f492767b8bc09deed9"
+
+  [[versions.files]]
+  path = "gnd-selection.tsv.gz"
+  bytes = 1133032
+  sha256 = "79c460977e3600455f317eddee574478082fd0acad692aa3f92a46aa0da90618"
+
+  [[versions.files]]
+  path = "gnd.ttl.gz"
+  bytes = 20356215
+  sha256 = "969d99d6b859f64db3c7582a18aa5e4781c0f7314fbc18be0f88d5845848ffb0"
+  triples = 2507004
+
+  [[versions.files]]
+  path = "gnd-meta.ttl.gz"
+  bytes = 4337
+  sha256 = "1a896d22c92b083c7b5eaaa46741a7df274ba6765da6d2e65b423c93be0ceadc"
+  triples = 178
 
 [[versions]]
 version = "2026-10-31"
@@ -119,6 +142,12 @@ description = "The GND records JudaicaLink uses, from the DNB dumps (GND 2026-02
   bytes = 4048
   sha256 = "55e42219b662342d6c6acc524ed3fb9e7a37154ff0399860676a6f834f3ae0d9"
   triples = 179
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-31"

@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-26"
 example = "http://data.judaicalink.org/data/footprints/person/1371"
 kind = "linkset"
-stable = "2026-10-26"
+stable = "2026-11-11"
 method = ["rule-based", "llm-judged"]
 inputs = ["footprints", "record-classes", "viaf"]
 
@@ -20,6 +20,29 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-footprints-viaf"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "ab71aadc4c0349c853ae424957b2beae398541e0"
+
+  [[versions.files]]
+  path = "ls-footprints-viaf-decisions.tsv.gz"
+  bytes = 53017
+  sha256 = "4eacc8a8763b5427a0466392ce12968ed534bef48370497ddf90f3fbc3b10c45"
+
+  [[versions.files]]
+  path = "ls-footprints-viaf.ttl.gz"
+  bytes = 10999
+  sha256 = "eb4ded2e998d8b34c5bbf164d926ed78c2e40d2be03a6c5fbd685997ff354486"
+  triples = 1185
+
+  [[versions.files]]
+  path = "ls-footprints-viaf-meta.ttl.gz"
+  bytes = 2515
+  sha256 = "eb9d5f91a3b386f2e0d52a030deb7d1528acabebc508a2e257a65c7185315ae3"
+  triples = 77
 
 [[versions]]
 version = "2026-10-26"
@@ -44,6 +67,12 @@ description = "Made from footprints 2026-10-26 and the judgements of 2026-10-26 
   bytes = 2524
   sha256 = "624c0ceb5fa1be166965ebe53b942d4ccb1a42e71f6ba6f0f80ceb1676ee94a7"
   triples = 78
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again on the stable versions of 2026-11-11 (the authority datasets and linksets of the cascade of 2026-11-11; decision 0043)."
 
 [[changelog]]
 date = "2026-10-26"

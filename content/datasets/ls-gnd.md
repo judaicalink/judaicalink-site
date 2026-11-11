@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-16"
 example = "http://data.judaicalink.org/data/bhr/1"
 kind = "linkset"
-stable = "2026-10-26"
+stable = "2026-11-11"
 method = ["deterministic"]
 inputs = ["gnd"]
 
@@ -20,6 +20,24 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-gnd"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "5c1925e013a0eb6bf7147855d97790dd995572ff"
+
+  [[versions.files]]
+  path = "ls-gnd.ttl.gz"
+  bytes = 1393888
+  sha256 = "1d54123faf6e2c5a9cbdb5bdbdf2446410f623f429e82a8116ea9012456d054d"
+  triples = 139710
+
+  [[versions.files]]
+  path = "ls-gnd-meta.ttl.gz"
+  bytes = 2607
+  sha256 = "2b7ed00d29000fa608f74595a8253926b9056ca19245c1331c53397c47676b8d"
+  triples = 137
 
 [[versions]]
 version = "2026-10-26"
@@ -58,6 +76,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2670
   sha256 = "01d64e32838790d8a5c444e8a15d64e9acf6f4e3cadff48ea3531762ccf06406"
   triples = 146
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-26"

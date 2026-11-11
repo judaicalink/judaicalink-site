@@ -4,7 +4,7 @@ title = "Geographic Enrichment"
 author = "Kai Eckert"
 date = "2019-12-18"
 example = "http://data.judaicalink.org/data/djh/banco-alma-henriette-del"
-stable = "2026-11-10"
+stable = "2026-11-11"
 kind = "complement"
 method = ["rule-based"]
 inputs = ["bhr", "djh", "gnd-persons", "haskala", "hirsch-family", "ubffm-persons", "geo-coordinates", "geonames"]
@@ -20,6 +20,24 @@ path = "generators/geo-enriched"
 
 [files]
 "geo_interlinks.ttl" = "Mappings Geonames - JudaicaLink"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "ab71aadc4c0349c853ae424957b2beae398541e0"
+
+  [[versions.files]]
+  path = "geo-enriched.ttl.gz"
+  bytes = 310373
+  sha256 = "750819bda6a93ad45bb3296dc7ff4ccdf43f7308d0f6672dda770d293b994fe8"
+  triples = 37505
+
+  [[versions.files]]
+  path = "geo-enriched-meta.ttl.gz"
+  bytes = 3113
+  sha256 = "53dc79c31135a3607d86e9ec984edf4dd6a99ad0f787964c609a2c63cc14bccc"
+  triples = 121
 
 [[versions]]
 version = "2026-11-10"
@@ -104,6 +122,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2225
   sha256 = "5d63ce17eaec0c04d4eab1d249c871e75aff117b4b1c6dcc7d7c0b900e620045"
   triples = 117
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again on the stable versions of 2026-11-11 (the authority datasets and linksets of the cascade of 2026-11-11; decision 0043)."
 
 [[changelog]]
 date = "2026-11-10"

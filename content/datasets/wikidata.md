@@ -6,7 +6,7 @@ date = "2026-10-16"
 website = "https://www.wikidata.org/"
 example = "http://data.judaicalink.org/data/wikidata/Q559622"
 kind = "authority"
-stable = "2026-10-26"
+stable = "2026-11-11"
 method = ["converted", "lookup"]
 namespaces = ["wikidata"]
 
@@ -27,6 +27,29 @@ statement = "https://web.archive.org/web/20261006200927/https://www.wikidata.org
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/wikidata"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "5c1925e013a0eb6bf7147855d97790dd995572ff"
+
+  [[versions.files]]
+  path = "wikidata-selection.tsv.gz"
+  bytes = 3422368
+  sha256 = "e64253e15670d9fa8814e62e3cdae73b0c7415903050e98174e01b360bcb4358"
+
+  [[versions.files]]
+  path = "wikidata.ttl.gz"
+  bytes = 8420403
+  sha256 = "fc1f8649b8b3ca1356eee4a18f7bb6c39e096f1a2643be17dc43f5f6de682585"
+  triples = 1240788
+
+  [[versions.files]]
+  path = "wikidata-meta.ttl.gz"
+  bytes = 2793
+  sha256 = "08c36a9175bab95ba08c92d5cc93a4091a9c3da2ad379b9bcb6910f3fb948a6c"
+  triples = 80
 
 [[versions]]
 version = "2026-10-26"
@@ -75,6 +98,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2803
   sha256 = "b6d3999ec64649d5cecf028c7b690a572d692fd148e5f35efc17eaec525b1f73"
   triples = 81
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again from the cascade of 2026-11-11 (inputs:cascade/2026-11-11) on the stable versions of that day (geo-enriched, records-normalized, ep and conflicts 2026-11-10 new)."
 
 [[changelog]]
 date = "2026-10-26"

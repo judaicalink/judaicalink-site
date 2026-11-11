@@ -3,7 +3,7 @@ slug = "corrections-links"
 title = "Corrections of identity links"
 author = "Kai Eckert"
 date = "2026-10-12"
-stable = "2026-10-12-2"
+stable = "2026-11-11"
 kind = "correction"
 method = ["curated"]
 inputs = ["interlinks", "dbpedia-persons", "gnd-persons", "ubffm-persons", "hhkeydocs", "nli-records", "ls-nli-legacy", "dbp-wiki-geo-linking", "cm-entities", "footprints", "haskala"]
@@ -16,6 +16,23 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/corrections-links"
+
+[[versions]]
+version = "2026-11-11"
+issued = "2026-11-11"
+author = "Kai Eckert"
+commit = "ab71aadc4c0349c853ae424957b2beae398541e0"
+
+  [[versions.files]]
+  path = "corrections-links-deletions.ru.gz"
+  bytes = 2903
+  sha256 = "63ca6b0e332f1c98d32a10a67769c7d3e3ac26e8a2866383b62640e5bfd12cf1"
+
+  [[versions.files]]
+  path = "corrections-links-meta.ttl.gz"
+  bytes = 2062
+  sha256 = "f29a48c9e7f5ee932067939ff8dfbe66ce7039390d8333d3b55257df551c422f"
+  triples = 83
 
 [[versions]]
 version = "2026-10-12-2"
@@ -50,6 +67,12 @@ commit = "b3bbaa879db15c0feced64fadaa8ddab38a705e7"
   bytes = 2018
   sha256 = "7f7312f39cd825b13420ca155649963d6e5710e1d2e1b8a76f2dcb78ea841c14"
   triples = 78
+
+[[changelog]]
+date = "2026-11-11"
+version = "2026-11-11"
+author = "Kai Eckert"
+text = "Made again on the stable versions of hhkeydocs and footprints (decision 0043): the corrections of footprints on the IRIs of the API (footprints 2026-10-26); those of hhkeydocs no longer apply (hhkeydocs 2026-10-16 has one record per GND number). 80 deletions in 10 datasets."
 
 [[changelog]]
 date = "2026-10-13"
