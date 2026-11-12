@@ -68,31 +68,38 @@ hugo -d <ziel>      # baut in anderes Verzeichnis
 ### Hugo-Version
 
 Gepinnt ist **0.166.0, extended**. Der Binary liegt nicht im Repo – `hugo*` steht ganz oben
-in `.gitignore` – sondern wird lokal heruntergeladen und verlinkt:
+in `.gitignore` – sondern wird lokal heruntergeladen und verlinkt. Der Ordner wird zwischen
+einem Mac und einem Linux-Rechner synchronisiert, deshalb liegen beide Binaries nebeneinander,
+mit je einem Symlink: `./hugo-lin` (Linux, amd64) und `./hugo-mac` (macOS, universal).
 
 ```bash
 cd judaicalink-site
-curl -sLO https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_extended_0.166.0_linux-amd64.tar.gz
 curl -sLO https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_0.166.0_checksums.txt
-grep "hugo_extended_0.166.0_linux-amd64.tar.gz" hugo_0.166.0_checksums.txt | sha256sum -c -
 mkdir -p hugo_0.166.0
-tar -xzf hugo_extended_0.166.0_linux-amd64.tar.gz -C hugo_0.166.0
-rm hugo_extended_0.166.0_linux-amd64.tar.gz hugo_0.166.0_checksums.txt
-ln -sf hugo_0.166.0/hugo hugo
-./hugo version
+# Linux
+curl -sLO https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_extended_0.166.0_linux-amd64.tar.gz
+grep " hugo_extended_0.166.0_linux-amd64.tar.gz$" hugo_0.166.0_checksums.txt | sha256sum -c -
+tar -xzf hugo_extended_0.166.0_linux-amd64.tar.gz -C /tmp hugo && mv /tmp/hugo hugo_0.166.0/hugo-lin
+ln -sf hugo_0.166.0/hugo-lin hugo-lin
+# macOS (nur als Installer-Paket; entpacken, nicht installieren)
+curl -sLO https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_extended_0.166.0_darwin-universal.pkg
+grep " hugo_extended_0.166.0_darwin-universal.pkg$" hugo_0.166.0_checksums.txt | shasum -a 256 -c -
+pkgutil --expand-full hugo_extended_0.166.0_darwin-universal.pkg /tmp/hugo-pkg && mv /tmp/hugo-pkg/Payload/hugo hugo_0.166.0/hugo-mac
+ln -sf hugo_0.166.0/hugo-mac hugo-mac
+rm hugo_extended_0.166.0_* hugo_0.166.0_checksums.txt
+./hugo-lin version   # bzw. ./hugo-mac version
 ```
 
-Die Konvention ist `hugo_<version>/` als Zielverzeichnis, `./hugo` als Symlink auf den
-Binary darin – dieselbe Anordnung wie zuvor mit 0.73.0. Wer die Version wechselt, legt ein
-neues `hugo_<version>/` an und zieht den Symlink um, statt das alte Verzeichnis zu
-überschreiben; die alte Version bleibt so greifbar, bis sie sich als unnötig erweist, und
-wird dann gelöscht.
+Die Konvention ist `hugo_<version>/` als Zielverzeichnis mit `hugo-lin` und `hugo-mac` darin,
+`./hugo-lin` und `./hugo-mac` als Symlinks darauf. Wer die Version wechselt, legt ein neues
+`hugo_<version>/` an und zieht die Symlinks um, statt das alte Verzeichnis zu überschreiben;
+die alte Version bleibt so greifbar, bis sie sich als unnötig erweist, und wird dann gelöscht.
 
 **Extended, nicht Standard:** Das Template nutzt kein Sass/SCSS, Standard-Hugo würde
 reichen. Extended ist aber die von Hugo empfohlene Ausgabe ohne Nachteil und vermeidet eine
 Überraschung, falls spätere Templates doch Ressourcenverarbeitung brauchen.
 
-Bei Templatefehlern nach einem Hugo-Update zuerst `./hugo version` prüfen – die häufigste
+Bei Templatefehlern nach einem Hugo-Update zuerst `./hugo-lin version` bzw. `./hugo-mac version` prüfen – die häufigste
 Ursache ist eine zwischen den Versionen verschärfte Prüfung (siehe Fallstrick unten zum
 Datumsformat) oder eine Config-Option, die umbenannt wurde (`languageCode` → `locale` seit
 0.158.0).
