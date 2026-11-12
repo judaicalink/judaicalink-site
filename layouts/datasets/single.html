@@ -26,6 +26,12 @@
 		  <br><b>Reason:</b> {{ . | markdownify }}
 		</div>
 		{{ end }}{{ end }}
+		{{ with $p.unlisted }}
+		<div class="alert alert-info" role="alert">
+		  <b>Not listed yet.</b> This dataset is not yet part of the catalogue and the knowledge graph; this page is
+		  reached only by its address. {{ . | markdownify }}
+		</div>
+		{{ end }}
 
 		{{ .Content }}
 

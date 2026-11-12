@@ -22,7 +22,8 @@
   var file = q.get("file"), slug = q.get("dataset"), vid = null, path = null;
   if (file) { var parts = file.split("/"); slug = parts[0]; vid = parts[1]; path = parts.slice(2).join("/"); }
   if (!slug) {
-    var rows = Object.keys(idx.datasets).sort().map(function (s) {
+    // unlisted datasets (judaicalink-data 0048) are found only by a direct link (?dataset=<slug>)
+    var rows = Object.keys(idx.datasets).filter(function (s) { return !idx.datasets[s].unlisted; }).sort().map(function (s) {
       return "<li><a href='?dataset=" + encodeURIComponent(s) + "'>" + esc(idx.datasets[s].title || s) + "</a> <small class='text-muted'>" + esc(s) + "</small></li>";
     });
     out.innerHTML = "<p>Choose a dataset to see where its files are.</p><ul>" + rows.join("") + "</ul>" + checked;
