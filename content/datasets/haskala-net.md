@@ -27,8 +27,8 @@ path = "generators/haskala-net"
 version = "2026-11-12"
 issued = "2026-11-12"
 author = "Kai Eckert"
-commit = "b3e68f8f0708bf21deb73fece2a7c246e8703757"
-description = "First version: made from the pages of haskala.net at the University of Potsdam and the archived haskala.net (2003-2018): 37 persons, 40 articles, about 1,000 works, the portraits; the beginnings of the biographies; pictures linked."
+commit = "24f6177c27228206013e2743bf1ef43c0ba7f4ba"
+description = "First version: made from the pages of haskala.net at the University of Potsdam and the archived haskala.net (2003-2018): 37 persons, 40 articles, about 1,000 works, the portraits; the beginnings of the biographies and the pictures with their own attribution (jl:Text, jl:Image)."
 
   [[versions.files]]
   path = "haskala-net-gnd-2019.ttl.gz"
@@ -38,21 +38,21 @@ description = "First version: made from the pages of haskala.net at the Universi
 
   [[versions.files]]
   path = "haskala-net.ttl.gz"
-  bytes = 110714
-  sha256 = "faa46080db126bfd6c7172408dade11e37867832887c4e3a0be7a94a0940e2ee"
-  triples = 7614
+  bytes = 111376
+  sha256 = "240813885941f422cde09df34e4ad668d699485d0ef4ad61418f317d677d424b"
+  triples = 7922
 
   [[versions.files]]
   path = "haskala-net-meta.ttl.gz"
-  bytes = 2968
-  sha256 = "a6963f6d0677db1c59e2a43cf14f5bd12f55cbc1735e71d4759860d7d01c5054"
+  bytes = 5201
+  sha256 = "d654bdba6c86aebb4aa12dcd07050c798d35fb850ff7c3f0297f5aeaf19c9d06"
   triples = 90
 
 [[changelog]]
 date = "2026-11-12"
 version = "2026-11-12"
 author = "Kai Eckert"
-text = "First version (decision 0047): the persons of haskala.net with life dates as the pages give them, the bibliographies and literature (811 and 84 entries), the texts and portraits with a page of their own, the 40 articles with their authors and citations, the beginning of each biography (up to 900 characters), the pictures linked; every resource links its page at Potsdam and its archived pages of haskala.net (246); 55 entries and 5 texts only on the archived pages. Replaces the 32 haskala.net persons of haskala (2019 IRIs), GND links carried over."
+text = "First version (decisions 0047, 0049): the persons of haskala.net with life dates as the pages give them, the bibliographies and literature (811 and 84 entries), the texts and portraits with a page of their own, the 40 articles with their authors and citations, the beginning of each biography (up to 900 characters) as a text with its authors and citation, the pictures linked with their captions and credit lines; every resource links its page at Potsdam and its archived pages of haskala.net (246); 55 entries and 5 texts only on the archived pages. Replaces the 32 haskala.net persons of haskala (2019 IRIs), GND links carried over."
 
 [build]   # set by jl sync-site: the entry is unlisted (decision 0048)
   list = "never"
@@ -75,8 +75,8 @@ archived by the Internet Archive.
 The dataset is made from the pages of the current site, and the archived pages of haskala.net are linked. Persons,
 works and portraits link the pages that describe them: the current page at Potsdam and the archived pages of
 haskala.net. Of the biographies, the data holds only the beginning (at most about 900 characters), not the full
-text; the articles name their authors and how to cite them. The pictures are linked where the site shows them, not
-copied.
+text, with its authors and how to cite it; the pictures are linked where the site shows them, not copied, with their
+captions and credit lines (texts and images with their own attribution, `jl:Text` and `jl:Image`).
 
 The 32 persons of haskala.net were part of the dataset `haskala` until its version 2026-10-12 (from a list of 2019);
 their IRIs are replaced by the persons of this dataset, and their GND links carried over.
@@ -86,8 +86,8 @@ their IRIs are replaced by the persons of this dataset, and their GND links carr
 Examples from version 2026-11-12, in Turtle (`jl:` is <http://data.judaicalink.org/ontology/>; `skos:`, `foaf:`,
 `dcterms:`, `schema:`, `rdfs:` and `owl:` as usual). Long lists and texts are cut short here, marked `…`.
 
-A **person**, with the facts as the header line of the page gives them, the beginning of the biography, the picture
-on the site (linked, not copied) and every page that describes the person, at Potsdam and in the Internet Archive:
+A **person**, with the facts as the header line of the page gives them and every page that describes the person, at
+Potsdam and in the Internet Archive; the beginning of the biography and the picture are resources of their own (below):
 
 ```turtle
 <http://data.judaicalink.org/data/haskala-net/person/beer>
@@ -99,17 +99,41 @@ on the site (linked, not copied) and every page that describes the person, at Po
     jl:deathDate "1838" ;
     jl:deathLocation "Prag" ;
     jl:occupation "Gelehrter" , "Lehrer" , "Schriftsteller" ;
-    jl:hasAbstract "Mit 13 Jahren ging Beer nach Prag und von da nach Preßburg; an beiden Orten studierte er den Talmud. Dann aber wich er von den traditionellen Wegen ab und ging nach Wien, wo sich u. a. Sonnenfels seiner annahm und ihn stark beeinflusste. … befasst. […]"@de ;   # up to 900 characters
-    foaf:depiction <https://www.uni-potsdam.de/fileadmin/projects/haskala/migrated_contents/Beer_-_Bildqueer.jpg> ;
+    jl:hasAbstractText <http://data.judaicalink.org/data/haskala-net/text/beer> ;
+    jl:hasImage <http://data.judaicalink.org/data/haskala-net/image/beer> ;
     jl:describedAt <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/beer> ,
                    <https://web.archive.org/web/20180515000321/http://www.haskala.net/autoren/beer01.html> ,
                    <https://web.archive.org/web/20090629032318/http://www.haskala.net/autoren/beer01/biographie.html> ;   # …
     jl:hasPublication <http://data.judaicalink.org/data/haskala-net/work/beer/9> ;   # … (23 works)
     owl:sameAs <https://d-nb.info/gnd/117582085> .   # from the list of 2019 (file haskala-net-gnd-2019.ttl.gz)
+```
 
-<https://www.uni-potsdam.de/fileadmin/projects/haskala/migrated_contents/Beer_-_Bildqueer.jpg>
-    dcterms:description "Peter Beer, Kupferstich, um 1900" ;
-    dcterms:source "Foto: The Jewish National and University Library, Jerusalem" .
+The **beginning of the biography**, a text with its own attribution (`jl:Text`): its authors, its page and how to
+cite it, and that it is only the beginning:
+
+```turtle
+<http://data.judaicalink.org/data/haskala-net/text/beer>
+    a jl:Text ;
+    rdf:value "Mit 13 Jahren ging Beer nach Prag und von da nach Preßburg; an beiden Orten studierte er den Talmud. Dann aber wich er von den traditionellen Wegen ab und ging nach Wien, wo sich u. a. Sonnenfels seiner annahm und ihn stark beeinflusste. … […]"@de ;   # up to 900 characters
+    jl:abridged true ;
+    dcterms:creator "Vladek Viehmann" , "Andreas Kennecke" ;
+    dcterms:source <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/beer> ;
+    dcterms:bibliographicCitation "Vladek Viehmann und Andreas Kennecke: Peter Beer. Biographie und Bibliographie, in: haskala.net. Das online-Lexikon zur jüdischen Aufklärung / hg. von Christoph Schulte, URL<>, letzter Zugriff [Datum, Uhrzeit]." ;
+    dcterms:isPartOf <http://data.judaicalink.org/data/haskala-net/article/beer> .
+```
+
+The **picture** as the site shows it (`jl:Image`): the file on the server at Potsdam, linked, not copied, with the
+caption and the credit line as given:
+
+```turtle
+<http://data.judaicalink.org/data/haskala-net/image/beer>
+    a jl:Image ;
+    schema:contentUrl <https://www.uni-potsdam.de/fileadmin/projects/haskala/migrated_contents/Beer_-_Bildqueer.jpg> ;
+    foaf:thumbnail <https://www.uni-potsdam.de/fileadmin/_processed_/2/5/csm_Beer_-_Bildqueer_df29e2750c.webp> ;
+    dcterms:description "Peter Beer, Kupferstich, um 1900"@de ;
+    jl:credit "Foto: The Jewish National and University Library, Jerusalem" ;
+    dcterms:source <https://www.uni-potsdam.de/de/haskala/haskala-in-biographien/beer> ;
+    foaf:depicts <http://data.judaicalink.org/data/haskala-net/person/beer> .
 ```
 
 A **work** of the bibliography, as the entry reads, under the heading of its part of the bibliography, with the
@@ -171,7 +195,7 @@ A **text** edited on a page of its own, and a **portrait**:
     skos:prefLabel "Anna D. Therbusch: Portrait der Henriette Herz [Ausschnitt], Berlin 1778" ;
     dcterms:type "Portrait" ;
     dcterms:subject <http://data.judaicalink.org/data/haskala-net/person/henriette-herz> ;
-    foaf:depiction <https://www.uni-potsdam.de/fileadmin/projects/haskala/migrated_contents/Teaser_Herz__1778__I.jpg> ;
+    jl:hasImage <http://data.judaicalink.org/data/haskala-net/image/haskala-in-bildern/portraitherz> ;   # with the credit "Foto: © Bildarchiv Preußischer Kulturbesitz"
     jl:describedAt <https://www.uni-potsdam.de/de/haskala/haskala-in-bildern/portraitherz> ,
                    <https://web.archive.org/web/20180312165951/http://www.haskala.net/portraits/portraethenrietteherz.html> .   # …
 ```
