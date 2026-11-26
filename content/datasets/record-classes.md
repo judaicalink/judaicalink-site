@@ -7,7 +7,7 @@ example = "http://data.judaicalink.org/data/yivo/abramovich_rafail"
 kind = "complement"
 method = ["lookup", "rule-based"]
 inputs = ["yivo", "footprints", "viaf"]
-stable = "2026-11-11"
+stable = "2026-11-26"
 
 [license]
 name = "CC0"
@@ -17,6 +17,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/record-classes"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "b3e52e1a43becb578d6f34f69a2c11f9d516398a"
+description = "On the authority datasets of 2026-11-26."
+
+  [[versions.files]]
+  path = "record-classes.ttl.gz"
+  bytes = 51081
+  sha256 = "ed81417ff185f6752bf836bf9a3ed31c05a249d158556c0f34d5111d099ffb32"
+  triples = 13440
+
+  [[versions.files]]
+  path = "record-classes-meta.ttl.gz"
+  bytes = 2628
+  sha256 = "88628f7ef8a65a87537bb5fdef4fc09364332e6544cbcea23cce017cb47192f2"
+  triples = 73
 
 [[versions]]
 version = "2026-11-11"
@@ -73,6 +92,12 @@ description = "Classes of the yivo articles: from their Wikidata item, else life
   bytes = 2246
   sha256 = "c7e3294345d5487cd145e887eafba6d27efa1da1d224d34198e5b79ee9bd3860"
   triples = 62
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Made again on the authority datasets of 2026-11-26 (cascade with rujen-geonames); records-normalized with its parsers of 2026-11-11 (German dates, EDTF for decades, centuries, ranges; Hebrew dates)."
 
 [[changelog]]
 date = "2026-11-11"

@@ -9,7 +9,7 @@ kind = "authority"
 method = ["converted"]
 namespaces = ["gnd"]
 replaces = ["gnd-persons", "gnd-persons-entityfacts"]
-stable = "2026-11-11"
+stable = "2026-11-26"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "owl:sameAs" = ["viaf", "lc-names", "wikidata", "geonames", "isni", "wikipedia-en", "wikipedia-de"]
@@ -23,6 +23,30 @@ statement = "https://web.archive.org/web/20260624101124/https://data.dnb.de/open
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/gnd"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "gnd-selection.tsv.gz"
+  bytes = 1134907
+  sha256 = "9b31315aebbb024c840042a8a8865d2bb01d40de9d9b01e38e8039683250c47e"
+
+  [[versions.files]]
+  path = "gnd.ttl.gz"
+  bytes = 20406828
+  sha256 = "9e3bbb0ae87d22642d358559f40a222d9d3df3a61a7c9a8494e6dc5d9129d46c"
+  triples = 2511793
+
+  [[versions.files]]
+  path = "gnd-meta.ttl.gz"
+  bytes = 4373
+  sha256 = "4452e86f19d3d28028caacc78ef5d101cc54c3e92515b9c69165f3e8b4c27614"
+  triples = 179
 
 [[versions]]
 version = "2026-11-11"
@@ -142,6 +166,12 @@ description = "The GND records JudaicaLink uses, from the DNB dumps (GND 2026-02
   bytes = 4048
   sha256 = "55e42219b662342d6c6acc524ed3fb9e7a37154ff0399860676a6f834f3ae0d9"
   triples = 179
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"

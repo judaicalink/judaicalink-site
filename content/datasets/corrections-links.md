@@ -3,7 +3,7 @@ slug = "corrections-links"
 title = "Corrections of identity links"
 author = "Kai Eckert"
 date = "2026-10-12"
-stable = "2026-11-11"
+stable = "2026-11-26"
 kind = "correction"
 method = ["curated"]
 inputs = ["interlinks", "dbpedia-persons", "gnd-persons", "ubffm-persons", "hhkeydocs", "nli-records", "ls-nli-legacy", "dbp-wiki-geo-linking", "cm-entities", "footprints", "haskala"]
@@ -16,6 +16,24 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/corrections-links"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "b3e52e1a43becb578d6f34f69a2c11f9d516398a"
+description = "On the authority datasets of 2026-11-26."
+
+  [[versions.files]]
+  path = "corrections-links-deletions.ru.gz"
+  bytes = 2903
+  sha256 = "63ca6b0e332f1c98d32a10a67769c7d3e3ac26e8a2866383b62640e5bfd12cf1"
+
+  [[versions.files]]
+  path = "corrections-links-meta.ttl.gz"
+  bytes = 2083
+  sha256 = "49b9410b4bff084e4df7eb077e9dd6de58c11a1b338e104e79479eaff301cecc"
+  triples = 84
 
 [[versions]]
 version = "2026-11-11"
@@ -67,6 +85,12 @@ commit = "b3bbaa879db15c0feced64fadaa8ddab38a705e7"
   bytes = 2018
   sha256 = "7f7312f39cd825b13420ca155649963d6e5710e1d2e1b8a76f2dcb78ea841c14"
   triples = 78
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Made again on the authority datasets of 2026-11-26 (cascade with rujen-geonames); records-normalized with its parsers of 2026-11-11 (German dates, EDTF for decades, centuries, ranges; Hebrew dates)."
 
 [[changelog]]
 date = "2026-11-11"

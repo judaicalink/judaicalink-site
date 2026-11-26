@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/lc/n79021164"
 kind = "authority"
 method = ["converted"]
 namespaces = ["lc"]
-stable = "2026-11-11"
+stable = "2026-11-26"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "madsrdf:hasExactExternalAuthority" = ["gnd", "tgn", "wikidata", "viaf", "isni", "geonames"]
@@ -22,6 +22,30 @@ statement = "https://web.archive.org/web/20260814162252/https://id.loc.gov/about
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/lc"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "lc-selection.tsv.gz"
+  bytes = 1251806
+  sha256 = "c90ec44ef3bb6f41f0591180a33a2ae552fdb2f1b008df72eb3b23155d6d2751"
+
+  [[versions.files]]
+  path = "lc.ttl.gz"
+  bytes = 10726509
+  sha256 = "4375d2503c3e3fb77b1c4a45ff1f3c32baffb613015520eb7ac44a7ff8a21892"
+  triples = 1997020
+
+  [[versions.files]]
+  path = "lc-meta.ttl.gz"
+  bytes = 3007
+  sha256 = "c6cfa9f815f87dbb696c9af7904001153e1b8e16a8d75cdd01b4da267020f20e"
+  triples = 83
 
 [[versions]]
 version = "2026-11-11"
@@ -117,6 +141,12 @@ description = "The records of the LC Name Authority File JudaicaLink uses, from 
   bytes = 3358
   sha256 = "b37e43166627e3eb834b77bd4af08415d7a71b0e1fced796e5850c39dc337e78"
   triples = 158
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"

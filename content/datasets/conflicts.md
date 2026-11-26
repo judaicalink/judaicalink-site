@@ -3,7 +3,7 @@ slug = "conflicts"
 title = "Conflicting statements of the records of one person"
 author = "Kai Eckert"
 date = "2026-11-10"
-stable = "2026-11-11"
+stable = "2026-11-26"
 kind = "complement"
 method = ["rule-based", "deterministic"]
 namespaces = ["conflicts"]
@@ -17,6 +17,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/conflicts"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "1c677f4f05d3eb91fe59c7cfa1d54a2abb3eacea"
+description = "On ep 2026-11-26: 3,328 conflicts."
+
+  [[versions.files]]
+  path = "conflicts.ttl.gz"
+  bytes = 187146
+  sha256 = "7b84abb9f0a76f5dd0d51cf2091c86dc3400822de2d0e375e219770c4aa09009"
+  triples = 28717
+
+  [[versions.files]]
+  path = "conflicts-meta.ttl.gz"
+  bytes = 2368
+  sha256 = "f489d309c4a5fb4826de6d92e7990b067e09e707c027261a635900f1a75211b6"
+  triples = 121
 
 [[versions]]
 version = "2026-11-11"
@@ -53,6 +72,12 @@ commit = "3724aff43da3a4a0a9e3346352774627ce97f7ee"
   bytes = 2359
   sha256 = "d99b89c595e7d0893b0f041d84bcf0027837f6ef7560bb3f75b254204d2f73cb"
   triples = 120
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Made again on ep 2026-11-26: 3,328 conflicts (birth place 511, birth year 1,897, death place 232, death year 688)."
 
 [[changelog]]
 date = "2026-11-11"

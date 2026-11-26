@@ -4,11 +4,11 @@ title = "Translations for Rujen (Google)"
 author = "Kai Eckert"
 date = "2020-09-28"
 website = "http://www.rujen.ru"
-example = "http://data.judaicalink.org/data/rujen/ben-gurion"
+example = "http://data.judaicalink.org/data/rujen-translation/text/ben-gurion/en"
+namespaces = ["rujen-translation"]
 picture = "pictures/rujen-translation/logo.png"
-namespaces = ["rujen"]
 aliases = ["/datasets/rujen-translation-supp/"]
-stable = "2026-10-12"
+stable = "2026-11-26"
 kind = "complement"
 method = ["machine-translation"]
 inputs = ["rujen"]
@@ -21,6 +21,43 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/rujen-translation"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "52c80009f4eaaac8d86be2838d759bd33a698abf"
+description = "The translated articles as texts of their own (jl:Text, translations of the texts of rujen 2026-11-26); without the translations of pages rujen does not have."
+
+  [[versions.files]]
+  path = "rujen-de-abstract-translations.ttl"
+  bytes = 16052827
+  sha256 = "d4672c18205cdc7a5160a7fbd0357edae1d3ddcc858bf9c3a8da8adae252a892"
+  triples = 46743
+
+  [[versions.files]]
+  path = "rujen-de-label-translations.ttl"
+  bytes = 1596183
+  sha256 = "18a3012557f559d9400888cdc2f07439fe67d53ae9da2b3e6fa650db2d72a69b"
+  triples = 15730
+
+  [[versions.files]]
+  path = "rujen-en-abstract-translations.ttl"
+  bytes = 15332311
+  sha256 = "6fa24d3c4d675cc0850978ed8cb81e344b40fb392b7b20667db37dc444c886de"
+  triples = 46743
+
+  [[versions.files]]
+  path = "rujen-en-label-translations.ttl"
+  bytes = 1593743
+  sha256 = "e1eb4895c3eb307e3cff27c1add99ac0c4b6fd51e249e6becf385d14e30f0d42"
+  triples = 15730
+
+  [[versions.files]]
+  path = "rujen-translation-meta.ttl.gz"
+  bytes = 2019
+  sha256 = "8aa8543862c64c4e54a0390848dfa7ff9a1533b83b7e84c698e07d16a53f0bb2"
+  triples = 104
 
 [[versions]]
 version = "2026-10-12"
@@ -54,9 +91,9 @@ commit = "2a08eec30199d8d95bdd2593e69e760c33a8d0dd"
 
   [[versions.files]]
   path = "rujen-translation-meta.ttl.gz"
-  bytes = 1719
-  sha256 = "ed7cffa0df89e752036e3d02415945dde4fd9d3b7178102920387977f9ecaeaf"
-  triples = 94
+  bytes = 1798
+  sha256 = "bea228b8a93f27845e02fe73ad8bd9074a74a81d0992f0c2b1abcf5ff48613f5"
+  triples = 96
 
 [[versions]]
 version = "2020-09-28"
@@ -86,9 +123,15 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
 
   [[versions.files]]
   path = "rujen-translation-meta.ttl.gz"
-  bytes = 1918
-  sha256 = "c0af2d43c5d54d8848541f90a49fd114642547cc05ef3fed22732496114feab0"
-  triples = 88
+  bytes = 1961
+  sha256 = "6e40500f88f7291d1cf7c5bc147ec0b82a5171b7771801394ecf649c2775d36e"
+  triples = 90
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Translated articles as jl:Text with schema:translationOfWork the text of rujen (0049), in the namespace rujen-translation (0050); the translations of the main page and the category pages left out (0050)."
 
 [[changelog]]
 date = "2026-10-12"

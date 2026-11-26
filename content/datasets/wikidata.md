@@ -6,7 +6,7 @@ date = "2026-10-16"
 website = "https://www.wikidata.org/"
 example = "http://data.judaicalink.org/data/wikidata/Q559622"
 kind = "authority"
-stable = "2026-11-11"
+stable = "2026-11-26"
 method = ["converted", "lookup"]
 namespaces = ["wikidata"]
 
@@ -27,6 +27,30 @@ statement = "https://web.archive.org/web/20261006200927/https://www.wikidata.org
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/wikidata"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "wikidata-selection.tsv.gz"
+  bytes = 3476487
+  sha256 = "df3b05b4c9fce8264172ce09d4427ad9e7c75bb8c62a3d28fa50625264a523bd"
+
+  [[versions.files]]
+  path = "wikidata.ttl.gz"
+  bytes = 8556404
+  sha256 = "dce8040f40598fa7e66e2e0f195dc787bff0b986777d776354d75b33040590a0"
+  triples = 1261241
+
+  [[versions.files]]
+  path = "wikidata-meta.ttl.gz"
+  bytes = 2847
+  sha256 = "de4832b9d3f3b5bf0879c172becc6cc5adbd2e11f72a76519df8e7f3e94a24b2"
+  triples = 81
 
 [[versions]]
 version = "2026-11-11"
@@ -98,6 +122,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2803
   sha256 = "b6d3999ec64649d5cecf028c7b690a572d692fd148e5f35efc17eaec525b1f73"
   triples = 81
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"

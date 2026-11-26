@@ -8,7 +8,7 @@ namespaces = ["occupation"]
 kind = "vocabulary"
 method = ["converted", "rule-based", "curated"]
 inputs = ["gnd", "records-normalized", "bhr", "sosy", "dbpedia"]
-stable = "2026-11-11"
+stable = "2026-11-26"
 
 [license]
 name = "CC0"
@@ -18,6 +18,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/occupations"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "b3e52e1a43becb578d6f34f69a2c11f9d516398a"
+description = "On the authority datasets of 2026-11-26."
+
+  [[versions.files]]
+  path = "occupations.ttl.gz"
+  bytes = 80751
+  sha256 = "e38f346dec287b09e2af879533d394c5815c67b9a65451f72f85b4d4ec024e46"
+  triples = 15029
+
+  [[versions.files]]
+  path = "occupations-meta.ttl.gz"
+  bytes = 2324
+  sha256 = "21d220ebc57b28adc081c346dc9fdeb66d220081384998319b9e28a0f1c8e5db"
+  triples = 80
 
 [[versions]]
 version = "2026-11-11"
@@ -55,6 +74,12 @@ description = "The 2,535 GND subject headings of the occupations of gnd and thei
   bytes = 2335
   sha256 = "5e9f3091bfab79c921a7aba58a18053f84eddee959738e9994b3bb3ab450a699"
   triples = 80
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Made again on the authority datasets of 2026-11-26 (cascade with rujen-geonames); records-normalized with its parsers of 2026-11-11 (German dates, EDTF for decades, centuries, ranges; Hebrew dates)."
 
 [[changelog]]
 date = "2026-11-11"

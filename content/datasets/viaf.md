@@ -6,7 +6,7 @@ date = "2026-10-18"
 website = "https://viaf.org/en/viaf/data"
 example = "http://data.judaicalink.org/data/viaf/54984961"
 kind = "authority"
-stable = "2026-11-11"
+stable = "2026-11-26"
 method = ["converted"]
 namespaces = ["viaf"]
 
@@ -22,6 +22,30 @@ attribution = "VIAF (Virtual International Authority File), OCLC"
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/viaf"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "viaf-selection.tsv.gz"
+  bytes = 2358550
+  sha256 = "3f94beb034aa3d47324815b9f4ad93162636ae834e70aef14828e4edcf99b2bf"
+
+  [[versions.files]]
+  path = "viaf.ttl.gz"
+  bytes = 22978263
+  sha256 = "f5a8761e74bfd2812622a66c837004e10b314d244533d3bbf72f5f40b89d44fe"
+  triples = 2984066
+
+  [[versions.files]]
+  path = "viaf-meta.ttl.gz"
+  bytes = 2724
+  sha256 = "46150ddd88941a6cbd4c9c790c2a2f1fda54533901d18ef4409494482aea9ce5"
+  triples = 80
 
 [[versions]]
 version = "2026-11-11"
@@ -93,6 +117,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2683
   sha256 = "fa7dffb00a8746888268645ad7390675fe2fb747950b329ef37ef06543ffda4b"
   triples = 80
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"

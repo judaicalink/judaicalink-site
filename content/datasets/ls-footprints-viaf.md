@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-26"
 example = "http://data.judaicalink.org/data/footprints/person/1371"
 kind = "linkset"
-stable = "2026-11-11"
+stable = "2026-11-26"
 method = ["rule-based", "llm-judged"]
 inputs = ["footprints", "record-classes", "viaf"]
 
@@ -20,6 +20,30 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-footprints-viaf"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "b3e52e1a43becb578d6f34f69a2c11f9d516398a"
+description = "On the authority datasets of 2026-11-26."
+
+  [[versions.files]]
+  path = "ls-footprints-viaf-decisions.tsv.gz"
+  bytes = 52916
+  sha256 = "1c6bf61610cfb5df31743c8ece467667474fa89074eae0e3f693bf455122f0da"
+
+  [[versions.files]]
+  path = "ls-footprints-viaf.ttl.gz"
+  bytes = 11000
+  sha256 = "3bf7c664b715f9097aa6a2d6ce17700146496081b0cd883afac45b145b361510"
+  triples = 1185
+
+  [[versions.files]]
+  path = "ls-footprints-viaf-meta.ttl.gz"
+  bytes = 2530
+  sha256 = "c479b1571b4bd8643f130f29cb723e7b1ba7579485f9e19fc504be49af129d8c"
+  triples = 78
 
 [[versions]]
 version = "2026-11-11"
@@ -67,6 +91,12 @@ description = "Made from footprints 2026-10-26 and the judgements of 2026-10-26 
   bytes = 2524
   sha256 = "624c0ceb5fa1be166965ebe53b942d4ccb1a42e71f6ba6f0f80ceb1676ee94a7"
   triples = 78
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Made again on the authority datasets of 2026-11-26 (cascade with rujen-geonames); records-normalized with its parsers of 2026-11-11 (German dates, EDTF for decades, centuries, ranges; Hebrew dates)."
 
 [[changelog]]
 date = "2026-11-11"

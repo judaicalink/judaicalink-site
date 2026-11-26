@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-18"
 example = "http://data.judaicalink.org/data/yivo/abramovich_rafail"
 kind = "linkset"
-stable = "2026-11-11"
+stable = "2026-11-26"
 method = ["deterministic", "rule-based"]
 inputs = ["wikidata", "yivo", "bhr", "rujen", "dbpedia-persons"]
 replaces = ["ls-yivo-wikidata"]
@@ -21,6 +21,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-wikidata"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "ls-wikidata.ttl.gz"
+  bytes = 2302940
+  sha256 = "c3d4696d5756d269d549ba0032d3ade43dcb592de650c5ca01e02c975cd8b672"
+  triples = 210015
+
+  [[versions.files]]
+  path = "ls-wikidata-meta.ttl.gz"
+  bytes = 2787
+  sha256 = "04ac5c67ff391652f296d3e8fe15ef65a4ea9af7d776cbe2475c128bc92d9f28"
+  triples = 150
 
 [[versions]]
 version = "2026-11-11"
@@ -77,6 +96,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2840
   sha256 = "b44028ed18099e32aed6ca005a0ac36ac42d4fab6b3932d58b7dd9adbac86f4d"
   triples = 156
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"

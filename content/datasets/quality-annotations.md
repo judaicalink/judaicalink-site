@@ -3,7 +3,7 @@ slug = "quality-annotations"
 title = "Quality annotations for the JudaicaLink datasets"
 author = "Kai Eckert"
 date = "2026-10-12"
-stable = "2026-11-11"
+stable = "2026-11-26"
 kind = "complement"
 method = ["rule-based"]
 namespaces = ["quality-annotations"]
@@ -17,6 +17,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/quality-annotations"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "b3e52e1a43becb578d6f34f69a2c11f9d516398a"
+description = "On the authority datasets of 2026-11-26."
+
+  [[versions.files]]
+  path = "quality-annotations.ttl.gz"
+  bytes = 18131
+  sha256 = "e00b41bcdf7181f12052d3ce194e2e5708a4dea0e8f20402a34bf38d0f2aa56c"
+  triples = 3636
+
+  [[versions.files]]
+  path = "quality-annotations-meta.ttl.gz"
+  bytes = 2538
+  sha256 = "6c91eb0776ba20cbcf7b5922650eea02e8b2513de5045fb6383cbe61bf6febe3"
+  triples = 107
 
 [[versions]]
 version = "2026-11-11"
@@ -53,6 +72,12 @@ commit = "75c5921ff58df3ecdb3602144958f703b40e4cff"
   bytes = 2622
   sha256 = "6ea5b4de21f1ce3a9c51e76fc08c6462af024ccb844371e95151be0800d62604"
   triples = 116
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Made again on the authority datasets of 2026-11-26 (cascade with rujen-geonames); records-normalized with its parsers of 2026-11-11 (German dates, EDTF for decades, centuries, ranges; Hebrew dates)."
 
 [[changelog]]
 date = "2026-11-11"

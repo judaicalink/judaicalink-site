@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-16"
 example = "http://data.judaicalink.org/data/geo-coordinates/Jerusalem"
 kind = "linkset"
-stable = "2026-11-11"
+stable = "2026-11-26"
 method = ["deterministic"]
 inputs = ["geonames"]
 
@@ -20,6 +20,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-geonames"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "ls-geonames.ttl.gz"
+  bytes = 203845
+  sha256 = "8c8c3552b88274b84971d6ecdbb79f488a36312fe7b9d40d88149dbe08de1731"
+  triples = 23119
+
+  [[versions.files]]
+  path = "ls-geonames-meta.ttl.gz"
+  bytes = 2538
+  sha256 = "eafacfb4dfd6cb33b5ef1c7139ab905c4593a1bc7f3872609fecb6e5142b2ffa"
+  triples = 140
 
 [[versions]]
 version = "2026-11-11"
@@ -76,6 +95,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2576
   sha256 = "65e703a7fbd1998253627e88f54106f7ce057ab3a9245cc0f27f1c011bf93e4b"
   triples = 146
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"

@@ -6,7 +6,7 @@ date = "2026-10-18"
 website = "https://www.dbpedia.org"
 example = "http://data.judaicalink.org/data/dbpedia/en/Moses_Mendelssohn"
 kind = "authority"
-stable = "2026-11-11"
+stable = "2026-11-26"
 method = ["converted", "lookup"]
 namespaces = ["dbpedia"]
 replaces = ["dbpedia-persons"]
@@ -22,6 +22,30 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.pn
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/dbpedia"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "dbpedia-selection.tsv.gz"
+  bytes = 1220673
+  sha256 = "d3174f768bc638437039e308be83a99c62e40c2b3de44fc7a5d94d69701821dc"
+
+  [[versions.files]]
+  path = "dbpedia.ttl.gz"
+  bytes = 2950817
+  sha256 = "5cd76fdbab72d050ed079939d7e8224c65f9f539692bbc48d8ba9e90e59dba6c"
+  triples = 416265
+
+  [[versions.files]]
+  path = "dbpedia-meta.ttl.gz"
+  bytes = 2505
+  sha256 = "b28385e379a517d9c646733e72b4f810ed277906b50b0474ea7aacc701ddaa8e"
+  triples = 84
 
 [[versions]]
 version = "2026-11-11"
@@ -93,6 +117,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2465
   sha256 = "d96cc353a07f8f97147daa8b174d840141c1258bc2246fb52df593453d020647"
   triples = 84
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"

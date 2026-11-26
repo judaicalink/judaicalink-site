@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/rujen/ben-gurion"
 picture = "pictures/rujen/logo.png"
 namespaces = ["rujen"]
 aliases = ["/encyclopediae/encyclopediae-of-russion-jewry/", "/datasets/encyclopediae-of-russion-jewry/"]
-stable = "2026-10-18"
+stable = "2026-11-26"
 kind = "records"
 method = ["scraped"]
 
@@ -23,6 +23,30 @@ path = "generators/rujen"
 
 [files]
 "rujen.jsonl.gz" = "Raw data crawled from rujen.ru, input of the generator."
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "52c80009f4eaaac8d86be2838d759bd33a698abf"
+description = "The articles as texts of their own (jl:Text); the pages also as archived by the Wayback Machine (8,430 records); the category pages left out."
+
+  [[versions.files]]
+  path = "rujen.jsonl.gz"
+  bytes = 7829862
+  sha256 = "2ded560739a06d39eee86c0506aa093d961a144491a246efc09755f1d49b3d6e"
+
+  [[versions.files]]
+  path = "rujen.ttl.gz"
+  bytes = 7178840
+  sha256 = "2974b03170eb65319fef273563a7b385735801b4277b6ac9a9c9fe073717ae65"
+  triples = 196027
+
+  [[versions.files]]
+  path = "rujen-meta.ttl.gz"
+  bytes = 2429
+  sha256 = "f5c2252d9a82e531070d11ea1fa4fad21fc2a225758aecdbf4e290aeb42a1fa4"
+  triples = 80
 
 [[versions]]
 version = "2026-10-18"
@@ -93,6 +117,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 2141
   sha256 = "abdcc232b23d7ce6c00fb9e7d82b4749e650790dce90cfb201c3fffdea5ac977"
   triples = 69
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Articles as jl:Text instead of jl:hasAbstract (0049); records link the latest capture of their page in the Wayback Machine; the two category pages left out; translated articles as jl:Text of rujen-translation (0050)."
 
 [[changelog]]
 date = "2026-10-18"

@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-11-12"
 website = "https://www.uni-potsdam.de/de/haskala/"
 example = "http://data.judaicalink.org/data/haskala-net/person/beer"
-namespaces = ["haskala-net", "haskala"]
+namespaces = ["haskala-net"]
 stable = "2026-11-12"
 kind = "records"
 unlisted = "It will be published once the University of Potsdam, which runs haskala.net, has seen it."
@@ -44,9 +44,9 @@ description = "First version: made from the pages of haskala.net at the Universi
 
   [[versions.files]]
   path = "haskala-net-meta.ttl.gz"
-  bytes = 5201
-  sha256 = "d654bdba6c86aebb4aa12dcd07050c798d35fb850ff7c3f0297f5aeaf19c9d06"
-  triples = 90
+  bytes = 5233
+  sha256 = "9359877b4baecbdee7762ffce8f8cc698eaddcfdf0aa07afeb75c559d031a312"
+  triples = 89
 
 [[changelog]]
 date = "2026-11-12"

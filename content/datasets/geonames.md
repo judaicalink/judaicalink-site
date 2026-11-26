@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/geonames/281184"
 kind = "authority"
 method = ["converted"]
 namespaces = ["geonames"]
-stable = "2026-11-11"
+stable = "2026-11-26"
 
 [identity]   # the properties that state identity, and towards which sources (decision 0032)
 "owl:sameAs" = ["wikidata"]
@@ -23,6 +23,30 @@ statement = "https://web.archive.org/web/20261006030315/https://download.geoname
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/geonames"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "geonames-selection.tsv.gz"
+  bytes = 123840
+  sha256 = "7547b6c1ceb40d9a5b4e1ac28e02f7af44a47188151e825d3bbe877bda053371"
+
+  [[versions.files]]
+  path = "geonames.ttl.gz"
+  bytes = 2027432
+  sha256 = "cf4dff451f6cd09bb80eb69a6422d910962b8fb35ce073d80a163f9751489ea9"
+  triples = 323502
+
+  [[versions.files]]
+  path = "geonames-meta.ttl.gz"
+  bytes = 2979
+  sha256 = "abc44a5e704e758e54965633277b5c6a75049226116d828e3a3d2e02f088e37d"
+  triples = 81
 
 [[versions]]
 version = "2026-11-11"
@@ -118,6 +142,12 @@ description = "The GeoNames features JudaicaLink uses, from the GeoNames dump of
   bytes = 3338
   sha256 = "a0113ca9de471be0b7eaf835b5f2061a3a0af965d7eb51fbcb98892edb4ad708"
   triples = 159
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"

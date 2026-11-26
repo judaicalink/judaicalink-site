@@ -6,7 +6,7 @@ date = "2021-01-22"
 example = "http://data.judaicalink.org/data/ep/1000037"
 namespaces = ["ep"]
 aliases = ["/datasets/ep-supp/"]
-stable = "2026-11-11"
+stable = "2026-11-26"
 kind = "entity-pages"
 method = ["rule-based"]
 
@@ -28,6 +28,31 @@ path = "generators/ep"
 "subcategorization.ttl.gz" = "Subcategorization dataset for local Judaicalink resources."
 "ep.ttl.gz" = "The entity pages: class, names, life dates and places, occupations, descriptions, coordinates, the records they represent (jl:represents) and their external identifiers (owl:sameAs)."
 "ep-history.ttl.gz" = "IRIs that are no longer entity pages, one statement per event with its date: merged (jl:mergedInto), split (jl:splitInto), retired (jl:retiredDate); the history of earlier versions unchanged."
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "1c677f4f05d3eb91fe59c7cfa1d54a2abb3eacea"
+description = "On the datasets of 2026-11-26: rujen's articles as texts (descriptions from jl:Text and its translations) and its places linked to GeoNames (rujen-geonames): 493 rujen place pages merged into the pages of the same places."
+
+  [[versions.files]]
+  path = "ep-history.ttl.gz"
+  bytes = 4422608
+  sha256 = "1463c111c4cba895d52d30303ad575a027ed6f3a3eb8db783c32ad7d9392b1da"
+  triples = 1503958
+
+  [[versions.files]]
+  path = "ep.ttl.gz"
+  bytes = 56151229
+  sha256 = "f35198cf2f82a06280329d86f82e73c908c8527fbb989210ea73aa2b0df93517"
+  triples = 4478691
+
+  [[versions.files]]
+  path = "ep-meta.ttl.gz"
+  bytes = 3793
+  sha256 = "cbbc0f0bb516d8e7e7f21530c5cb3cd56f0b68baa5a25be83a7498e6cd124eae"
+  triples = 176
 
 [[versions]]
 version = "2026-11-11"
@@ -168,6 +193,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   bytes = 3193
   sha256 = "5536fb2339d73221953443aae454102fecba25b31c09bd09b4e626ce0008e5ef"
   triples = 124
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Descriptions also from jl:Text and its translations (rujen 2026-11-26); the rujen places join through rujen-geonames (0051): 493 merges, 15 new pages, 22 retired; 322,783 pages."
 
 [[changelog]]
 date = "2026-11-11"

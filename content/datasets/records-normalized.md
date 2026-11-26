@@ -3,7 +3,7 @@ slug = "records-normalized"
 title = "Normalised dates, places and occupations of the records"
 author = "Kai Eckert"
 date = "2026-10-12"
-stable = "2026-11-11"
+stable = "2026-11-26"
 kind = "complement"
 method = ["rule-based", "deterministic"]
 replaces = ["date-enriched"]
@@ -17,6 +17,37 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/records-normalized"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "b3e52e1a43becb578d6f34f69a2c11f9d516398a"
+description = "On the authority datasets of 2026-11-26."
+
+  [[versions.files]]
+  path = "records-normalized-dates.ttl.gz"
+  bytes = 1545561
+  sha256 = "feedbb77bd53de9b045dc2f34bdc0881c72422ef97b28a1e3c181e2176715bba"
+  triples = 229913
+
+  [[versions.files]]
+  path = "records-normalized-occupations.ttl.gz"
+  bytes = 80751
+  sha256 = "eb2f63944eda2e7c6a8e3d7ea5f9dc84f755f5a36787c7e237f0ba74b950bbb1"
+  triples = 9480
+
+  [[versions.files]]
+  path = "records-normalized-places.ttl.gz"
+  bytes = 5062
+  sha256 = "632e73cea906e4bf0d7f59371692dde0d97a33bb17cd55edefc64ff3bd035508"
+  triples = 502
+
+  [[versions.files]]
+  path = "records-normalized-meta.ttl.gz"
+  bytes = 3385
+  sha256 = "15b0f4616c421867efbb3031c85848c513da7400f85d71adacd562f27e506c72"
+  triples = 127
 
 [[versions]]
 version = "2026-11-11"
@@ -107,6 +138,12 @@ commit = "75c5921ff58df3ecdb3602144958f703b40e4cff"
   bytes = 3432
   sha256 = "42732fac82e3b15922b39a129b07aded93d2f9482fd49facdf44329b4fbe262d"
   triples = 141
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Made again on the authority datasets of 2026-11-26 (cascade with rujen-geonames); records-normalized with its parsers of 2026-11-11 (German dates, EDTF for decades, centuries, ranges; Hebrew dates)."
 
 [[changelog]]
 date = "2026-11-11"

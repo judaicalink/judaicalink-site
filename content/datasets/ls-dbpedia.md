@@ -5,7 +5,7 @@ author = "Kai Eckert"
 date = "2026-10-18"
 example = "http://data.judaicalink.org/data/bhr/1"
 kind = "linkset"
-stable = "2026-11-11"
+stable = "2026-11-26"
 method = ["deterministic"]
 inputs = ["dbpedia"]
 
@@ -20,6 +20,25 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/ls-dbpedia"
+
+[[versions]]
+version = "2026-11-26"
+issued = "2026-11-26"
+author = "Kai Eckert"
+commit = "e4918967692159e196209d743fc6e50054529374"
+description = "From the cascade of 2026-11-26, which adds the places of rujen-geonames (rujen to GeoNames, decision 0051)."
+
+  [[versions.files]]
+  path = "ls-dbpedia.ttl.gz"
+  bytes = 2154010
+  sha256 = "fba8a8cb1222719953a55aad88d4730e7e71b701866bed7c7210460f8735c6e8"
+  triples = 169341
+
+  [[versions.files]]
+  path = "ls-dbpedia-meta.ttl.gz"
+  bytes = 2563
+  sha256 = "fa190892e81e97de4102502d601c78382011da23e31e9c2e539eebd35f74d854"
+  triples = 141
 
 [[versions]]
 version = "2026-11-11"
@@ -76,6 +95,12 @@ description = "Made in the cascade of the authority datasets of 2026-10-19 (deci
   bytes = 2664
   sha256 = "e595fd25c9eb9c446efa77050152e482e4e17a39c1456bef9a158caccada36e6"
   triples = 147
+
+[[changelog]]
+date = "2026-11-26"
+version = "2026-11-26"
+author = "Kai Eckert"
+text = "Cascade of 2026-11-26: the rujen places linked to GeoNames (rujen-geonames, 0051) and what they bring in."
 
 [[changelog]]
 date = "2026-11-11"
