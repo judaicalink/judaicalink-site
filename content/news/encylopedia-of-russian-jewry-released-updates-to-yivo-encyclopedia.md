@@ -7,6 +7,8 @@ title = "Encyclopedia of Russian Jewry released, Updates to YIVO Encyclopedia"
 
 After the <a href="/news/first-version-of-linked-yivo-encyclopedia/">first release</a> of the YIVO encyclopedia, we are very happy to announce now the first release of the Encyclopedia of Russian Jewry as Linked Open Data on JudaicaLink. With this release, we also updated the LOD version of the YIVO encyclopedia and fixed several bugs.
 
+<!--more-->
+
 Details on both encyclopediae can be found <a href="/encyclopediae/">here</a>, together with basic statistics. There are also bookmarklets for an easy access of the Linked Data representations.
 
 JudaicaLink now provides access to 22,808 concepts in English (~ 10%) and Russian (~ 90%), mostly locations and persons. With this release, we now created Linked Data versions of both encyclopediae that gave us the permission. Spread the word and help us to convince more publishers to follow. Our next steps are the creation of links between the two encyclopediae and links to external sources like DBpedia or Geonames.

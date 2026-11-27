@@ -2,6 +2,8 @@
 author = "Kai Eckert"
 date = "2025-07-18T10:00:00+02:00"
 title = "Announced: Hands-on workshop on Wikidata for Jewish Studies"
+image = "wikidata.jpg"
+imagecredit = "Wikidata logo (public domain, trademark of the Wikimedia Foundation) on [Wikidata nodes](https://commons.wikimedia.org/wiki/File:Wikidata_nodes_in_white.svg) by Thepwnco; image under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 +++
 
 The FID Jewish Studies and the academy project Buber-Korrespondenzen Digital announced a hands-on

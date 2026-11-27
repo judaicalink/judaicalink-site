@@ -2,6 +2,8 @@
 author = "Maral Dadvar"
 date = "2018-07-16T10:59:13+02:00"
 title = "Explore our project on GitHub"
+image = "roman-synkevych-wX2L8L-fGeA-unsplash.jpg"
+imagecredit = "Photo: [Roman Synkevych](https://unsplash.com/photos/wX2L8L-fGeA) on [Unsplash](https://unsplash.com/)"
 
 +++
 

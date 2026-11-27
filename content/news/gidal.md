@@ -2,6 +2,7 @@
 author = "Benjamin Schnabel"
 date = "2022-07-06T15:00:00+02:00"
 title = "Gidal Image Archive"
+imagefocus = "center 30%"
 image = "Nahum_Tim_Gidal.jpg"
 
 +++

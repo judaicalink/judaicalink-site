@@ -2,6 +2,8 @@
 author = "Kai Eckert"
 date = "2021-12-13T14:00:13+02:00"
 title = "JudaicaLink Services Down"
+image = "kvistholt-photography-oZPwn40zCK4-unsplash.jpg"
+imagecredit = "Photo: [Kvistholt Photography](https://unsplash.com/photos/oZPwn40zCK4) on [Unsplash](https://unsplash.com/)"
 
 +++
 

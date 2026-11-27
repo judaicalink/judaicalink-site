@@ -2,6 +2,8 @@
 author = "Kai Eckert"
 date = "2024-03-12T10:00:00+02:00"
 title = "New dataset: Footprints – Jewish Books Through Time and Place"
+image = "gabriella-clare-marino-Hx8HaI4ERkA-unsplash.jpg"
+imagecredit = "Photo: [Gabriella Clare Marino](https://unsplash.com/photos/Hx8HaI4ERkA) on [Unsplash](https://unsplash.com/)"
 +++
 
 Footprints traces the movement of Jewish books since the beginning of print. The dataset is now

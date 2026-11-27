@@ -8,6 +8,8 @@ title = "New dataset on JudaicaLink, Biographisches Handbuch der Rabbiner"
 With the continues efforts of our team towards expanding JudaicaLink datasets and resources, 
 another dataset, Biographisches Handbuch der Rabbiner (Biographical handbook of Rabbis) has been 
 added to JudaicaLink. 
+
+<!--more-->
  
 The Biographisches Handbuch der Rabbiner is an online encyclopedia provided by the 
 [Salomon L. Steinheim-Institute for German-Jewish history](http://www.steinheim-institut.de) at 

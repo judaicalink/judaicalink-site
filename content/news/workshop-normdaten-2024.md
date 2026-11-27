@@ -2,6 +2,8 @@
 author = "Kai Eckert"
 date = "2024-10-02T10:00:00+02:00"
 title = "Workshop: Wikidata, GND, GeoNames & Co – authority data in Jewish Studies"
+image = "abdu-SSyEHFkVNNQ-unsplash.jpg"
+imagecredit = "Photo: [Abdu](https://unsplash.com/photos/SSyEHFkVNNQ) on [Unsplash](https://unsplash.com/)"
 +++
 
 The FID Jewish Studies and the academy project Buber-Korrespondenzen Digital held a workshop on

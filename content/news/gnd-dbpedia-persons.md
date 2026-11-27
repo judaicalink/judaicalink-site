@@ -6,6 +6,8 @@ title = "Two new datasets on JudaicaLink; persons from GND and DBpedia"
 +++
 We are happy to announce that two new datasets, list of Jewish persons from GND and list of Jewish persons from DBpedia, are added to JudaicaLink datasets.
 
+<!--more-->
+
 There are knowledge bases which contain a vast variety of information including facts related to Jewish culture and history. Two of the most comprehensive ones are DBpedia and GND. However such general-purpose resources are hard to use due to their sheer size while only a very small subset of the data is actually relevant. Therefore, JudaicaLink aims to integrate only the relevant subsets of these data sources. To do so we have extracted a focused knowledge graph of concepts for the domain of Jewish studies. 
 
 <a href="http://wiki.dbpedia.org/">DBPedia</a> is a large-scale source of structured and multilingual knowledge extracted from Wikipedia. 

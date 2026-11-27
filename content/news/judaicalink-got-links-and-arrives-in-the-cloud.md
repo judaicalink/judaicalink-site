@@ -7,6 +7,8 @@ title = "JudaicaLink got links and arrives in 'the cloud'"
 
 JudaicaLink is not only about the provision of stable URIs and data for concepts described in encyclopediae, it is also about the generation of links between these resources and other linked data resources on the Web.
 
+<!--more-->
+
 In a first run, we used <a href="http://silkframework.org/">Silk</a> to generate links between JudaicaLink and the following sources:
 
 <ul>

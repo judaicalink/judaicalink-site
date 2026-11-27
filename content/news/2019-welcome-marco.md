@@ -2,6 +2,8 @@
 author = "Kai Eckert"
 date = "2019-09-02T12:04:13+02:00"
 title = "Marco Rovera joins JudaicaLink"
+imagefocus = "center 30%"
+image = "team-marco-rovera.jpg"
 
 +++
 

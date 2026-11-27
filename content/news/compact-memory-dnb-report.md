@@ -3,6 +3,8 @@ author = "Kai Eckert"
 date = "2024-10-01T10:00:00+02:00"
 # HINWEIS: Datum bitte pruefen: aus den vorliegenden Quellen nicht genau belegt.
 title = "Report: Compact Memory Judaica extended with titles from the German National Library"
+image = "compact-memory-title-pages.jpg"
+imagecredit = "Title pages from [Compact Memory](https://sammlungen.ub.uni-frankfurt.de/cm), University Library Frankfurt"
 +++
 
 Benjamin Schnabel has published a final report on extending the Compact Memory Judaica with

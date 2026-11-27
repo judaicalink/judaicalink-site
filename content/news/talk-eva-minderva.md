@@ -2,6 +2,8 @@
 author = "Kai Eckert"
 date = "2017-11-01T10:31:02+02:00"
 title = "Talk about JudaicaLink at EVA/MINERVA conference in Jerusalem"
+image = "dariusz-kanclerz-MTj3H5EwiBg-unsplash.jpg"
+imagecredit = "Photo: [Dariusz Kanclerz](https://unsplash.com/photos/MTj3H5EwiBg) on [Unsplash](https://unsplash.com/)"
 
 +++
 

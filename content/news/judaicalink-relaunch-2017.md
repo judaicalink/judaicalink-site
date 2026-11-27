@@ -2,6 +2,8 @@
 author = "Kai Eckert"
 date = "2017-02-16T17:05:52+02:00"
 title = "Technical relaunch of JudaicaLink... and a new server!"
+image = "taylor-vick-M5tzZtFCOfs-unsplash.jpg"
+imagecredit = "Photo: [Taylor Vick](https://unsplash.com/photos/M5tzZtFCOfs) on [Unsplash](https://unsplash.com/)"
 +++
 Finally, we actually moved JudaicaLink from the server in Mannheim (thanks [DWS](http://www.dwslab.de) for hosting us!) to Stuttgart!
 <!--more-->

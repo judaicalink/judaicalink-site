@@ -2,9 +2,13 @@
 author = "Kai Eckert"
 date = "2015-02-20T17:05:52+02:00"
 title = "'Das Jüdische Hamburg' online, just in time for the Open Data Day!"
+image = "wolfgang-weiser-GRnIAsQCgcs-unsplash.jpg"
+imagecredit = "Photo: [Wolfgang Weiser](https://unsplash.com/photos/GRnIAsQCgcs) on [Unsplash](https://unsplash.com/)"
 
 +++
 Just in time for the world-wide <a href="http://opendataday.org/">Open Data Day</a> tomorrow, we published the first data version of the encyclopedia "Das Jüdische Hamburg". 
+
+<!--more-->
 
 "<a href="http://dasjuedischehamburg.de/">Das Jüdische Hamburg</a>" is a free online resource based on the book "<a href="http://www.wallstein-verlag.de/9783835300040-das-juedische-hamburg.html">Das Jüdische Hamburg - Ein historisches Nachschlagewerk</a>", ISBN: 978-3-8353-0004-0, Wallstein, Göttingern (2006). It was published in 2006 on the occasion of the 40th anniversary of the Institute for the History of the German Jews (<a href="http://www.igdj-hh.de">Institut für die Geschichte der deutschen Juden</a>, IGdJ).
 

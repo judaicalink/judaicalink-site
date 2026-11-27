@@ -2,10 +2,14 @@
 Autor = "Jens Steilen"
 date = "2015-01-27T12:52:18+02:00"
 title = "Invited talk in Rome"
+image = "marco-oriolesi-wqLGlhjr6Og-unsplash.jpg"
+imagecredit = "Photo: [Marco Oriolesi](https://unsplash.com/photos/wqLGlhjr6Og) on [Unsplash](https://unsplash.com/)"
 
 +++
 
 Last week, Kai Eckert was invited to present JudaicaLink in Rome at the <a href="http://www.cdec.it/home2_2.asp?idtesto=1529&idtesto1=1529">Workshop Linked Open Data & Jewish Cultural Heritage</a>. Here are the slides:
+
+<!--more-->
 
 <p style="text-align: center;"><iframe height="355" frameborder="0" width="425" allowfullscreen="" style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" scrolling="no" marginheight="0" marginwidth="0" src="//www.slideshare.net/slideshow/embed_code/43945135"> </iframe></p>
 <p style="text-align: center;"><a href="http://de.slideshare.net/kaiec/judaicalink-linked-data-from-jewish-encyclopediae">JudaicaLink: Linked Data from Jewish Encyclopediae</a> from <a href="http://www.slideshare.net/kaiec">Kai Eckert</a></p>

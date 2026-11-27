@@ -7,6 +7,8 @@ title = "First version of linked YIVO encyclopedia"
 
 We are very happy to announce the first release of the <a hraf="http://www.yivoencyclopedia.org/">YIVO Encyclopedia</a> as Linked Open Data. This first release is merely for demonstration. If you want to have a look, here is the concept YIVO: http://data.judaicalink.org/data/yivo/YIVO
 
+<!--more-->
+
 While browsing the YIVO Encyclopedia, you can access the data representation by simply replacing www.yivoencyclopedia.org/article.aspx/ with data.judaicalink.org/data/yivo/ in the URL field of your browser. For convenience, you can also use this bookmarklet:
 
 YIVO LOD (Drag and drop this link to your bookmarks)

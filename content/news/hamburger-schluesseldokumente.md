@@ -2,6 +2,8 @@
 author = "Kai Eckert"
 date = "2023-11-29T10:00:00+02:00"
 title = "New dataset: Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte"
+image = "jonas-tebbe-j22K61_1peg-unsplash.jpg"
+imagecredit = "Photo: [Jonas Tebbe](https://unsplash.com/photos/j22K61_1peg) on [Unsplash](https://unsplash.com/)"
 +++
 
 The online source edition of the Institute for the History of German Jews has been added to the
