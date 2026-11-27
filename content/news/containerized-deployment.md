@@ -3,6 +3,7 @@ author = "Kai Eckert"
 date = "2025-12-16T10:00:00+02:00"
 title = "Migration: JudaicaLink Labs was containerized"
 image = "daniel-miksha-37mW7MvAOvU-unsplash.jpg"
+imagecredit = "Photo: [Daniel Miksha](https://unsplash.com/photos/37mW7MvAOvU) on [Unsplash](https://unsplash.com/)"
 +++
 
 Alongside the move to SOLR, the whole stack behind JudaicaLink Labs was packaged into Docker

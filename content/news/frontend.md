@@ -3,6 +3,7 @@ author = "Kai Eckert"
 date = "2022-03-31T12:00:13+02:00"
 title = "Frontend"
 image = "CZ9AjMGKIFI-unsplash.jpg"
+imagecredit = "Photo: [Nicole Wolf](https://unsplash.com/photos/CZ9AjMGKIFI) on [Unsplash](https://unsplash.com/)"
 
 +++
 

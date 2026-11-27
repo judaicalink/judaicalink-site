@@ -179,6 +179,10 @@ and `data/catalogvocabulary.json` (labels of kinds and methods). Rendered by `la
 (`config.toml`).
 
 News unter `content/news/`, ein Beitrag pro Datei, gerendert über `layouts/news/single.html`.
+Bild im Frontmatter: `image = "<datei>"` (in `static/img/news/`), Bildnachweis optional als
+`imagecredit = "Photo: [Name](https://unsplash.com/photos/<id>) on [Unsplash](https://unsplash.com/)"`
+(Markdown), erscheint klein unter dem Bild der Einzelseite. Unsplash-Dateien heißen
+`<fotograf>-<id>-unsplash.jpg`; eigene Screenshots brauchen keinen Nachweis.
 Historische Beiträge bleiben inhaltlich stehen. Links auf abgeschaltete Dienste werden nicht
 stillschweigend umgebogen, sondern deaktiviert und mit einem datierten Update-Hinweis
 versehen, der auf `/production/` verweist – Muster siehe

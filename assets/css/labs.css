@@ -423,6 +423,13 @@ ul.results {
     max-height: 250px;
     margin-bottom: 1rem;
 }
+.news-img-credit {
+    margin: -0.75rem 1.25rem 0;
+    font-size: 0.75rem;
+    color: #6c757d;
+    text-align: right;
+}
+.news-img-credit a { color: inherit; text-decoration: underline; }
 
 /* Abgesetzter Navigationsblock fuer den Produktivbetrieb in Frankfurt */
 .nav-external {

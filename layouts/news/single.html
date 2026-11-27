@@ -5,6 +5,7 @@
         <div class="card mt-4">
             {{ if .Params.image}}
             <img src="/img/news/{{ .Params.image }}" class="card-img-top news-img" alt="{{.Title}}" />
+            {{ with .Params.imagecredit }}<p class="news-img-credit">{{ . | markdownify }}</p>{{ end }}
             {{ end}}
             <div class="card-body">
                 <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>

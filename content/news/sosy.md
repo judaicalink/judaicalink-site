@@ -3,6 +3,7 @@ author = "Benjamin Schnabel"
 date = "2022-07-06T15:00:00+02:00"
 title = "Soundscape Synagogue"
 image = "felix-mittermeier--lBNJwn0UR0-unsplash.jpg"
+imagecredit = "Photo: [Felix Mittermeier](https://unsplash.com/photos/-lBNJwn0UR0) on [Unsplash](https://unsplash.com/)"
 
 +++
 

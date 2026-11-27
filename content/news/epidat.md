@@ -3,6 +3,7 @@ author = "Benjamin Schnabel"
 date = "2022-06-29T7:30:13+02:00"
 title = "Epidat deployed"
 image = "snowscat-JHTG-aVa3fA-unsplash.jpg"
+imagecredit = "Photo: [Snowscat](https://unsplash.com/photos/JHTG-aVa3fA) on [Unsplash](https://unsplash.com/)"
 
 +++
 
