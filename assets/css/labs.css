@@ -416,44 +416,68 @@ ul.results {
     font-size: 1.5em;
 }
 
-/* News images: a 2:1 frame showing the whole image over a blurred copy of itself */
+/* News images: one shape, filled (cropped to the frame; `imagefocus` sets the focal point) */
 .news-image {
-    position: relative;
-    aspect-ratio: 2 / 1;
+    display: block;
     overflow: hidden;
-    background: #dee2e6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.card > .news-image:first-child {
-    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
-}
-.news-image-blur {
-    position: absolute;
-    top: -10px; right: -10px; bottom: -10px; left: -10px;
-    background-size: cover;
-    background-position: center;
-    filter: blur(8px) brightness(0.8);
-    transform: scale(1.1);
-}
-.news-image a {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    background: #e9eef3;
+    border-radius: 0.35rem;
 }
 .news-image img {
-    position: relative;
-    z-index: 1;
     display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+a.news-image:hover img { transform: scale(1.03); }
+.news-image-wide { aspect-ratio: 2 / 1; }
+.news-image-banner { aspect-ratio: 3 / 1; border-radius: 0; }
+.news-image-thumb { aspect-ratio: 2 / 1; width: 176px; flex: 0 0 176px; }
+.news-date {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #6c757d;
+}
+/* news page: the lead story */
+.news-lead {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 1.75rem;
+    align-items: center;
+    padding-bottom: 1.75rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #dfe3e8;
+}
+.news-lead h2 { font-size: 1.6rem; margin: 0.3rem 0 0.75rem; }
+.news-lead h2 a { text-decoration: none; }
+.news-more { display: inline-block; margin-top: 0.25rem; }
+/* news page: the list */
+.news-row {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid #dfe3e8;
+}
+.news-row-text { min-width: 0; overflow-wrap: anywhere; }
+.news-row-title { font-size: 1.15rem; margin: 0.15rem 0 0.3rem; line-height: 1.3; }
+.news-row-title a { text-decoration: none; }
+.news-row-title a:hover { text-decoration: underline; }
+.news-row-summary {
+    margin: 0;
+    font-size: 0.92rem;
+    color: #444;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media (max-width: 767px) {
+    .news-lead { grid-template-columns: 1fr; }
+    .news-image-thumb { width: 112px; flex-basis: 112px; }
 }
 .news-img-credit {
     margin: 0.25rem 1.25rem 0;
@@ -482,9 +506,17 @@ ul.results {
     display: block;
     font-size: 0.75rem;
 }
-.news-side .news-image {
-    margin-bottom: 0.5rem;
+.news-side-list {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 1rem 0.25rem;
+    text-align: left;
 }
+.news-side-lead .news-image { margin-bottom: 0.6rem; }
+.news-side-lead, .news-side-item { margin-bottom: 0.9rem; line-height: 1.3; }
+.news-side-item { padding-top: 0.9rem; border-top: 1px solid #e6e9ed; }
+.news-side-title { display: block; margin-top: 0.15rem; overflow-wrap: anywhere; }
+.news-side-lead .news-side-title { font-weight: 600; }
 
 /* Abgesetzter Navigationsblock fuer den Produktivbetrieb in Frankfurt */
 .nav-external {

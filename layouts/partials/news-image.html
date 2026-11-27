@@ -1,14 +1,15 @@
-{{- /* The image of a news post in a 2:1 frame: the whole image, over a blurred copy of itself that fills the
-       rest of the frame. Called with (dict "page" <page> "link" <bool>). */ -}}
+{{- /* The image of a news post, filling a frame of fixed shape (cropped, not letterboxed). Called with
+       (dict "page" <page> "link" <bool> "placeholder" <bool> "shape" <string>); with placeholder, a post without an
+       image gets placeholder.jpg; shape is "wide" (2:1, default), "thumb" (2:1, small) or "banner" (3:1). The front
+       matter `imagefocus` (a CSS object-position such as "center 30%") keeps the important part in view. */ -}}
 {{- $p := .page -}}
-{{- with $p.Params.image -}}
+{{- $shape := default "wide" .shape -}}
+{{- with $p.Params.image | default (cond (default false $.placeholder) "placeholder.jpg" "") -}}
 {{- $src := printf "/img/news/%s" . -}}
-<div class="news-image">
-    <div class="news-image-blur" style="background-image: url('{{ $src }}');"></div>
-    {{- if $.link }}
-    <a href="{{ $p.Permalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $src }}" alt="" loading="lazy"></a>
-    {{- else }}
-    <img src="{{ $src }}" alt="">
-    {{- end }}
-</div>
+{{- $focus := default "center" $p.Params.imagefocus -}}
+{{- if $.link -}}
+<a class="news-image news-image-{{ $shape }}" href="{{ $p.Permalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $src }}" alt="" loading="lazy" style="object-position: {{ $focus | safeCSS }}"></a>
+{{- else -}}
+<div class="news-image news-image-{{ $shape }}"><img src="{{ $src }}" alt="" style="object-position: {{ $focus | safeCSS }}"></div>
+{{- end -}}
 {{- end -}}

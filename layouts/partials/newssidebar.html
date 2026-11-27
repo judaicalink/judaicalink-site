@@ -1,8 +1,15 @@
-{{ range first 3 (where .Site.RegularPages "Section" "news") }}
-<li class="text-dark list-group-item list-group-item-action list-group-item-light text-left news-side">
-    {{ partial "news-image.html" (dict "page" . "link" true) }}
-    <span class="badge badge-pill bg-info">{{ .Date.Format "2 Jan 2006" }}</span>
-    <br>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{- /* The news on the start page: the newest with its image, the next three as headlines. */ -}}
+{{ $news := where .Site.RegularPages "Section" "news" }}
+{{ with index $news 0 }}
+<li class="news-side-lead">
+    {{ partial "news-image.html" (dict "page" . "link" true "placeholder" true) }}
+    <span class="news-date">{{ .Date.Format "2 January 2006" }}</span>
+    <a class="news-side-title" href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+{{ end }}
+{{ range first 3 (after 1 $news) }}
+<li class="news-side-item">
+    <span class="news-date">{{ .Date.Format "2 January 2006" }}</span>
+    <a class="news-side-title" href="{{ .Permalink }}">{{ .Title }}</a>
 </li>
 {{ end }}

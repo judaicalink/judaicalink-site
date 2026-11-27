@@ -183,11 +183,18 @@ Bild im Frontmatter: `image = "<datei>"` (in `static/img/news/`), Bildnachweis o
 `imagecredit = "Photo: [Name](https://unsplash.com/photos/<id>) on [Unsplash](https://unsplash.com/)"`
 (Markdown), erscheint klein unter dem Bild der Einzelseite. Unsplash-Dateien heißen
 `<fotograf>-<id>-unsplash.jpg`; eigene Screenshots brauchen keinen Nachweis.
-Darstellung (seit 2026-11-27): `/news/` zeigt die Beiträge als Karten, 12 pro Seite mit Seitenzahlen
-(`layouts/news/list.html`; bewusst kein Archiv nach Jahren, die frühen Jahre haben wenige Beiträge). Jedes Bild
-steht ganz in einem 2:1-Rahmen über einer unscharfen Kopie seiner selbst (`layouts/partials/news-image.html`,
-Stil `.news-image` in `labs.css`, wie auf kaiec.de), auf Karten, Einzelseiten und in der Startseiten-Spalte
-(`newssidebar.html`: die drei neuesten). Einzelseite: rechts neuer/älterer Beitrag und die neuesten fünf.
+Platzhalter: ohne `image` zeigt ein Beitrag `placeholder.jpg` (Logo auf Netz); für Themen gibt es eigene:
+`compact-memory-title-pages.jpg` (Titelseiten aus Compact Memory, IIIF der UB Frankfurt) für alles zu Compact Memory,
+`wikidata.jpg` (Wikidata-Logo auf „Wikidata nodes“ von Thepwnco, CC BY-SA 4.0) für alles zu Wikidata; beide mit
+dem `imagecredit` aus den bestehenden Beiträgen.
+Darstellung (seit 2026-11-27): alle Bilder in einer Form, 2:1, randlos gefüllt (beschnitten, `object-fit: cover`;
+`layouts/partials/news-image.html`, Stil `.news-image` in `labs.css`); `imagefocus = "center 30%"` im Frontmatter
+setzt den Bildausschnitt (Porträts). Sehr breite oder hohe Bilder bekommen eine eigene 2:1-Datei (z. B.
+`haskala-library-2019-wide.jpg`), statt sie in den Rahmen zu quetschen. `/news/`: auf Seite 1 der neueste Beitrag als
+Aufmacher (Bild links, Text rechts), danach eine einspaltige Liste (Vorschaubild 2:1, Datum, Titel, zwei Zeilen;
+`news-compact.html`), 12 pro Seite mit Seitenzahlen; bewusst kein Archiv nach Jahren. Startseite (`newssidebar.html`):
+der neueste mit Bild, die drei nächsten nur mit Datum und Titel. Einzelseite: dasselbe Bild als 3:1-Streifen, rechts
+neuer/älterer Beitrag und die neuesten fünf.
 Historische Beiträge bleiben inhaltlich stehen. Links auf abgeschaltete Dienste werden nicht
 stillschweigend umgebogen, sondern deaktiviert und mit einem datierten Update-Hinweis
 versehen, der auf `/production/` verweist – Muster siehe
@@ -235,8 +242,9 @@ früheren Funktionen den heutigen Angeboten zu.
   `content/about-us.md`. Vor Abschaltung von Labs umhängen.
 - **`content/about-us.md` ist auf dem Stand der HdM Stuttgart**, mit
   `@hdm-stuttgart.de`-Adressen und Links auf `wiss.iuk.hdm-stuttgart.de`.
-- Vier Bilder in historischen News-Beiträgen fehlen (Drupal-Reste mit `?itok=`-Parametern).
-  Lokale Dateien gibt es dazu nicht.
+- Bilder in alten News-Beiträgen: die zwei Rom-Fotos und `index.png` (2021 beim Aufräumen gelöscht) sind seit
+  2026-11-27 wieder aus der Git-Geschichte hergestellt; Patricia Kaluzas Foto zeigt auf `kaluza.jpg`. Prüfen, ob
+  alles da ist: alle `src="/img/…"` in `content/` gegen `static/` abgleichen.
 
 ## Navigation und Responsiveness
 

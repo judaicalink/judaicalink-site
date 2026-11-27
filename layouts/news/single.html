@@ -3,10 +3,10 @@
 <main class="row">
     <div class="col-md-12 col-lg-8">
         <div class="card mt-4">
-            {{ partial "news-image.html" (dict "page" . "link" false) }}
+            {{ partial "news-image.html" (dict "page" . "link" false "placeholder" true "shape" "banner") }}
             {{ if .Params.image }}{{ with .Params.imagecredit }}<p class="news-img-credit">{{ . | markdownify }}</p>{{ end }}{{ end }}
             <div class="card-body">
-                <span class="badge badge-pill bg-info">{{ .Date.Format "2 Jan 2006" }}</span>
+                <span class="news-date">{{ .Date.Format "2 January 2006" }}</span>
                 <h3 class="uppercase mt-2">{{ .Title }}</h3>
                 <hr>
 

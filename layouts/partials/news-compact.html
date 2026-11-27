@@ -1,0 +1,9 @@
+{{- /* A news post as a list entry: small 2:1 thumbnail, date, title and the beginning of the summary. */ -}}
+<article class="news-row">
+    {{ partial "news-image.html" (dict "page" . "link" true "placeholder" true "shape" "thumb") }}
+    <div class="news-row-text">
+        <span class="news-date">{{ .Date.Format "2 January 2006" }}</span>
+        <h3 class="news-row-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <p class="news-row-summary">{{ .Summary | plainify | htmlUnescape }}</p>
+    </div>
+</article>
