@@ -2,6 +2,7 @@
 author = "Kai Eckert"
 date = "2025-12-18T10:00:00+02:00"
 title = "New dataset: normalised occupations"
+image = "occupations-showcase.jpg"
 +++
 
 Occupations that previously existed only as free text in the graph are now available as a

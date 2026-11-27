@@ -2,6 +2,7 @@
 author = "Kai Eckert"
 date = "2025-11-24T10:00:00+02:00"
 title = "Migration: the search has been rebuilt on Apache SOLR"
+image = "erol-ahmed-Y3KEBQlB1Zk-unsplash.jpg"
 +++
 
 JudaicaLink's search has been moved from ElasticSearch to Apache SOLR, and all indices have been

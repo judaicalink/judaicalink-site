@@ -2,6 +2,7 @@
 author = "Kai Eckert"
 date = "2026-10-13T09:00:00+02:00"
 title = "JudaicaLink passes 20 million triples"
+image = "dataset-cloud.jpg"
 +++
 
 The JudaicaLink knowledge graph now holds more than 20 million triples: 20,575,257, to be exact.

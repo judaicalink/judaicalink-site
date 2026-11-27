@@ -3,6 +3,7 @@ author = "Kai Eckert"
 date = "2026-06-11T10:00:00+02:00"
 # HINWEIS: Datum bitte pruefen. Der 11.06.2026 ist aus den Dateizeitstempeln der Dumps auf dem Frankfurter Server erschlossen, nicht belegt.
 title = "Migration: data.judaicalink.org now resolves to Frankfurt"
+image = "pablo-garcia-saldana-lPQIndZz8Mo-unsplash.jpg"
 +++
 
 The DNS entry for `data.judaicalink.org` has been switched. Requests to our Linked Data addresses

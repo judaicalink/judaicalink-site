@@ -2,6 +2,7 @@
 author = "Kai Eckert"
 date = "2026-01-26T10:00:00+02:00"
 title = "DFG approves a fourth funding phase for the FID Jewish Studies"
+image = "fid-portal.jpg"
 +++
 
 The German Research Foundation has approved a new three-year funding phase for the FID Jüdische

@@ -2,6 +2,7 @@
 author = "Kai Eckert"
 date = "2026-11-20T10:00:00+01:00"
 title = "The Library of Haskala is online again, rebuilt from its data"
+image = "haskala-library-2019.jpg"
 +++
 
 The [Library of Haskala](https://mannheim.judaicalink.org/haskala/) is online again: every book, person, place and

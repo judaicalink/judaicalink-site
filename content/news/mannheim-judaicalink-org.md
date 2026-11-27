@@ -2,6 +2,7 @@
 author = "Kai Eckert"
 date = "2026-10-19T09:00:00+02:00"
 title = "mannheim.judaicalink.org launched"
+image = "mannheim-platform.jpg"
 +++
 
 Since JudaicaLink moved into production in Frankfurt, our former labs environment is no longer needed

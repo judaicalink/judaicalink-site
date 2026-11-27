@@ -2,6 +2,7 @@
 author = "Kai Eckert"
 date = "2025-11-20T10:00:00+02:00"
 title = "Migration: data ingestion consolidated"
+image = "jahhid-fitrah-alamsyah-M-9y7WUdH4k-unsplash.jpg"
 +++
 
 The Django applications that load and index datasets have been cleaned up as part of preparing
