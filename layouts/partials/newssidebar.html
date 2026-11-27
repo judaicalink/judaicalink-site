@@ -1,14 +1,8 @@
-
-{{ range first 5 (where .Site.RegularPages "Section" "news") }}
-
-<li class="text-dark list-group-item list-group-item-action list-group-item-light">
-    <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
+{{ range first 3 (where .Site.RegularPages "Section" "news") }}
+<li class="text-dark list-group-item list-group-item-action list-group-item-light text-left news-side">
+    {{ partial "news-image.html" (dict "page" . "link" true) }}
+    <span class="badge badge-pill bg-info">{{ .Date.Format "2 Jan 2006" }}</span>
     <br>
-    <a href="{{.Permalink}}">{{.Title}}</a>
-    <!-- Insert the summary here -->
-    <div class="card-text my-3">
-        <small>{{ .Summary }}</small>
-    </div>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
 </li>
-
-    {{end}}
+{{ end }}

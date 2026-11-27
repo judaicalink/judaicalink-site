@@ -183,6 +183,11 @@ Bild im Frontmatter: `image = "<datei>"` (in `static/img/news/`), Bildnachweis o
 `imagecredit = "Photo: [Name](https://unsplash.com/photos/<id>) on [Unsplash](https://unsplash.com/)"`
 (Markdown), erscheint klein unter dem Bild der Einzelseite. Unsplash-Dateien heißen
 `<fotograf>-<id>-unsplash.jpg`; eigene Screenshots brauchen keinen Nachweis.
+Darstellung (seit 2026-11-27): `/news/` zeigt die Beiträge als Karten, 12 pro Seite mit Seitenzahlen
+(`layouts/news/list.html`; bewusst kein Archiv nach Jahren, die frühen Jahre haben wenige Beiträge). Jedes Bild
+steht ganz in einem 2:1-Rahmen über einer unscharfen Kopie seiner selbst (`layouts/partials/news-image.html`,
+Stil `.news-image` in `labs.css`, wie auf kaiec.de), auf Karten, Einzelseiten und in der Startseiten-Spalte
+(`newssidebar.html`: die drei neuesten). Einzelseite: rechts neuer/älterer Beitrag und die neuesten fünf.
 Historische Beiträge bleiben inhaltlich stehen. Links auf abgeschaltete Dienste werden nicht
 stillschweigend umgebogen, sondern deaktiviert und mit einem datierten Update-Hinweis
 versehen, der auf `/production/` verweist – Muster siehe

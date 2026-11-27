@@ -1,0 +1,14 @@
+{{- /* The image of a news post in a 2:1 frame: the whole image, over a blurred copy of itself that fills the
+       rest of the frame. Called with (dict "page" <page> "link" <bool>). */ -}}
+{{- $p := .page -}}
+{{- with $p.Params.image -}}
+{{- $src := printf "/img/news/%s" . -}}
+<div class="news-image">
+    <div class="news-image-blur" style="background-image: url('{{ $src }}');"></div>
+    {{- if $.link }}
+    <a href="{{ $p.Permalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $src }}" alt="" loading="lazy"></a>
+    {{- else }}
+    <img src="{{ $src }}" alt="">
+    {{- end }}
+</div>
+{{- end -}}

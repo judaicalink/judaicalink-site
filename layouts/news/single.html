@@ -1,36 +1,46 @@
 {{ partial "header.html" . }}
-<!--bezieht sich auf das Design der einzelnen News, nicht News-Webseite-->
+<!-- a single news post -->
 <main class="row">
-    <div class="col-md-12 col-lg-9 col-xl-8">
+    <div class="col-md-12 col-lg-8">
         <div class="card mt-4">
-            {{ if .Params.image}}
-            <img src="/img/news/{{ .Params.image }}" class="card-img-top news-img" alt="{{.Title}}" />
-            {{ with .Params.imagecredit }}<p class="news-img-credit">{{ . | markdownify }}</p>{{ end }}
-            {{ end}}
+            {{ partial "news-image.html" (dict "page" . "link" false) }}
+            {{ if .Params.image }}{{ with .Params.imagecredit }}<p class="news-img-credit">{{ . | markdownify }}</p>{{ end }}{{ end }}
             <div class="card-body">
-                <span class="badge badge-pill bg-info">{{dateFormat "Mon, January _2, 2006" .Date}}</span>
-                <h3 class="uppercase">{{.Title}}</h3>
+                <span class="badge badge-pill bg-info">{{ .Date.Format "2 Jan 2006" }}</span>
+                <h3 class="uppercase mt-2">{{ .Title }}</h3>
                 <hr>
 
                 {{ .Content }}
 
-                <br><br>
-                <div class="d-flex justify-content-end">
-                    <a class="btn btn-secondary" href="/news">back to overview</a>
+                <div class="d-flex justify-content-end mt-4">
+                    <a class="btn btn-secondary" href="/news/">all news</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="col-md-12 col-lg-3 col-xl-4">
-        <div class="img-fluid mt-4 sticky-top" id="picturemargintop30">
-            <img src="/img/News.jpg" class="img-thumbnail img-fluid" alt="News Picture">
+    <div class="col-md-12 col-lg-4">
+        {{ $newer := false }}{{ $older := false }}
+        {{ range slice .PrevInSection .NextInSection }}
+            {{ with . }}{{ if .Date.After $.Date }}{{ $newer = . }}{{ else }}{{ $older = . }}{{ end }}{{ end }}
+        {{ end }}
+        <div class="news-archive mt-4">
+            {{ with $newer }}
+            <h3>Newer</h3>
+            <ul><li><span class="news-date">{{ .Date.Format "2 Jan 2006" }}</span><a href="{{ .Permalink }}">{{ .Title }}</a></li></ul>
+            {{ end }}
+            {{ with $older }}
+            <h3>Older</h3>
+            <ul><li><span class="news-date">{{ .Date.Format "2 Jan 2006" }}</span><a href="{{ .Permalink }}">{{ .Title }}</a></li></ul>
+            {{ end }}
+            <h3>Latest news</h3>
+            <ul>
+                {{ range first 5 (where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Permalink) }}
+                <li><span class="news-date">{{ .Date.Format "2 Jan 2006" }}</span><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
         </div>
-
     </div>
-
-
 </main>
 
 {{ partial "footer.html" . }}
-
