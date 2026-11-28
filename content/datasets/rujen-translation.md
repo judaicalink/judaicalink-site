@@ -1,6 +1,6 @@
 +++
 slug = "rujen-translation"
-title = "Translations for Rujen (Google)"
+title = "Translations for Rujen"
 author = "Kai Eckert"
 date = "2020-09-28"
 website = "http://www.rujen.ru"
@@ -8,7 +8,7 @@ example = "http://data.judaicalink.org/data/rujen-translation/text/ben-gurion/en
 namespaces = ["rujen-translation"]
 picture = "pictures/rujen-translation/logo.png"
 aliases = ["/datasets/rujen-translation-supp/"]
-stable = "2026-11-26"
+stable = "2026-11-28"
 kind = "complement"
 method = ["machine-translation"]
 inputs = ["rujen"]
@@ -21,6 +21,43 @@ image = "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.
 [generator]
 repo = "https://github.com/judaicalink/judaicalink-data"
 path = "generators/rujen-translation"
+
+[[versions]]
+version = "2026-11-28"
+issued = "2026-11-28"
+author = "Kai Eckert"
+commit = "af84929a9c8d24809309b8faba9b11f29eca0868"
+description = "English: a new translation of all articles by Claude (Haiku 5.5 with guidelines, flagged articles corrected by Sonnet 5.5; blind review 4.2 of 5), labels derived from it in normal case; German unchanged (Google 2020)."
+
+  [[versions.files]]
+  path = "rujen-de-abstract-translations.ttl"
+  bytes = 16052827
+  sha256 = "fedb59fb1ac50a97dfd4cf9788dfa2ace00897fc7d489fa2923445f8db71a3a1"
+  triples = 46743
+
+  [[versions.files]]
+  path = "rujen-de-label-translations.ttl"
+  bytes = 1596183
+  sha256 = "dea68267ad45ed0ea57a67738d1da3d7ac2400c168385b03bbfab9fb6426591b"
+  triples = 15730
+
+  [[versions.files]]
+  path = "rujen-en-abstract-translations.ttl"
+  bytes = 17732826
+  sha256 = "bd405ede61b12d661573737733a54843502d7f9ef0fa9b495d4a2a9fa920c7ed"
+  triples = 47187
+
+  [[versions.files]]
+  path = "rujen-en-label-translations.ttl"
+  bytes = 1600816
+  sha256 = "fbad69ca8c56a942ec00bd2abd201bfdeda30d4b0fbe44812930272921587164"
+  triples = 15730
+
+  [[versions.files]]
+  path = "rujen-translation-meta.ttl.gz"
+  bytes = 2868
+  sha256 = "985d4800a465b988378bbee2c903bb644921f2cd24ddbc1cedd7b35ae070005a"
+  triples = 105
 
 [[versions]]
 version = "2026-11-26"
@@ -128,6 +165,12 @@ description = "Data files of the catalogue state judaicalink-site 81b42a5 (the s
   triples = 90
 
 [[changelog]]
+date = "2026-11-28"
+version = "2026-11-28"
+author = "Kai Eckert"
+text = "New English translation of all 15,729 articles by Claude, made with written guidelines and stored as an input (decision 0052); the English labels are the headwords of the new texts in normal case; German unchanged."
+
+[[changelog]]
 date = "2026-11-26"
 version = "2026-11-26"
 author = "Kai Eckert"
@@ -147,4 +190,7 @@ text = "Self-description written by the labs generator (rujen-translation-metada
 refs = ["0018"]
 +++
 <!-- Copy of catalog/rujen-translation.md of https://github.com/judaicalink/judaicalink-data (jl sync-site); change it there. -->
-Automatic translation of abstracts and preferred labels to English and German using Google Translate.
+Machine translations of the articles of rujen and their titles. English: translated in 2026 by Claude (Haiku 5.5,
+following written guidelines; articles an automatic check flagged corrected by Sonnet 5.5); a blind review of a random
+sample scored it 4.2 of 5. The titles are the headwords at the start of the English articles. German: Google
+Translate (2020), without the longest articles.
